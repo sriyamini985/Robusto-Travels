@@ -1,0 +1,87 @@
+{
+  "name": "United States",
+  "slug": "usa",
+  "flag": "🇺🇸",
+  "heroImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Explore the diverse landscapes of the United States. From the soaring skyscrapers of Manhattan to the massive sandstone canyons of Utah, the USA is a continent-spanning journey.",
+  "bestSeason": "September to November (Autumn foliage) & April to June (Spring)",
+  "weather": "Diverse climate. Warm sunny days in California, hot dry desert sun in Utah, and snowy cold winters in the northern states.",
+  "currency": "US Dollar (USD)",
+  "language": "English, Spanish",
+  "timeZone": "EST (GMT-5) to PST (GMT-8)",
+  "visaInfo": "Tourist visa required for Indian passport holders prior to arrival.",
+  "flightDuration": "Approx 15-18 hours flight from major Indian airports.",
+  "highlights": [
+    "Fly by private helicopter over the Manhattan skyline in New York",
+    "Gaze at the massive red rock walls of the Grand Canyon",
+    "Drive a luxury convertible along the Pacific Coast Highway in California",
+    "Stay in architectural desert retreats in Canyon Point, Utah"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "new-york",
+      "name": "New York Skyline",
+      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "The center of global finance, media, and culture, defined by Central Park and Broadway lights.",
+      "overview": "New York City is a global icon. Walk the pathways of Central Park, see a Broadway show, and take a private helicopter tour over the Hudson River and the Statue of Liberty.",
+      "rating": 4.93,
+      "bestTimeToVisit": "September to November, April to June",
+      "packagePrice": 1420,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "The Plaza Hotel",
+          "rating": 4.9,
+          "description": "Legendary luxury hotel located at Fifth Avenue and Central Park South."
+        }
+      ],
+      "meals": "Classic New York breakfasts and gourmet dining at high-rise restaurants.",
+      "transport": "Private limousine transfers and NYC subway passes.",
+      "activities": "Helicopter Skyline Flight, Broadway Front-Row Seats, Empire State Observatory VIP Pass.",
+      "included": [
+        "Plaza Hotel room stay",
+        "Private helicopter flight ticket",
+        "Broadway show VIP tickets"
+      ],
+      "excluded": [
+        "Personal shopping on Fifth Avenue"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "Are Broadway tickets guaranteed?",
+          "a": "Yes, we secure premium front-row or box seats in advance for major Broadway shows."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Anish M.",
+          "rating": 5,
+          "text": "The helicopter ride over Manhattan at night was spectacular. The lights are endless."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Welcome to NYC & Central Park Walk",
+          "morning": "Airport pickup in luxury limousine, check into The Plaza. Rest.",
+          "afternoon": "Stroll the paths of Central Park and visit Bethesda Fountain.",
+          "evening": "Enjoy dinner overlooking the park skyline."
+        },
+        {
+          "day": 2,
+          "title": "Manhattan Helicopter & Broadway Show",
+          "morning": "Fly by private helicopter over the Hudson River and Statue of Liberty.",
+          "afternoon": "Shop on Fifth Avenue and visit Times Square.",
+          "evening": "Pre-theatre dinner followed by a premium Broadway show."
+        }
+      ]
+    }
+  ]
+}

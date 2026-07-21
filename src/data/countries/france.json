@@ -1,0 +1,88 @@
+{
+  "name": "France",
+  "slug": "france",
+  "flag": "🇫🇷",
+  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Unlock the home of haute couture, fine vintage vineyards, and legendary art. From the historic avenues of Paris to the lavender hills of Provence, France is the ultimate cultural voyage.",
+  "bestSeason": "April to June (Springtime) & September to October (Grape harvest)",
+  "weather": "Temperate maritime climate. Pleasant warm summers (20°C to 28°C), cool winters (3°C to 8°C) with regular rainfall.",
+  "currency": "Euro (EUR)",
+  "language": "French, English",
+  "timeZone": "CET (GMT+1) / CEST (GMT+2)",
+  "visaInfo": "Schengen Visa required for Indian passport holders.",
+  "flightDuration": "Approx 8-9 hours direct flight from New Delhi or Mumbai.",
+  "highlights": [
+    "Marvel at the Eiffel Tower from a private Seine cruise",
+    "Enjoy after-hours private access to the masterpieces in the Louvre Museum",
+    "Tour historic wine cellars and vineyards in Reims and Bordeaux",
+    "Stay in converted 17th-century royal chateaux in the Loire Valley"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1499856871958-5b9647a6409a?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1503917988258-f87a78e3c995?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "paris",
+      "name": "Parisian Art",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "The city of light, famous for iconic landmarks, fashion houses, and world-class museum collections.",
+      "overview": "Paris is a global center for art, fashion, and gastronomy. Built along the Seine River, its broad 19th-century boulevards are lined with cafes, boutiques, and classic Haussmannian facades.",
+      "rating": 4.95,
+      "bestTimeToVisit": "April to June, September to October",
+      "packagePrice": 1380,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Ritz Paris",
+          "rating": 4.9,
+          "description": "Historic grand hotel located on Place Vendôme, famous for absolute luxury."
+        }
+      ],
+      "meals": "Fresh butter croissants and Michelin-starred French dinners.",
+      "transport": "Private chauffeur sedan transfers and Paris Metro cards.",
+      "activities": "Eiffel Tower VIP Platform Tour, Seine River Private Cruise, Louvre Museum Tour.",
+      "included": [
+        "Ritz Paris suite stays",
+        "Fast-track Eiffel summit access tickets",
+        "Private Seine cruise with champagne"
+      ],
+      "excluded": [
+        "Personal shopping expenses"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "How do we skip the lines at the Louvre?",
+          "a": "Our packages include reserved skip-the-line group or private guide entry tickets for all major museums."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena G.",
+          "rating": 5,
+          "text": "The Seine cruise at twilight as the Eiffel Tower started sparkling was pure magic."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Welcome to Paris & Seine Sunset Cruise",
+          "morning": "Airport pickup and transfer to Ritz Paris. Rest.",
+          "afternoon": "Stroll the Tuileries gardens and shop at Place Vendôme.",
+          "evening": "Private Seine cruise with champagne, watching the monuments light up.",
+          "hotelId": "ritz-paris"
+        },
+        {
+          "day": 2,
+          "title": "Louvre Masterpieces & Eiffel Tower",
+          "morning": "Skip-the-line guided tour of the Louvre seeing the Mona Lisa and Venus de Milo.",
+          "afternoon": "Stroll the Champs-Élysées up to the Arc de Triomphe.",
+          "evening": "VIP dinner at the Eiffel Tower restaurant with panoramic city views."
+        }
+      ]
+    }
+  ]
+}

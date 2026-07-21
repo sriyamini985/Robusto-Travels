@@ -1,0 +1,154 @@
+{
+  "name": "Italy",
+  "slug": "italy",
+  "flag": "🇮🇹",
+  "heroImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Step into a country of deep historical heritage, unmatched Renaissance art masterworks, and absolute culinary delight. From Rome's ancient arenas to Amalfi's picturesque clifftop villas, Italy is the ultimate European romance.",
+  "bestSeason": "April to June (Spring sun) & September to October (Golden autumn)",
+  "weather": "Mediterranean climate. Warm dry summers (24°C to 33°C), cool rainy winters (6°C to 14°C) in the central plains.",
+  "currency": "Euro (EUR)",
+  "language": "Italian",
+  "timeZone": "CET (GMT+1) / CEST (GMT+2)",
+  "visaInfo": "Schengen Visa required for Indian passport holders.",
+  "flightDuration": "Approx 8-10 hours flight from New Delhi or Mumbai.",
+  "highlights": [
+    "Stand inside the historic Colosseum and Roman Forum in Rome",
+    "Ride a traditional wood gondola through the quiet canals of Venice",
+    "View Michelangelo's David and Botticelli's masterpieces in Florence",
+    "Drive a vintage convertible along the dramatic cliff roads of the Amalfi Coast"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1531572753322-ad063caff12e?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "rome",
+      "name": "Ancient Rome",
+      "image": "https://images.unsplash.com/photo-1531572753322-ad063caff12e?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "The eternal city, where 2,000-year-old Roman ruins stand alongside Vatican palaces and Renaissance plazas.",
+      "overview": "Rome is a living open-air museum. The capital of a historic empire, its streets are paved with history. Visitors can walk the ruins of the Colosseum, marvel at the Michelangelo frescoes inside the Sistine Chapel, and toss a coin into the Trevi Fountain to secure their return.",
+      "rating": 4.96,
+      "bestTimeToVisit": "April to May, September to October",
+      "packagePrice": 1250,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Hotel Hassler Roma",
+          "rating": 4.9,
+          "description": "Prestigious five-star hotel set at the top of the Spanish Steps."
+        },
+        {
+          "name": "Rocco Forte Hotel de Russie",
+          "rating": 4.8,
+          "description": "Featuring a secret garden oasis in the heart of Rome near Piazza del Popolo."
+        }
+      ],
+      "meals": "Fresh bakery breakfasts and custom Roman pasta dinners.",
+      "transport": "Private sedan airport transfers and high-speed rail passes.",
+      "activities": "Colosseum Private Night Tour, Vatican Museums Skip-the-line Tour, Trastevere Food Crawl.",
+      "included": [
+        "Private historian guide for Roman Forum",
+        "Vatican museums fast-track admission",
+        "Traditional pasta-making class"
+      ],
+      "excluded": [
+        "Monuments photo permits (where required)"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1531572753322-ad063caff12e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the dress code for Vatican City?",
+          "a": "Shoulders and knees must be covered to enter St. Peter's Basilica and the Vatican Museums."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Lucia F.",
+          "rating": 5,
+          "text": "Standing inside the Colosseum at sunset with a private guide made history come alive."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Imperial Rome & Trevi Walk",
+          "morning": "Arrive in Rome, transfer to hotel. Rest.",
+          "afternoon": "Walk past Piazza Navona, the Pantheon, and toss a coin into the Trevi Fountain.",
+          "evening": "Enjoy classic Roman dishes like Cacio e Pepe in a cozy Trastevere Osteria."
+        },
+        {
+          "day": 2,
+          "title": "Colosseum Arena & Vatican Museums",
+          "morning": "Explore the Colosseum floor and walk the ancient paths of the Roman Forum.",
+          "afternoon": "Guided tour of the Vatican Museums, Raphael Rooms, and Sistine Chapel.",
+          "evening": "Private cooking class making handmade fettuccine with a local chef."
+        }
+      ]
+    },
+    {
+      "slug": "amalfi",
+      "name": "Amalfi Coast",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "A dramatic coastline of pastel-colored clifftop towns, lemon orchards, and sparkling turquoise Mediterranean waters.",
+      "overview": "The Amalfi Coast is Italy's coastal crown jewel. Vertical cliffs drop into a deep blue sea, with towns like Positano and Amalfi clinging precariously to the rocks. Lemon trees fragrance the air, and historic pathways offer sweeping sea panoramas.",
+      "rating": 4.92,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1420,
+      "duration": "4 Days • 3 Nights",
+      "hotels": [
+        {
+          "name": "Le Sirenuse Positano",
+          "rating": 5.0,
+          "description": "World-famous luxury boutique hotel overlooking Positano bay."
+        }
+      ],
+      "meals": "Fresh seafood dining and local limoncello tastings.",
+      "transport": "Private Mercedes driver along the coast roads and private boat charters.",
+      "activities": "Private Yacht Cruise to Capri, Ravello Villa Rufolo Gardens Tour, Limoncello Tasting.",
+      "included": [
+        "Private boat charter to Capri island",
+        "Michelin-star dinner at Positano bay",
+        "Mercedes chauffeur service"
+      ],
+      "excluded": [
+        "Capri Blue Grotto rowing boat fees"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "Is the road drive scary?",
+          "a": "The coast road is extremely narrow and winding. We include professional private drivers for your safety and comfort."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Marco B.",
+          "rating": 5,
+          "text": "Waking up to the sea view in Positano was the dream of a lifetime. The boat cruise to Capri was amazing."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Coastal Drive & Positano Sunset",
+          "morning": "Pick up by chauffeur in Naples and drive the breathtaking Amalfi Coast road.",
+          "afternoon": "Check into Le Sirenuse and explore the narrow boutique stairways of Positano.",
+          "evening": "Enjoy candlelight dining with views of Positano's illuminated cliffs."
+        },
+        {
+          "day": 2,
+          "title": "Capri Yacht Cruise",
+          "morning": "Board your private speed-boat for a full day cruise to the Isle of Capri.",
+          "afternoon": "Swim in hidden coves and anchor to walk the streets of Capri and Anacapri.",
+          "evening": "Return to Positano for fresh seafood pasta at a beachside trattoria."
+        }
+      ]
+    }
+  ]
+}

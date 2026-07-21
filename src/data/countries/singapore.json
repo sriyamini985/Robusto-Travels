@@ -1,0 +1,87 @@
+{
+  "name": "Singapore",
+  "slug": "singapore",
+  "flag": "🇸🇬",
+  "heroImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Explore the Garden City, a clean, high-tech metropolis at the crossroads of Southeast Asia. Singapore blends futuristic green architecture, luxury retail, and rich multi-cultural neighborhoods.",
+  "bestSeason": "February to April (Lowest rainfall) & September (Formula 1 Grand Prix)",
+  "weather": "Hot and humid tropical climate. Constant 31°C year-round with short daily tropical rainfall.",
+  "currency": "Singapore Dollar (SGD)",
+  "language": "English, Mandarin, Malay, Tamil",
+  "timeZone": "SGT (GMT+8)",
+  "visaInfo": "Visa required prior to travel for Indian passport holders (e-Visa).",
+  "flightDuration": "Approx 5-6 hours flight from New Delhi or Mumbai.",
+  "highlights": [
+    "Marvel at the avatar-like Supertree Grove at Gardens by the Bay",
+    "Swim in the world-famous infinity pool atop Marina Bay Sands",
+    "Savor Michelin-starred street food at historic hawker centers",
+    "Take a night safari through the world's first nocturnal wildlife park"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1506505776263-d13b724e155e?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "gardens-bay",
+      "name": "Gardens by the Bay",
+      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "A futuristic horticultural wonderland featuring steel Supertrees and the world's largest glass greenhouse domes.",
+      "overview": "Gardens by the Bay spans 101 hectares of reclaimed land in central Singapore. The park features the Cloud Forest dome with a 35-meter indoor waterfall, the Flower Dome, and the soaring Supertree Grove connected by an aerial skyway.",
+      "rating": 4.91,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 850,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Marina Bay Sands Hotel",
+          "rating": 4.9,
+          "description": "Iconic luxury resort featuring the world's largest rooftop infinity pool."
+        }
+      ],
+      "meals": "Singaporean buffet breakfasts and private street-food hawker crawl.",
+      "transport": "Singapore MRT subway card and private chauffeur transfers.",
+      "activities": "Cloud Forest Dome Entry, Flower Dome Entry, OCBC Skyway Supertree Walk.",
+      "included": [
+        "Marina Bay Sands club room stay",
+        "Fast-track entry to domes and skyway",
+        "Private street food tour guide"
+      ],
+      "excluded": [
+        "Universal Studios ticket fees"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "Is the Sands infinity pool open to the public?",
+          "a": "No, the rooftop infinity pool is strictly reserved for hotel guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Vijay S.",
+          "rating": 5,
+          "text": "The Cloud Forest indoor waterfall is a marvel. Swimming in the Sands infinity pool at night is magical."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Welcome to Singapore & Sands Pool",
+          "morning": "Airport pickup, check into Marina Bay Sands. Rest.",
+          "afternoon": "Swim in the rooftop infinity pool looking out over the skyline.",
+          "evening": "Guided street food tour tasting Hainanese chicken rice and chili crab at Newton Food Center."
+        },
+        {
+          "day": 2,
+          "title": "Gardens Domes & Supertree Light Show",
+          "morning": "Walk the massive glass conservatories, the Flower Dome and Cloud Forest.",
+          "afternoon": "Explore the modern art galleries inside the ArtScience Museum.",
+          "evening": "Watch the Garden Rhapsody light and sound show from the OCBC Skyway."
+        }
+      ]
+    }
+  ]
+}

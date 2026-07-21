@@ -1,0 +1,87 @@
+{
+  "name": "Maldives",
+  "slug": "maldives",
+  "flag": "🇲🇻",
+  "heroImage": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Escape to private overwater bungalows, turquoise lagoons, and white-sand bioluminescent beaches. The Maldives is the ultimate remote luxury sanctuary.",
+  "bestSeason": "December to April (Dry season)",
+  "weather": "Warm and tropical year-round. Average daytime temperature is 30°C. Brief monsoon rains occur from May to October.",
+  "currency": "Maldivian Rufiyaa (MVR) / USD widely accepted",
+  "language": "Dhivehi, English",
+  "timeZone": "MVT (GMT+5)",
+  "visaInfo": "Free 30-day visa on arrival issued to all nationalities.",
+  "flightDuration": "Approx 4-5 hours from major Indian airports.",
+  "highlights": [
+    "Stay in a luxury overwater villa with private lagoon slide",
+    "Snorkel or dive with whale sharks and giant manta rays",
+    "Enjoy private sandbank picnics isolated in the Indian Ocean",
+    "Dine in underwater glass restaurants surrounded by coral reefs"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "male",
+      "name": "Malé & Private Atolls",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "Private luxury islands offering white beaches, coral reefs, and isolated overwater bungalows.",
+      "overview": "The Maldives is composed of 1,200 coral islands grouped in atolls. Our selected private island resort offers absolute isolation, where the house reef is just steps from your villa deck.",
+      "rating": 4.97,
+      "bestTimeToVisit": "December to April",
+      "packagePrice": 1580,
+      "duration": "5 Days • 4 Nights",
+      "hotels": [
+        {
+          "name": "Soneva Jani Resort",
+          "rating": 5.0,
+          "description": "Ultra-luxury overwater villas with retractable roofs and private water slides."
+        }
+      ],
+      "meals": "All-inclusive gourmet menus at resort restaurants.",
+      "transport": "Roundtrip luxury speedboat or private seaplane transfers.",
+      "activities": "Manta Ray Snorkeling, Private Sunset Cruise, Sandbank Dinner.",
+      "included": [
+        "Luxury seaplane transfer tickets",
+        "Overwater villa stay with lagoon slide",
+        "All meals and premium beverages"
+      ],
+      "excluded": [
+        "Scuba certification course fees"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "How do we reach the private resort?",
+          "a": "After landing at Malé International Airport, our airport representative will guide you to the seaplane terminal for transfer."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Anjali R.",
+          "rating": 5,
+          "text": "The seaplane transfer was spectacular. Soneva Jani is absolute paradise."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Seaplane Flight & Lagoon Check-in",
+          "morning": "Fly by seaplane over pristine coral rings. Check into Soneva Jani.",
+          "afternoon": "Slide directly from your villa deck into the turquoise lagoon.",
+          "evening": "Sunset champagne cruise searching for local spinner dolphins."
+        },
+        {
+          "day": 2,
+          "title": "Snorkeling with Mantas & Sandbank Dinner",
+          "morning": "Board a luxury Dhoni boat to snorkel with manta rays at the bay.",
+          "afternoon": "Relax with a signature spa treatment inside the overwater sanctuary.",
+          "evening": "Private lantern-lit barbecue dinner on a deserted sandbank."
+        }
+      ]
+    }
+  ]
+}

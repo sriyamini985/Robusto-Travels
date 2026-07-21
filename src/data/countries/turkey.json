@@ -1,0 +1,87 @@
+{
+  "name": "Turkey",
+  "slug": "turkey",
+  "flag": "🇹🇷",
+  "heroImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Journey through a land that spans two continents. Turkey is a rich tapestry of Ottoman grand arches, ancient Roman relics, and the cave dwellings of Cappadocia.",
+  "bestSeason": "April to May (Spring) & September to October (Autumn)",
+  "weather": "Mediterranean climate. Warm dry summers (28°C to 34°C), cool rainy winters. Snow is common in central Cappadocia in winter.",
+  "currency": "Turkish Lira (TRY)",
+  "language": "Turkish, English",
+  "timeZone": "TRT (GMT+3)",
+  "visaInfo": "Visa required prior to travel for Indian passport holders (obtainable as eVisa).",
+  "flightDuration": "Approx 6-7 hours direct flight from major Indian airports.",
+  "highlights": [
+    "Fly in a hot air balloon over the fairy chimneys of Cappadocia",
+    "Cruise the Bosphorus Strait dividing Europe and Asia",
+    "Tour the grand dome of Hagia Sophia and Blue Mosque in Istanbul",
+    "Relax in thermal historic Turkish baths (Hammams)"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1504382262782-5b4cf10d7d1f?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "cappadocia",
+      "name": "Cappadocia Caves",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "A volcanic landscape of fairy chimneys, underground cities, and hot air balloon filled skies.",
+      "overview": "Cappadocia is a geological wonder located in central Turkey. Famed for its unique 'fairy chimneys' rock formations, it is home to thousands of years of human history, with cave churches and hotels carved directly into the soft cliffs.",
+      "rating": 4.96,
+      "bestTimeToVisit": "April to June, September to November",
+      "packagePrice": 880,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Museum Hotel Cappadocia",
+          "rating": 4.9,
+          "description": "Award-winning luxury cave hotel offering panoramic views of the valley."
+        }
+      ],
+      "meals": "Traditional organic Turkish breakfasts and generational clay-pot dinners.",
+      "transport": "Private AC vehicles and airport transfers.",
+      "activities": "Hot Air Balloon Flight, Göreme Open Air Museum Tour, Underground City Walk.",
+      "included": [
+        "Luxury cave suite stay",
+        "Hot air balloon flight tickets",
+        "Private tour guide services"
+      ],
+      "excluded": [
+        "Personal souvenir mosaic lamp purchases"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What happens if the balloon flight is canceled due to wind?",
+          "a": "Safety is paramount. If canceled, we reschedule for the following morning or offer a full refund for the balloon portion."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Preeti G.",
+          "rating": 5,
+          "text": "Floating in a hot air balloon with hundreds of others as the sun rose over Cappadocia was absolutely magical."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Welcome to Cave Country",
+          "morning": "Flight transfer from Istanbul to Kayseri. Transfer to Museum Hotel.",
+          "afternoon": "Stroll through the Göreme Open Air Museum to see historic cave churches.",
+          "evening": "Gourmet dining inside the cave restaurant tasting clay-pot kebabs."
+        },
+        {
+          "day": 2,
+          "title": "Sunrise Balloon Flight",
+          "morning": "Early morning hot air balloon flight over the valleys.",
+          "afternoon": "Descend into Kaymakli Underground City, a subterranean fortress.",
+          "evening": "Sunset wine tasting looking out over the Red Valley."
+        }
+      ]
+    }
+  ]
+}

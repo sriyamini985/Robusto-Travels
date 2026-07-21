@@ -1,0 +1,155 @@
+{
+  "name": "Switzerland",
+  "slug": "switzerland",
+  "flag": "🇨🇭",
+  "heroImage": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Experience majestic snow-covered peaks, pristine alpine lakes, and premium luxury retreats in the heart of Europe. Switzerland is a sanctuary of scenic beauty and timeless refinement.",
+  "bestSeason": "June to September (Summer hiking) & December to March (Winter sports)",
+  "weather": "Temperate climate. Pleasant mild summers (18°C to 28°C), freezing snowy winters (-2°C to 7°C) in the valleys.",
+  "currency": "Swiss Franc (CHF)",
+  "language": "German, French, Italian, Romansh",
+  "timeZone": "CET (GMT+1) / CEST (GMT+2)",
+  "visaInfo": "Schengen Visa required for Indian passport holders prior to travel.",
+  "flightDuration": "Approx 8-9 hours direct flight from New Delhi or Mumbai.",
+  "highlights": [
+    "Marvel at the iconic pyramid peak of the Matterhorn",
+    "Ride the scenic Glacier Express panoramic train through alpine valleys",
+    "Explore the pristine shores of Lake Geneva and Lake Lucerne",
+    "Ascend to the 'Top of Europe' at Jungfraujoch observatory"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "zermatt",
+      "name": "Zermatt & The Matterhorn",
+      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "A car-free alpine village nestled at the foot of the iconic Matterhorn, offering world-class skiing and hiking.",
+      "overview": "Zermatt is Switzerland's ultimate mountain sanctuary. Free of combustion engine vehicles, the village preserves a peaceful alpine charm while serving as the gateway to the world-famous Matterhorn. Visitors can ride mountain railways to high observatories, ski year-round on glaciers, and enjoy fine chalet hospitality.",
+      "rating": 4.95,
+      "bestTimeToVisit": "December to April (Skiing), July to September (Hiking)",
+      "packagePrice": 1450,
+      "duration": "4 Days • 3 Nights",
+      "hotels": [
+        {
+          "name": "Chalet Zermatt Peak",
+          "rating": 5.0,
+          "description": "Ultra-luxury five-star boutique chalet with breathtaking panoramas of the Matterhorn."
+        },
+        {
+          "name": "The Omnia Mountain Lodge",
+          "rating": 4.9,
+          "description": "Modern design hotel built on a rock shelf high above the center of Zermatt."
+        }
+      ],
+      "meals": "Buffet breakfasts and gourmet alpine dinners included.",
+      "transport": "Swiss Rail Pass (First Class) and local electric shuttles.",
+      "activities": "Gornergrat Cogwheel Train, Glacier Paradise Cableway, Alpine Cheese Tasting.",
+      "included": [
+        "First-class Swiss Travel Pass for all trains",
+        "Gourmet dining at chalet restaurant",
+        "Professional local mountain guides"
+      ],
+      "excluded": [
+        "Ski equipment rental fees",
+        "Personal travel insurance"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "How do we reach Zermatt?",
+          "a": "Zermatt is car-free. You take the train to Visp/Täsch and transfer to the Matterhorn Gotthard Railway shuttle."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "David L.",
+          "rating": 5,
+          "text": "Stunning vistas of the Matterhorn. Rising early to see the golden tip at sunrise is unforgettable."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Zermatt & Alpine Exploration",
+          "morning": "Board the mountain railway to Zermatt. Check into your luxury chalet.",
+          "afternoon": "Stroll the car-free streets of Hinterdorf with traditional wooden barns.",
+          "evening": "Warm up with a traditional Swiss cheese fondue dinner."
+        },
+        {
+          "day": 2,
+          "title": "Gornergrat Railway & Matterhorn Views",
+          "morning": "Ride Europe's highest open-air cogwheel railway up to Gornergrat observatory.",
+          "afternoon": "Hike the Riffelsee trail to photograph the Matterhorn reflected in the alpine lake.",
+          "evening": "Enjoy spa relaxation and molecular dining at The Omnia lodge."
+        }
+      ]
+    },
+    {
+      "slug": "interlaken",
+      "name": "Interlaken Adventure Hub",
+      "image": "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "Nestled between two spectacular lakes, Interlaken is the adrenaline and adventure capital of the Swiss Alps.",
+      "overview": "Set between Lake Thun and Lake Brienz, Interlaken is the starting point for countless Swiss excursions. From paragliding over the turquoise waters to boarding trains to the Jungfrau region, it offers a perfect balance of lake breezes and soaring mountain views.",
+      "rating": 4.88,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1280,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Victoria-Jungfrau Grand Hotel & Spa",
+          "rating": 4.9,
+          "description": "Historic grand hotel offering absolute luxury and views of the Jungfrau peak."
+        }
+      ],
+      "meals": "Daily Swiss breakfasts and lakeside terrace dinners.",
+      "transport": "Eco Lake Cruises & First-class regional train tickets.",
+      "activities": "Lake Brienz Steamboat Cruise, Harder Kulm Sunset Funicular, Paragliding.",
+      "included": [
+        "First-class train transfers",
+        "Lake Brienz cruise pass",
+        "Sunset Harder Kulm entry tickets"
+      ],
+      "excluded": [
+        "Adventure paragliding pilot fees"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "Can we visit Jungfraujoch from here?",
+          "a": "Yes, Interlaken is the primary departure point for the train loop up to Jungfraujoch."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Sarah M.",
+          "rating": 5,
+          "text": "Harder Kulm view is incredible. Sitting on the lake cruise watching the mountain reflection is pure peace."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Lake Cruise & Harder Kulm Sunset",
+          "morning": "Arrive in Interlaken and settle into your hotel.",
+          "afternoon": "Board the historical paddle steamer for a scenic cruise around Lake Brienz.",
+          "evening": "Ascend Harder Kulm funicular for a panoramic sunset dinner over both lakes."
+        },
+        {
+          "day": 2,
+          "title": "Adrenaline Day: Paragliding or High Trails",
+          "morning": "Optional paragliding tandem flight landing right in the Höhematte park.",
+          "afternoon": "Explore the Lauterbrunnen Valley of 72 waterfalls, just a short train ride away.",
+          "evening": "Fine dining at the Victoria-Jungfrau spa resort."
+        }
+      ]
+    }
+  ]
+}

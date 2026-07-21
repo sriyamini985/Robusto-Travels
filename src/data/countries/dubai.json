@@ -1,0 +1,93 @@
+{
+  "name": "United Arab Emirates",
+  "slug": "dubai",
+  "flag": "🇦🇪",
+  "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Experience a futuristic oasis where heritage meets architectural marvels. From the soaring heights of the Burj Khalifa to luxury desert camps under the stars, Dubai is a playground of modern global luxury.",
+  "bestSeason": "November to March (Winter outdoor weather)",
+  "weather": "Hot desert climate. Pleasant warm winters (20°C to 30°C), scorching dry summers (40°C+) where indoor malls are preferred.",
+  "currency": "UAE Dirham (AED)",
+  "language": "Arabic & English",
+  "timeZone": "GST (GMT+4)",
+  "visaInfo": "Visa required prior to travel for Indian passport holders (obtainable as eVisa).",
+  "flightDuration": "Approx 3-4 hours direct flight from Mumbai or Delhi.",
+  "highlights": [
+    "Ascend the world's tallest building, the Burj Khalifa",
+    "Embark on a vintage 4x4 desert safari over golden dunes",
+    "Discover the luxurious resorts on the palm-shaped island of Palm Jumeirah",
+    "Shop at the massive Dubai Mall and watch the choreographed fountain shows"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1526495124232-a04e18491f5a?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "burj-khalifa",
+      "name": "Burj Khalifa & Downtown",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "The crown jewel of Dubai's skyline, standing as the tallest structure in human history with observation decks.",
+      "overview": "Burj Khalifa dominates the skyline of Downtown Dubai, rising 828 meters. A masterwork of engineering, it sits beside the Dubai Mall and the spectacular Dubai Fountain. Visitors can ascend to the 124th and 148th floors to view the city, desert, and ocean.",
+      "rating": 4.92,
+      "bestTimeToVisit": "November to February",
+      "packagePrice": 980,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Armani Hotel Dubai",
+          "rating": 4.9,
+          "description": "Exquisite designer hotel located inside the Burj Khalifa itself with private entrance."
+        },
+        {
+          "name": "The Palace Downtown",
+          "rating": 4.8,
+          "description": "Arabian-style hotel overlooking the Dubai Fountain and Burj Lake."
+        }
+      ],
+      "meals": "International breakfasts and high tea at Atmosphere restaurant.",
+      "transport": "Luxury private airport transfers and downtown monorail tickets.",
+      "activities": "Burj Khalifa 148th Floor Access, Dubai Fountain Lake Ride, Dubai Mall Shopping Guide.",
+      "included": [
+        "Armani Hotel suite stays",
+        "Fast-track VIP observatory ticket",
+        "Private chauffeur service"
+      ],
+      "excluded": [
+        "Personal shopping expenses"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to see the fountains?",
+          "a": "The Fountain shows run every 30 minutes in the evening starting from 6:00 PM."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Karan S.",
+          "rating": 5,
+          "text": "Standing on the 148th floor looking down at skyscrapers that felt like miniature toys was surreal."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival & Fountain Show View",
+          "morning": "Arrive in Dubai. VIP transfer to Armani Hotel.",
+          "afternoon": "Stroll inside the massive Dubai Mall and visit the giant indoor aquarium.",
+          "evening": "Watch the fountain show from your private dinner table at Palace Downtown."
+        },
+        {
+          "day": 2,
+          "title": "Burj Khalifa Summit & Skyline Dine",
+          "morning": "Ascend to 'At The Top Sky' observatory on the 148th floor.",
+          "afternoon": "Gourmet lunch at Atmosphere restaurant inside the Burj.",
+          "evening": "Desert sunset photography excursion with private 4x4 car."
+        }
+      ]
+    }
+  ]
+}

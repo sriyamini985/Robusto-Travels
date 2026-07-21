@@ -1,0 +1,155 @@
+{
+  "name": "Japan",
+  "slug": "japan",
+  "flag": "🇯🇵",
+  "heroImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Immerse in a land where ancient temple courtyards meet neon-lit futuristic skylines. From the serene gardens of Kyoto to the bustling energy of Tokyo, Japan is a sensory masterpiece of culture, technology, and cuisine.",
+  "bestSeason": "Spring (March to May) for Cherry Blossoms & Autumn (September to November) for foliage",
+  "weather": "Temperate climate with four distinct seasons. Mild springs, warm humid summers (25°C to 32°C), crisp colorful autumns, and cold winters with heavy snow in northern regions.",
+  "currency": "Japanese Yen (JPY)",
+  "language": "Japanese",
+  "timeZone": "JST (GMT+9)",
+  "visaInfo": "Short-term tourist visa required for Indian passport holders.",
+  "flightDuration": "Approx 7-8 hours direct or one-stop flight from major Indian airports.",
+  "highlights": [
+    "Wander through thousands of vermilion Torii gates at Fushimi Inari in Kyoto",
+    "Gaze at the snow-capped volcanic peak of Mount Fuji from Hakone's hot springs",
+    "Navigate the futuristic streets and electronic districts of Tokyo",
+    "Ride the ultra-fast Shinkansen bullet train across the country"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1490806843957-31f4c9a91c6d?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "tokyo",
+      "name": "Tokyo Metropolis",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "A high-tech neon wonder blending futuristic cityscapes, pop culture hubs, and ancient Shinto shrines.",
+      "overview": "Tokyo is the beating heart of modern Japan. A sprawling metropolis of 37 million people, it manages to remain clean, safe, and incredibly efficient. Walk from the peaceful gardens of Meiji Shrine into the fashion alleys of Harajuku, see the Shibuya crossing, and taste Michelin-starred ramen.",
+      "rating": 4.98,
+      "bestTimeToVisit": "March to May, October to December",
+      "packagePrice": 1380,
+      "duration": "4 Days • 3 Nights",
+      "hotels": [
+        {
+          "name": "Park Hyatt Tokyo",
+          "rating": 4.9,
+          "description": "Luxury high-rise hotel in Shinjuku offering sweeping views of Mount Fuji and Tokyo skyline."
+        },
+        {
+          "name": "Aman Tokyo",
+          "rating": 5.0,
+          "description": "An urban sanctuary blending traditional Japanese design with modern minimalism in Otemachi."
+        }
+      ],
+      "meals": "Traditional breakfasts and private sushi tasting sessions.",
+      "transport": "JR Rail Pass and local Tokyo Metro subway passes.",
+      "activities": "Shibuya Sky Observatory, Senso-ji Temple Tour, Akihabara Electronics Walk.",
+      "included": [
+        "Luxury hotel stays",
+        "Private bilingual city guide",
+        "Shibuya Sky entry tickets"
+      ],
+      "excluded": [
+        "Personal electronic purchases",
+        "International flight tickets"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best way to get around Tokyo?",
+          "a": "The Tokyo subway network is incredibly fast, clean, and runs every few minutes. Taxis are also available but can be expensive."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Aravind K.",
+          "rating": 5,
+          "text": "Tokyo is out of this world. The contrast between ancient shrines and cybernetic towers is spectacular."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Welcome to Tokyo & Shinjuku Lights",
+          "morning": "Airport transfer to your luxury hotel. Rest and refresh.",
+          "afternoon": "Stroll the peaceful park of the imperial palace gardens.",
+          "evening": "Explore the neon-lit alleys of Omoide Yokocho and golden gai in Shinjuku."
+        },
+        {
+          "day": 2,
+          "title": "Senso-ji & Shibuya Crossing",
+          "morning": "Visit Tokyo's oldest temple, Senso-ji in Asakusa, walking through Nakamise street.",
+          "afternoon": "Cross the famous Shibuya crossing and head up to Shibuya Sky for sunset panoramas.",
+          "evening": "Private sushi omakase dining experience."
+        }
+      ]
+    },
+    {
+      "slug": "kyoto",
+      "name": "Kyoto Heritage",
+      "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c6d?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "The cultural capital of Japan, renowned for thousands of classical Buddhist temples, gardens, and imperial palaces.",
+      "overview": "Kyoto offers a step back in time. Free from the soaring skyscrapers of Tokyo, this city preserves classical wooden townhouses, centuries-old shrines, and traditional geisha districts like Gion. It is the birthplace of the traditional tea ceremony and zen landscaping.",
+      "rating": 4.96,
+      "bestTimeToVisit": "April (Cherry blossoms), November (Autumn foliage)",
+      "packagePrice": 1250,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "The Ritz-Carlton Kyoto",
+          "rating": 4.9,
+          "description": "Lakeside luxury hotel set along the Kamogawa River close to downtown Gion."
+        }
+      ],
+      "meals": "Traditional multi-course Kaiseki dinners and organic matcha tea tastings.",
+      "transport": "Shinkansen bullet train transfers and private chauffeured cars.",
+      "activities": "Fushimi Inari Shrine Hike, Bamboo Grove Walk in Arashiyama, Gold Pavilion Tour.",
+      "included": [
+        "Kaiseki dinner experience",
+        "Matcha tea ceremony with tea master",
+        "Bullet train first-class seat tickets"
+      ],
+      "excluded": [
+        "Temple entrance fees (where not specified)"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "Can we see Geishas in Gion?",
+          "a": "Yes, but please respect their privacy and follow local street rules. Photography on private alleys is restricted."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Yuki S.",
+          "rating": 5,
+          "text": "The quiet temples of Kyoto filled with autumn colors are the highlight of my trip to Japan."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Fushimi Inari & Gion Evening",
+          "morning": "Arrive in Kyoto via Shinkansen bullet train.",
+          "afternoon": "Walk under thousands of vermilion torii gates at Fushimi Inari Shrine.",
+          "evening": "Guided evening walk through Gion, searching for Geishas on their way to tea houses."
+        },
+        {
+          "day": 2,
+          "title": "Golden Pavilion & Bamboo Groves",
+          "morning": "Visit Kinkaku-ji, the famous golden pavilion reflecting over its mirror pond.",
+          "afternoon": "Stroll the towering bamboo paths of Arashiyama and visit Tenryu-ji Zen temple.",
+          "evening": "Exquisite multi-course Kaiseki dinner at your luxury hotel."
+        }
+      ]
+    }
+  ]
+}

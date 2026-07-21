@@ -1,0 +1,88 @@
+{
+  "name": "Indonesia",
+  "slug": "bali",
+  "flag": "🇮🇩",
+  "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Discover the Island of the Gods, a tropical sanctuary of ancient spirituality, verdant rice terraces, and dramatic coastline surf. Bali is a peaceful retreat for body and soul.",
+  "bestSeason": "April to October (Dry season)",
+  "weather": "Tropical warm climate. Average temperature stays around 28°C. Wet monsoon season is October to March; dry season is April to September.",
+  "currency": "Indonesian Rupiah (IDR)",
+  "language": "Indonesian, Balinese, English",
+  "timeZone": "WITA (GMT+8)",
+  "visaInfo": "30-day Visa-on-arrival is available for travelers from over 85 countries.",
+  "flightDuration": "Approx 7-9 hours flight from major Indian airports.",
+  "highlights": [
+    "Wander the cascading emerald rice terraces in Ubud",
+    "Participate in a sacred water purification ritual at Tirta Empul temple",
+    "Watch the sunset from cliffside Uluwatu Temple",
+    "Relax in isolated luxury villas overlooking jungle ravines"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1552678440-b9604618e7e1?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1518548419070-ad8e4b7b5f2e?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "ubud",
+      "name": "Ubud Jungle Sanctuary",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "The cultural and spiritual heart of Bali, surrounded by dense jungle ravines and cascading rice paddies.",
+      "overview": "Ubud is a center of traditional dance, crafts, and holistic wellness. Fringed by steep ravines and lush rainforest, it provides a quiet escape with wellness retreats, art galleries, and monkey forest paths.",
+      "rating": 4.91,
+      "bestTimeToVisit": "April to September",
+      "packagePrice": 680,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Mandapa, a Ritz-Carlton Reserve",
+          "rating": 5.0,
+          "description": "Ultra-luxury sanctuary along the Ayung River in Ubud, featuring private villas."
+        }
+      ],
+      "meals": "Organic farm-to-table breakfasts and traditional Balinese dinners.",
+      "transport": "Private AC SUV with dedicated English-speaking local driver.",
+      "activities": "Tegallalang Rice Terrace Walk, Tirta Empul Blessing, Ubud Art Market Guide.",
+      "included": [
+        "Private villa with private pool",
+        "Temple purification ceremony fee",
+        "Local private driver guide service"
+      ],
+      "excluded": [
+        "Personal spa treatment fees"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What should I wear to Balinese temples?",
+          "a": "Both men and women must wear a sarong and sash, which are typically available to rent at the temple entrance."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Meera P.",
+          "rating": 5,
+          "text": "The purification ritual at Tirta Empul was an incredibly moving spiritual experience."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Jungle Check-in & Ubud Walk",
+          "morning": "Airport pickup and drive to Ubud. Settle into Mandapa Reserve.",
+          "afternoon": "Stroll the sacred Monkey Forest sanctuary and shop at the local Art Market.",
+          "evening": "Enjoy an authentic crispy duck dinner overlooking the Ayung River."
+        },
+        {
+          "day": 2,
+          "title": "Tegallalang & Tirta Empul Blessing",
+          "morning": "Walk the scenic trails of Tegallalang Rice Terraces in morning light.",
+          "afternoon": "Visit Tirta Empul for a guided water purification blessing.",
+          "evening": "Private sound healing session at a wellness dome."
+        }
+      ]
+    }
+  ]
+}

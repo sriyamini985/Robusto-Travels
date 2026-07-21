@@ -1,0 +1,87 @@
+{
+  "name": "Australia",
+  "slug": "australia",
+  "flag": "🇦🇺",
+  "heroImage": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Explore a continent of ancient wonders, massive coral reefs, and laid-back coastal cities. Australia is a playground of natural beauty, outdoor adventure, and diverse wildlife.",
+  "bestSeason": "September to November (Spring) & March to May (Autumn)",
+  "weather": "Varies by region. Tropical warm climate in the north, temperate seasons in the south. Summer runs from December to February.",
+  "currency": "Australian Dollar (AUD)",
+  "language": "English",
+  "timeZone": "AEST (GMT+10)",
+  "visaInfo": "Electronic Travel Authority (ETA) or tourist visa required for visitors prior to arrival.",
+  "flightDuration": "Approx 12-14 hours one-stop flight from major Indian airports.",
+  "highlights": [
+    "Fly over the vibrant coral chains of the Great Barrier Reef",
+    "Watch the sunset paint the giant sandstone dome of Uluru",
+    "Sail a private catamaran under the Sydney Harbour Bridge",
+    "Drive the spectacular ocean route of the Great Ocean Road"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1524820197278-540916411e20?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "sydney",
+      "name": "Sydney Harbour",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "Australia's largest city, famous for the sails of the Opera House and the massive steel Harbour Bridge.",
+      "overview": "Sydney combines a spectacular harbor, sandy beaches, and national park loops. Take a private catamaran tour under the bridge, walk the coastal paths from Bondi to Coogee, and dine at the Opera House.",
+      "rating": 4.94,
+      "bestTimeToVisit": "September to November, March to May",
+      "packagePrice": 1680,
+      "duration": "4 Days • 3 Nights",
+      "hotels": [
+        {
+          "name": "Park Hyatt Sydney",
+          "rating": 4.9,
+          "description": "Luxury hotel set directly on the harbor waters looking towards the Opera House."
+        }
+      ],
+      "meals": "Fresh harbor seafood dinners and organic Aussie breakfasts.",
+      "transport": "Private chauffeur transfers and private yacht charters.",
+      "activities": "Opera House Behind-the-scenes Tour, Sydney Bridge Climb, Bondi Beach Surf Lesson.",
+      "included": [
+        "Park Hyatt harbor suite stay",
+        "Private catamaran sunset cruise",
+        "Opera House VIP tour access tickets"
+      ],
+      "excluded": [
+        "Personal surf equipment purchase"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "Can we climb the Harbour Bridge?",
+          "a": "Yes, we include safety harnesses and professional climb leaders to take you to the summit."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Mark W.",
+          "rating": 5,
+          "text": "Climbing the Harbour Bridge at twilight was incredible. The Opera House sails look stunning from the water."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Harbour Arrival & Sunset Cruise",
+          "morning": "Airport pickup, check into Park Hyatt. Rest.",
+          "afternoon": "Stroll the historic Royal Botanic Gardens.",
+          "evening": "Private catamaran cruise with dinner and views of the harbor."
+        },
+        {
+          "day": 2,
+          "title": "Opera House & Bridge Climb",
+          "morning": "VIP behind-the-scenes tour of the Opera House.",
+          "afternoon": "Guided BridgeClimb to the top of Sydney Harbour Bridge.",
+          "evening": "Gourmet dining at a waterfront restaurant in Circular Quay."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Thailand",
+  "slug": "thailand",
+  "flag": "🇹🇭",
+  "heroImage": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Experience the Land of Smiles, a vibrant kingdom of gold-spired temples, tropical white-sand islands, and world-famous street food gastronomy.",
+  "bestSeason": "November to February (Cool and dry season)",
+  "weather": "Tropical monsoon climate. Highs of 32°C year-round. Monsoons run from June to October, dry cool air from November to February.",
+  "currency": "Thai Baht (THB)",
+  "language": "Thai, English",
+  "timeZone": "ICT (GMT+7)",
+  "visaInfo": "Visa exemption or Visa-on-arrival available for Indian citizens.",
+  "flightDuration": "Approx 3.5-4 hours flight from major Indian airports.",
+  "highlights": [
+    "Marvel at the Grand Palace and Temple of the Emerald Buddha in Bangkok",
+    "Interact ethically with rescued giants at a Chiang Mai elephant sanctuary",
+    "Cruise by long-tail boat through the limestone cliffs of Phang Nga Bay",
+    "Relax on the turquoise beaches of Phuket and Koh Samui"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1528181304800-2f1908c3951f?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "bangkok",
+      "name": "Bangkok Temples",
+      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&q=80&w=600",
+      "shortDesc": "A bustling capital city famous for ornate shrines, active street life, and canal transport loops.",
+      "overview": "Bangkok is a vibrant assault on the senses. Gold-domed temples sit beside modern high-rises and busy canal waterways. Visitors can tour the sacred Grand Palace, take a river taxi, and dine at street food stalls.",
+      "rating": 4.88,
+      "bestTimeToVisit": "November to February",
+      "packagePrice": 580,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "The Siam Hotel Bangkok",
+          "rating": 4.9,
+          "description": "Art-deco luxury hotel located on the Chao Phraya River with private pier."
+        }
+      ],
+      "meals": "Traditional breakfasts and private street-food market tours.",
+      "transport": "Skytrain passes and private river long-tail boats.",
+      "activities": "Grand Palace Tour, Wat Pho Reclining Buddha Visit, Chao Phraya Dinner Cruise.",
+      "included": [
+        "Riverfront hotel suite stay",
+        "Private boat charter for canal tour",
+        "Grand Palace entry tickets"
+      ],
+      "excluded": [
+        "Personal shopping at night bazaars"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the dress code for temples?",
+          "a": "Shoulders and ankles must be covered. Slip-on shoes are recommended since you must remove them before entering temple buildings."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Rahul T.",
+          "rating": 5,
+          "text": "The Grand Palace details are spectacular. The dinner cruise on the Chao Phraya river was very romantic."
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival & River Sunset Cruise",
+          "morning": "Airport pickup and transfer to hotel. Rest.",
+          "afternoon": "Private long-tail boat ride through the quiet Thonburi canal loops.",
+          "evening": "Chao Phraya luxury dinner cruise seeing Wat Arun lit up at night."
+        },
+        {
+          "day": 2,
+          "title": "Grand Palace & Street Food Crawl",
+          "morning": "Guided walking tour of the majestic Grand Palace and Wat Phra Kaew.",
+          "afternoon": "Visit Wat Pho to see the giant gold Reclining Buddha.",
+          "evening": "Street food crawl in Yaowarat Chinatown tasting local pad thai and mango sticky rice."
+        }
+      ]
+    }
+  ]
+}

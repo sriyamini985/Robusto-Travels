@@ -323,7 +323,7 @@ const EarthScene: React.FC<EarthSceneProps> = ({
     'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
     'https://unpkg.com/three-globe/example/img/earth-topology.png',
     'https://unpkg.com/three-globe/example/img/earth-water.png',
-    'https://raw.githubusercontent.com/mrdoob/three.js/master/examples/textures/planets/earth_clouds_1024.png',
+    'https://unpkg.com/three-globe/example/img/earth-clouds.png',
   ]);
 
   useFrame(({ clock }) => {

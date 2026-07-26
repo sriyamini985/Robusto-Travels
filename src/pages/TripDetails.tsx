@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { getCountryData } from '../data/countries';
-import { formatLocalCurrency } from '../utils/currency';
 import { 
   ArrowLeft, 
   Clock, 
@@ -11,28 +10,18 @@ import {
   Car, 
   Compass, 
   CheckCircle2, 
-  XCircle, 
   HelpCircle, 
   Star 
 } from 'lucide-react';
 
 export const TripDetails: React.FC = () => {
-  const { params, navigateTo, updateBooking } = useNavigation();
+  const { params, navigateTo } = useNavigation();
 
   const destId = params.destinationId || 'switzerland';
   const placeSlug = params.locationId || 'zermatt';
 
   const countryData = getCountryData(destId);
   const place = countryData.famousPlaces.find((p: any) => p.slug === placeSlug) || countryData.famousPlaces[0];
-
-  const handleBookNow = () => {
-    updateBooking({
-      packageId: `${destId}-${place.slug}`,
-      packageName: `${place.name} Signature Journey`,
-      pricePerGuest: place.packagePrice
-    });
-    navigateTo('booking');
-  };
 
   return (
     <div style={{ 
@@ -44,12 +33,12 @@ export const TripDetails: React.FC = () => {
       {/* 1. Cinematic Hero Banner */}
       <section style={{
         position: 'relative',
-        height: '55vh',
-        minHeight: '400px',
+        height: '50vh',
+        minHeight: '380px',
         background: `linear-gradient(to bottom, rgba(7, 15, 36, 0.3), rgba(7, 15, 36, 0.95)), url("${place.image}") no-repeat center center/cover`,
         display: 'flex',
         alignItems: 'flex-end',
-        paddingBottom: '50px'
+        paddingBottom: '48px'
       }}>
         <div style={{
           maxWidth: '1100px',
@@ -76,7 +65,7 @@ export const TripDetails: React.FC = () => {
               padding: 0
             }}
           >
-            <ArrowLeft size={14} /> Back to {countryData.name} Overview
+            <ArrowLeft size={14} /> Back to {countryData.name} Places
           </button>
           <span style={{ 
             fontSize: '0.7rem', 
@@ -87,7 +76,7 @@ export const TripDetails: React.FC = () => {
             marginBottom: '8px',
             fontWeight: 700
           }}>
-            Signature Itinerary • {countryData.name}
+            Famous Destination • {countryData.name}
           </span>
           <h1 style={{ 
             fontSize: 'clamp(2.2rem, 5vw, 3.8rem)', 
@@ -103,37 +92,37 @@ export const TripDetails: React.FC = () => {
         </div>
       </section>
 
-      {/* 2. Main Content Grid */}
+      {/* 2. Place Details Section */}
       <section style={{
         maxWidth: '1100px',
         margin: '0 auto',
         padding: '50px 24px 80px',
         display: 'grid',
-        gridTemplateColumns: '1.7fr 1fr',
-        gap: '50px',
+        gridTemplateColumns: '1.8fr 1fr',
+        gap: '48px',
         alignItems: 'flex-start'
       }}>
         
-        {/* Left Column: Overview, Itinerary, Details */}
+        {/* Left Column: About place & Special Highlights */}
         <div>
-          <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: '#38bdf8', fontWeight: 700 }}>Overview</span>
+          <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: '#38bdf8', fontWeight: 700 }}>About This Place</span>
           <h2 style={{ fontSize: '1.8rem', fontWeight: 800, margin: '8px 0 20px 0', color: '#fff' }}>Excursion Profile</h2>
-          <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '1rem', lineHeight: 1.7, marginBottom: '40px' }}>
+          <p style={{ color: 'rgba(255,255,255,0.85)', fontSize: '1.02rem', lineHeight: 1.8, marginBottom: '40px' }}>
             {place.overview}
           </p>
 
-          {/* Famous Things & Highlights Section */}
+          {/* Famous Things & Key Highlights */}
           <h3 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '0 0 24px 0', paddingBottom: '12px', borderBottom: '1px solid rgba(255,255,255,0.1)', color: '#fff' }}>
-            Famous Things & Key Highlights
+            Special Things About {place.name}
           </h3>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '20px', marginBottom: '48px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '48px' }}>
             <div style={{
               backgroundColor: 'rgba(255,255,255,0.02)',
               border: '1px solid rgba(255,255,255,0.06)',
               borderRadius: '20px',
               padding: '24px'
             }}>
-              <h4 style={{ fontWeight: 700, fontSize: '1rem', color: '#38bdf8', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <h4 style={{ fontWeight: 700, fontSize: '0.98rem', color: '#38bdf8', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Compass size={18} /> Signature Experience
               </h4>
               <p style={{ margin: 0, fontSize: '0.88rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
@@ -147,11 +136,11 @@ export const TripDetails: React.FC = () => {
               borderRadius: '20px',
               padding: '24px'
             }}>
-              <h4 style={{ fontWeight: 700, fontSize: '1rem', color: '#f59e0b', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Sun size={18} /> Prime Visiting Window
+              <h4 style={{ fontWeight: 700, fontSize: '0.98rem', color: '#f59e0b', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Sun size={18} /> Best Time To Visit
               </h4>
               <p style={{ margin: 0, fontSize: '0.88rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
-                Best season: <strong>{place.bestTimeToVisit}</strong>. Ideal for immersive photography, sightseeing, and local cultural exploration.
+                Recommended season: <strong>{place.bestTimeToVisit}</strong> for clear views, vibrant atmosphere, and local sightseeing.
               </p>
             </div>
 
@@ -161,16 +150,16 @@ export const TripDetails: React.FC = () => {
               borderRadius: '20px',
               padding: '24px'
             }}>
-              <h4 style={{ fontWeight: 700, fontSize: '1rem', color: '#10b981', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Star size={18} fill="#10b981" /> Traveler Recommendation
+              <h4 style={{ fontWeight: 700, fontSize: '0.98rem', color: '#10b981', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Star size={18} fill="#10b981" /> Explorer Rating
               </h4>
               <p style={{ margin: 0, fontSize: '0.88rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
-                Rated <strong>{place.rating.toFixed(2)}/5</strong> by explorers worldwide for top-tier accommodations, safety, and iconic sights.
+                Rated <strong>{place.rating.toFixed(2)}/5</strong> by global travelers for landmark scenery, heritage, and unique photo spots.
               </p>
             </div>
           </div>
 
-          {/* Included / Excluded Section */}
+          {/* Special Attractions / Features */}
           <div style={{ 
             display: 'grid', 
             gridTemplateColumns: '1fr 1fr', 
@@ -184,9 +173,9 @@ export const TripDetails: React.FC = () => {
               padding: '24px'
             }}>
               <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#10b981', margin: '0 0 16px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <CheckCircle2 size={16} /> What's Included
+                <CheckCircle2 size={16} /> Famous Features & Highlights
               </h4>
-              <ul style={{ margin: 0, paddingLeft: '20px', fontSize: '0.85rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.7 }}>
+              <ul style={{ margin: 0, paddingLeft: '20px', fontSize: '0.85rem', color: 'rgba(255,255,255,0.85)', lineHeight: 1.7 }}>
                 {place.included.map((inc: string, i: number) => (
                   <li key={i} style={{ marginBottom: '8px' }}>{inc}</li>
                 ))}
@@ -194,15 +183,15 @@ export const TripDetails: React.FC = () => {
             </div>
 
             <div style={{
-              background: 'rgba(239, 68, 68, 0.03)',
-              border: '1px solid rgba(239, 68, 68, 0.15)',
+              background: 'rgba(56, 189, 248, 0.03)',
+              border: '1px solid rgba(56, 189, 248, 0.15)',
               borderRadius: '20px',
               padding: '24px'
             }}>
-              <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#ef4444', margin: '0 0 16px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <XCircle size={16} /> What's Excluded
+              <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#38bdf8', margin: '0 0 16px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Compass size={16} /> Key Logistics & Notes
               </h4>
-              <ul style={{ margin: 0, paddingLeft: '20px', fontSize: '0.85rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.7 }}>
+              <ul style={{ margin: 0, paddingLeft: '20px', fontSize: '0.85rem', color: 'rgba(255,255,255,0.85)', lineHeight: 1.7 }}>
                 {place.excluded.map((exc: string, i: number) => (
                   <li key={i} style={{ marginBottom: '8px' }}>{exc}</li>
                 ))}
@@ -211,10 +200,10 @@ export const TripDetails: React.FC = () => {
           </div>
 
           {/* Visual Gallery */}
-          <h3 style={{ fontSize: '1.3rem', fontWeight: 800, margin: '0 0 20px 0', color: '#fff' }}>Itinerary Gallery</h3>
+          <h3 style={{ fontSize: '1.3rem', fontWeight: 800, margin: '0 0 20px 0', color: '#fff' }}>Chronicles & Gallery</h3>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginBottom: '48px' }}>
             {place.gallery.map((img: string, i: number) => (
-              <div key={i} style={{ height: '150px', borderRadius: '14px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.08)' }}>
+              <div key={i} style={{ height: '160px', borderRadius: '16px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <img src={img} alt="Gallery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             ))}
@@ -264,71 +253,42 @@ export const TripDetails: React.FC = () => {
           </div>
         </div>
 
-        {/* Right Column: Sticky Booking Widget & Details */}
+        {/* Right Column: Place Info & Location Map (NO MONEY / FARE / BOOKING BUTTON) */}
         <aside style={{ display: 'flex', flexDirection: 'column', gap: '24px', position: 'sticky', top: '100px' }}>
-          {/* Booking / Pricing card */}
+          
+          {/* Quick Info Card */}
           <div style={{
             background: 'rgba(255,255,255,0.02)',
             backdropFilter: 'blur(20px)',
             borderRadius: '24px',
             border: '1px solid rgba(255,255,255,0.08)',
-            padding: '32px',
-            boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+            padding: '28px'
           }}>
-            <span style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>
-              All-Inclusive Fare
-            </span>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px', marginBottom: '24px' }}>
-              <span style={{ fontSize: '2.4rem', fontWeight: 800, color: '#ffc107' }}>
-                {formatLocalCurrency(place.packagePrice, countryData.name)}
-              </span>
-              <span style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.6)' }}>/ guest</span>
-            </div>
+            <h4 style={{ margin: '0 0 20px 0', fontSize: '0.95rem', textTransform: 'uppercase', color: '#38bdf8', letterSpacing: '0.1em', fontWeight: 700 }}>
+              Destination Profile
+            </h4>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '24px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                 <Clock size={16} color="#38bdf8" />
-                <span style={{ fontSize: '0.88rem' }}>Duration: <strong>{place.duration}</strong></span>
+                <span style={{ fontSize: '0.88rem' }}>Typical Stay: <strong>{place.duration}</strong></span>
               </div>
               <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                 <Coffee size={16} color="#eab308" />
-                <span style={{ fontSize: '0.88rem' }}>Meals: <strong>{place.meals}</strong></span>
+                <span style={{ fontSize: '0.88rem' }}>Dining Style: <strong>{place.meals}</strong></span>
               </div>
               <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                 <Car size={16} color="#10b981" />
-                <span style={{ fontSize: '0.88rem' }}>Transport: <strong>{place.transport}</strong></span>
+                <span style={{ fontSize: '0.88rem' }}>Local Transit: <strong>{place.transport}</strong></span>
               </div>
               <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                 <Compass size={16} color="#a855f7" />
                 <span style={{ fontSize: '0.88rem' }}>Activities: <strong>{place.activities}</strong></span>
               </div>
             </div>
-
-            <button 
-              onClick={handleBookNow}
-              style={{
-                width: '100%',
-                padding: '16px',
-                background: '#ffc107',
-                color: '#070f24',
-                border: 'none',
-                borderRadius: '16px',
-                fontSize: '0.9rem',
-                fontWeight: 800,
-                textTransform: 'uppercase',
-                letterSpacing: '0.08em',
-                cursor: 'pointer',
-                transition: 'all 0.2s',
-                boxShadow: '0 8px 24px rgba(255,193,7,0.3)'
-              }}
-              onMouseEnter={e => e.currentTarget.style.transform = 'translateY(-2px)'}
-              onMouseLeave={e => e.currentTarget.style.transform = ''}
-            >
-              Book Journey Now
-            </button>
           </div>
 
-          {/* Hotels Card */}
+          {/* Famous Accommodations */}
           <div style={{
             background: 'rgba(255,255,255,0.02)',
             backdropFilter: 'blur(20px)',
@@ -337,7 +297,7 @@ export const TripDetails: React.FC = () => {
             padding: '24px'
           }}>
             <h4 style={{ margin: '0 0 16px 0', fontSize: '0.92rem', textTransform: 'uppercase', color: '#38bdf8', letterSpacing: '0.1em' }}>
-              Premium Accommodations
+              Top Accommodations
             </h4>
             {place.hotels.map((hotel: any, idx: number) => (
               <div key={idx} style={{ 
@@ -359,7 +319,7 @@ export const TripDetails: React.FC = () => {
             ))}
           </div>
 
-          {/* Interactive Map card */}
+          {/* Map Location */}
           <div style={{
             background: 'rgba(255,255,255,0.02)',
             backdropFilter: 'blur(20px)',
@@ -368,7 +328,7 @@ export const TripDetails: React.FC = () => {
             padding: '20px'
           }}>
             <span style={{ fontSize: '0.65rem', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', display: 'block', marginBottom: '8px' }}>
-              Pinpoint Mapping
+              Geographic Location
             </span>
             <div style={{ 
               height: '160px', 

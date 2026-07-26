@@ -676,7 +676,7 @@ export const Globe: React.FC<GlobeProps> = ({ onHoverDest, onClickDest }) => {
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <Canvas
-        camera={{ position: [0, 1.2, 9.2], fov: 43 }}
+        camera={{ position: [0, 0.5, 7.4], fov: 42 }}
         style={{ width: '100%', height: '100%', background: 'transparent' }}
         gl={{ antialias: true, alpha: true }}
       >

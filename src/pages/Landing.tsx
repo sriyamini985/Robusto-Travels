@@ -3,8 +3,6 @@ import { useNavigation } from '../context/NavigationContext';
 import type { PageType, RouteParams } from '../context/NavigationContext';
 import { Globe2, MapPin, Play, Calendar } from 'lucide-react';
 import { Globe as GlobeComponent } from '../components/3d/Globe';
-import { DestinationHoverCard } from '../components/ui/DestinationHoverCard';
-import { destinations } from '../data/mockData';
 
 
 
@@ -226,16 +224,12 @@ const STATS = [
 export const Landing: React.FC = () => {
   const { navigateTo } = useNavigation();
   const [hoveredDest, setHoveredDest] = useState<any | null>(null);
-  const [showCard, setShowCard]       = useState<any | null>(null);
   const [mounted, setMounted]         = useState(false);
   const [statsVisible, setStatsVisible] = useState(false);
   const statsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setMounted(true);
-    // Show Switzerland card by default on first load
-    const switz = destinations.find(d => d.id === 'switzerland-luxury');
-    if (switz) setShowCard(switz);
 
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) setStatsVisible(true);
@@ -244,18 +238,16 @@ export const Landing: React.FC = () => {
     return () => observer.disconnect();
   }, []);
 
-  // Hover → show card instantly
+  // Hover state
   const handleHoverDest = (dest: any | null) => {
     setHoveredDest(dest);
-    if (dest) setShowCard(dest);
   };
 
-  // Click → update card, wait for camera animation, then navigate
+  // Click → smooth rotation animation, then navigate directly to destination details
   const handleClickDest = (dest: any) => {
-    setShowCard(dest);
     setTimeout(() => {
       navigateTo('destination-details', { destinationId: dest.id });
-    }, 2600);
+    }, 1500);
   };
 
   return (
@@ -293,19 +285,19 @@ export const Landing: React.FC = () => {
           {/* Globe ambient glow */}
           <div style={{
             position: 'absolute',
-            top: '50%', left: '50%',
+            top: '50%', left: '55%',
             transform: 'translate(-50%, -50%)',
-            width: '62vw', height: '62vw',
+            width: '70vw', height: '70vw',
             borderRadius: '50%',
-            background: 'radial-gradient(circle, rgba(30,90,220,0.22) 0%, rgba(15,50,160,0.10) 45%, transparent 72%)',
+            background: 'radial-gradient(circle, rgba(30,90,220,0.25) 0%, rgba(15,50,160,0.12) 45%, transparent 72%)',
           }} />
 
           {/* Sun ray from upper-right (matches reference globe lighting) */}
           <div style={{
-            position: 'absolute', top: '-120px', right: '20%',
-            width: '500px', height: '500px',
+            position: 'absolute', top: '-120px', right: '15%',
+            width: '600px', height: '600px',
             borderRadius: '50%',
-            background: 'radial-gradient(circle, rgba(255,200,80,0.12) 0%, rgba(255,170,40,0.05) 40%, transparent 70%)',
+            background: 'radial-gradient(circle, rgba(255,200,80,0.14) 0%, rgba(255,170,40,0.06) 40%, transparent 70%)',
           }} />
 
           {/* Soft cloud-like blur at very bottom (depth effect) */}
@@ -347,20 +339,20 @@ export const Landing: React.FC = () => {
           ))}
         </div>
 
-        {/* ── Main layout grid ── */}
+        {/* ── Main layout grid (Left Content + Enlarged 3D Earth Globe) ── */}
         <div style={{
           position: 'relative', zIndex: 5,
           display: 'grid',
-          gridTemplateColumns: '300px 1fr 310px',
+          gridTemplateColumns: '320px 1fr',
           height: '100%',
           maxWidth: '1440px',
           margin: '0 auto',
           padding: '88px 32px 80px',
           alignItems: 'center',
-          gap: '0',
+          gap: '24px',
         }}>
 
-          {/* ── LEFT PANEL: Headline + CTAs ── */}
+          {/* ── LEFT PANEL: Headline + CTAs (UNCHANGED) ── */}
           <div style={{
             display: 'flex', flexDirection: 'column', justifyContent: 'center',
             opacity: mounted ? 1 : 0,
@@ -466,50 +458,29 @@ export const Landing: React.FC = () => {
             </div>
           </div>
 
-          {/* ── CENTER: 3D Globe ── */}
+          {/* ── CENTER & RIGHT: Enlarged 3D Earth Globe ── */}
           <div style={{
             position: 'relative',
             height: '100%',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
           }}>
-            <div style={{ width: '100%', height: '100%', maxHeight: '620px' }}>
+            <div style={{ width: '100%', height: '100%', maxHeight: '720px' }}>
               <GlobeComponent
                 onHoverDest={handleHoverDest}
                 hoveredDest={hoveredDest}
                 onClickDest={handleClickDest}
               />
             </div>
-          </div>
 
-          {/* ── RIGHT PANEL: Destination Card + controls ── */}
-          <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            position: 'relative',
-            height: '100%',
-            opacity: mounted ? 1 : 0,
-            transform: mounted ? 'translateX(0)' : 'translateX(30px)',
-            transition: 'all 0.9s cubic-bezier(0.34,1.56,0.64,1) 0.4s',
-          }}>
-            {/* Destination info card */}
-            {showCard && (
-              <DestinationHoverCard
-                dest={showCard}
-                onClose={() => setShowCard(null)}
-                onExplore={(id) => navigateTo('destination-details', { destinationId: id })}
-              />
-            )}
-
-            {/* Zoom / view controls */}
+            {/* Floating Zoom / view controls */}
             <div style={{
-              position: 'absolute', bottom: '55px', right: '0',
-              display: 'flex', flexDirection: 'column', gap: '5px',
+              position: 'absolute', bottom: '20px', right: '10px',
+              display: 'flex', flexDirection: 'column', gap: '6px',
+              zIndex: 10,
             }}>
               {['+', '−', '⊙'].map((ctrl, i) => (
                 <div key={i} style={{
-                  width: 34, height: 34,
+                  width: 36, height: 36,
                   background: 'rgba(255,255,255,0.12)',
                   backdropFilter: 'blur(10px)',
                   border: '1px solid rgba(255,255,255,0.22)',

@@ -7,8 +7,6 @@ import {
   Clock, 
   MapPin, 
   Sun, 
-  Sunset, 
-  Moon, 
   Coffee, 
   Car, 
   Compass, 
@@ -124,58 +122,52 @@ export const TripDetails: React.FC = () => {
             {place.overview}
           </p>
 
-          {/* Day-Wise Itinerary */}
+          {/* Famous Things & Highlights Section */}
           <h3 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '0 0 24px 0', paddingBottom: '12px', borderBottom: '1px solid rgba(255,255,255,0.1)', color: '#fff' }}>
-            Day-Wise Plan of the Trip
+            Famous Things & Key Highlights
           </h3>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '48px' }}>
-            {place.itinerary.map((day: any) => (
-              <div 
-                key={day.day} 
-                style={{
-                  backgroundColor: 'rgba(255,255,255,0.02)',
-                  border: '1px solid rgba(255,255,255,0.06)',
-                  borderRadius: '20px',
-                  padding: '24px',
-                  position: 'relative'
-                }}
-              >
-                <div style={{ display: 'flex', gap: '16px', alignItems: 'center', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '36px', height: '36px', borderRadius: '50%',
-                    background: '#1d4ed8', color: '#fff',
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontWeight: 800, fontSize: '0.95rem'
-                  }}>
-                    {day.day}
-                  </div>
-                  <h4 style={{ fontWeight: 700, fontSize: '1.1rem', color: '#fff', margin: 0 }}>
-                    Day {day.day}: {day.title}
-                  </h4>
-                </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '20px', marginBottom: '48px' }}>
+            <div style={{
+              backgroundColor: 'rgba(255,255,255,0.02)',
+              border: '1px solid rgba(255,255,255,0.06)',
+              borderRadius: '20px',
+              padding: '24px'
+            }}>
+              <h4 style={{ fontWeight: 700, fontSize: '1rem', color: '#38bdf8', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Compass size={18} /> Signature Experience
+              </h4>
+              <p style={{ margin: 0, fontSize: '0.88rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
+                {place.shortDesc}
+              </p>
+            </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '20px', fontSize: '0.85rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6 }}>
-                  <div>
-                    <h5 style={{ fontWeight: 700, color: '#38bdf8', marginBottom: '6px', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                      <Sun size={12} /> Morning
-                    </h5>
-                    <p style={{ margin: 0 }}>{day.morning}</p>
-                  </div>
-                  <div>
-                    <h5 style={{ fontWeight: 700, color: '#38bdf8', marginBottom: '6px', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                      <Sunset size={12} /> Afternoon
-                    </h5>
-                    <p style={{ margin: 0 }}>{day.afternoon}</p>
-                  </div>
-                  <div>
-                    <h5 style={{ fontWeight: 700, color: '#38bdf8', marginBottom: '6px', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                      <Moon size={12} /> Evening
-                    </h5>
-                    <p style={{ margin: 0 }}>{day.evening}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
+            <div style={{
+              backgroundColor: 'rgba(255,255,255,0.02)',
+              border: '1px solid rgba(255,255,255,0.06)',
+              borderRadius: '20px',
+              padding: '24px'
+            }}>
+              <h4 style={{ fontWeight: 700, fontSize: '1rem', color: '#f59e0b', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Sun size={18} /> Prime Visiting Window
+              </h4>
+              <p style={{ margin: 0, fontSize: '0.88rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
+                Best season: <strong>{place.bestTimeToVisit}</strong>. Ideal for immersive photography, sightseeing, and local cultural exploration.
+              </p>
+            </div>
+
+            <div style={{
+              backgroundColor: 'rgba(255,255,255,0.02)',
+              border: '1px solid rgba(255,255,255,0.06)',
+              borderRadius: '20px',
+              padding: '24px'
+            }}>
+              <h4 style={{ fontWeight: 700, fontSize: '1rem', color: '#10b981', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Star size={18} fill="#10b981" /> Traveler Recommendation
+              </h4>
+              <p style={{ margin: 0, fontSize: '0.88rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
+                Rated <strong>{place.rating.toFixed(2)}/5</strong> by explorers worldwide for top-tier accommodations, safety, and iconic sights.
+              </p>
+            </div>
           </div>
 
           {/* Included / Excluded Section */}

@@ -126,14 +126,18 @@ interface ScreenPos {
 
 const FlightDot: React.FC<{ curve: THREE.QuadraticBezierCurve3; offset: number }> = ({ curve, offset }) => {
   const ref = useRef<THREE.Mesh>(null!);
-  useFrame(({ clock }) => {
-    const t = ((clock.getElapsedTime() * 0.15 + offset) % 1);
+  const tRef = useRef(0);
+  useFrame((_, delta) => {
+    tRef.current += delta;
+    const t = ((tRef.current * 0.15 + offset) % 1);
     const pos = curve.getPointAt(t);
     const tan = curve.getTangentAt(t).normalize();
-    ref.current.position.copy(pos);
-    const q = new THREE.Quaternion();
-    q.setFromUnitVectors(new THREE.Vector3(0, 1, 0), tan);
-    ref.current.setRotationFromQuaternion(q);
+    if (ref.current) {
+      ref.current.position.copy(pos);
+      const q = new THREE.Quaternion();
+      q.setFromUnitVectors(new THREE.Vector3(0, 1, 0), tan);
+      ref.current.setRotationFromQuaternion(q);
+    }
   });
   return (
     <mesh ref={ref}>
@@ -233,8 +237,11 @@ const EarthScene: React.FC<EarthSceneProps> = ({
     return tex;
   }, []);
 
-  useFrame(({ clock }) => {
-    const t = clock.getElapsedTime();
+  const timeRef = useRef(0);
+
+  useFrame((_, delta) => {
+    timeRef.current += delta;
+    const t = timeRef.current;
     pulseT.current = t;
 
     // Auto-rotate earth group if not interacting

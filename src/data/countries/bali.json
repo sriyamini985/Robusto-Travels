@@ -24,65 +24,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "ubud",
-      "name": "Ubud Jungle Sanctuary",
-      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "The cultural and spiritual heart of Bali, surrounded by dense jungle ravines and cascading rice paddies.",
-      "overview": "Ubud is a center of traditional dance, crafts, and holistic wellness. Fringed by steep ravines and lush rainforest, it provides a quiet escape with wellness retreats, art galleries, and monkey forest paths.",
-      "rating": 4.91,
-      "bestTimeToVisit": "April to September",
-      "packagePrice": 680,
+      "slug": "ubud-monkey-forest",
+      "name": "Ubud Sanctuary & Rice Terraces",
+      "category": "Culture & Nature",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Sacred monkey forest sanctuary, emerald Tegallalang rice terraces, and artisan art markets.",
+      "overview": "Ubud is Bali's cultural heartland surrounded by rainforests, ravines, and ancient Hindu shrines.",
+      "rating": 4.95,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Mandapa, a Ritz-Carlton Reserve",
-          "rating": 5.0,
-          "description": "Ultra-luxury sanctuary along the Ayung River in Ubud, featuring private villas."
+          "name": "Grand Ubud Sanctuary & Rice Terraces Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Ubud Sanctuary & Rice Terraces with world-class dining."
         }
       ],
-      "meals": "Organic farm-to-table breakfasts and traditional Balinese dinners.",
-      "transport": "Private AC SUV with dedicated English-speaking local driver.",
-      "activities": "Tegallalang Rice Terrace Walk, Tirta Empul Blessing, Ubud Art Market Guide.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Ubud Sanctuary & Rice Terraces, photo walk, and local cultural experience.",
       "included": [
-        "Private villa with private pool",
-        "Temple purification ceremony fee",
-        "Local private driver guide service"
+        "Guided tour of Ubud Sanctuary & Rice Terraces",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal spa treatment fees"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "What should I wear to Balinese temples?",
-          "a": "Both men and women must wear a sarong and sash, which are typically available to rent at the temple entrance."
+          "q": "What is the best time to visit Ubud Sanctuary & Rice Terraces?",
+          "a": "The ideal season is May to September."
         }
       ],
       "reviews": [
         {
-          "author": "Meera P.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "The purification ritual at Tirta Empul was an incredibly moving spiritual experience."
+          "text": "Visiting Ubud Sanctuary & Rice Terraces was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "uluwatu-temple",
+      "name": "Uluwatu Cliff Temple & Kecak Dance",
+      "category": "Sea Temple",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Perched 70 meters above roaring Indian Ocean waves with sunset Kecak fire dances.",
+      "overview": "A breathtaking cliffside temple dedicated to Balinese sea gods.",
+      "rating": 4.93,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Jungle Check-in & Ubud Walk",
-          "morning": "Airport pickup and drive to Ubud. Settle into Mandapa Reserve.",
-          "afternoon": "Stroll the sacred Monkey Forest sanctuary and shop at the local Art Market.",
-          "evening": "Enjoy an authentic crispy duck dinner overlooking the Ayung River."
-        },
-        {
-          "day": 2,
-          "title": "Tegallalang & Tirta Empul Blessing",
-          "morning": "Walk the scenic trails of Tegallalang Rice Terraces in morning light.",
-          "afternoon": "Visit Tirta Empul for a guided water purification blessing.",
-          "evening": "Private sound healing session at a wellness dome."
+          "name": "Grand Uluwatu Cliff Temple & Kecak Dance Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Uluwatu Cliff Temple & Kecak Dance with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Uluwatu Cliff Temple & Kecak Dance, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Uluwatu Cliff Temple & Kecak Dance",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Uluwatu Cliff Temple & Kecak Dance?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Uluwatu Cliff Temple & Kecak Dance was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "tanah-lot",
+      "name": "Tanah Lot Sea Temple",
+      "category": "Iconic Shrine",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Ancient offshore rock temple surrounded by crashing ocean tides at sunset.",
+      "overview": "One of Bali's seven cardinal sea temples steeped in 16th-century mythology.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Tanah Lot Sea Temple Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Tanah Lot Sea Temple with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Tanah Lot Sea Temple, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Tanah Lot Sea Temple",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Tanah Lot Sea Temple?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Tanah Lot Sea Temple was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "nusa-penida",
+      "name": "Nusa Penida & Kelingking T-Rex Beach",
+      "category": "Island Wonder",
+      "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Dramatic T-Rex shaped limestone cliff plunging into luminescent turquoise waters.",
+      "overview": "A pristine offshore island known for manta ray snorkeling and rugged coastal cliffs.",
+      "rating": 4.97,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Nusa Penida & Kelingking T-Rex Beach Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Nusa Penida & Kelingking T-Rex Beach with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Nusa Penida & Kelingking T-Rex Beach, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Nusa Penida & Kelingking T-Rex Beach",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Nusa Penida & Kelingking T-Rex Beach?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Nusa Penida & Kelingking T-Rex Beach was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "mount-batur",
+      "name": "Mount Batur Sunrise Trek",
+      "category": "Volcanic Trek",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Early morning trek up an active volcano to watch the golden sunrise over Lake Batur.",
+      "overview": "Enjoy volcanic steam-cooked eggs and hot coffee at the crater rim summit.",
+      "rating": 4.89,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Mount Batur Sunrise Trek Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Mount Batur Sunrise Trek with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Mount Batur Sunrise Trek, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Mount Batur Sunrise Trek",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Mount Batur Sunrise Trek?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Mount Batur Sunrise Trek was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "seminyak-beach",
+      "name": "Seminyak Beach & Luxury Clubs",
+      "category": "Beach & Lifestyle",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Trendy beachside sunset bars, Ku De Ta, Potato Head, and fine seafood dining.",
+      "overview": "Bali's premier lifestyle district for luxury boutique shopping and oceanfront lounges.",
+      "rating": 4.88,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Seminyak Beach & Luxury Clubs Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Seminyak Beach & Luxury Clubs with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Seminyak Beach & Luxury Clubs, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Seminyak Beach & Luxury Clubs",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Seminyak Beach & Luxury Clubs?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Seminyak Beach & Luxury Clubs was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "besakih-temple",
+      "name": "Besakih Mother Temple",
+      "category": "Sacred Complex",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Sprawling complex of 23 temples set on the slopes of sacred Mount Agung.",
+      "overview": "Known as the Mother Temple of Bali, the largest and holiest Hindu sanctuary on the island.",
+      "rating": 4.92,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Besakih Mother Temple Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Besakih Mother Temple with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Besakih Mother Temple, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Besakih Mother Temple",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Besakih Mother Temple?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Besakih Mother Temple was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "sekumpul-waterfall",
+      "name": "Sekumpul Waterfalls",
+      "category": "Jungle Cascade",
+      "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Cluster of seven towering waterfalls hidden deep within northern Balinese jungle ravines.",
+      "overview": "Hike through bamboo forests to swim in crystal mountain pools beneath soaring twin falls.",
+      "rating": 4.94,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sekumpul Waterfalls Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Sekumpul Waterfalls with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Sekumpul Waterfalls, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Sekumpul Waterfalls",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sekumpul Waterfalls?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Sekumpul Waterfalls was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "tirta-empul",
+      "name": "Tirta Empul Holy Water Temple",
+      "category": "Spiritual Cleansing",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Sacred spring water temple where pilgrims undergo Melukat purification rituals.",
+      "overview": "Fed by a natural freshwater spring believed to have been created by Indra.",
+      "rating": 4.9,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Tirta Empul Holy Water Temple Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Tirta Empul Holy Water Temple with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Tirta Empul Holy Water Temple, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Tirta Empul Holy Water Temple",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Tirta Empul Holy Water Temple?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Tirta Empul Holy Water Temple was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "nusa-dua-resorts",
+      "name": "Nusa Dua Luxury Coast",
+      "category": "Resort Sanctuary",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Gated enclave of 5-star beachfront resorts, calm lagoons, and Geger Beach.",
+      "overview": "Ideal for family relaxation, private white sand beaches, and championship golf courses.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Nusa Dua Luxury Coast Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Nusa Dua Luxury Coast with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Nusa Dua Luxury Coast, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Nusa Dua Luxury Coast",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Nusa Dua Luxury Coast?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Nusa Dua Luxury Coast was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

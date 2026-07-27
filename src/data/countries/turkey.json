@@ -23,65 +23,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "cappadocia",
-      "name": "Cappadocia Caves",
-      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "A volcanic landscape of fairy chimneys, underground cities, and hot air balloon filled skies.",
-      "overview": "Cappadocia is a geological wonder located in central Turkey. Famed for its unique 'fairy chimneys' rock formations, it is home to thousands of years of human history, with cave churches and hotels carved directly into the soft cliffs.",
+      "slug": "istanbul-hagia-sophia",
+      "name": "Istanbul Hagia Sophia & Grand Bazaar",
+      "category": "Bosphorus Capital",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Byzantine dome of Hagia Sophia, Blue Mosque, Topkapi Palace, and spice markets.",
+      "overview": "Where East meets West across the Bosphorus strait, spanning Europe and Asia.",
       "rating": 4.96,
-      "bestTimeToVisit": "April to June, September to November",
-      "packagePrice": 880,
+      "bestTimeToVisit": "April to May & Sep to Nov",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Museum Hotel Cappadocia",
+          "name": "Grand Istanbul Hagia Sophia & Grand Bazaar Resort",
           "rating": 4.9,
-          "description": "Award-winning luxury cave hotel offering panoramic views of the valley."
+          "description": "Luxury five-star hotel near Istanbul Hagia Sophia & Grand Bazaar with world-class dining."
         }
       ],
-      "meals": "Traditional organic Turkish breakfasts and generational clay-pot dinners.",
-      "transport": "Private AC vehicles and airport transfers.",
-      "activities": "Hot Air Balloon Flight, Göreme Open Air Museum Tour, Underground City Walk.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Istanbul Hagia Sophia & Grand Bazaar, photo walk, and local cultural experience.",
       "included": [
-        "Luxury cave suite stay",
-        "Hot air balloon flight tickets",
-        "Private tour guide services"
+        "Guided tour of Istanbul Hagia Sophia & Grand Bazaar",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal souvenir mosaic lamp purchases"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "What happens if the balloon flight is canceled due to wind?",
-          "a": "Safety is paramount. If canceled, we reschedule for the following morning or offer a full refund for the balloon portion."
+          "q": "What is the best time to visit Istanbul Hagia Sophia & Grand Bazaar?",
+          "a": "The ideal season is April to May & Sep to Nov."
         }
       ],
       "reviews": [
         {
-          "author": "Preeti G.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Floating in a hot air balloon with hundreds of others as the sun rose over Cappadocia was absolutely magical."
+          "text": "Visiting Istanbul Hagia Sophia & Grand Bazaar was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "cappadocia-balloons",
+      "name": "Cappadocia Hot Air Balloons & Fairy Chimneys",
+      "category": "Surreal Landscape",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Hundreds of colorful hot air balloons rising over volcanic fairy chimneys and cave hotels.",
+      "overview": "Sleep in ancient subterranean cave suites and explore Göreme Open Air Museum.",
+      "rating": 4.99,
+      "bestTimeToVisit": "April to June & Sep to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Welcome to Cave Country",
-          "morning": "Flight transfer from Istanbul to Kayseri. Transfer to Museum Hotel.",
-          "afternoon": "Stroll through the Göreme Open Air Museum to see historic cave churches.",
-          "evening": "Gourmet dining inside the cave restaurant tasting clay-pot kebabs."
-        },
-        {
-          "day": 2,
-          "title": "Sunrise Balloon Flight",
-          "morning": "Early morning hot air balloon flight over the valleys.",
-          "afternoon": "Descend into Kaymakli Underground City, a subterranean fortress.",
-          "evening": "Sunset wine tasting looking out over the Red Valley."
+          "name": "Grand Cappadocia Hot Air Balloons & Fairy Chimneys Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Cappadocia Hot Air Balloons & Fairy Chimneys with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Cappadocia Hot Air Balloons & Fairy Chimneys, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Cappadocia Hot Air Balloons & Fairy Chimneys",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Cappadocia Hot Air Balloons & Fairy Chimneys?",
+          "a": "The ideal season is April to June & Sep to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Cappadocia Hot Air Balloons & Fairy Chimneys was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "pamukkale-travertines",
+      "name": "Pamukkale Thermal Travertines & Hierapolis",
+      "category": "Thermal Spring",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Snow-white calcium carbonate terraces filled with warm mineral-rich thermal waters.",
+      "overview": "Swim among submerged Roman marble columns in Cleopatra's Antique Pool.",
+      "rating": 4.93,
+      "bestTimeToVisit": "April to June & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Pamukkale Thermal Travertines & Hierapolis Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Pamukkale Thermal Travertines & Hierapolis with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Pamukkale Thermal Travertines & Hierapolis, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Pamukkale Thermal Travertines & Hierapolis",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Pamukkale Thermal Travertines & Hierapolis?",
+          "a": "The ideal season is April to June & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Pamukkale Thermal Travertines & Hierapolis was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "ephesus-ruins",
+      "name": "Ephesus Ancient Library of Celsus",
+      "category": "Greco-Roman History",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Magnificent 2-story façade of Celsus Library, Great Theatre, and marble Roman streets.",
+      "overview": "One of the best-preserved ancient Greco-Roman cities in the Mediterranean.",
+      "rating": 4.92,
+      "bestTimeToVisit": "April to June & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Ephesus Ancient Library of Celsus Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Ephesus Ancient Library of Celsus with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Ephesus Ancient Library of Celsus, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Ephesus Ancient Library of Celsus",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Ephesus Ancient Library of Celsus?",
+          "a": "The ideal season is April to June & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Ephesus Ancient Library of Celsus was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "antalya-turquoise-coast",
+      "name": "Antalya Turquoise Coast & Duden Falls",
+      "category": "Mediterranean Riviera",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Kaleici old town harbor, Konyaalti pebble beach, and Lower Duden waterfall tumbling into the sea.",
+      "overview": "Gateway to the Turkish Riviera packed with Roman harbors and luxury beach resorts.",
+      "rating": 4.9,
+      "bestTimeToVisit": "April to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Antalya Turquoise Coast & Duden Falls Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Antalya Turquoise Coast & Duden Falls with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Antalya Turquoise Coast & Duden Falls, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Antalya Turquoise Coast & Duden Falls",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Antalya Turquoise Coast & Duden Falls?",
+          "a": "The ideal season is April to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Antalya Turquoise Coast & Duden Falls was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "bodrum-marina",
+      "name": "Bodrum Castle & Marina",
+      "category": "Aegean Resort",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Crusader Castle of St. Peter, underwater archaeology museum, and wooden gulet yacht cruises.",
+      "overview": "The St. Tropez of Turkey featuring white-washed houses and lively Aegean nightlife.",
+      "rating": 4.89,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Bodrum Castle & Marina Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Bodrum Castle & Marina with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Bodrum Castle & Marina, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Bodrum Castle & Marina",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Bodrum Castle & Marina?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Bodrum Castle & Marina was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "fethiye-oludeniz",
+      "name": "Fethiye Oludeniz Blue Lagoon",
+      "category": "Paragliding Beach",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Tandem paragliding off Mount Babadag over the calm blue waters of the Blue Lagoon.",
+      "overview": "Famous for Butterfly Valley hikes and crystal clear turquoise swimming coves.",
+      "rating": 4.95,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Fethiye Oludeniz Blue Lagoon Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Fethiye Oludeniz Blue Lagoon with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Fethiye Oludeniz Blue Lagoon, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Fethiye Oludeniz Blue Lagoon",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Fethiye Oludeniz Blue Lagoon?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Fethiye Oludeniz Blue Lagoon was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "mount-nemrut",
+      "name": "Mount Nemrut Giant Stone Heads",
+      "category": "Ancient Tomb",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "2,130m mountain summit adorned with 9-meter tall colossal stone head statues.",
+      "overview": "Built by King Antiochus I in 62 BC, commanding breathtaking sunrise views.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Mount Nemrut Giant Stone Heads Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Mount Nemrut Giant Stone Heads with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Mount Nemrut Giant Stone Heads, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Mount Nemrut Giant Stone Heads",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Mount Nemrut Giant Stone Heads?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Mount Nemrut Giant Stone Heads was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "sumela-monastery",
+      "name": "Sumela Monastery Trabzon",
+      "category": "Cliffside Sanctuary",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Greek Orthodox monastery carved into a steep cliff face in Altindere National Park.",
+      "overview": "Founded in 386 AD, featuring vivid interior frescoes nestled in misty pine forests.",
+      "rating": 4.88,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sumela Monastery Trabzon Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Sumela Monastery Trabzon with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Sumela Monastery Trabzon, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Sumela Monastery Trabzon",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sumela Monastery Trabzon?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Sumela Monastery Trabzon was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "pergamum-acropolis",
+      "name": "Pergamum Acropolis",
+      "category": "Hellenistic Citadel",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Steepest ancient theater in the world built into the side of a dramatic hilltop acropolis.",
+      "overview": "Ancient center of learning and healing home to the Asklepieion medical sanctuary.",
+      "rating": 4.87,
+      "bestTimeToVisit": "April to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Pergamum Acropolis Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Pergamum Acropolis with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Pergamum Acropolis, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Pergamum Acropolis",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Pergamum Acropolis?",
+          "a": "The ideal season is April to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Pergamum Acropolis was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

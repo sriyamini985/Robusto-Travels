@@ -23,65 +23,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "gardens-bay",
-      "name": "Gardens by the Bay",
-      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "A futuristic horticultural wonderland featuring steel Supertrees and the world's largest glass greenhouse domes.",
-      "overview": "Gardens by the Bay spans 101 hectares of reclaimed land in central Singapore. The park features the Cloud Forest dome with a 35-meter indoor waterfall, the Flower Dome, and the soaring Supertree Grove connected by an aerial skyway.",
-      "rating": 4.91,
+      "slug": "marina-bay-sands",
+      "name": "Marina Bay Sands & SkyPark",
+      "category": "Modern Architecture",
+      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Integrated resort featuring the world's largest rooftop infinity pool 57 stories high.",
+      "overview": "An architectural marvel offering panoramic city views, luxury shopping, and ArtScience Museum.",
+      "rating": 4.96,
       "bestTimeToVisit": "Year-round",
-      "packagePrice": 850,
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Marina Bay Sands Hotel",
+          "name": "Grand Marina Bay Sands & SkyPark Resort",
           "rating": 4.9,
-          "description": "Iconic luxury resort featuring the world's largest rooftop infinity pool."
+          "description": "Luxury five-star hotel near Marina Bay Sands & SkyPark with world-class dining."
         }
       ],
-      "meals": "Singaporean buffet breakfasts and private street-food hawker crawl.",
-      "transport": "Singapore MRT subway card and private chauffeur transfers.",
-      "activities": "Cloud Forest Dome Entry, Flower Dome Entry, OCBC Skyway Supertree Walk.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Marina Bay Sands & SkyPark, photo walk, and local cultural experience.",
       "included": [
-        "Marina Bay Sands club room stay",
-        "Fast-track entry to domes and skyway",
-        "Private street food tour guide"
+        "Guided tour of Marina Bay Sands & SkyPark",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Universal Studios ticket fees"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "Is the Sands infinity pool open to the public?",
-          "a": "No, the rooftop infinity pool is strictly reserved for hotel guests."
+          "q": "What is the best time to visit Marina Bay Sands & SkyPark?",
+          "a": "The ideal season is Year-round."
         }
       ],
       "reviews": [
         {
-          "author": "Vijay S.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "The Cloud Forest indoor waterfall is a marvel. Swimming in the Sands infinity pool at night is magical."
+          "text": "Visiting Marina Bay Sands & SkyPark was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "gardens-by-the-bay",
+      "name": "Gardens by the Bay & Supertrees",
+      "category": "Eco-Futuristic Botanical",
+      "image": "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Towering 50m Supertree structures, Flower Dome conservatory, and Cloud Forest waterfall.",
+      "overview": "At night, witness the OCBC Garden Rhapsody light and sound show illuminating the canopy.",
+      "rating": 4.98,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Welcome to Singapore & Sands Pool",
-          "morning": "Airport pickup, check into Marina Bay Sands. Rest.",
-          "afternoon": "Swim in the rooftop infinity pool looking out over the skyline.",
-          "evening": "Guided street food tour tasting Hainanese chicken rice and chili crab at Newton Food Center."
-        },
-        {
-          "day": 2,
-          "title": "Gardens Domes & Supertree Light Show",
-          "morning": "Walk the massive glass conservatories, the Flower Dome and Cloud Forest.",
-          "afternoon": "Explore the modern art galleries inside the ArtScience Museum.",
-          "evening": "Watch the Garden Rhapsody light and sound show from the OCBC Skyway."
+          "name": "Grand Gardens by the Bay & Supertrees Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Gardens by the Bay & Supertrees with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Gardens by the Bay & Supertrees, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Gardens by the Bay & Supertrees",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Gardens by the Bay & Supertrees?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Gardens by the Bay & Supertrees was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "sentosa-island",
+      "name": "Sentosa Island & Resorts",
+      "category": "Island Resort",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Tropical playground with Palawan beach, cable cars, and S.E.A. Aquarium.",
+      "overview": "Singapore's premier island escape for beaches, zip lines, and luxury resorts.",
+      "rating": 4.91,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sentosa Island & Resorts Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Sentosa Island & Resorts with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Sentosa Island & Resorts, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Sentosa Island & Resorts",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sentosa Island & Resorts?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Sentosa Island & Resorts was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "universal-studios",
+      "name": "Universal Studios Singapore",
+      "category": "Theme Park",
+      "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Thrilling rides and movie attractions across 7 themed zones including Sci-Fi City and Ancient Egypt.",
+      "overview": "Home to Battlestar Galactica dueling roller coasters and Transformers 3D ride.",
+      "rating": 4.92,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Universal Studios Singapore Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Universal Studios Singapore with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Universal Studios Singapore, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Universal Studios Singapore",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Universal Studios Singapore?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Universal Studios Singapore was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "merlion-park",
+      "name": "Merlion Park & Waterfront",
+      "category": "National Icon",
+      "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Mythical half-lion, half-fish statue spouting water into Marina Bay.",
+      "overview": "The signature photo spot of Singapore overlooking the skyline and lotus-shaped museum.",
+      "rating": 4.87,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Merlion Park & Waterfront Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Merlion Park & Waterfront with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Merlion Park & Waterfront, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Merlion Park & Waterfront",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Merlion Park & Waterfront?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Merlion Park & Waterfront was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "singapore-flyer",
+      "name": "Singapore Flyer Observation Wheel",
+      "category": "Giant Ferris Wheel",
+      "image": "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "165m tall giant observation wheel offering views extending to Malaysia and Indonesia on clear days.",
+      "overview": "Enjoy champagne or 4-course sky dining inside air-conditioned glass capsules.",
+      "rating": 4.88,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Singapore Flyer Observation Wheel Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Singapore Flyer Observation Wheel with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Singapore Flyer Observation Wheel, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Singapore Flyer Observation Wheel",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Singapore Flyer Observation Wheel?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Singapore Flyer Observation Wheel was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "jewel-changi",
+      "name": "Jewel Changi Rain Vortex",
+      "category": "Airport Marvel",
+      "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's tallest indoor waterfall cascading 40m through a lush 4-story indoor rainforest.",
+      "overview": "A futuristic lifestyle complex connecting Changi terminals with Canopy Park bridges.",
+      "rating": 4.97,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Jewel Changi Rain Vortex Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Jewel Changi Rain Vortex with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Jewel Changi Rain Vortex, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Jewel Changi Rain Vortex",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Jewel Changi Rain Vortex?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Jewel Changi Rain Vortex was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "clarke-quay",
+      "name": "Clarke Quay & Singapore River",
+      "category": "Nightlife & Dining",
+      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Restored riverside godowns turned into vibrant dining bars and river cruise docks.",
+      "overview": "Sample chilli crab and craft cocktails along illuminated waters.",
+      "rating": 4.89,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Clarke Quay & Singapore River Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Clarke Quay & Singapore River with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Clarke Quay & Singapore River, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Clarke Quay & Singapore River",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Clarke Quay & Singapore River?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Clarke Quay & Singapore River was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "chinatown-singapore",
+      "name": "Chinatown & Buddha Tooth Relic Temple",
+      "category": "Cultural Heritage",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Tang-style temple housing sacred relics, traditional tea houses, and Michelin hawker stalls.",
+      "overview": "Experience Maxwell Food Centre's world-famous Tian Tian Hainanese Chicken Rice.",
+      "rating": 4.9,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Chinatown & Buddha Tooth Relic Temple Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Chinatown & Buddha Tooth Relic Temple with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Chinatown & Buddha Tooth Relic Temple, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Chinatown & Buddha Tooth Relic Temple",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Chinatown & Buddha Tooth Relic Temple?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Chinatown & Buddha Tooth Relic Temple was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "orchard-road",
+      "name": "Orchard Road Shopping Belt",
+      "category": "Luxury Shopping",
+      "image": "https://images.unsplash.com/photo-1567449303078-57ad995bd301?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "2.2km boulevard lined with high-end designer malls like ION Orchard and Paragon.",
+      "overview": "The ultimate shopping destination for international fashion and luxury watches.",
+      "rating": 4.86,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Orchard Road Shopping Belt Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Orchard Road Shopping Belt with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Orchard Road Shopping Belt, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Orchard Road Shopping Belt",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1567449303078-57ad995bd301?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Orchard Road Shopping Belt?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Orchard Road Shopping Belt was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

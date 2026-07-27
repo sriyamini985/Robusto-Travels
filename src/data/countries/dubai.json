@@ -25,69 +25,483 @@
   "famousPlaces": [
     {
       "slug": "burj-khalifa",
-      "name": "Burj Khalifa & Downtown",
-      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "The crown jewel of Dubai's skyline, standing as the tallest structure in human history with observation decks.",
-      "overview": "Burj Khalifa dominates the skyline of Downtown Dubai, rising 828 meters. A masterwork of engineering, it sits beside the Dubai Mall and the spectacular Dubai Fountain. Visitors can ascend to the 124th and 148th floors to view the city, desert, and ocean.",
-      "rating": 4.92,
-      "bestTimeToVisit": "November to February",
-      "packagePrice": 980,
+      "name": "Burj Khalifa Observatory",
+      "category": "Sky-High Architecture",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "The world's tallest building soaring 828m above the Dubai skyline.",
+      "overview": "Ascend to the 148th floor At The Top SKY deck for unparalleled 360-degree views across the Arabian Gulf.",
+      "rating": 4.97,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Armani Hotel Dubai",
+          "name": "Grand Burj Khalifa Observatory Resort",
           "rating": 4.9,
-          "description": "Exquisite designer hotel located inside the Burj Khalifa itself with private entrance."
-        },
-        {
-          "name": "The Palace Downtown",
-          "rating": 4.8,
-          "description": "Arabian-style hotel overlooking the Dubai Fountain and Burj Lake."
+          "description": "Luxury five-star hotel near Burj Khalifa Observatory with world-class dining."
         }
       ],
-      "meals": "International breakfasts and high tea at Atmosphere restaurant.",
-      "transport": "Luxury private airport transfers and downtown monorail tickets.",
-      "activities": "Burj Khalifa 148th Floor Access, Dubai Fountain Lake Ride, Dubai Mall Shopping Guide.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Burj Khalifa Observatory, photo walk, and local cultural experience.",
       "included": [
-        "Armani Hotel suite stays",
-        "Fast-track VIP observatory ticket",
-        "Private chauffeur service"
+        "Guided tour of Burj Khalifa Observatory",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal shopping expenses"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "What is the best time to see the fountains?",
-          "a": "The Fountain shows run every 30 minutes in the evening starting from 6:00 PM."
+          "q": "What is the best time to visit Burj Khalifa Observatory?",
+          "a": "The ideal season is October to April."
         }
       ],
       "reviews": [
         {
-          "author": "Karan S.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Standing on the 148th floor looking down at skyscrapers that felt like miniature toys was surreal."
+          "text": "Visiting Burj Khalifa Observatory was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "palm-jumeirah",
+      "name": "Palm Jumeirah & Atlantis",
+      "category": "Man-Made Island",
+      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Iconic palm-shaped island featuring Atlantis Aquaventure waterpark and luxury beach resorts.",
+      "overview": "An engineering marvel packed with beach clubs, fine dining, and helicopter tours.",
+      "rating": 4.94,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Arrival & Fountain Show View",
-          "morning": "Arrive in Dubai. VIP transfer to Armani Hotel.",
-          "afternoon": "Stroll inside the massive Dubai Mall and visit the giant indoor aquarium.",
-          "evening": "Watch the fountain show from your private dinner table at Palace Downtown."
-        },
-        {
-          "day": 2,
-          "title": "Burj Khalifa Summit & Skyline Dine",
-          "morning": "Ascend to 'At The Top Sky' observatory on the 148th floor.",
-          "afternoon": "Gourmet lunch at Atmosphere restaurant inside the Burj.",
-          "evening": "Desert sunset photography excursion with private 4x4 car."
+          "name": "Grand Palm Jumeirah & Atlantis Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Palm Jumeirah & Atlantis with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Palm Jumeirah & Atlantis, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Palm Jumeirah & Atlantis",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Palm Jumeirah & Atlantis?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Palm Jumeirah & Atlantis was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "museum-of-the-future",
+      "name": "Museum of the Future",
+      "category": "Futuristic Innovation",
+      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Torus-shaped architectural masterpiece featuring Arabic calligraphy and immersive AI exhibits.",
+      "overview": "Explores how science, technology, and space exploration will transform human life by 2071.",
+      "rating": 4.95,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Museum of the Future Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Museum of the Future with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Museum of the Future, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Museum of the Future",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Museum of the Future?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Museum of the Future was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "dubai-mall",
+      "name": "Dubai Mall & Dancing Fountains",
+      "category": "Shopping & Entertainment",
+      "image": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's largest shopping mall with giant indoor aquarium and choreographed fountain show.",
+      "overview": "Over 1,200 luxury boutiques, ice rink, and gourmet restaurants at the foot of Burj Khalifa.",
+      "rating": 4.91,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Dubai Mall & Dancing Fountains Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Dubai Mall & Dancing Fountains with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Dubai Mall & Dancing Fountains, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Dubai Mall & Dancing Fountains",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Dubai Mall & Dancing Fountains?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Dubai Mall & Dancing Fountains was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "dubai-marina",
+      "name": "Dubai Marina & JBR Beach",
+      "category": "Waterfront Luxury",
+      "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Skyscraper-lined canal promenade, luxury yacht charters, and vibrant beach dining at JBR.",
+      "overview": "Enjoy sunset dinner cruises and skydiving over the Marina skyline.",
+      "rating": 4.9,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Dubai Marina & JBR Beach Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Dubai Marina & JBR Beach with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Dubai Marina & JBR Beach, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Dubai Marina & JBR Beach",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Dubai Marina & JBR Beach?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Dubai Marina & JBR Beach was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "burj-al-arab",
+      "name": "Burj Al Arab 7-Star Hotel",
+      "category": "Ultra-Luxury Hotel",
+      "image": "https://images.unsplash.com/photo-1526495124232-a04e1849168c?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Sail-shaped landmark hotel on a private island offering butler service and gold-leaf afternoon tea.",
+      "overview": "The global icon of Arabian luxury with helipad and underwater seafood restaurant.",
+      "rating": 4.96,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Burj Al Arab 7-Star Hotel Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Burj Al Arab 7-Star Hotel with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Burj Al Arab 7-Star Hotel, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Burj Al Arab 7-Star Hotel",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1526495124232-a04e1849168c?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Burj Al Arab 7-Star Hotel?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Burj Al Arab 7-Star Hotel was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "dubai-frame",
+      "name": "Dubai Frame Landmark",
+      "category": "Cultural Viewpoint",
+      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "150m tall golden frame framing views of Old Dubai on one side and New Dubai skyscrapers on the other.",
+      "overview": "Features a glass-bottom skywalk bridge giving a sheer drop view beneath your feet.",
+      "rating": 4.88,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Dubai Frame Landmark Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Dubai Frame Landmark with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Dubai Frame Landmark, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Dubai Frame Landmark",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Dubai Frame Landmark?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Dubai Frame Landmark was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "desert-safari",
+      "name": "Arabian Desert Safari & Dunes",
+      "category": "Desert Adventure",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "4x4 dune bashing, camel riding, quad biking, and starlit Bedouin BBQ dinners.",
+      "overview": "Experience thrilling red dune sandboarding and traditional Tanoura dance under desert stars.",
+      "rating": 4.93,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Arabian Desert Safari & Dunes Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Arabian Desert Safari & Dunes with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Arabian Desert Safari & Dunes, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Arabian Desert Safari & Dunes",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Arabian Desert Safari & Dunes?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Arabian Desert Safari & Dunes was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "global-village",
+      "name": "Global Village Dubai",
+      "category": "World Cultural Fair",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Multicultural festival park featuring pavilions from over 90 countries, food, and fireworks.",
+      "overview": "A festive carnival of international handicrafts, street food, and cultural performances.",
+      "rating": 4.89,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Global Village Dubai Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Global Village Dubai with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Global Village Dubai, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Global Village Dubai",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Global Village Dubai?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Global Village Dubai was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "jumeirah-beach",
+      "name": "Souk Madinat & Jumeirah Beach",
+      "category": "Heritage & Coast",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Traditional bazaar water canals with wooden abras reflecting the Burj Al Arab.",
+      "overview": "Shop spices, carpets, and jewelry along tranquil lagoon waterways.",
+      "rating": 4.91,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Souk Madinat & Jumeirah Beach Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Souk Madinat & Jumeirah Beach with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Souk Madinat & Jumeirah Beach, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Souk Madinat & Jumeirah Beach",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Souk Madinat & Jumeirah Beach?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Souk Madinat & Jumeirah Beach was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

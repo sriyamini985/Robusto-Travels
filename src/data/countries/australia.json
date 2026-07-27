@@ -23,65 +23,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "sydney",
-      "name": "Sydney Harbour",
-      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "Australia's largest city, famous for the sails of the Opera House and the massive steel Harbour Bridge.",
-      "overview": "Sydney combines a spectacular harbor, sandy beaches, and national park loops. Take a private catamaran tour under the bridge, walk the coastal paths from Bondi to Coogee, and dine at the Opera House.",
-      "rating": 4.94,
-      "bestTimeToVisit": "September to November, March to May",
-      "packagePrice": 1680,
-      "duration": "4 Days • 3 Nights",
+      "slug": "sydney-opera-house",
+      "name": "Sydney Opera House & Harbour Bridge",
+      "category": "Harbour Landmark",
+      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Jørn Utzon's sail-like shell architecture, BridgeClimb, and Bondi Beach coastal walk.",
+      "overview": "Sydney Harbour is one of the world's most beautiful natural harbors.",
+      "rating": 4.96,
+      "bestTimeToVisit": "September to November & Mar to May",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Park Hyatt Sydney",
+          "name": "Grand Sydney Opera House & Harbour Bridge Resort",
           "rating": 4.9,
-          "description": "Luxury hotel set directly on the harbor waters looking towards the Opera House."
+          "description": "Luxury five-star hotel near Sydney Opera House & Harbour Bridge with world-class dining."
         }
       ],
-      "meals": "Fresh harbor seafood dinners and organic Aussie breakfasts.",
-      "transport": "Private chauffeur transfers and private yacht charters.",
-      "activities": "Opera House Behind-the-scenes Tour, Sydney Bridge Climb, Bondi Beach Surf Lesson.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Sydney Opera House & Harbour Bridge, photo walk, and local cultural experience.",
       "included": [
-        "Park Hyatt harbor suite stay",
-        "Private catamaran sunset cruise",
-        "Opera House VIP tour access tickets"
+        "Guided tour of Sydney Opera House & Harbour Bridge",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal surf equipment purchase"
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sydney Opera House & Harbour Bridge?",
+          "a": "The ideal season is September to November & Mar to May."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Sydney Opera House & Harbour Bridge was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "great-barrier-reef",
+      "name": "Great Barrier Reef & Cairns",
+      "category": "Natural Wonder",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's largest coral reef system visible from space, Heart Reef helicopter flights.",
+      "overview": "Snorkel and scuba dive among 1,500 species of tropical fish and sea turtles.",
+      "rating": 4.98,
+      "bestTimeToVisit": "June to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Great Barrier Reef & Cairns Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Great Barrier Reef & Cairns with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Great Barrier Reef & Cairns, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Great Barrier Reef & Cairns",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Great Barrier Reef & Cairns?",
+          "a": "The ideal season is June to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Great Barrier Reef & Cairns was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "uluru-red-centre",
+      "name": "Uluru & Kata Tjuta Red Centre",
+      "category": "Sacred Monolith",
+      "image": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Sacred Anangu sandstone monolith glowing deep red at sunrise and sunset.",
+      "overview": "The spiritual heart of Australia's Outback, home to ancient rock art and desert skies.",
+      "rating": 4.94,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Uluru & Kata Tjuta Red Centre Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Uluru & Kata Tjuta Red Centre with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Uluru & Kata Tjuta Red Centre, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Uluru & Kata Tjuta Red Centre",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Uluru & Kata Tjuta Red Centre?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Uluru & Kata Tjuta Red Centre was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "melbourne-laneways",
+      "name": "Melbourne Laneways & Yarra Valley",
+      "category": "Coffee & Culture",
+      "image": "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Graffiti-covered Hosier Lane, world-leading coffee culture, and Yarra wine tasting.",
+      "overview": "Australia's cultural and sporting capital known for arts, tram networks, and dining.",
+      "rating": 4.9,
+      "bestTimeToVisit": "September to November & Mar to May",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Melbourne Laneways & Yarra Valley Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Melbourne Laneways & Yarra Valley with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Melbourne Laneways & Yarra Valley, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Melbourne Laneways & Yarra Valley",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Melbourne Laneways & Yarra Valley?",
+          "a": "The ideal season is September to November & Mar to May."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Melbourne Laneways & Yarra Valley was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "great-ocean-road",
+      "name": "Great Ocean Road & 12 Apostles",
+      "category": "Coastal Drive",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "243km scenic coastal drive featuring towering limestone sea stacks rising from the Southern Ocean.",
+      "overview": "Drive through temperate rainforests, surf breaks, and wild koala habitats.",
+      "rating": 4.95,
+      "bestTimeToVisit": "September to May",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Great Ocean Road & 12 Apostles Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Great Ocean Road & 12 Apostles with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Great Ocean Road & 12 Apostles, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Great Ocean Road & 12 Apostles",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "Can we climb the Harbour Bridge?",
-          "a": "Yes, we include safety harnesses and professional climb leaders to take you to the summit."
+          "q": "What is the best time to visit Great Ocean Road & 12 Apostles?",
+          "a": "The ideal season is September to May."
         }
       ],
       "reviews": [
         {
-          "author": "Mark W.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Climbing the Harbour Bridge at twilight was incredible. The Opera House sails look stunning from the water."
+          "text": "Visiting Great Ocean Road & 12 Apostles was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "whitsundays-whitehaven",
+      "name": "Whitsunday Islands & Whitehaven Beach",
+      "category": "Silica Beach",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "98% pure white silica sand beach with Hill Inlet swirling turquoise tides.",
+      "overview": "74 tropical islands surrounded by the Coral Sea, ideal for bareboat sailing.",
+      "rating": 4.97,
+      "bestTimeToVisit": "September to November",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Harbour Arrival & Sunset Cruise",
-          "morning": "Airport pickup, check into Park Hyatt. Rest.",
-          "afternoon": "Stroll the historic Royal Botanic Gardens.",
-          "evening": "Private catamaran cruise with dinner and views of the harbor."
-        },
-        {
-          "day": 2,
-          "title": "Opera House & Bridge Climb",
-          "morning": "VIP behind-the-scenes tour of the Opera House.",
-          "afternoon": "Guided BridgeClimb to the top of Sydney Harbour Bridge.",
-          "evening": "Gourmet dining at a waterfront restaurant in Circular Quay."
+          "name": "Grand Whitsunday Islands & Whitehaven Beach Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Whitsunday Islands & Whitehaven Beach with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Whitsunday Islands & Whitehaven Beach, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Whitsunday Islands & Whitehaven Beach",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Whitsunday Islands & Whitehaven Beach?",
+          "a": "The ideal season is September to November."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Whitsunday Islands & Whitehaven Beach was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "gold-coast",
+      "name": "Gold Coast Surfers Paradise",
+      "category": "Surfing & Parks",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Long sandy beaches, iconic surfing breaks, Q1 Skypoint deck, and hinterland rainforests.",
+      "overview": "A vibrant coastal resort city combining high-rise luxury apartments with surf culture.",
+      "rating": 4.88,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Gold Coast Surfers Paradise Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Gold Coast Surfers Paradise with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Gold Coast Surfers Paradise, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Gold Coast Surfers Paradise",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Gold Coast Surfers Paradise?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Gold Coast Surfers Paradise was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "kangaroo-island",
+      "name": "Kangaroo Island Sanctuary",
+      "category": "Wildlife Haven",
+      "image": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Remarkable Rocks, wild sea lion colonies at Seal Bay, and koala sanctuaries.",
+      "overview": "A pristine island haven for native Australian wildlife off the coast of Adelaide.",
+      "rating": 4.92,
+      "bestTimeToVisit": "October to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Kangaroo Island Sanctuary Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Kangaroo Island Sanctuary with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Kangaroo Island Sanctuary, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Kangaroo Island Sanctuary",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Kangaroo Island Sanctuary?",
+          "a": "The ideal season is October to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Kangaroo Island Sanctuary was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "perth-rottnest",
+      "name": "Perth & Rottnest Island Quokkas",
+      "category": "West Coast Paradise",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Kings Park botanical gardens, Swan Valley wineries, and friendly Quokka selfies on Rottnest.",
+      "overview": "Australia's sunniest capital city framed by the Indian Ocean.",
+      "rating": 4.89,
+      "bestTimeToVisit": "September to November & Mar to May",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Perth & Rottnest Island Quokkas Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Perth & Rottnest Island Quokkas with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Perth & Rottnest Island Quokkas, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Perth & Rottnest Island Quokkas",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Perth & Rottnest Island Quokkas?",
+          "a": "The ideal season is September to November & Mar to May."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Perth & Rottnest Island Quokkas was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "tasmania-cradle-mountain",
+      "name": "Tasmania Cradle Mountain & Dove Lake",
+      "category": "Alpine Wilderness",
+      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Glacial Dove Lake beneath jagged dolerite peaks of Cradle Mountain-Lake St Clair National Park.",
+      "overview": "Wild island wilderness famous for Tasmanian devils and fresh oysters.",
+      "rating": 4.91,
+      "bestTimeToVisit": "December to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Tasmania Cradle Mountain & Dove Lake Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Tasmania Cradle Mountain & Dove Lake with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Tasmania Cradle Mountain & Dove Lake, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Tasmania Cradle Mountain & Dove Lake",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Tasmania Cradle Mountain & Dove Lake?",
+          "a": "The ideal season is December to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Tasmania Cradle Mountain & Dove Lake was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

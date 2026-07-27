@@ -1,0 +1,495 @@
+{
+  "name": "Spain",
+  "slug": "spain",
+  "flag": "🇪🇸",
+  "heroImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Vibrant Iberian passion featuring Antoni Gaudí architectural marvels, Moorish palaces, golden Mediterranean beaches, and tapas.",
+  "bestSeason": "April to June & September to November",
+  "weather": "Mediterranean climate. Hot dry summers (28°C to 35°C), mild winters (10°C to 16°C).",
+  "currency": "Euro (EUR)",
+  "language": "Spanish (Castilian)",
+  "timeZone": "CET (GMT+1)",
+  "visaInfo": "Schengen Visa required.",
+  "flightDuration": "Approx 8-9 hours direct flight.",
+  "highlights": [
+    "Sagrada Família",
+    "Alhambra of Granada",
+    "Park Güell",
+    "Seville Cathedral"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "barcelona-sagrada-familia",
+      "name": "Barcelona Sagrada Família & Park Güell",
+      "category": "Gaudí Architecture",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Antoni Gaudí's towering basilica masterpiece with stained glass forest light.",
+      "overview": "Stroll colorful Park Güell mosaics, Gothic Quarter, and vibrant La Rambla street.",
+      "rating": 4.98,
+      "bestTimeToVisit": "May to Jun & Sep to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Barcelona Sagrada Família & Park Güell Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Barcelona Sagrada Família & Park Güell with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Barcelona Sagrada Família & Park Güell, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Barcelona Sagrada Família & Park Güell",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Barcelona Sagrada Família & Park Güell?",
+          "a": "The best season is May to Jun & Sep to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Barcelona Sagrada Família & Park Güell!"
+        }
+      ]
+    },
+    {
+      "slug": "granada-alhambra",
+      "name": "Granada Alhambra & Generalife",
+      "category": "Moorish Palace",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Red stone Moorish fortress palace featuring intricate Islamic arabesque tilework and fountains.",
+      "overview": "Perched against the snow-capped Sierra Nevada mountains in Andalusia.",
+      "rating": 4.99,
+      "bestTimeToVisit": "Apr to Jun & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Granada Alhambra & Generalife Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Granada Alhambra & Generalife with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Granada Alhambra & Generalife, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Granada Alhambra & Generalife",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Granada Alhambra & Generalife?",
+          "a": "The best season is Apr to Jun & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Granada Alhambra & Generalife!"
+        }
+      ]
+    },
+    {
+      "slug": "seville-real-alcazar",
+      "name": "Seville Real Alcázar & Plaza de España",
+      "category": "Andalusian Romance",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Mudéjar royal palace complex, orange blossom courtyards, and passionate Flamenco shows.",
+      "overview": "Plaza de España features ceramic tiled bridges and rowing canal boats.",
+      "rating": 4.96,
+      "bestTimeToVisit": "Apr to Jun & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Seville Real Alcázar & Plaza de España Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Seville Real Alcázar & Plaza de España with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Seville Real Alcázar & Plaza de España, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Seville Real Alcázar & Plaza de España",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Seville Real Alcázar & Plaza de España?",
+          "a": "The best season is Apr to Jun & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Seville Real Alcázar & Plaza de España!"
+        }
+      ]
+    },
+    {
+      "slug": "madrid-royal-palace",
+      "name": "Madrid Royal Palace & Prado Museum",
+      "category": "Imperial Capital",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Europe's largest operating royal palace, Prado art museum with Velázquez masterpieces.",
+      "overview": "Relax at El Retiro park glass palace and enjoy authentic rooftop tapas bars.",
+      "rating": 4.92,
+      "bestTimeToVisit": "Apr to Jun & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Madrid Royal Palace & Prado Museum Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Madrid Royal Palace & Prado Museum with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Madrid Royal Palace & Prado Museum, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Madrid Royal Palace & Prado Museum",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Madrid Royal Palace & Prado Museum?",
+          "a": "The best season is Apr to Jun & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Madrid Royal Palace & Prado Museum!"
+        }
+      ]
+    },
+    {
+      "slug": "ibiza-island",
+      "name": "Ibiza Sunset Beaches & Old Town",
+      "category": "Mediterranean Lifestyle",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Clear turquoise coves of Cala Comte, UNESCO Dalt Vila fortress, and electronic music.",
+      "overview": "A world-famous Balearic island for luxury beach clubs and bohemian sunsets.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Ibiza Sunset Beaches & Old Town Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Ibiza Sunset Beaches & Old Town with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Ibiza Sunset Beaches & Old Town, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Ibiza Sunset Beaches & Old Town",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Ibiza Sunset Beaches & Old Town?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Ibiza Sunset Beaches & Old Town!"
+        }
+      ]
+    },
+    {
+      "slug": "mallorca-valldemossa",
+      "name": "Mallorca Beaches & Tramuntana",
+      "category": "Balearic Island",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Serra de Tramuntana olive mountain villages, golden sand calas, and Palma Cathedral.",
+      "overview": "Discover pristine coves with glass-bottom waters and almond blossoms.",
+      "rating": 4.93,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Mallorca Beaches & Tramuntana Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Mallorca Beaches & Tramuntana with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Mallorca Beaches & Tramuntana, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Mallorca Beaches & Tramuntana",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Mallorca Beaches & Tramuntana?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Mallorca Beaches & Tramuntana!"
+        }
+      ]
+    },
+    {
+      "slug": "cordoba-mezquita",
+      "name": "Córdoba Mosque-Cathedral",
+      "category": "Architectural Fusion",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Monumental 8th-century forest of 856 red-and-white candy striped horseshoe arches.",
+      "overview": "A unique architectural hybrid of Islamic mosque and Christian Renaissance cathedral.",
+      "rating": 4.95,
+      "bestTimeToVisit": "Apr to Jun & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Córdoba Mosque-Cathedral Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Córdoba Mosque-Cathedral with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Córdoba Mosque-Cathedral, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Córdoba Mosque-Cathedral",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Córdoba Mosque-Cathedral?",
+          "a": "The best season is Apr to Jun & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Córdoba Mosque-Cathedral!"
+        }
+      ]
+    },
+    {
+      "slug": "san-sebastian-concha",
+      "name": "San Sebastián La Concha & Pintxos",
+      "category": "Culinary Capital",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Perfect crescent beach framed by Mount Igueldo, renowned for Michelin-starred dining.",
+      "overview": "Famous for Basque pintxos bar crawling in the historic cobblestone old quarter.",
+      "rating": 4.94,
+      "bestTimeToVisit": "Jun to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand San Sebastián La Concha & Pintxos Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near San Sebastián La Concha & Pintxos with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to San Sebastián La Concha & Pintxos, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of San Sebastián La Concha & Pintxos",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit San Sebastián La Concha & Pintxos?",
+          "a": "The best season is Jun to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting San Sebastián La Concha & Pintxos!"
+        }
+      ]
+    },
+    {
+      "slug": "toledo-medieval",
+      "name": "Toledo Medieval Citadel",
+      "category": "Three Cultures",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Hilltop stone fortress city surrounded by the Tagus river, historic steel sword craftsmanship.",
+      "overview": "Known as the City of Three Cultures where Christian, Muslim, and Jewish traditions coexisted.",
+      "rating": 4.9,
+      "bestTimeToVisit": "Apr to Jun & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Toledo Medieval Citadel Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Toledo Medieval Citadel with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Toledo Medieval Citadel, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Toledo Medieval Citadel",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Toledo Medieval Citadel?",
+          "a": "The best season is Apr to Jun & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Toledo Medieval Citadel!"
+        }
+      ]
+    },
+    {
+      "slug": "ronda-bridge",
+      "name": "Ronda Puente Nuevo Gorge",
+      "category": "Cliffside City",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Monumental 120-meter high stone bridge spanning the deep El Tajo gorge.",
+      "overview": "White-washed cliffside houses commanding dramatic vistas across Andalusian valleys.",
+      "rating": 4.92,
+      "bestTimeToVisit": "Apr to Jun & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Ronda Puente Nuevo Gorge Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Ronda Puente Nuevo Gorge with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Ronda Puente Nuevo Gorge, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Ronda Puente Nuevo Gorge",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Ronda Puente Nuevo Gorge?",
+          "a": "The best season is Apr to Jun & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Ronda Puente Nuevo Gorge!"
+        }
+      ]
+    }
+  ]
+}

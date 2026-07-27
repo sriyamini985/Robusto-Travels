@@ -1,0 +1,495 @@
+{
+  "name": "South Africa",
+  "slug": "south-africa",
+  "flag": "🇿🇦",
+  "heroImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Discover the Rainbow Nation's wildlife safaris, dramatic coastal cliffs, world-class winelands, and vibrant culture.",
+  "bestSeason": "May to September (Safari) & November to March (Cape Town)",
+  "weather": "Diverse climate. Warm sunny summers (20°C to 28°C), mild winters (10°C to 18°C).",
+  "currency": "South African Rand (ZAR)",
+  "language": "English, Afrikaans, Zulu, Xhosa",
+  "timeZone": "SAST (GMT+2)",
+  "visaInfo": "Tourist Visa required.",
+  "flightDuration": "Approx 11-13 hours direct flight.",
+  "highlights": [
+    "Table Mountain",
+    "Kruger National Park",
+    "Cape Peninsula",
+    "Stellenbosch Winelands"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "cape-town-table-mountain",
+      "name": "Table Mountain & Cape Town",
+      "category": "Coastal Landmark",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Flat-topped 1,086m mountain framed by Atlantic ocean, V&A Waterfront, and Robben Island.",
+      "overview": "Ride the rotating cable car to the summit for views over Camps Bay and Lion's Head.",
+      "rating": 4.98,
+      "bestTimeToVisit": "Nov to Mar",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Table Mountain & Cape Town Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Table Mountain & Cape Town with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Table Mountain & Cape Town, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Table Mountain & Cape Town",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Table Mountain & Cape Town?",
+          "a": "The best season is Nov to Mar."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Table Mountain & Cape Town!"
+        }
+      ]
+    },
+    {
+      "slug": "kruger-safari",
+      "name": "Kruger National Park Big 5 Safari",
+      "category": "Wildlife Reserve",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "One of Africa's greatest game reserves offering open 4x4 sightings of lions, leopards, and elephants.",
+      "overview": "Stay in luxury private game lodges with starlit bush dinners.",
+      "rating": 4.99,
+      "bestTimeToVisit": "May to Sep (Dry season)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Kruger National Park Big 5 Safari Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Kruger National Park Big 5 Safari with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Kruger National Park Big 5 Safari, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Kruger National Park Big 5 Safari",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Kruger National Park Big 5 Safari?",
+          "a": "The best season is May to Sep (Dry season)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Kruger National Park Big 5 Safari!"
+        }
+      ]
+    },
+    {
+      "slug": "cape-peninsula-boulders",
+      "name": "Cape Point & Boulders Penguin Beach",
+      "category": "Scenic Peninsula",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Walk alongside thousands of wild African penguins on Boulders Beach sand dunes.",
+      "overview": "Drive Chapman's Peak to the dramatic sea cliffs of Cape Point where oceans meet.",
+      "rating": 4.96,
+      "bestTimeToVisit": "Nov to Mar",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Cape Point & Boulders Penguin Beach Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Cape Point & Boulders Penguin Beach with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Cape Point & Boulders Penguin Beach, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Cape Point & Boulders Penguin Beach",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Cape Point & Boulders Penguin Beach?",
+          "a": "The best season is Nov to Mar."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Cape Point & Boulders Penguin Beach!"
+        }
+      ]
+    },
+    {
+      "slug": "stellenbosch-winelands",
+      "name": "Stellenbosch & Franschhoek Winelands",
+      "category": "Vineyard Valley",
+      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Historic Cape Dutch wine estates, gourmet fine dining, and open-air wine tram tours.",
+      "overview": "Sample award-winning Pinotage and Cabernet Sauvignon surrounded by mountain peaks.",
+      "rating": 4.93,
+      "bestTimeToVisit": "Nov to Apr",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Stellenbosch & Franschhoek Winelands Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Stellenbosch & Franschhoek Winelands with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Stellenbosch & Franschhoek Winelands, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Stellenbosch & Franschhoek Winelands",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Stellenbosch & Franschhoek Winelands?",
+          "a": "The best season is Nov to Apr."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Stellenbosch & Franschhoek Winelands!"
+        }
+      ]
+    },
+    {
+      "slug": "garden-route-knysna",
+      "name": "Garden Route & Knysna Heads",
+      "category": "Coastal Highway",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "300km scenic coastal drive past ancient indigenous forests, lagoons, and Tsitsikamma bridges.",
+      "overview": "Famous for whale watching, canopy ziplining, and lagoon oysters.",
+      "rating": 4.94,
+      "bestTimeToVisit": "Oct to Apr",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Garden Route & Knysna Heads Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Garden Route & Knysna Heads with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Garden Route & Knysna Heads, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Garden Route & Knysna Heads",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Garden Route & Knysna Heads?",
+          "a": "The best season is Oct to Apr."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Garden Route & Knysna Heads!"
+        }
+      ]
+    },
+    {
+      "slug": "drakensberg-mountains",
+      "name": "Drakensberg Mountains & Tugela",
+      "category": "Mountain Escarpment",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Jagged basalt peaks rising over 3,000 meters adorned with ancient San rock art caves.",
+      "overview": "Hike to the world's second highest waterfall, Tugela Falls.",
+      "rating": 4.91,
+      "bestTimeToVisit": "Mar to May & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Drakensberg Mountains & Tugela Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Drakensberg Mountains & Tugela with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Drakensberg Mountains & Tugela, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Drakensberg Mountains & Tugela",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Drakensberg Mountains & Tugela?",
+          "a": "The best season is Mar to May & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Drakensberg Mountains & Tugela!"
+        }
+      ]
+    },
+    {
+      "slug": "blyde-river-canyon",
+      "name": "Blyde River Canyon & God's Window",
+      "category": "Geological Canyon",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's third largest canyon featuring Three Rondavels green rock formations.",
+      "overview": "Look out across endless lowveld bush from God's Window cliff vantage point.",
+      "rating": 4.92,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Blyde River Canyon & God's Window Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Blyde River Canyon & God's Window with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Blyde River Canyon & God's Window, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Blyde River Canyon & God's Window",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Blyde River Canyon & God's Window?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Blyde River Canyon & God's Window!"
+        }
+      ]
+    },
+    {
+      "slug": "hermanus-whales",
+      "name": "Hermanus Bay Whale Watching",
+      "category": "Marine Sanctuary",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's premier land-based whale watching capital for Southern Right Whales.",
+      "overview": "Listen to the official Whale Crier blowing kelp horns when whales breach near shore.",
+      "rating": 4.9,
+      "bestTimeToVisit": "Jul to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Hermanus Bay Whale Watching Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Hermanus Bay Whale Watching with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Hermanus Bay Whale Watching, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Hermanus Bay Whale Watching",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Hermanus Bay Whale Watching?",
+          "a": "The best season is Jul to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Hermanus Bay Whale Watching!"
+        }
+      ]
+    },
+    {
+      "slug": "sabi-sands-lodge",
+      "name": "Sabi Sands Private Game Reserve",
+      "category": "Ultra-Luxury Safari",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World-famous private reserve adjacent to Kruger offering off-road leopard tracking.",
+      "overview": "5-star infinity plunge pool villas overlooking animal watering holes.",
+      "rating": 4.98,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sabi Sands Private Game Reserve Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Sabi Sands Private Game Reserve with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Sabi Sands Private Game Reserve, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Sabi Sands Private Game Reserve",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sabi Sands Private Game Reserve?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Sabi Sands Private Game Reserve!"
+        }
+      ]
+    },
+    {
+      "slug": "johannesburg-soweto",
+      "name": "Johannesburg & Soweto Nelson Mandela",
+      "category": "Cultural History",
+      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Apartheid Museum, Constitution Hill, and Vilakazi Street where Mandela lived.",
+      "overview": "The vibrant urban heart of South Africa rich in contemporary art and African music.",
+      "rating": 4.88,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Johannesburg & Soweto Nelson Mandela Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Johannesburg & Soweto Nelson Mandela with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Johannesburg & Soweto Nelson Mandela, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Johannesburg & Soweto Nelson Mandela",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Johannesburg & Soweto Nelson Mandela?",
+          "a": "The best season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Johannesburg & Soweto Nelson Mandela!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "name": "Brazil",
+  "slug": "brazil",
+  "flag": "🇧🇷",
+  "heroImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Immerse yourself in tropical rainforests, golden Atlantic beaches, vibrant Samba rhythm, and monumental natural wonders.",
+  "bestSeason": "December to March (Summer) & May to September (Mild)",
+  "weather": "Tropical climate. Warm and humid year-round (24°C to 32°C).",
+  "currency": "Brazilian Real (BRL)",
+  "language": "Portuguese",
+  "timeZone": "BRT (GMT-3)",
+  "visaInfo": "Tourist Visa / E-Visa required.",
+  "flightDuration": "Approx 14-16 hours with layover.",
+  "highlights": [
+    "Christ the Redeemer",
+    "Sugarloaf Mountain",
+    "Iguazu Falls",
+    "Amazon Rainforest"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "rio-christ-redeemer",
+      "name": "Christ the Redeemer & Corcovado",
+      "category": "World Wonder",
+      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "30-meter Art Deco statue of Jesus Christ atop Corcovado mountain embracing Rio de Janeiro.",
+      "overview": "Offers unmatched panoramic views over Guanabara Bay and Sugarloaf Mountain.",
+      "rating": 4.98,
+      "bestTimeToVisit": "Dec to Mar",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Christ the Redeemer & Corcovado Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Christ the Redeemer & Corcovado with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Christ the Redeemer & Corcovado, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Christ the Redeemer & Corcovado",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Christ the Redeemer & Corcovado?",
+          "a": "The best season is Dec to Mar."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Christ the Redeemer & Corcovado!"
+        }
+      ]
+    },
+    {
+      "slug": "sugarloaf-mountain",
+      "name": "Sugarloaf Mountain Cable Car",
+      "category": "Coastal Monolith",
+      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Glass-walled cable car ride to the peak of a 396m quartz granite monolith.",
+      "overview": "Witness spectacular sunset vistas over Copacabana and Ipanema beaches.",
+      "rating": 4.96,
+      "bestTimeToVisit": "Dec to Mar",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sugarloaf Mountain Cable Car Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Sugarloaf Mountain Cable Car with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Sugarloaf Mountain Cable Car, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Sugarloaf Mountain Cable Car",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sugarloaf Mountain Cable Car?",
+          "a": "The best season is Dec to Mar."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Sugarloaf Mountain Cable Car!"
+        }
+      ]
+    },
+    {
+      "slug": "iguazu-falls",
+      "name": "Iguazu Falls & Devil's Throat",
+      "category": "Natural Thunder",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "275 roaring waterfall cascades straddling the border of Brazil and Argentina.",
+      "overview": "Walk along mist-covered boardwalks right into the roaring abyss of the Devil's Throat.",
+      "rating": 4.99,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Iguazu Falls & Devil's Throat Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Iguazu Falls & Devil's Throat with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Iguazu Falls & Devil's Throat, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Iguazu Falls & Devil's Throat",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Iguazu Falls & Devil's Throat?",
+          "a": "The best season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Iguazu Falls & Devil's Throat!"
+        }
+      ]
+    },
+    {
+      "slug": "copacabana-beach",
+      "name": "Copacabana & Ipanema Beach",
+      "category": "Beach Culture",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World-famous black-and-white wave tile mosaic boardwalk and golden Atlantic sands.",
+      "overview": "Rio's social heart for caipirinhas, beach volleyball, and bossa nova sunsets.",
+      "rating": 4.92,
+      "bestTimeToVisit": "Dec to Mar",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Copacabana & Ipanema Beach Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Copacabana & Ipanema Beach with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Copacabana & Ipanema Beach, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Copacabana & Ipanema Beach",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Copacabana & Ipanema Beach?",
+          "a": "The best season is Dec to Mar."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Copacabana & Ipanema Beach!"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-rainforest",
+      "name": "Amazon Rainforest Manaus",
+      "category": "Biodiversity Reserve",
+      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "The world's largest tropical rainforest and the Meeting of Waters near Manaus.",
+      "overview": "Embark on jungle eco-lodges, pink river dolphin spotting, and canopy walks.",
+      "rating": 4.95,
+      "bestTimeToVisit": "Jul to Dec (Dry season)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Amazon Rainforest Manaus Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Amazon Rainforest Manaus with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Amazon Rainforest Manaus, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Amazon Rainforest Manaus",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Amazon Rainforest Manaus?",
+          "a": "The best season is Jul to Dec (Dry season)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Amazon Rainforest Manaus!"
+        }
+      ]
+    },
+    {
+      "slug": "salvador-pelourinho",
+      "name": "Salvador da Bahia & Pelourinho",
+      "category": "Afro-Brazilian Culture",
+      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Pastel Portuguese colonial mansions, Olodum drumming, and Capoeira performances.",
+      "overview": "The vibrant cultural soul of Brazil rich in Afro-centric traditions and seafood moqueca.",
+      "rating": 4.9,
+      "bestTimeToVisit": "Dec to Mar",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Salvador da Bahia & Pelourinho Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Salvador da Bahia & Pelourinho with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Salvador da Bahia & Pelourinho, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Salvador da Bahia & Pelourinho",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Salvador da Bahia & Pelourinho?",
+          "a": "The best season is Dec to Mar."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Salvador da Bahia & Pelourinho!"
+        }
+      ]
+    },
+    {
+      "slug": "lencois-maranhenses",
+      "name": "Lençóis Maranhenses Dunes",
+      "category": "Surreal Lagoons",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Vast rolling white sand dunes filled with crystal blue rainwater lagoons.",
+      "overview": "A otherworldly landscape created by seasonal rain trapped between coastal sand dunes.",
+      "rating": 4.97,
+      "bestTimeToVisit": "Jul to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Lençóis Maranhenses Dunes Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Lençóis Maranhenses Dunes with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Lençóis Maranhenses Dunes, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Lençóis Maranhenses Dunes",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Lençóis Maranhenses Dunes?",
+          "a": "The best season is Jul to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Lençóis Maranhenses Dunes!"
+        }
+      ]
+    },
+    {
+      "slug": "fernando-de-noronha",
+      "name": "Fernando de Noronha Archipelago",
+      "category": "Marine Sanctuary",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Protected volcanic island national park renowned for wild spinner dolphins and sea turtles.",
+      "overview": "Baía do Sancho is consistently voted one of the best beaches on Earth.",
+      "rating": 4.98,
+      "bestTimeToVisit": "Aug to Dec",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Fernando de Noronha Archipelago Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Fernando de Noronha Archipelago with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Fernando de Noronha Archipelago, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Fernando de Noronha Archipelago",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Fernando de Noronha Archipelago?",
+          "a": "The best season is Aug to Dec."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Fernando de Noronha Archipelago!"
+        }
+      ]
+    },
+    {
+      "slug": "pantanal-wetlands",
+      "name": "Pantanal Jaguar Safari",
+      "category": "Wildlife Reserve",
+      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's largest tropical wetland ecosystem offering the best chance to spot wild jaguars.",
+      "overview": "Home to giant anteaters, hyacinth macaws, and thousands of caimans.",
+      "rating": 4.96,
+      "bestTimeToVisit": "Jul to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Pantanal Jaguar Safari Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Pantanal Jaguar Safari with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Pantanal Jaguar Safari, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Pantanal Jaguar Safari",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Pantanal Jaguar Safari?",
+          "a": "The best season is Jul to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Pantanal Jaguar Safari!"
+        }
+      ]
+    },
+    {
+      "slug": "paraty-colonial",
+      "name": "Paraty Gold Trail Village",
+      "category": "Historic Coast",
+      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Car-free 17th-century cobblestone seaside town framed by emerald jungle mountains.",
+      "overview": "Discover hidden island beaches via traditional colorful wooden boats.",
+      "rating": 4.91,
+      "bestTimeToVisit": "Dec to Mar",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Paraty Gold Trail Village Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Paraty Gold Trail Village with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Paraty Gold Trail Village, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Paraty Gold Trail Village",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Paraty Gold Trail Village?",
+          "a": "The best season is Dec to Mar."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Paraty Gold Trail Village!"
+        }
+      ]
+    }
+  ]
+}

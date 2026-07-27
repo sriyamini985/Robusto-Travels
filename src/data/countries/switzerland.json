@@ -25,131 +25,483 @@
   "famousPlaces": [
     {
       "slug": "zermatt",
-      "name": "Zermatt & The Matterhorn",
-      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "A car-free alpine village nestled at the foot of the iconic Matterhorn, offering world-class skiing and hiking.",
-      "overview": "Zermatt is Switzerland's ultimate mountain sanctuary. Free of combustion engine vehicles, the village preserves a peaceful alpine charm while serving as the gateway to the world-famous Matterhorn. Visitors can ride mountain railways to high observatories, ski year-round on glaciers, and enjoy fine chalet hospitality.",
-      "rating": 4.95,
-      "bestTimeToVisit": "December to April (Skiing), July to September (Hiking)",
-      "packagePrice": 1450,
-      "duration": "4 Days • 3 Nights",
+      "name": "Zermatt & Matterhorn",
+      "category": "Alpine Mountain",
+      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Car-free alpine village nestled at the foot of the iconic pyramid-shaped Matterhorn.",
+      "overview": "Zermatt is Switzerland's ultimate mountain sanctuary. Free of combustion engine vehicles, the village preserves a peaceful alpine charm.",
+      "rating": 4.96,
+      "bestTimeToVisit": "Dec to Apr & Jul to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Chalet Zermatt Peak",
-          "rating": 5.0,
-          "description": "Ultra-luxury five-star boutique chalet with breathtaking panoramas of the Matterhorn."
-        },
-        {
-          "name": "The Omnia Mountain Lodge",
+          "name": "Grand Zermatt & Matterhorn Resort",
           "rating": 4.9,
-          "description": "Modern design hotel built on a rock shelf high above the center of Zermatt."
+          "description": "Luxury five-star hotel near Zermatt & Matterhorn with world-class dining."
         }
       ],
-      "meals": "Buffet breakfasts and gourmet alpine dinners included.",
-      "transport": "Swiss Rail Pass (First Class) and local electric shuttles.",
-      "activities": "Gornergrat Cogwheel Train, Glacier Paradise Cableway, Alpine Cheese Tasting.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Zermatt & Matterhorn, photo walk, and local cultural experience.",
       "included": [
-        "First-class Swiss Travel Pass for all trains",
-        "Gourmet dining at chalet restaurant",
-        "Professional local mountain guides"
+        "Guided tour of Zermatt & Matterhorn",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Ski equipment rental fees",
-        "Personal travel insurance"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "How do we reach Zermatt?",
-          "a": "Zermatt is car-free. You take the train to Visp/Täsch and transfer to the Matterhorn Gotthard Railway shuttle."
+          "q": "What is the best time to visit Zermatt & Matterhorn?",
+          "a": "The ideal season is Dec to Apr & Jul to Sep."
         }
       ],
       "reviews": [
         {
-          "author": "David L.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Stunning vistas of the Matterhorn. Rising early to see the golden tip at sunrise is unforgettable."
+          "text": "Visiting Zermatt & Matterhorn was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Arrival in Zermatt & Alpine Exploration",
-          "morning": "Board the mountain railway to Zermatt. Check into your luxury chalet.",
-          "afternoon": "Stroll the car-free streets of Hinterdorf with traditional wooden barns.",
-          "evening": "Warm up with a traditional Swiss cheese fondue dinner."
-        },
-        {
-          "day": 2,
-          "title": "Gornergrat Railway & Matterhorn Views",
-          "morning": "Ride Europe's highest open-air cogwheel railway up to Gornergrat observatory.",
-          "afternoon": "Hike the Riffelsee trail to photograph the Matterhorn reflected in the alpine lake.",
-          "evening": "Enjoy spa relaxation and molecular dining at The Omnia lodge."
-        }
-      ]
+      "itinerary": []
     },
     {
-      "slug": "interlaken",
-      "name": "Interlaken Adventure Hub",
-      "image": "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "Nestled between two spectacular lakes, Interlaken is the adrenaline and adventure capital of the Swiss Alps.",
-      "overview": "Set between Lake Thun and Lake Brienz, Interlaken is the starting point for countless Swiss excursions. From paragliding over the turquoise waters to boarding trains to the Jungfrau region, it offers a perfect balance of lake breezes and soaring mountain views.",
-      "rating": 4.88,
-      "bestTimeToVisit": "May to October",
-      "packagePrice": 1280,
+      "slug": "jungfraujoch",
+      "name": "Jungfraujoch (Top of Europe)",
+      "category": "High-Altitude Peak",
+      "image": "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Europe's highest railway station featuring snow observatories and ice palaces.",
+      "overview": "Ascend via the Eiger Express tricable gondola to 3,454 meters altitude above the Aletsch Glacier.",
+      "rating": 4.93,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Victoria-Jungfrau Grand Hotel & Spa",
+          "name": "Grand Jungfraujoch (Top of Europe) Resort",
           "rating": 4.9,
-          "description": "Historic grand hotel offering absolute luxury and views of the Jungfrau peak."
+          "description": "Luxury five-star hotel near Jungfraujoch (Top of Europe) with world-class dining."
         }
       ],
-      "meals": "Daily Swiss breakfasts and lakeside terrace dinners.",
-      "transport": "Eco Lake Cruises & First-class regional train tickets.",
-      "activities": "Lake Brienz Steamboat Cruise, Harder Kulm Sunset Funicular, Paragliding.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Jungfraujoch (Top of Europe), photo walk, and local cultural experience.",
       "included": [
-        "First-class train transfers",
-        "Lake Brienz cruise pass",
-        "Sunset Harder Kulm entry tickets"
+        "Guided tour of Jungfraujoch (Top of Europe)",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Adventure paragliding pilot fees"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "Can we visit Jungfraujoch from here?",
-          "a": "Yes, Interlaken is the primary departure point for the train loop up to Jungfraujoch."
+          "q": "What is the best time to visit Jungfraujoch (Top of Europe)?",
+          "a": "The ideal season is Year-round."
         }
       ],
       "reviews": [
         {
-          "author": "Sarah M.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Harder Kulm view is incredible. Sitting on the lake cruise watching the mountain reflection is pure peace."
+          "text": "Visiting Jungfraujoch (Top of Europe) was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "interlaken",
+      "name": "Interlaken Lakes & Adventure",
+      "category": "Adventure Capital",
+      "image": "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Set between Lake Thun and Lake Brienz, the gateway to alpine paragliding.",
+      "overview": "Interlaken offers emerald waters, soaring peaks, and exhilarating skydiving and lake cruises.",
+      "rating": 4.88,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Lake Cruise & Harder Kulm Sunset",
-          "morning": "Arrive in Interlaken and settle into your hotel.",
-          "afternoon": "Board the historical paddle steamer for a scenic cruise around Lake Brienz.",
-          "evening": "Ascend Harder Kulm funicular for a panoramic sunset dinner over both lakes."
-        },
-        {
-          "day": 2,
-          "title": "Adrenaline Day: Paragliding or High Trails",
-          "morning": "Optional paragliding tandem flight landing right in the Höhematte park.",
-          "afternoon": "Explore the Lauterbrunnen Valley of 72 waterfalls, just a short train ride away.",
-          "evening": "Fine dining at the Victoria-Jungfrau spa resort."
+          "name": "Grand Interlaken Lakes & Adventure Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Interlaken Lakes & Adventure with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Interlaken Lakes & Adventure, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Interlaken Lakes & Adventure",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Interlaken Lakes & Adventure?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Interlaken Lakes & Adventure was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "lucerne",
+      "name": "Lucerne & Mount Pilatus",
+      "category": "Heritage & Lake",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Medieval Chapel Bridge, pristine lake cruises, and the world's steepest cogwheel railway.",
+      "overview": "Lucerne blends historic wooden bridges and lakefront promenades with dramatic mountain vistas.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Lucerne & Mount Pilatus Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Lucerne & Mount Pilatus with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Lucerne & Mount Pilatus, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Lucerne & Mount Pilatus",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Lucerne & Mount Pilatus?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Lucerne & Mount Pilatus was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "zurich",
+      "name": "Zurich Old Town & Lake",
+      "category": "Metropolitan Luxury",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World-class shopping on Bahnhofstrasse and medieval guild houses along the Limmat river.",
+      "overview": "Zurich combines urban elegance with lakeside relaxation and vibrant fine dining.",
+      "rating": 4.86,
+      "bestTimeToVisit": "June to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Zurich Old Town & Lake Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Zurich Old Town & Lake with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Zurich Old Town & Lake, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Zurich Old Town & Lake",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Zurich Old Town & Lake?",
+          "a": "The ideal season is June to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Zurich Old Town & Lake was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "geneva",
+      "name": "Geneva & Jet d'Eau",
+      "category": "Global Culture",
+      "image": "https://images.unsplash.com/photo-1572978084347-759604169542?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Diplomatic hub on Lake Geneva famous for watchmaking and the 140m water fountain.",
+      "overview": "Surrounded by the Alps and Jura mountains, Geneva is a center of haute horlogerie.",
+      "rating": 4.85,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Geneva & Jet d'Eau Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Geneva & Jet d'Eau with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Geneva & Jet d'Eau, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Geneva & Jet d'Eau",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1572978084347-759604169542?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Geneva & Jet d'Eau?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Geneva & Jet d'Eau was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "lauterbrunnen",
+      "name": "Lauterbrunnen Valley",
+      "category": "Waterfalls & Nature",
+      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Stunning glacial valley featuring 72 plunging waterfalls and cliffside meadows.",
+      "overview": "Inspiration for Tolkien's Rivendell, Lauterbrunnen is one of the most picturesque valleys in the world.",
+      "rating": 4.97,
+      "bestTimeToVisit": "June to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Lauterbrunnen Valley Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Lauterbrunnen Valley with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Lauterbrunnen Valley, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Lauterbrunnen Valley",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Lauterbrunnen Valley?",
+          "a": "The ideal season is June to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Lauterbrunnen Valley was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "rhine-falls",
+      "name": "Rhine Falls Neuhausen",
+      "category": "Natural Wonder",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Europe's largest plain waterfall with thunderous roaring waters.",
+      "overview": "Experience boat rides that take you right to the rock in the middle of the roaring falls.",
+      "rating": 4.84,
+      "bestTimeToVisit": "May to August",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Rhine Falls Neuhausen Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Rhine Falls Neuhausen with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Rhine Falls Neuhausen, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Rhine Falls Neuhausen",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Rhine Falls Neuhausen?",
+          "a": "The ideal season is May to August."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Rhine Falls Neuhausen was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "st-moritz",
+      "name": "St. Moritz Alpine Resort",
+      "category": "Luxury Winter Sports",
+      "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Birthplace of Alpine winter tourism known for champagne climate and polo on ice.",
+      "overview": "St. Moritz is the legendary playground of royalty and jetsetters.",
+      "rating": 4.92,
+      "bestTimeToVisit": "December to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand St. Moritz Alpine Resort Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near St. Moritz Alpine Resort with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of St. Moritz Alpine Resort, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of St. Moritz Alpine Resort",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit St. Moritz Alpine Resort?",
+          "a": "The ideal season is December to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting St. Moritz Alpine Resort was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "grindelwald",
+      "name": "Grindelwald First",
+      "category": "Alpine Cliff Walk",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Thrilling Tissot Cliff Walk and First Flyer zip lines overlooking the Eiger mountain.",
+      "overview": "Grindelwald First is a haven for mountain walkers, zip-liners, and mountain cart adventurers.",
+      "rating": 4.9,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Grindelwald First Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Grindelwald First with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Grindelwald First, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Grindelwald First",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Grindelwald First?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Grindelwald First was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

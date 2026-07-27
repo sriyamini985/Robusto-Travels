@@ -1,0 +1,495 @@
+{
+  "name": "United Kingdom",
+  "slug": "uk",
+  "flag": "🇬🇧",
+  "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Explore majestic royal palaces, historic castles, green rolling hills, and world-leading arts in Great Britain.",
+  "bestSeason": "May to September",
+  "weather": "Temperate maritime climate. Mild summers (18°C to 24°C), cool damp winters (3°C to 8°C).",
+  "currency": "British Pound (GBP)",
+  "language": "English",
+  "timeZone": "GMT / BST (GMT+1)",
+  "visaInfo": "Standard Visitor Visa required.",
+  "flightDuration": "Approx 9-10 hours direct flight.",
+  "highlights": [
+    "Big Ben & Parliament",
+    "Buckingham Palace",
+    "Edinburgh Castle",
+    "Stonehenge"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "london-big-ben",
+      "name": "Big Ben & Tower Bridge",
+      "category": "Metropolitan Royal",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Gothic Elizabeth Tower Big Ben, historic Tower of London, and iconic red double-decker buses.",
+      "overview": "London combines royal heritage at Buckingham Palace with West End theater and British Museum.",
+      "rating": 4.96,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Big Ben & Tower Bridge Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Big Ben & Tower Bridge with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Big Ben & Tower Bridge, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Big Ben & Tower Bridge",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Big Ben & Tower Bridge?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Big Ben & Tower Bridge!"
+        }
+      ]
+    },
+    {
+      "slug": "edinburgh-castle",
+      "name": "Edinburgh Castle & Royal Mile",
+      "category": "Scottish Fortress",
+      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Historic fortress standing on Castle Rock dominating the skyline of Scotland's capital.",
+      "overview": "Walk the cobblestone Royal Mile, explore Holyrood Palace, and taste single malt Scotch whisky.",
+      "rating": 4.97,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Edinburgh Castle & Royal Mile Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Edinburgh Castle & Royal Mile with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Edinburgh Castle & Royal Mile, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Edinburgh Castle & Royal Mile",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Edinburgh Castle & Royal Mile?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Edinburgh Castle & Royal Mile!"
+        }
+      ]
+    },
+    {
+      "slug": "stonehenge",
+      "name": "Stonehenge Ancient Circle",
+      "category": "Prehistoric Monument",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Mysterious 5,000-year-old megalithic stone circle standing on Salisbury Plain.",
+      "overview": "A UNESCO World Heritage wonder engineered by Neolithic builders.",
+      "rating": 4.92,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Stonehenge Ancient Circle Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Stonehenge Ancient Circle with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Stonehenge Ancient Circle, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Stonehenge Ancient Circle",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Stonehenge Ancient Circle?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Stonehenge Ancient Circle!"
+        }
+      ]
+    },
+    {
+      "slug": "loch-ness-highlands",
+      "name": "Loch Ness & Scottish Highlands",
+      "category": "Mountain Glens",
+      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Dramatic mountain glens of Glen Coe, Isle of Skye fairy pools, and Urquhart Castle on Loch Ness.",
+      "overview": "Experience wild Scottish scenery, red deer, and historic clan heritage.",
+      "rating": 4.95,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Loch Ness & Scottish Highlands Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Loch Ness & Scottish Highlands with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Loch Ness & Scottish Highlands, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Loch Ness & Scottish Highlands",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Loch Ness & Scottish Highlands?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Loch Ness & Scottish Highlands!"
+        }
+      ]
+    },
+    {
+      "slug": "lake-district",
+      "name": "Lake District National Park",
+      "category": "Lakeside Poets",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "England's premier national park featuring Lake Windermere, fells, and Beatrix Potter countryside.",
+      "overview": "A picturesque haven for hikers, steam boat cruises, and lakeside tea rooms.",
+      "rating": 4.93,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Lake District National Park Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Lake District National Park with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Lake District National Park, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Lake District National Park",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Lake District National Park?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Lake District National Park!"
+        }
+      ]
+    },
+    {
+      "slug": "bath-roman-baths",
+      "name": "Bath Roman Baths & Royal Crescent",
+      "category": "Georgian Architecture",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Preserved ancient Roman thermal bath complex and honey-colored Georgian stone crescents.",
+      "overview": "Relax in modern rooftop thermal spa waters overlooking the historic abbey.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Bath Roman Baths & Royal Crescent Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Bath Roman Baths & Royal Crescent with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Bath Roman Baths & Royal Crescent, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Bath Roman Baths & Royal Crescent",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Bath Roman Baths & Royal Crescent?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Bath Roman Baths & Royal Crescent!"
+        }
+      ]
+    },
+    {
+      "slug": "cotswolds-villages",
+      "name": "Cotswolds & Castle Combe",
+      "category": "English Countryside",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Fairy-tale honey-stone thatched cottages, thatched pubs, and rolling green hills.",
+      "overview": "Explore Bourton-on-the-Water and traditional English cream tea gardens.",
+      "rating": 4.94,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Cotswolds & Castle Combe Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Cotswolds & Castle Combe with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Cotswolds & Castle Combe, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Cotswolds & Castle Combe",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Cotswolds & Castle Combe?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Cotswolds & Castle Combe!"
+        }
+      ]
+    },
+    {
+      "slug": "oxford-university",
+      "name": "Oxford University & Bodleian",
+      "category": "Historic Academia",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "The City of Dreaming Spires, home to the oldest university in the English-speaking world.",
+      "overview": "Tour Christ Church College dining hall that inspired Harry Potter's Hogwarts.",
+      "rating": 4.9,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Oxford University & Bodleian Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Oxford University & Bodleian with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Oxford University & Bodleian, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Oxford University & Bodleian",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Oxford University & Bodleian?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Oxford University & Bodleian!"
+        }
+      ]
+    },
+    {
+      "slug": "giant-causeway",
+      "name": "Giant's Causeway Northern Ireland",
+      "category": "Basalt Pillars",
+      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "40,000 interlocking hexagonal basalt columns formed by ancient volcanic eruptions.",
+      "overview": "Walk along dramatic coastal cliffs featured in Game of Thrones legends.",
+      "rating": 4.96,
+      "bestTimeToVisit": "May to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Giant's Causeway Northern Ireland Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Giant's Causeway Northern Ireland with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Giant's Causeway Northern Ireland, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Giant's Causeway Northern Ireland",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Giant's Causeway Northern Ireland?",
+          "a": "The best season is May to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Giant's Causeway Northern Ireland!"
+        }
+      ]
+    },
+    {
+      "slug": "windsor-castle",
+      "name": "Windsor Castle Estate",
+      "category": "Royal Residence",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "The oldest and largest occupied castle in the world, home to British monarchs for 1,000 years.",
+      "overview": "Visit St George's Chapel and State Apartments showcasing royal art collections.",
+      "rating": 4.92,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Windsor Castle Estate Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Windsor Castle Estate with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Windsor Castle Estate, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Windsor Castle Estate",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Windsor Castle Estate?",
+          "a": "The best season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Windsor Castle Estate!"
+        }
+      ]
+    }
+  ]
+}

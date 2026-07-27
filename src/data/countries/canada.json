@@ -1,0 +1,495 @@
+{
+  "name": "Canada",
+  "slug": "canada",
+  "flag": "🇨🇦",
+  "heroImage": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Glacial turquoise lakes, majestic Rocky Mountain peaks, vast wilderness, and vibrant cosmopolitan cities.",
+  "bestSeason": "June to September (Summer) & December to March (Skiing)",
+  "weather": "Diverse climate. Mild summers (20°C to 26°C), snowy freezing winters (-5°C to -15°C).",
+  "currency": "Canadian Dollar (CAD)",
+  "language": "English, French",
+  "timeZone": "EST / PST (GMT-5 to GMT-8)",
+  "visaInfo": "eTA / Tourist Visa required.",
+  "flightDuration": "Approx 14-16 hours with layover.",
+  "highlights": [
+    "Banff & Lake Louise",
+    "Niagara Falls",
+    "CN Tower Toronto",
+    "Whistler Snow Resort"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "banff-lake-louise",
+      "name": "Banff & Lake Louise",
+      "category": "Glacial Lake",
+      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Famous electric-turquoise mountain lake framed by Victoria Glacier and Fairmont Chateau.",
+      "overview": "Canoe across tranquil glacial waters and ride the Banff Gondola to Sulphur Mountain.",
+      "rating": 4.99,
+      "bestTimeToVisit": "Jun to Sep & Dec to Apr",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Banff & Lake Louise Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Banff & Lake Louise with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Banff & Lake Louise, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Banff & Lake Louise",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Banff & Lake Louise?",
+          "a": "The best season is Jun to Sep & Dec to Apr."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Banff & Lake Louise!"
+        }
+      ]
+    },
+    {
+      "slug": "niagara-falls",
+      "name": "Niagara Falls & Maid of the Mist",
+      "category": "Waterfall Wonder",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Thunderous Horseshoe Falls plunging 57 meters into the roaring Niagara gorge.",
+      "overview": "Take the iconic boat cruise right into the heart of the roaring misty spray.",
+      "rating": 4.95,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Niagara Falls & Maid of the Mist Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Niagara Falls & Maid of the Mist with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Niagara Falls & Maid of the Mist, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Niagara Falls & Maid of the Mist",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Niagara Falls & Maid of the Mist?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Niagara Falls & Maid of the Mist!"
+        }
+      ]
+    },
+    {
+      "slug": "jasper-icefields",
+      "name": "Jasper & Icefields Parkway",
+      "category": "Mountain Highway",
+      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "One of the world's most scenic drives featuring Columbia Icefield snow coach tours.",
+      "overview": "Walk on ancient glacier ice and spot wild grizzly bears and elk along Athabasca Falls.",
+      "rating": 4.97,
+      "bestTimeToVisit": "Jun to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Jasper & Icefields Parkway Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Jasper & Icefields Parkway with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Jasper & Icefields Parkway, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Jasper & Icefields Parkway",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Jasper & Icefields Parkway?",
+          "a": "The best season is Jun to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Jasper & Icefields Parkway!"
+        }
+      ]
+    },
+    {
+      "slug": "toronto-cn-tower",
+      "name": "Toronto CN Tower & Waterfront",
+      "category": "Skyline Landmark",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "553-meter tall CN Tower with glass floor observation deck and EdgeWalk.",
+      "overview": "Explore Toronto Islands, Ripley's Aquarium, and multicultural food markets.",
+      "rating": 4.9,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Toronto CN Tower & Waterfront Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Toronto CN Tower & Waterfront with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Toronto CN Tower & Waterfront, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Toronto CN Tower & Waterfront",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Toronto CN Tower & Waterfront?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Toronto CN Tower & Waterfront!"
+        }
+      ]
+    },
+    {
+      "slug": "vancouver-stanley-park",
+      "name": "Vancouver Stanley Park & Capilano",
+      "category": "Pacific Northwest",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Seawall bike paths surrounded by Pacific Ocean waters and Capilano Suspension Bridge.",
+      "overview": "A coastal metropolis combining mountain snow peaks with temperate rainforests.",
+      "rating": 4.94,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Vancouver Stanley Park & Capilano Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Vancouver Stanley Park & Capilano with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Vancouver Stanley Park & Capilano, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Vancouver Stanley Park & Capilano",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Vancouver Stanley Park & Capilano?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Vancouver Stanley Park & Capilano!"
+        }
+      ]
+    },
+    {
+      "slug": "quebec-chateau-frontenac",
+      "name": "Quebec City & Château Frontenac",
+      "category": "French Colonial",
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Iconic grand hotel standing above fortified stone walls of North America's oldest French city.",
+      "overview": "Walk narrow cobblestone streets of Petit Champlain and savor authentic poutine.",
+      "rating": 4.96,
+      "bestTimeToVisit": "Jun to Oct & Dec (Christmas)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Quebec City & Château Frontenac Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Quebec City & Château Frontenac with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Quebec City & Château Frontenac, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Quebec City & Château Frontenac",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Quebec City & Château Frontenac?",
+          "a": "The best season is Jun to Oct & Dec (Christmas)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Quebec City & Château Frontenac!"
+        }
+      ]
+    },
+    {
+      "slug": "whistler-blackcomb",
+      "name": "Whistler Blackcomb Ski Resort",
+      "category": "Alpine Snow",
+      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "North America's premier ski resort featuring the Peak 2 Peak glass gondola.",
+      "overview": "Enjoy world-class powder snow skiing, mountain biking, and luxury chalet spas.",
+      "rating": 4.98,
+      "bestTimeToVisit": "Dec to Apr & Jul to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Whistler Blackcomb Ski Resort Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Whistler Blackcomb Ski Resort with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Whistler Blackcomb Ski Resort, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Whistler Blackcomb Ski Resort",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Whistler Blackcomb Ski Resort?",
+          "a": "The best season is Dec to Apr & Jul to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Whistler Blackcomb Ski Resort!"
+        }
+      ]
+    },
+    {
+      "slug": "montreal-old-port",
+      "name": "Montreal Old Port & Notre-Dame",
+      "category": "Culture & Festivals",
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Gothic Revival Notre-Dame Basilica with azure stained glass and cobblestone French dining.",
+      "overview": "Canada's cultural capital famous for international jazz festivals and culinary art.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Montreal Old Port & Notre-Dame Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Montreal Old Port & Notre-Dame with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Montreal Old Port & Notre-Dame, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Montreal Old Port & Notre-Dame",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Montreal Old Port & Notre-Dame?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Montreal Old Port & Notre-Dame!"
+        }
+      ]
+    },
+    {
+      "slug": "moraine-lake",
+      "name": "Moraine Lake & Valley of 10 Peaks",
+      "category": "Alpine Gem",
+      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Luminous deep blue lake enclosed by ten soaring jagged Rocky Mountain peaks.",
+      "overview": "A pristine wilderness photo paradise accessible during summer months.",
+      "rating": 4.99,
+      "bestTimeToVisit": "Jun to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Moraine Lake & Valley of 10 Peaks Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Moraine Lake & Valley of 10 Peaks with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Moraine Lake & Valley of 10 Peaks, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Moraine Lake & Valley of 10 Peaks",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Moraine Lake & Valley of 10 Peaks?",
+          "a": "The best season is Jun to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Moraine Lake & Valley of 10 Peaks!"
+        }
+      ]
+    },
+    {
+      "slug": "yellowknife-aurora",
+      "name": "Yellowknife Northern Lights",
+      "category": "Aurora Borealis",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's premier location for viewing dancing green and violet Aurora Borealis skies.",
+      "overview": "Enjoy dog sledding, snowmobiling, and heated teepee viewing lodges.",
+      "rating": 4.97,
+      "bestTimeToVisit": "Sep to Apr",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Yellowknife Northern Lights Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Yellowknife Northern Lights with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Yellowknife Northern Lights, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Yellowknife Northern Lights",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Yellowknife Northern Lights?",
+          "a": "The best season is Sep to Apr."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Yellowknife Northern Lights!"
+        }
+      ]
+    }
+  ]
+}

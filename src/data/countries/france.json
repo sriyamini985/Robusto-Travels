@@ -23,66 +23,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "paris",
-      "name": "Parisian Art",
-      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "The city of light, famous for iconic landmarks, fashion houses, and world-class museum collections.",
-      "overview": "Paris is a global center for art, fashion, and gastronomy. Built along the Seine River, its broad 19th-century boulevards are lined with cafes, boutiques, and classic Haussmannian facades.",
-      "rating": 4.95,
-      "bestTimeToVisit": "April to June, September to October",
-      "packagePrice": 1380,
+      "slug": "paris-eiffel",
+      "name": "Paris Eiffel Tower & Louvre",
+      "category": "Capital of Romance",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Iron Lady illumination, Mona Lisa at the Louvre, Notre-Dame, and Seine River cruises.",
+      "overview": "The global capital of art, fashion, gastronomy, and culture.",
+      "rating": 4.96,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Ritz Paris",
+          "name": "Grand Paris Eiffel Tower & Louvre Resort",
           "rating": 4.9,
-          "description": "Historic grand hotel located on Place Vendôme, famous for absolute luxury."
+          "description": "Luxury five-star hotel near Paris Eiffel Tower & Louvre with world-class dining."
         }
       ],
-      "meals": "Fresh butter croissants and Michelin-starred French dinners.",
-      "transport": "Private chauffeur sedan transfers and Paris Metro cards.",
-      "activities": "Eiffel Tower VIP Platform Tour, Seine River Private Cruise, Louvre Museum Tour.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Paris Eiffel Tower & Louvre, photo walk, and local cultural experience.",
       "included": [
-        "Ritz Paris suite stays",
-        "Fast-track Eiffel summit access tickets",
-        "Private Seine cruise with champagne"
+        "Guided tour of Paris Eiffel Tower & Louvre",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal shopping expenses"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "How do we skip the lines at the Louvre?",
-          "a": "Our packages include reserved skip-the-line group or private guide entry tickets for all major museums."
+          "q": "What is the best time to visit Paris Eiffel Tower & Louvre?",
+          "a": "The ideal season is May to October."
         }
       ],
       "reviews": [
         {
-          "author": "Elena G.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "The Seine cruise at twilight as the Eiffel Tower started sparkling was pure magic."
+          "text": "Visiting Paris Eiffel Tower & Louvre was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "french-riviera-nice",
+      "name": "French Riviera, Nice & Cannes",
+      "category": "Mediterranean Coast",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Promenade des Anglais in Nice, Cannes red carpet film festival, and Monaco superyachts.",
+      "overview": "The glamorous Cote d'Azur favored by artists and international jetsetters.",
+      "rating": 4.94,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Welcome to Paris & Seine Sunset Cruise",
-          "morning": "Airport pickup and transfer to Ritz Paris. Rest.",
-          "afternoon": "Stroll the Tuileries gardens and shop at Place Vendôme.",
-          "evening": "Private Seine cruise with champagne, watching the monuments light up.",
-          "hotelId": "ritz-paris"
-        },
-        {
-          "day": 2,
-          "title": "Louvre Masterpieces & Eiffel Tower",
-          "morning": "Skip-the-line guided tour of the Louvre seeing the Mona Lisa and Venus de Milo.",
-          "afternoon": "Stroll the Champs-Élysées up to the Arc de Triomphe.",
-          "evening": "VIP dinner at the Eiffel Tower restaurant with panoramic city views."
+          "name": "Grand French Riviera, Nice & Cannes Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near French Riviera, Nice & Cannes with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of French Riviera, Nice & Cannes, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of French Riviera, Nice & Cannes",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit French Riviera, Nice & Cannes?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting French Riviera, Nice & Cannes was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "mont-saint-michel",
+      "name": "Mont Saint-Michel Abbey",
+      "category": "Medieval Citadel",
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Gravity-defying Gothic abbey perched on a rocky island surrounded by extreme tides.",
+      "overview": "A UNESCO World Heritage site in Normandy that transforms into an island during high tide.",
+      "rating": 4.97,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Mont Saint-Michel Abbey Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Mont Saint-Michel Abbey with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Mont Saint-Michel Abbey, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Mont Saint-Michel Abbey",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Mont Saint-Michel Abbey?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Mont Saint-Michel Abbey was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "versailles-palace",
+      "name": "Palace of Versailles & Gardens",
+      "category": "Royal Estate",
+      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Louis XIV's extravagant Hall of Mirrors, royal apartments, and fountain gardens.",
+      "overview": "The pinnacle of French 17th-century classical architecture and royal opulence.",
+      "rating": 4.92,
+      "bestTimeToVisit": "April to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Palace of Versailles & Gardens Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Palace of Versailles & Gardens with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Palace of Versailles & Gardens, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Palace of Versailles & Gardens",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Palace of Versailles & Gardens?",
+          "a": "The ideal season is April to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Palace of Versailles & Gardens was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "bordeaux-vineyards",
+      "name": "Bordeaux Wine Region & Cité du Vin",
+      "category": "Wine Capital",
+      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Historic Saint-Emilion chateaux, grand wine tastings, and 18th-century stone mansions.",
+      "overview": "The world's premier wine capital featuring ultra-modern Cité du Vin wine museum.",
+      "rating": 4.9,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Bordeaux Wine Region & Cité du Vin Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Bordeaux Wine Region & Cité du Vin with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Bordeaux Wine Region & Cité du Vin, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Bordeaux Wine Region & Cité du Vin",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Bordeaux Wine Region & Cité du Vin?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Bordeaux Wine Region & Cité du Vin was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "chamonix-mont-blanc",
+      "name": "Chamonix Mont-Blanc & Aiguille du Midi",
+      "category": "Alpine Wilderness",
+      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Cable car to 3,842m Aiguille du Midi glass skywalk overlooking Western Europe's highest peak.",
+      "overview": "The birthplace of mountaineering and extreme winter sports in the French Alps.",
+      "rating": 4.95,
+      "bestTimeToVisit": "Dec to Apr & Jun to Sep",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Chamonix Mont-Blanc & Aiguille du Midi Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Chamonix Mont-Blanc & Aiguille du Midi with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Chamonix Mont-Blanc & Aiguille du Midi, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Chamonix Mont-Blanc & Aiguille du Midi",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Chamonix Mont-Blanc & Aiguille du Midi?",
+          "a": "The ideal season is Dec to Apr & Jun to Sep."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Chamonix Mont-Blanc & Aiguille du Midi was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "provence-lavender",
+      "name": "Provence Lavender Fields & Gordes",
+      "category": "Floral Countryside",
+      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Purple blooming lavender fields at Senanque Abbey and stone hilltop villages.",
+      "overview": "A sun-drenched region of olive groves, truffle markets, and Van Gogh landscapes.",
+      "rating": 4.93,
+      "bestTimeToVisit": "June to July (Lavender bloom)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Provence Lavender Fields & Gordes Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Provence Lavender Fields & Gordes with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Provence Lavender Fields & Gordes, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Provence Lavender Fields & Gordes",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Provence Lavender Fields & Gordes?",
+          "a": "The ideal season is June to July (Lavender bloom)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Provence Lavender Fields & Gordes was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "loire-valley-castles",
+      "name": "Loire Valley Châteaux (Chambord)",
+      "category": "Renaissance Castles",
+      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Château de Chambord's double helix staircase and Château de Chenonceau arched over Cher river.",
+      "overview": "The Garden of France packed with over 300 Renaissance royal castles.",
+      "rating": 4.91,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Loire Valley Châteaux (Chambord) Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Loire Valley Châteaux (Chambord) with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Loire Valley Châteaux (Chambord), photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Loire Valley Châteaux (Chambord)",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Loire Valley Châteaux (Chambord)?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Loire Valley Châteaux (Chambord) was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "strasbourg-alsace",
+      "name": "Strasbourg & Alsace Wine Route",
+      "category": "Franco-German Charm",
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Half-timbered fairy tale houses in Petite France and historic Christmas markets.",
+      "overview": "Capital of Alsace blending French and German heritage, wine, and Gothic cathedrals.",
+      "rating": 4.89,
+      "bestTimeToVisit": "May to Dec",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Strasbourg & Alsace Wine Route Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Strasbourg & Alsace Wine Route with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Strasbourg & Alsace Wine Route, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Strasbourg & Alsace Wine Route",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Strasbourg & Alsace Wine Route?",
+          "a": "The ideal season is May to Dec."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Strasbourg & Alsace Wine Route was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "biarritz-coast",
+      "name": "Biarritz Basque Coast",
+      "category": "Atlantic Surfing",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Empress Eugenie's seaside palace, Grande Plage surfing, and Basque tapas cuisine.",
+      "overview": "An elegant Atlantic resort town combining royal heritage with surfing culture.",
+      "rating": 4.87,
+      "bestTimeToVisit": "June to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Biarritz Basque Coast Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Biarritz Basque Coast with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Biarritz Basque Coast, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Biarritz Basque Coast",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Biarritz Basque Coast?",
+          "a": "The ideal season is June to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Biarritz Basque Coast was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

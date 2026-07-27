@@ -23,65 +23,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "male",
-      "name": "Malé & Private Atolls",
-      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "Private luxury islands offering white beaches, coral reefs, and isolated overwater bungalows.",
-      "overview": "The Maldives is composed of 1,200 coral islands grouped in atolls. Our selected private island resort offers absolute isolation, where the house reef is just steps from your villa deck.",
-      "rating": 4.97,
-      "bestTimeToVisit": "December to April",
-      "packagePrice": 1580,
-      "duration": "5 Days • 4 Nights",
+      "slug": "ari-atoll",
+      "name": "Ari Atoll & Whale Shark Lagoon",
+      "category": "Marine Reserve",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World-famous marine sanctuary for year-round swimming with gentle whale sharks and manta rays.",
+      "overview": "Ari Atoll offers turquoise lagoons, vibrant coral gardens, and world-class diving channels.",
+      "rating": 4.98,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Soneva Jani Resort",
-          "rating": 5.0,
-          "description": "Ultra-luxury overwater villas with retractable roofs and private water slides."
+          "name": "Grand Ari Atoll & Whale Shark Lagoon Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Ari Atoll & Whale Shark Lagoon with world-class dining."
         }
       ],
-      "meals": "All-inclusive gourmet menus at resort restaurants.",
-      "transport": "Roundtrip luxury speedboat or private seaplane transfers.",
-      "activities": "Manta Ray Snorkeling, Private Sunset Cruise, Sandbank Dinner.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Ari Atoll & Whale Shark Lagoon, photo walk, and local cultural experience.",
       "included": [
-        "Luxury seaplane transfer tickets",
-        "Overwater villa stay with lagoon slide",
-        "All meals and premium beverages"
+        "Guided tour of Ari Atoll & Whale Shark Lagoon",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Scuba certification course fees"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "How do we reach the private resort?",
-          "a": "After landing at Malé International Airport, our airport representative will guide you to the seaplane terminal for transfer."
+          "q": "What is the best time to visit Ari Atoll & Whale Shark Lagoon?",
+          "a": "The ideal season is November to April."
         }
       ],
       "reviews": [
         {
-          "author": "Anjali R.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "The seaplane transfer was spectacular. Soneva Jani is absolute paradise."
+          "text": "Visiting Ari Atoll & Whale Shark Lagoon was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "baa-atoll",
+      "name": "Baa Atoll UNESCO Biosphere",
+      "category": "Coral Atoll",
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Hanifaru Bay feeding frenzy of hundreds of manta rays in crystal shallow waters.",
+      "overview": "A globally protected UNESCO marine sanctuary with ultra-luxury eco-resorts.",
+      "rating": 4.97,
+      "bestTimeToVisit": "May to November (Manta season)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Seaplane Flight & Lagoon Check-in",
-          "morning": "Fly by seaplane over pristine coral rings. Check into Soneva Jani.",
-          "afternoon": "Slide directly from your villa deck into the turquoise lagoon.",
-          "evening": "Sunset champagne cruise searching for local spinner dolphins."
-        },
-        {
-          "day": 2,
-          "title": "Snorkeling with Mantas & Sandbank Dinner",
-          "morning": "Board a luxury Dhoni boat to snorkel with manta rays at the bay.",
-          "afternoon": "Relax with a signature spa treatment inside the overwater sanctuary.",
-          "evening": "Private lantern-lit barbecue dinner on a deserted sandbank."
+          "name": "Grand Baa Atoll UNESCO Biosphere Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Baa Atoll UNESCO Biosphere with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Baa Atoll UNESCO Biosphere, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Baa Atoll UNESCO Biosphere",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Baa Atoll UNESCO Biosphere?",
+          "a": "The ideal season is May to November (Manta season)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Baa Atoll UNESCO Biosphere was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "male-city",
+      "name": "Male Capital & Grand Mosque",
+      "category": "Island Capital",
+      "image": "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Golden dome of Islamic Centre, bustling fish markets, and Sultan Park.",
+      "overview": "The vibrant, densely populated capital island offering insights into Maldivian culture.",
+      "rating": 4.82,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Male Capital & Grand Mosque Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Male Capital & Grand Mosque with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Male Capital & Grand Mosque, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Male Capital & Grand Mosque",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Male Capital & Grand Mosque?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Male Capital & Grand Mosque was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "vaadhoo-bioluminescence",
+      "name": "Vaadhoo Sea of Stars",
+      "category": "Bioluminescent Beach",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Natural bioluminescent phytoplankton washing ashore like glowing blue stars at night.",
+      "overview": "Witness the magical glowing blue waves beneath the starlit Maldivian night sky.",
+      "rating": 4.96,
+      "bestTimeToVisit": "June to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Vaadhoo Sea of Stars Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Vaadhoo Sea of Stars with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Vaadhoo Sea of Stars, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Vaadhoo Sea of Stars",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Vaadhoo Sea of Stars?",
+          "a": "The ideal season is June to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Vaadhoo Sea of Stars was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "maafushi-island",
+      "name": "Maafushi Local Island & Sandbanks",
+      "category": "Local Paradise",
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Inhabited island offering budget luxury, sandbank excursions, and dolphin cruises.",
+      "overview": "Snorkel with nurse sharks and sea turtles just offshore from pristine beaches.",
+      "rating": 4.88,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Maafushi Local Island & Sandbanks Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Maafushi Local Island & Sandbanks with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Maafushi Local Island & Sandbanks, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Maafushi Local Island & Sandbanks",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Maafushi Local Island & Sandbanks?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Maafushi Local Island & Sandbanks was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "baros-resort",
+      "name": "Baros Overwater Lagoon",
+      "category": "Private Atoll",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Pioneer of Maldivian luxury with iconic round wooden overwater villas and house reefs.",
+      "overview": "Consistently awarded the world's most romantic resort for couples and honeymoons.",
+      "rating": 4.99,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Baros Overwater Lagoon Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Baros Overwater Lagoon with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Baros Overwater Lagoon, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Baros Overwater Lagoon",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Baros Overwater Lagoon?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Baros Overwater Lagoon was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "hulhumale-beach",
+      "name": "Hulhumale Island Beach",
+      "category": "Coastal Promenade",
+      "image": "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Reclaimed green island connected to Male airport with long white sand public beaches.",
+      "overview": "Features water sports centers, beachside cafes, and sunset boardwalks.",
+      "rating": 4.84,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Hulhumale Island Beach Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Hulhumale Island Beach with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Hulhumale Island Beach, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Hulhumale Island Beach",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Hulhumale Island Beach?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Hulhumale Island Beach was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "sun-island-lagoon",
+      "name": "Sun Island Resort & Atoll Lagoon",
+      "category": "Tropical Lagoon",
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Expansive island resort with lush coconut palm avenues, stingray feeding, and reef spas.",
+      "overview": "One of the largest resort islands in South Ari Atoll featuring glass-bottom spa rooms.",
+      "rating": 4.91,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sun Island Resort & Atoll Lagoon Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Sun Island Resort & Atoll Lagoon with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Sun Island Resort & Atoll Lagoon, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Sun Island Resort & Atoll Lagoon",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sun Island Resort & Atoll Lagoon?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Sun Island Resort & Atoll Lagoon was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "veligandu-island",
+      "name": "Veligandu Island Sandbar",
+      "category": "Sandbar Lagoon",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "80-meter long pristine white sand spit stretching into clear turquoise waters.",
+      "overview": "Enjoy private candlelit sandbar dinners surrounded by 360-degree ocean panoramas.",
+      "rating": 4.95,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Veligandu Island Sandbar Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Veligandu Island Sandbar with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Veligandu Island Sandbar, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Veligandu Island Sandbar",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Veligandu Island Sandbar?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Veligandu Island Sandbar was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "dhaalu-atoll",
+      "name": "Dhaalu Atoll Underwater Dining",
+      "category": "Sub-Ocean Gastronomy",
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Undersea glass restaurant dining 6 meters below sea level surrounded by coral fish.",
+      "overview": "Dine on fine caviar while watching reef sharks swim past your table window.",
+      "rating": 4.98,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Dhaalu Atoll Underwater Dining Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Dhaalu Atoll Underwater Dining with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Dhaalu Atoll Underwater Dining, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Dhaalu Atoll Underwater Dining",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Dhaalu Atoll Underwater Dining?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Dhaalu Atoll Underwater Dining was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

@@ -24,131 +24,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "rome",
-      "name": "Ancient Rome",
-      "image": "https://images.unsplash.com/photo-1531572753322-ad063caff12e?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "The eternal city, where 2,000-year-old Roman ruins stand alongside Vatican palaces and Renaissance plazas.",
-      "overview": "Rome is a living open-air museum. The capital of a historic empire, its streets are paved with history. Visitors can walk the ruins of the Colosseum, marvel at the Michelangelo frescoes inside the Sistine Chapel, and toss a coin into the Trevi Fountain to secure their return.",
-      "rating": 4.96,
-      "bestTimeToVisit": "April to May, September to October",
-      "packagePrice": 1250,
+      "slug": "rome-colosseum",
+      "name": "Rome Colosseum & Vatican City",
+      "category": "Ancient History",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "The Eternal City's iconic amphitheater, Roman Forum, Trevi Fountain, and Sistine Chapel.",
+      "overview": "Rome is a living museum where ancient ruins stand side-by-side with lively piazzas and trattorias.",
+      "rating": 4.95,
+      "bestTimeToVisit": "April to June & Sep to Oct",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Hotel Hassler Roma",
+          "name": "Grand Rome Colosseum & Vatican City Resort",
           "rating": 4.9,
-          "description": "Prestigious five-star hotel set at the top of the Spanish Steps."
-        },
-        {
-          "name": "Rocco Forte Hotel de Russie",
-          "rating": 4.8,
-          "description": "Featuring a secret garden oasis in the heart of Rome near Piazza del Popolo."
+          "description": "Luxury five-star hotel near Rome Colosseum & Vatican City with world-class dining."
         }
       ],
-      "meals": "Fresh bakery breakfasts and custom Roman pasta dinners.",
-      "transport": "Private sedan airport transfers and high-speed rail passes.",
-      "activities": "Colosseum Private Night Tour, Vatican Museums Skip-the-line Tour, Trastevere Food Crawl.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Rome Colosseum & Vatican City, photo walk, and local cultural experience.",
       "included": [
-        "Private historian guide for Roman Forum",
-        "Vatican museums fast-track admission",
-        "Traditional pasta-making class"
+        "Guided tour of Rome Colosseum & Vatican City",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Monuments photo permits (where required)"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1531572753322-ad063caff12e?auto=format&fit=crop&q=80&w=800"
+        "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "What is the dress code for Vatican City?",
-          "a": "Shoulders and knees must be covered to enter St. Peter's Basilica and the Vatican Museums."
+          "q": "What is the best time to visit Rome Colosseum & Vatican City?",
+          "a": "The ideal season is April to June & Sep to Oct."
         }
       ],
       "reviews": [
         {
-          "author": "Lucia F.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Standing inside the Colosseum at sunset with a private guide made history come alive."
+          "text": "Visiting Rome Colosseum & Vatican City was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Imperial Rome & Trevi Walk",
-          "morning": "Arrive in Rome, transfer to hotel. Rest.",
-          "afternoon": "Walk past Piazza Navona, the Pantheon, and toss a coin into the Trevi Fountain.",
-          "evening": "Enjoy classic Roman dishes like Cacio e Pepe in a cozy Trastevere Osteria."
-        },
-        {
-          "day": 2,
-          "title": "Colosseum Arena & Vatican Museums",
-          "morning": "Explore the Colosseum floor and walk the ancient paths of the Roman Forum.",
-          "afternoon": "Guided tour of the Vatican Museums, Raphael Rooms, and Sistine Chapel.",
-          "evening": "Private cooking class making handmade fettuccine with a local chef."
-        }
-      ]
+      "itinerary": []
     },
     {
-      "slug": "amalfi",
-      "name": "Amalfi Coast",
-      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "A dramatic coastline of pastel-colored clifftop towns, lemon orchards, and sparkling turquoise Mediterranean waters.",
-      "overview": "The Amalfi Coast is Italy's coastal crown jewel. Vertical cliffs drop into a deep blue sea, with towns like Positano and Amalfi clinging precariously to the rocks. Lemon trees fragrance the air, and historic pathways offer sweeping sea panoramas.",
-      "rating": 4.92,
-      "bestTimeToVisit": "May to September",
-      "packagePrice": 1420,
-      "duration": "4 Days • 3 Nights",
+      "slug": "venice-canals",
+      "name": "Venice Grand Canal & St. Mark's",
+      "category": "Romantic Waterway",
+      "image": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Gondola rides through winding historic canals, Doge's Palace, and Murano glassmaking.",
+      "overview": "A magical car-free city built on 118 islands connected by romantic bridges.",
+      "rating": 4.93,
+      "bestTimeToVisit": "April to May & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Le Sirenuse Positano",
-          "rating": 5.0,
-          "description": "World-famous luxury boutique hotel overlooking Positano bay."
+          "name": "Grand Venice Grand Canal & St. Mark's Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Venice Grand Canal & St. Mark's with world-class dining."
         }
       ],
-      "meals": "Fresh seafood dining and local limoncello tastings.",
-      "transport": "Private Mercedes driver along the coast roads and private boat charters.",
-      "activities": "Private Yacht Cruise to Capri, Ravello Villa Rufolo Gardens Tour, Limoncello Tasting.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Venice Grand Canal & St. Mark's, photo walk, and local cultural experience.",
       "included": [
-        "Private boat charter to Capri island",
-        "Michelin-star dinner at Positano bay",
-        "Mercedes chauffeur service"
+        "Guided tour of Venice Grand Canal & St. Mark's",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Capri Blue Grotto rowing boat fees"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=800"
+        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "Is the road drive scary?",
-          "a": "The coast road is extremely narrow and winding. We include professional private drivers for your safety and comfort."
+          "q": "What is the best time to visit Venice Grand Canal & St. Mark's?",
+          "a": "The ideal season is April to May & Sep to Nov."
         }
       ],
       "reviews": [
         {
-          "author": "Marco B.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Waking up to the sea view in Positano was the dream of a lifetime. The boat cruise to Capri was amazing."
+          "text": "Visiting Venice Grand Canal & St. Mark's was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "florence-duomo",
+      "name": "Florence Duomo & Uffizi Gallery",
+      "category": "Renaissance Art",
+      "image": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Brunelleschi's terracotta dome, Michelangelo's David, and Tuscan wine tasting.",
+      "overview": "The cradle of the Italian Renaissance, packed with masterpiece art galleries and cobblestone alleys.",
+      "rating": 4.94,
+      "bestTimeToVisit": "April to June & Sep to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Coastal Drive & Positano Sunset",
-          "morning": "Pick up by chauffeur in Naples and drive the breathtaking Amalfi Coast road.",
-          "afternoon": "Check into Le Sirenuse and explore the narrow boutique stairways of Positano.",
-          "evening": "Enjoy candlelight dining with views of Positano's illuminated cliffs."
-        },
-        {
-          "day": 2,
-          "title": "Capri Yacht Cruise",
-          "morning": "Board your private speed-boat for a full day cruise to the Isle of Capri.",
-          "afternoon": "Swim in hidden coves and anchor to walk the streets of Capri and Anacapri.",
-          "evening": "Return to Positano for fresh seafood pasta at a beachside trattoria."
+          "name": "Grand Florence Duomo & Uffizi Gallery Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Florence Duomo & Uffizi Gallery with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Florence Duomo & Uffizi Gallery, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Florence Duomo & Uffizi Gallery",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Florence Duomo & Uffizi Gallery?",
+          "a": "The ideal season is April to June & Sep to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Florence Duomo & Uffizi Gallery was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "amalfi-coast",
+      "name": "Amalfi Coast & Positano",
+      "category": "Coastal Luxury",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Dramatic cliffside pastel villages, lemon groves, and azure Mediterranean waters.",
+      "overview": "Positano and Ravello offer glamourous cliffside luxury hotels overlooking the Tyrrhenian Sea.",
+      "rating": 4.97,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Amalfi Coast & Positano Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Amalfi Coast & Positano with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Amalfi Coast & Positano, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Amalfi Coast & Positano",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Amalfi Coast & Positano?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Amalfi Coast & Positano was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "milan-duomo",
+      "name": "Milan Duomo & Fashion District",
+      "category": "Fashion & Culture",
+      "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Gothic cathedral spires, Galleria Vittorio Emanuele II, and Da Vinci's Last Supper.",
+      "overview": "Italy's capital of design, fashion, and commerce with world-class opera at La Scala.",
+      "rating": 4.88,
+      "bestTimeToVisit": "April to May & Sep to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Milan Duomo & Fashion District Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Milan Duomo & Fashion District with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Milan Duomo & Fashion District, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Milan Duomo & Fashion District",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Milan Duomo & Fashion District?",
+          "a": "The ideal season is April to May & Sep to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Milan Duomo & Fashion District was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "pisa-tower",
+      "name": "Leaning Tower of Pisa",
+      "category": "Architectural Marvel",
+      "image": "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World-famous bell tower known for its unintended 4-degree tilt on the Piazza dei Miracoli.",
+      "overview": "Climb the 294 marble steps to the top for panoramic views across Pisa.",
+      "rating": 4.85,
+      "bestTimeToVisit": "April to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Leaning Tower of Pisa Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Leaning Tower of Pisa with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Leaning Tower of Pisa, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Leaning Tower of Pisa",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Leaning Tower of Pisa?",
+          "a": "The ideal season is April to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Leaning Tower of Pisa was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "cinque-terre",
+      "name": "Cinque Terre Villages",
+      "category": "Coastal Hiking",
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Five colorful centuries-old fishing villages clinging to rugged Ligurian cliffs.",
+      "overview": "Monterosso, Vernazza, and Manarola feature coastal hiking trails and pesto cuisine.",
+      "rating": 4.96,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Cinque Terre Villages Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Cinque Terre Villages with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Cinque Terre Villages, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Cinque Terre Villages",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Cinque Terre Villages?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Cinque Terre Villages was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "lake-como",
+      "name": "Lake Como & Bellagio",
+      "category": "Lakeside Villas",
+      "image": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Glacial lake framed by snow-capped peaks, extravagant botanical gardens, and celebrity villas.",
+      "overview": "Known as the Pearl of the Lake, Bellagio offers elegant waterfront dining and boat tours.",
+      "rating": 4.95,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Lake Como & Bellagio Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Lake Como & Bellagio with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Lake Como & Bellagio, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Lake Como & Bellagio",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Lake Como & Bellagio?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Lake Como & Bellagio was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "naples-pompeii",
+      "name": "Naples & Ancient Pompeii",
+      "category": "Archaeology & Food",
+      "image": "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Preserved Roman streets buried by Mount Vesuvius eruption and authentic Neapolitan pizza.",
+      "overview": "Walk through Roman villas frozen in time in 79 AD.",
+      "rating": 4.87,
+      "bestTimeToVisit": "April to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Naples & Ancient Pompeii Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Naples & Ancient Pompeii with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Naples & Ancient Pompeii, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Naples & Ancient Pompeii",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Naples & Ancient Pompeii?",
+          "a": "The ideal season is April to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Naples & Ancient Pompeii was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "verona",
+      "name": "Verona & Juliet's Balcony",
+      "category": "Romantic Heritage",
+      "image": "https://images.unsplash.com/photo-1595867818082-083862f3d630?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Setting of Shakespeare's Romeo & Juliet with an ancient Roman opera arena.",
+      "overview": "Enjoy summer opera performances under the stars in a 2,000-year-old Roman amphitheater.",
+      "rating": 4.86,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Verona & Juliet's Balcony Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Verona & Juliet's Balcony with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Verona & Juliet's Balcony, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Verona & Juliet's Balcony",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1595867818082-083862f3d630?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Verona & Juliet's Balcony?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Verona & Juliet's Balcony was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

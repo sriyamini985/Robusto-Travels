@@ -1,0 +1,495 @@
+{
+  "name": "Greece",
+  "slug": "greece",
+  "flag": "🇬🇷",
+  "heroImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=1200",
+  "intro": "Whitewashed Aegean villages, cobalt-blue dome churches, ancient marble temples, and sun-drenched Mediterranean islands.",
+  "bestSeason": "May to October",
+  "weather": "Mediterranean climate. Hot dry summers (28°C to 34°C), mild wet winters (10°C to 16°C).",
+  "currency": "Euro (EUR)",
+  "language": "Greek",
+  "timeZone": "EET (GMT+2)",
+  "visaInfo": "Schengen Visa required.",
+  "flightDuration": "Approx 7-8 hours direct flight.",
+  "highlights": [
+    "Santorini Caldera",
+    "Acropolis of Athens",
+    "Mykonos Windmills",
+    "Meteora Monasteries"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+  ],
+  "famousPlaces": [
+    {
+      "slug": "santorini-oia",
+      "name": "Santorini & Oia Sunset",
+      "category": "Cycladic Island",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Iconic blue-domed churches clinging to volcanic caldera cliffs above the Aegean Sea.",
+      "overview": "Oia offers the world's most famous sunset views over infinity pools and cliffside cave suites.",
+      "rating": 4.99,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Santorini & Oia Sunset Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Santorini & Oia Sunset with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Santorini & Oia Sunset, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Santorini & Oia Sunset",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Santorini & Oia Sunset?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Santorini & Oia Sunset!"
+        }
+      ]
+    },
+    {
+      "slug": "athens-acropolis",
+      "name": "Athens Acropolis & Parthenon",
+      "category": "Classical Antiquity",
+      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "5th-century BC marble Parthenon temple overlooking the cradle of Western democracy.",
+      "overview": "Explore Plaka cobblestone alleys, ancient Agora, and Acropolis Museum.",
+      "rating": 4.96,
+      "bestTimeToVisit": "Apr to Jun & Sep to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Athens Acropolis & Parthenon Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Athens Acropolis & Parthenon with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Athens Acropolis & Parthenon, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Athens Acropolis & Parthenon",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Athens Acropolis & Parthenon?",
+          "a": "The best season is Apr to Jun & Sep to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Athens Acropolis & Parthenon!"
+        }
+      ]
+    },
+    {
+      "slug": "mykonos-windmills",
+      "name": "Mykonos Windmills & Little Venice",
+      "category": "Island Lifestyle",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "White-washed 16th-century windmills, waterfront cafes, and beach clubs.",
+      "overview": "Greece's glamorous cosmopolitan island for beach lounges, boutiques, and nightlife.",
+      "rating": 4.92,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Mykonos Windmills & Little Venice Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Mykonos Windmills & Little Venice with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Mykonos Windmills & Little Venice, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Mykonos Windmills & Little Venice",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Mykonos Windmills & Little Venice?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Mykonos Windmills & Little Venice!"
+        }
+      ]
+    },
+    {
+      "slug": "meteora-monasteries",
+      "name": "Meteora Hanging Monasteries",
+      "category": "Mountain Sanctuary",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Byzantine monasteries perched precariously atop immense natural sandstone rock pillars.",
+      "overview": "A UNESCO World Heritage sanctuary offering breathtaking misty mountain views.",
+      "rating": 4.97,
+      "bestTimeToVisit": "Apr to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Meteora Hanging Monasteries Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Meteora Hanging Monasteries with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Meteora Hanging Monasteries, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Meteora Hanging Monasteries",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Meteora Hanging Monasteries?",
+          "a": "The best season is Apr to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Meteora Hanging Monasteries!"
+        }
+      ]
+    },
+    {
+      "slug": "crete-elafonisi",
+      "name": "Crete Elafonisi Pink Beach",
+      "category": "Coastal Lagoon",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Famous pink sand lagoon with warm shallow turquoise waters in southwestern Crete.",
+      "overview": "Explore Minoan Palace of Knossos, Samaria Gorge, and authentic Cretan olive oil gastronomy.",
+      "rating": 4.94,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Crete Elafonisi Pink Beach Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Crete Elafonisi Pink Beach with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Crete Elafonisi Pink Beach, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Crete Elafonisi Pink Beach",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Crete Elafonisi Pink Beach?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Crete Elafonisi Pink Beach!"
+        }
+      ]
+    },
+    {
+      "slug": "zakynthos-navagio",
+      "name": "Zakynthos Shipwreck Beach",
+      "category": "Iconic Cove",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Navagio Cove's pristine white sand beach framed by 200m limestone cliffs and a stranded freighter.",
+      "overview": "Accessible only by boat, offering luminous electric-blue sea caves.",
+      "rating": 4.98,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Zakynthos Shipwreck Beach Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Zakynthos Shipwreck Beach with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Zakynthos Shipwreck Beach, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Zakynthos Shipwreck Beach",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Zakynthos Shipwreck Beach?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Zakynthos Shipwreck Beach!"
+        }
+      ]
+    },
+    {
+      "slug": "rhodes-old-town",
+      "name": "Rhodes Medieval Old Town",
+      "category": "Crusader Fortress",
+      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Palace of the Grand Master of the Knights of St. John inside fortified stone walls.",
+      "overview": "One of the best-preserved medieval inhabited cities in Europe.",
+      "rating": 4.9,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Rhodes Medieval Old Town Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Rhodes Medieval Old Town with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Rhodes Medieval Old Town, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Rhodes Medieval Old Town",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Rhodes Medieval Old Town?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Rhodes Medieval Old Town!"
+        }
+      ]
+    },
+    {
+      "slug": "delphi-sanctuary",
+      "name": "Delphi Sanctuary of Apollo",
+      "category": "Oracle Sanctuary",
+      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Ancient sanctuary on Mount Parnassus where Pythia the priestess delivered prophecies.",
+      "overview": "Ancient theater, Tholos of Athena, and breathtaking mountain valley views.",
+      "rating": 4.91,
+      "bestTimeToVisit": "Apr to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Delphi Sanctuary of Apollo Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Delphi Sanctuary of Apollo with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Delphi Sanctuary of Apollo, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Delphi Sanctuary of Apollo",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Delphi Sanctuary of Apollo?",
+          "a": "The best season is Apr to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Delphi Sanctuary of Apollo!"
+        }
+      ]
+    },
+    {
+      "slug": "corfu-old-town",
+      "name": "Corfu Old Town & Esplanade",
+      "category": "Venetian Heritage",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Italianate Venetian architecture, Liston promenade, and pastel-painted alleyways.",
+      "overview": "A green Ionian island known for olive groves, fortresses, and secluded coves.",
+      "rating": 4.89,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Corfu Old Town & Esplanade Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Corfu Old Town & Esplanade with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Corfu Old Town & Esplanade, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Corfu Old Town & Esplanade",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Corfu Old Town & Esplanade?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Corfu Old Town & Esplanade!"
+        }
+      ]
+    },
+    {
+      "slug": "peloponnese-epidaurus",
+      "name": "Epidaurus Ancient Theatre",
+      "category": "Acoustic Marvel",
+      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "4th-century BC stone amphitheater famous for its flawless acoustic perfection.",
+      "overview": "A pin dropped at the center stage can be heard clearly from the highest tier row.",
+      "rating": 4.88,
+      "bestTimeToVisit": "May to Oct",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Epidaurus Ancient Theatre Palace",
+          "rating": 4.9,
+          "description": "Luxury boutique hotel near Epidaurus Ancient Theatre with world-class amenities."
+        }
+      ],
+      "meals": "Gourmet breakfast & dinner included.",
+      "transport": "Private chauffeur & guided tour.",
+      "activities": "Guided excursion to Epidaurus Ancient Theatre, photography tour, and cultural dinner.",
+      "included": [
+        "Guided tour of Epidaurus Ancient Theatre",
+        "Private airport transfers",
+        "Luxury resort stay"
+      ],
+      "excluded": [
+        "Personal items",
+        "International flights"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Epidaurus Ancient Theatre?",
+          "a": "The best season is May to Oct."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Julian M.",
+          "rating": 5,
+          "text": "An unforgettable experience visiting Epidaurus Ancient Theatre!"
+        }
+      ]
+    }
+  ]
+}

@@ -24,132 +24,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "tokyo",
-      "name": "Tokyo Metropolis",
-      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "A high-tech neon wonder blending futuristic cityscapes, pop culture hubs, and ancient Shinto shrines.",
-      "overview": "Tokyo is the beating heart of modern Japan. A sprawling metropolis of 37 million people, it manages to remain clean, safe, and incredibly efficient. Walk from the peaceful gardens of Meiji Shrine into the fashion alleys of Harajuku, see the Shibuya crossing, and taste Michelin-starred ramen.",
-      "rating": 4.98,
-      "bestTimeToVisit": "March to May, October to December",
-      "packagePrice": 1380,
-      "duration": "4 Days • 3 Nights",
+      "slug": "tokyo-skytree",
+      "name": "Tokyo Skytree & Shibuya",
+      "category": "Metropolitan Culture",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Futuristic skyline, neon-lit Shibuya Scramble Crossing, and ancient Asakusa Sensoji Temple.",
+      "overview": "Tokyo blends cutting-edge technology with century-old shrines, Michelin dining, and anime culture.",
+      "rating": 4.94,
+      "bestTimeToVisit": "March to May & Oct to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Park Hyatt Tokyo",
+          "name": "Grand Tokyo Skytree & Shibuya Resort",
           "rating": 4.9,
-          "description": "Luxury high-rise hotel in Shinjuku offering sweeping views of Mount Fuji and Tokyo skyline."
-        },
-        {
-          "name": "Aman Tokyo",
-          "rating": 5.0,
-          "description": "An urban sanctuary blending traditional Japanese design with modern minimalism in Otemachi."
+          "description": "Luxury five-star hotel near Tokyo Skytree & Shibuya with world-class dining."
         }
       ],
-      "meals": "Traditional breakfasts and private sushi tasting sessions.",
-      "transport": "JR Rail Pass and local Tokyo Metro subway passes.",
-      "activities": "Shibuya Sky Observatory, Senso-ji Temple Tour, Akihabara Electronics Walk.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Tokyo Skytree & Shibuya, photo walk, and local cultural experience.",
       "included": [
-        "Luxury hotel stays",
-        "Private bilingual city guide",
-        "Shibuya Sky entry tickets"
+        "Guided tour of Tokyo Skytree & Shibuya",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal electronic purchases",
-        "International flight tickets"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800"
+        "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "What is the best way to get around Tokyo?",
-          "a": "The Tokyo subway network is incredibly fast, clean, and runs every few minutes. Taxis are also available but can be expensive."
+          "q": "What is the best time to visit Tokyo Skytree & Shibuya?",
+          "a": "The ideal season is March to May & Oct to Nov."
         }
       ],
       "reviews": [
         {
-          "author": "Aravind K.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Tokyo is out of this world. The contrast between ancient shrines and cybernetic towers is spectacular."
+          "text": "Visiting Tokyo Skytree & Shibuya was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Welcome to Tokyo & Shinjuku Lights",
-          "morning": "Airport transfer to your luxury hotel. Rest and refresh.",
-          "afternoon": "Stroll the peaceful park of the imperial palace gardens.",
-          "evening": "Explore the neon-lit alleys of Omoide Yokocho and golden gai in Shinjuku."
-        },
-        {
-          "day": 2,
-          "title": "Senso-ji & Shibuya Crossing",
-          "morning": "Visit Tokyo's oldest temple, Senso-ji in Asakusa, walking through Nakamise street.",
-          "afternoon": "Cross the famous Shibuya crossing and head up to Shibuya Sky for sunset panoramas.",
-          "evening": "Private sushi omakase dining experience."
-        }
-      ]
+      "itinerary": []
     },
     {
-      "slug": "kyoto",
-      "name": "Kyoto Heritage",
-      "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c6d?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "The cultural capital of Japan, renowned for thousands of classical Buddhist temples, gardens, and imperial palaces.",
-      "overview": "Kyoto offers a step back in time. Free from the soaring skyscrapers of Tokyo, this city preserves classical wooden townhouses, centuries-old shrines, and traditional geisha districts like Gion. It is the birthplace of the traditional tea ceremony and zen landscaping.",
-      "rating": 4.96,
-      "bestTimeToVisit": "April (Cherry blossoms), November (Autumn foliage)",
-      "packagePrice": 1250,
+      "slug": "kyoto-bamboo",
+      "name": "Kyoto Fushimi Inari & Bamboo Grove",
+      "category": "Ancient Heritage",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Thousands of vermilion Torii gates climbing Mount Inari and serene Arashiyama bamboo trails.",
+      "overview": "Kyoto is Japan's cultural heartland, home to geishas, Zen gardens, and historic wooden machiya houses.",
+      "rating": 4.98,
+      "bestTimeToVisit": "March to May & Oct to Nov",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "The Ritz-Carlton Kyoto",
+          "name": "Grand Kyoto Fushimi Inari & Bamboo Grove Resort",
           "rating": 4.9,
-          "description": "Lakeside luxury hotel set along the Kamogawa River close to downtown Gion."
+          "description": "Luxury five-star hotel near Kyoto Fushimi Inari & Bamboo Grove with world-class dining."
         }
       ],
-      "meals": "Traditional multi-course Kaiseki dinners and organic matcha tea tastings.",
-      "transport": "Shinkansen bullet train transfers and private chauffeured cars.",
-      "activities": "Fushimi Inari Shrine Hike, Bamboo Grove Walk in Arashiyama, Gold Pavilion Tour.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Kyoto Fushimi Inari & Bamboo Grove, photo walk, and local cultural experience.",
       "included": [
-        "Kaiseki dinner experience",
-        "Matcha tea ceremony with tea master",
-        "Bullet train first-class seat tickets"
+        "Guided tour of Kyoto Fushimi Inari & Bamboo Grove",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Temple entrance fees (where not specified)"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "Can we see Geishas in Gion?",
-          "a": "Yes, but please respect their privacy and follow local street rules. Photography on private alleys is restricted."
+          "q": "What is the best time to visit Kyoto Fushimi Inari & Bamboo Grove?",
+          "a": "The ideal season is March to May & Oct to Nov."
         }
       ],
       "reviews": [
         {
-          "author": "Yuki S.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "The quiet temples of Kyoto filled with autumn colors are the highlight of my trip to Japan."
+          "text": "Visiting Kyoto Fushimi Inari & Bamboo Grove was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "mount-fuji",
+      "name": "Mount Fuji & Lake Kawaguchiko",
+      "category": "Volcanic Peak",
+      "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Japan's sacred snow-capped volcano reflected across Fuji Five Lakes.",
+      "overview": "A UNESCO World Heritage site revered by artists and pilgrims for centuries.",
+      "rating": 4.96,
+      "bestTimeToVisit": "July to September (Climbing), Apr to May (Sakura)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Fushimi Inari & Gion Evening",
-          "morning": "Arrive in Kyoto via Shinkansen bullet train.",
-          "afternoon": "Walk under thousands of vermilion torii gates at Fushimi Inari Shrine.",
-          "evening": "Guided evening walk through Gion, searching for Geishas on their way to tea houses."
-        },
-        {
-          "day": 2,
-          "title": "Golden Pavilion & Bamboo Groves",
-          "morning": "Visit Kinkaku-ji, the famous golden pavilion reflecting over its mirror pond.",
-          "afternoon": "Stroll the towering bamboo paths of Arashiyama and visit Tenryu-ji Zen temple.",
-          "evening": "Exquisite multi-course Kaiseki dinner at your luxury hotel."
+          "name": "Grand Mount Fuji & Lake Kawaguchiko Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Mount Fuji & Lake Kawaguchiko with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Mount Fuji & Lake Kawaguchiko, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Mount Fuji & Lake Kawaguchiko",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Mount Fuji & Lake Kawaguchiko?",
+          "a": "The ideal season is July to September (Climbing), Apr to May (Sakura)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Mount Fuji & Lake Kawaguchiko was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "osaka-dotonbori",
+      "name": "Osaka Dotonbori & Castle",
+      "category": "Culinary & History",
+      "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Vibrant street food haven featuring Takoyaki, neon Glico Running Man, and historic Osaka Castle.",
+      "overview": "Known as the Nation's Kitchen, Osaka is famous for warm hospitality and lively nightlife.",
+      "rating": 4.89,
+      "bestTimeToVisit": "March to May & Oct to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Osaka Dotonbori & Castle Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Osaka Dotonbori & Castle with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Osaka Dotonbori & Castle, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Osaka Dotonbori & Castle",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Osaka Dotonbori & Castle?",
+          "a": "The ideal season is March to May & Oct to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Osaka Dotonbori & Castle was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "nara-park",
+      "name": "Nara Deer Park & Todaiji Temple",
+      "category": "Wildlife & Shrines",
+      "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Friendly free-roaming sika deer surrounding the Great Buddha Hall.",
+      "overview": "Nara was Japan's first permanent capital, boasting monumental wooden temples and peaceful parks.",
+      "rating": 4.92,
+      "bestTimeToVisit": "March to May & Oct to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Nara Deer Park & Todaiji Temple Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Nara Deer Park & Todaiji Temple with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Nara Deer Park & Todaiji Temple, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Nara Deer Park & Todaiji Temple",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Nara Deer Park & Todaiji Temple?",
+          "a": "The ideal season is March to May & Oct to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Nara Deer Park & Todaiji Temple was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "hiroshima",
+      "name": "Hiroshima Peace Memorial & Miyajima",
+      "category": "Historical Monument",
+      "image": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Floating Torii Gate of Itsukushima Shrine and poignant Peace Memorial Park.",
+      "overview": "A powerful testament to peace and resilience set against scenic Seto Inland Sea islands.",
+      "rating": 4.91,
+      "bestTimeToVisit": "March to May & Oct to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Hiroshima Peace Memorial & Miyajima Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Hiroshima Peace Memorial & Miyajima with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Hiroshima Peace Memorial & Miyajima, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Hiroshima Peace Memorial & Miyajima",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Hiroshima Peace Memorial & Miyajima?",
+          "a": "The ideal season is March to May & Oct to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Hiroshima Peace Memorial & Miyajima was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "hakone-onsen",
+      "name": "Hakone Hot Springs & Onsen",
+      "category": "Thermal Retreat",
+      "image": "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Relaxing geothermal ryokan hot springs with pirate boat cruises on Lake Ashi.",
+      "overview": "Hakone offers soothing mineral waters, open-air museums, and distant Fuji views.",
+      "rating": 4.9,
+      "bestTimeToVisit": "Year-round",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Hakone Hot Springs & Onsen Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Hakone Hot Springs & Onsen with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Hakone Hot Springs & Onsen, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Hakone Hot Springs & Onsen",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Hakone Hot Springs & Onsen?",
+          "a": "The ideal season is Year-round."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Hakone Hot Springs & Onsen was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "nikko-toshogu",
+      "name": "Nikko Toshogu Shrine",
+      "category": "UNESCO Heritage",
+      "image": "https://images.unsplash.com/photo-1576675784201-0e1697721887?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Elaborately carved gold leaf shrine complex nestled among ancient cedar forests.",
+      "overview": "The final resting place of Shogun Tokugawa Ieyasu, renowned for the Three Wise Monkeys carving.",
+      "rating": 4.88,
+      "bestTimeToVisit": "October to November (Autumn leaves)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Nikko Toshogu Shrine Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Nikko Toshogu Shrine with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Nikko Toshogu Shrine, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Nikko Toshogu Shrine",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1576675784201-0e1697721887?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Nikko Toshogu Shrine?",
+          "a": "The ideal season is October to November (Autumn leaves)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Nikko Toshogu Shrine was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "sapporo-hokkaido",
+      "name": "Sapporo & Hokkaido Snow Park",
+      "category": "Winter Wonderland",
+      "image": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Powder snow skiing in Niseko, Sapporo Snow Festival, and fresh sea urchin markets.",
+      "overview": "Hokkaido is Japan's northern wild frontier famous for powder snow and lavender fields in summer.",
+      "rating": 4.93,
+      "bestTimeToVisit": "Dec to Feb (Snow) & Jul (Flowers)",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sapporo & Hokkaido Snow Park Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Sapporo & Hokkaido Snow Park with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Sapporo & Hokkaido Snow Park, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Sapporo & Hokkaido Snow Park",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sapporo & Hokkaido Snow Park?",
+          "a": "The ideal season is Dec to Feb (Snow) & Jul (Flowers)."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Sapporo & Hokkaido Snow Park was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "okinawa-beaches",
+      "name": "Okinawa Coral Reefs & Islands",
+      "category": "Tropical Paradise",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Crystal turquoise waters, Ryukyu Kingdom heritage, and world-class scuba diving.",
+      "overview": "Japan's tropical archipelago offering white sand beaches, manta rays, and longevity cuisine.",
+      "rating": 4.87,
+      "bestTimeToVisit": "May to October",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Okinawa Coral Reefs & Islands Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Okinawa Coral Reefs & Islands with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Okinawa Coral Reefs & Islands, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Okinawa Coral Reefs & Islands",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Okinawa Coral Reefs & Islands?",
+          "a": "The ideal season is May to October."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Okinawa Coral Reefs & Islands was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

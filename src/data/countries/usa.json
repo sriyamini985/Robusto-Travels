@@ -23,65 +23,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "new-york",
-      "name": "New York Skyline",
-      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "The center of global finance, media, and culture, defined by Central Park and Broadway lights.",
-      "overview": "New York City is a global icon. Walk the pathways of Central Park, see a Broadway show, and take a private helicopter tour over the Hudson River and the Statue of Liberty.",
-      "rating": 4.93,
-      "bestTimeToVisit": "September to November, April to June",
-      "packagePrice": 1420,
+      "slug": "new-york-times-square",
+      "name": "New York Times Square & Central Park",
+      "category": "Metropolis Landmark",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Broadway theater lights, Statue of Liberty, Empire State Building, and Central Park.",
+      "overview": "The city that never sleeps, packed with world-famous museums, yellow cabs, and skylines.",
+      "rating": 4.95,
+      "bestTimeToVisit": "April to June & Sep to Nov",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "The Plaza Hotel",
+          "name": "Grand New York Times Square & Central Park Resort",
           "rating": 4.9,
-          "description": "Legendary luxury hotel located at Fifth Avenue and Central Park South."
+          "description": "Luxury five-star hotel near New York Times Square & Central Park with world-class dining."
         }
       ],
-      "meals": "Classic New York breakfasts and gourmet dining at high-rise restaurants.",
-      "transport": "Private limousine transfers and NYC subway passes.",
-      "activities": "Helicopter Skyline Flight, Broadway Front-Row Seats, Empire State Observatory VIP Pass.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of New York Times Square & Central Park, photo walk, and local cultural experience.",
       "included": [
-        "Plaza Hotel room stay",
-        "Private helicopter flight ticket",
-        "Broadway show VIP tickets"
+        "Guided tour of New York Times Square & Central Park",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal shopping on Fifth Avenue"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800"
+        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "Are Broadway tickets guaranteed?",
-          "a": "Yes, we secure premium front-row or box seats in advance for major Broadway shows."
+          "q": "What is the best time to visit New York Times Square & Central Park?",
+          "a": "The ideal season is April to June & Sep to Nov."
         }
       ],
       "reviews": [
         {
-          "author": "Anish M.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "The helicopter ride over Manhattan at night was spectacular. The lights are endless."
+          "text": "Visiting New York Times Square & Central Park was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "grand-canyon",
+      "name": "Grand Canyon National Park",
+      "category": "Geological Wonder",
+      "image": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Carved by the Colorado River, a 277-mile long canyon exhibiting 2 billion years of Earth's history.",
+      "overview": "Walk the Skywalk glass bridge at the South Rim or fly by helicopter over the abyss.",
+      "rating": 4.98,
+      "bestTimeToVisit": "March to May & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Welcome to NYC & Central Park Walk",
-          "morning": "Airport pickup in luxury limousine, check into The Plaza. Rest.",
-          "afternoon": "Stroll the paths of Central Park and visit Bethesda Fountain.",
-          "evening": "Enjoy dinner overlooking the park skyline."
-        },
-        {
-          "day": 2,
-          "title": "Manhattan Helicopter & Broadway Show",
-          "morning": "Fly by private helicopter over the Hudson River and Statue of Liberty.",
-          "afternoon": "Shop on Fifth Avenue and visit Times Square.",
-          "evening": "Pre-theatre dinner followed by a premium Broadway show."
+          "name": "Grand Grand Canyon National Park Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Grand Canyon National Park with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Grand Canyon National Park, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Grand Canyon National Park",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Grand Canyon National Park?",
+          "a": "The ideal season is March to May & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Grand Canyon National Park was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "las-vegas-strip",
+      "name": "Las Vegas Strip & Fountains",
+      "category": "Entertainment Capital",
+      "image": "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Mega-resorts, Bellagio fountain shows, Cirque du Soleil spectacles, and neon lights.",
+      "overview": "The adult entertainment capital of the world offering world-class dining and shows.",
+      "rating": 4.9,
+      "bestTimeToVisit": "March to May & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Las Vegas Strip & Fountains Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Las Vegas Strip & Fountains with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Las Vegas Strip & Fountains, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Las Vegas Strip & Fountains",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Las Vegas Strip & Fountains?",
+          "a": "The ideal season is March to May & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Las Vegas Strip & Fountains was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "san-francisco-golden-gate",
+      "name": "San Francisco Golden Gate Bridge",
+      "category": "Bay City Icon",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Iconic International Orange suspension bridge, cable cars, and Alcatraz Island.",
+      "overview": "A hilly peninsula city famous for fog, Silicon Valley innovation, and Fisherman's Wharf.",
+      "rating": 4.93,
+      "bestTimeToVisit": "September to November",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand San Francisco Golden Gate Bridge Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near San Francisco Golden Gate Bridge with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of San Francisco Golden Gate Bridge, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of San Francisco Golden Gate Bridge",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit San Francisco Golden Gate Bridge?",
+          "a": "The ideal season is September to November."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting San Francisco Golden Gate Bridge was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "yellowstone-geysers",
+      "name": "Yellowstone Grand Prismatic & Old Faithful",
+      "category": "Geothermal Park",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Rainbow-colored hot springs, erupting Old Faithful geyser, and free-roaming bison herds.",
+      "overview": "The world's first national park sitting atop a volcanic supervolcano.",
+      "rating": 4.97,
+      "bestTimeToVisit": "June to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Yellowstone Grand Prismatic & Old Faithful Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Yellowstone Grand Prismatic & Old Faithful with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Yellowstone Grand Prismatic & Old Faithful, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Yellowstone Grand Prismatic & Old Faithful",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Yellowstone Grand Prismatic & Old Faithful?",
+          "a": "The ideal season is June to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Yellowstone Grand Prismatic & Old Faithful was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "miami-south-beach",
+      "name": "Miami South Beach & Art Deco",
+      "category": "Coastal Glamour",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Pastel Art Deco architecture, Ocean Drive beach clubs, and Wynwood Walls street art.",
+      "overview": "A vibrant Latin-infused oceanfront city with turquoise waters and nightlife.",
+      "rating": 4.89,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Miami South Beach & Art Deco Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Miami South Beach & Art Deco with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Miami South Beach & Art Deco, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Miami South Beach & Art Deco",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Miami South Beach & Art Deco?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Miami South Beach & Art Deco was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "hawaii-waikiki",
+      "name": "Hawaii Waikiki & Volcanoes",
+      "category": "Pacific Archipelago",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Diamond Head crater views, surf breaks, active Kilauea lava flows, and Polynesian luau.",
+      "overview": "Tropical Pacific paradise featuring black sand beaches and dramatic Na Pali coast cliffs.",
+      "rating": 4.96,
+      "bestTimeToVisit": "April to May & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Hawaii Waikiki & Volcanoes Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Hawaii Waikiki & Volcanoes with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Hawaii Waikiki & Volcanoes, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Hawaii Waikiki & Volcanoes",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Hawaii Waikiki & Volcanoes?",
+          "a": "The ideal season is April to May & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Hawaii Waikiki & Volcanoes was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "los-angeles-hollywood",
+      "name": "Los Angeles Hollywood & Santa Monica",
+      "category": "Entertainment Hub",
+      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Walk of Fame stars, Griffith Observatory, Beverly Hills, and Santa Monica Pier ferris wheel.",
+      "overview": "The global capital of cinema, celebrity culture, and Pacific sunsets.",
+      "rating": 4.88,
+      "bestTimeToVisit": "March to May & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Los Angeles Hollywood & Santa Monica Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Los Angeles Hollywood & Santa Monica with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Los Angeles Hollywood & Santa Monica, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Los Angeles Hollywood & Santa Monica",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Los Angeles Hollywood & Santa Monica?",
+          "a": "The ideal season is March to May & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Los Angeles Hollywood & Santa Monica was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "yosemite-falls",
+      "name": "Yosemite Valley & El Capitan",
+      "category": "Granite Cliffs",
+      "image": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Monolithic El Capitan granite wall, Half Dome, plunging waterfalls, and giant sequoias.",
+      "overview": "A Sierra Nevada mountain wonderland made famous by photographer Ansel Adams.",
+      "rating": 4.96,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Yosemite Valley & El Capitan Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Yosemite Valley & El Capitan with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Yosemite Valley & El Capitan, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Yosemite Valley & El Capitan",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Yosemite Valley & El Capitan?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Yosemite Valley & El Capitan was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "washington-monuments",
+      "name": "Washington DC National Mall & Capitol",
+      "category": "National Capital",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "The Lincoln Memorial, US Capitol dome, Smithsonian museums, and cherry blossom basin.",
+      "overview": "The historic center of American democracy lined with free national museums.",
+      "rating": 4.91,
+      "bestTimeToVisit": "March to May & Sep to Nov",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Washington DC National Mall & Capitol Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Washington DC National Mall & Capitol with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Washington DC National Mall & Capitol, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Washington DC National Mall & Capitol",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Washington DC National Mall & Capitol?",
+          "a": "The ideal season is March to May & Sep to Nov."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Washington DC National Mall & Capitol was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

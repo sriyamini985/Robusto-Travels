@@ -24,348 +24,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "mumbai",
-      "name": "Mumbai Dharavi & Local Communities",
-      "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "An educational walking tour highlighting the light recycling industries and local potter communities of Dharavi.",
-      "overview": "Mumbai is the commercial capital of India. Dharavi, nestled in its center, is home to thousands of community light industries. Our walks focus on sorting recycling workshops, clay potter guilds, and cooperative family spaces.",
-      "rating": 4.92,
+      "slug": "taj-mahal",
+      "name": "Taj Mahal & Agra Fort",
+      "category": "Wonder of the World",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Immortal white marble mausoleum built by Emperor Shah Jahan on the banks of the Yamuna.",
+      "overview": "A universal symbol of eternal love and peak Mughal architecture, glowing pink at sunrise.",
+      "rating": 4.99,
       "bestTimeToVisit": "October to March",
-      "packagePrice": 45,
-      "duration": "1 Day • Walk",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "Colaba Heritage Boutique Inn",
-          "rating": 4.85,
-          "description": "Eco-friendly, community-conscious inn in South Mumbai supporting local staff."
-        }
-      ],
-      "meals": "Traditional home-cooked vegetarian dinner with a local family included.",
-      "transport": "Mumbai local train transit passes and taxicabs.",
-      "activities": "Dharavi Recycling Walk, Kumbharwada Pottery Studio Session, Dhobi Ghat Visit.",
-      "included": [
-        "Local resident bilingual guide",
-        "Filtered drinking water refills",
-        "Contributions to Reality Gives NGO schools"
-      ],
-      "excluded": [
-        "Photography inside residential quarters (strictly prohibited)"
-      ],
-      "gallery": [
-        "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800"
-      ],
-      "faqs": [
-        {
-          "q": "Why is photography banned?",
-          "a": "To respect the privacy and dignity of local residents. Our walks are purely educational."
-        }
-      ],
-      "reviews": [
-        {
-          "author": "Marie L.",
-          "rating": 5,
-          "text": "An eye-opening walk. The resourcefulness and recycling operations are highly inspiring."
-        }
-      ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Recycling Workshops & Family Dinner",
-          "morning": "Meet guide, ride local train to see Dhobi Ghat laundry yard.",
-          "afternoon": "Guided walk through Dharavi's sorting workshops and Kumbharwada potter lanes.",
-          "evening": "Sit down for dinner with a host family in the pottery community."
-        }
-      ]
-    },
-    {
-      "slug": "delhi",
-      "name": "Delhi Sanjay Colony Walk",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "Explore the fabric sorting and textile recycling units in Sanjay Colony, South Delhi.",
-      "overview": "Sanjay Colony is an industrious enclave in South Delhi. This walking tour guides you through its manufacturing workshops, showing how garments are collected, sorted, shredded, and recycled.",
-      "rating": 4.88,
-      "bestTimeToVisit": "October to April",
-      "packagePrice": 40,
-      "duration": "1 Day • Walk",
-      "hotels": [
-        {
-          "name": "Haveli Dharampura Old Delhi",
+          "name": "Grand Taj Mahal & Agra Fort Resort",
           "rating": 4.9,
-          "description": "UNESCO Award-winning restored heritage haveli inside Chandni Chowk."
+          "description": "Luxury five-star hotel near Taj Mahal & Agra Fort with world-class dining."
         }
       ],
-      "meals": "Traditional lunch with local hosts.",
-      "transport": "Delhi Metro transit support and cycle rickshaws.",
-      "activities": "Textile Recycling Walk, Local Temple Walk, Reality Gives Classroom Visit.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Taj Mahal & Agra Fort, photo walk, and local cultural experience.",
       "included": [
-        "Bilingual local resident guide",
-        "Slippers for temple floors",
-        "Donation to local computer learning center"
+        "Guided tour of Taj Mahal & Agra Fort",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal souvenir purchases"
-      ],
-      "gallery": [
-        "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800"
-      ],
-      "faqs": [
-        {
-          "q": "Where does the tour meet?",
-          "a": "We meet outside the Harkesh Nagar Okhla Metro Station entrance."
-        }
-      ],
-      "reviews": [
-        {
-          "author": "James P.",
-          "rating": 5,
-          "text": "Fascinating look at garment sorting. Great to see my ticket supports a classroom inside the colony."
-        }
-      ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Textile Mills & Community Classrooms",
-          "morning": "Meet at Metro, enter Sanjay Colony to view sorting units.",
-          "afternoon": "Stroll past neighborhood homes and local Hindu temples.",
-          "evening": "Visit the local youth training school funded by your tour."
-        }
-      ]
-    },
-    {
-      "slug": "rajasthan",
-      "name": "Rajasthan Village Heritage",
-      "image": "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "Discover Jaipur's historic forts, craft cooperatives, and desert village homestays.",
-      "overview": "Rajasthan is a land of architectural marvels. This multi-day journey goes beyond historic fortresses to support desert artisan cooperatives and Groundwater conservation projects.",
-      "rating": 4.95,
-      "bestTimeToVisit": "November to March",
-      "packagePrice": 320,
-      "duration": "5 Days • 4 Nights",
-      "hotels": [
-        {
-          "name": "Jaipur Heritage Haveli",
-          "rating": 4.8,
-          "description": "Converted royal town mansion with beautiful carved stone arches."
-        }
-      ],
-      "meals": "Traditional Rajasthani dinners prepared over wood fires.",
-      "transport": "Private AC sedan with experienced local driver guide.",
-      "activities": "Amber Fort History Tour, Hand-block Printing Workshop, Village Cooking Class.",
-      "included": [
-        "Jaipur heritage hotel stays",
-        "Artisan craft guide fee",
-        "Private chauffeur driver"
-      ],
-      "excluded": [
-        "Monument camera permits"
-      ],
-      "gallery": [
-        "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=800"
-      ],
-      "faqs": [
-        {
-          "q": "Is travel to the desert bumpy?",
-          "a": "We use clean, modern air-conditioned sedans or SUVs to ensure complete comfort along the highways."
-        }
-      ],
-      "reviews": [
-        {
-          "author": "Marcus H.",
-          "rating": 5,
-          "text": "The village homestay was the highlight. Cooking dinner over the clay stove was incredible."
-        }
-      ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Amber Fort & Block Print Masters",
-          "morning": "Guided history walk around Amber Fort's mirrored chambers.",
-          "afternoon": "Hands-on session with block-printing textile master craftsmen.",
-          "evening": "Folk music dining session at the Haveli courtyard."
-        },
-        {
-          "day": 2,
-          "title": "Road Trip to Desert Community",
-          "morning": "Drive towards Jodhpur rural village sectors.",
-          "afternoon": "Check into community homestay and meet the host family.",
-          "evening": "Cook a traditional dinner over clay stoves under the desert stars."
-        }
-      ]
-    },
-    {
-      "slug": "kerala",
-      "name": "Kerala Eco-Houseboat",
-      "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "Cruise the backwaters of Alleppey on a traditional solar-powered eco-houseboat.",
-      "overview": "Relax in the calm backwaters of South India. Enjoy solar-powered houseboat cruises, dine on fresh organic farm produce, and tour organic spice plantations.",
-      "rating": 4.89,
-      "bestTimeToVisit": "October to February",
-      "packagePrice": 280,
-      "duration": "6 Days • 5 Nights",
-      "hotels": [
-        {
-          "name": "Alleppey Lagoon Eco-Cottages",
-          "rating": 4.85,
-          "description": "Lakeside cottages built using sustainable local thatch and bamboo."
-        }
-      ],
-      "meals": "Fresh organic farm dinners and Keralan fish dishes.",
-      "transport": "Solar Houseboat cruise and eco-sedan airport transfers.",
-      "activities": "Backwater Canal Canoe Trip, Organic Spice Farm Walk, Kathakali Dance Show.",
-      "included": [
-        "Private solar houseboat charter",
-        "Organic meals prepared by onboard chef",
-        "Community clinic wellness donation"
-      ],
-      "excluded": [
-        "Personal Ayurvedic massage treatments"
-      ],
-      "gallery": [
-        "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=800"
-      ],
-      "faqs": [
-        {
-          "q": "How is the houseboat eco-friendly?",
-          "a": "It runs fully on solar power for lights and fans, utilizes advanced waste-filtration units, and employs local rowers."
-        }
-      ],
-      "reviews": [
-        {
-          "author": "Alice R.",
-          "rating": 5,
-          "text": "Drifting down the palm-fringed canals on the solar houseboat was pure peace. The food was delicious."
-        }
-      ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Chinese Fishing Nets & Kathakali",
-          "morning": "Arrive in Cochin, walk past Fort Kochi's historic shorelines.",
-          "afternoon": "Transfer to lagoon cottages and check in.",
-          "evening": "Watch a classical Kathakali dance session at the village center."
-        },
-        {
-          "day": 2,
-          "title": "Boarding the Solar Houseboat",
-          "morning": "Board your private solar-powered eco-houseboat at the jetty.",
-          "afternoon": "Slow cruise through shallow backwater canals observing village life.",
-          "evening": "Enjoy dinner prepared by your onboard private chef."
-        }
-      ]
-    },
-    {
-      "slug": "olddelhi",
-      "name": "Old Delhi Spice Crawl",
-      "image": "https://images.unsplash.com/photo-1597075687490-8f673c6c17f6?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "Explore Chandni Chowk spice markets and sample safe, vetted local street foods.",
-      "overview": "Old Delhi is a sensory experience. Ride cycle rickshaws through historic spice alleys, visit ancient shrines, and sample hygienic local street recipes.",
-      "rating": 4.97,
-      "bestTimeToVisit": "October to March",
-      "packagePrice": 35,
-      "duration": "1 Day • Crawl",
-      "hotels": [
-        {
-          "name": "Haveli Dharampura",
-          "rating": 4.9,
-          "description": "Award-winning restored Mughal haveli inside old city gates."
-        }
-      ],
-      "meals": "Traditional street food tastings and sunset rooftop chai.",
-      "transport": "Cycle rickshaws and walking guidance.",
-      "activities": "Spice Market Rickshaw Ride, Vetted Street Food Tasting, Jama Masjid Sunset View.",
-      "included": [
-        "Bilingual local culinary guide",
-        "All food samples at vetted hygienic stalls",
-        "Old Delhi primary school donation"
-      ],
-      "excluded": [
-        "Hotel pickup or drop-off taxi"
-      ],
-      "gallery": [
-        "https://images.unsplash.com/photo-1597075687490-8f673c6c17f6?auto=format&fit=crop&q=80&w=800"
-      ],
-      "faqs": [
-        {
-          "q": "Is the street food safe?",
-          "a": "Yes. We only visit specific stalls vetted for filtered water usage and clean ingredient preparation."
-        }
-      ],
-      "reviews": [
-        {
-          "author": "Thomas K.",
-          "rating": 5,
-          "text": "Our guide was fantastic. We tasted incredible samosas and jalebis completely worry-free."
-        }
-      ],
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Bazaars & Domes of Shahjahanabad",
-          "morning": "Meet at Metro, ride rickshaw into Khari Baoli spice bazaar.",
-          "afternoon": "Walk historical paths sampling fresh street treats.",
-          "evening": "Watch the sunset from the steps of the giant Jama Masjid mosque."
-        }
-      ]
-    },
-    {
-      "slug": "agra",
-      "name": "Agra Heritage & Taj Mahal Sunrise",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "See the Taj Mahal at dawn, explore Agra Fort, and meet heritage stone artisans.",
-      "overview": "Experience the world's monument to love at sunrise. Visit the sandstone palaces of Agra Fort and support local stone inlay craft guilds in their workshops.",
-      "rating": 4.93,
-      "bestTimeToVisit": "October to March",
-      "packagePrice": 65,
-      "duration": "2 Days • 1 Night",
-      "hotels": [
-        {
-          "name": "Agra Heritage Inn",
-          "rating": 4.8,
-          "description": "Charming boutique hotel close to the eastern gate of the Taj Mahal."
-        }
-      ],
-      "meals": "Traditional breakfasts and Mughal-style local dinners.",
-      "transport": "Private AC sedan and local rickshaws.",
-      "activities": "Taj Mahal Sunrise Entry, Agra Fort Walk, Stone Inlay Artisan Workshop Tour.",
-      "included": [
-        "Sunrise entry ticket to Taj Mahal",
-        "Agra Fort entry ticket and private guide",
-        "Marble artisan guild visit fee"
-      ],
-      "excluded": [
-        "Taj monument shoe-cover fee (small charge)"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
         "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "What can I carry inside the Taj Mahal?",
-          "a": "Only small bags with wallets, phones, and water bottles are allowed. Large bags, tripods, chargers, and food are prohibited."
+          "q": "What is the best time to visit Taj Mahal & Agra Fort?",
+          "a": "The ideal season is October to March."
         }
       ],
       "reviews": [
         {
-          "author": "Alice R.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "Stunning morning light at the Taj. The guide knew exactly the best spots to capture photographs."
+          "text": "Visiting Taj Mahal & Agra Fort was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "jaipur-amber-fort",
+      "name": "Jaipur Amber Fort & Hawa Mahal",
+      "category": "Royal Heritage",
+      "image": "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "The Pink City's hilltop fortress with Sheesh Mahal mirror palace and honeycomb windows of Hawa Mahal.",
+      "overview": "Immerse yourself in Rajput royal granduer, elephant gateways, and vibrant bazaars.",
+      "rating": 4.94,
+      "bestTimeToVisit": "October to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Agra Fort & Pietra Dura Crafts",
-          "morning": "Chauffeur drive to Agra. Check into hotel.",
-          "afternoon": "Tour the massive red sandstone walls of Agra Fort.",
-          "evening": "Meet local craftsmen displaying Pietra Dura marble stone inlay work."
-        },
-        {
-          "day": 2,
-          "title": "Taj Mahal Sunrise & Departure",
-          "morning": "Sunrise tour of the Taj Mahal as dawn light reflects on the white marble dome.",
-          "afternoon": "Gourmet hotel breakfast, check out and return drive."
+          "name": "Grand Jaipur Amber Fort & Hawa Mahal Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Jaipur Amber Fort & Hawa Mahal with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Jaipur Amber Fort & Hawa Mahal, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Jaipur Amber Fort & Hawa Mahal",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Jaipur Amber Fort & Hawa Mahal?",
+          "a": "The ideal season is October to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Jaipur Amber Fort & Hawa Mahal was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "kerala-backwaters",
+      "name": "Kerala Backwaters & Houseboat",
+      "category": "Eco Waterway",
+      "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Tranquil network of palm-fringed lagoons and eco-luxury houseboats in Alleppey.",
+      "overview": "Float past paddy fields and coconut groves while enjoying authentic Ayurvedic wellness treatments.",
+      "rating": 4.96,
+      "bestTimeToVisit": "October to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Kerala Backwaters & Houseboat Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Kerala Backwaters & Houseboat with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Kerala Backwaters & Houseboat, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Kerala Backwaters & Houseboat",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Kerala Backwaters & Houseboat?",
+          "a": "The ideal season is October to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Kerala Backwaters & Houseboat was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "varanasi-ghats",
+      "name": "Varanasi Ganges & Ganga Aarti",
+      "category": "Spiritual Center",
+      "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "One of the world's oldest living cities featuring sacred river ghats and evening fire rituals.",
+      "overview": "Experience the mystical Ganga Aarti ceremony with chanting priests and floating brass oil lamps.",
+      "rating": 4.92,
+      "bestTimeToVisit": "October to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Varanasi Ganges & Ganga Aarti Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Varanasi Ganges & Ganga Aarti with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Varanasi Ganges & Ganga Aarti, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Varanasi Ganges & Ganga Aarti",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Varanasi Ganges & Ganga Aarti?",
+          "a": "The ideal season is October to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Varanasi Ganges & Ganga Aarti was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "mumbai-gateway",
+      "name": "Mumbai Gateway of India & Marine Drive",
+      "category": "Colonial & Coast",
+      "image": "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Yellow basalt arch overlooking Mumbai Harbour and the Queen's Necklace seaside promenade.",
+      "overview": "The bustling financial heart of India, home to Bollywood and Victorian Gothic architecture.",
+      "rating": 4.88,
+      "bestTimeToVisit": "October to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Mumbai Gateway of India & Marine Drive Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Mumbai Gateway of India & Marine Drive with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Mumbai Gateway of India & Marine Drive, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Mumbai Gateway of India & Marine Drive",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Mumbai Gateway of India & Marine Drive?",
+          "a": "The ideal season is October to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Mumbai Gateway of India & Marine Drive was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "delhi-qutub",
+      "name": "Delhi Qutub Minar & Humayun's Tomb",
+      "category": "Historical Monument",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "World's tallest brick minaret and precursor to the Taj Mahal in red sandstone.",
+      "overview": "Delhi's heritage spans ancient dynasties, Mughal garden tombs, and grand government avenues.",
+      "rating": 4.9,
+      "bestTimeToVisit": "October to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Delhi Qutub Minar & Humayun's Tomb Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Delhi Qutub Minar & Humayun's Tomb with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Delhi Qutub Minar & Humayun's Tomb, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Delhi Qutub Minar & Humayun's Tomb",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Delhi Qutub Minar & Humayun's Tomb?",
+          "a": "The ideal season is October to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Delhi Qutub Minar & Humayun's Tomb was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "goa-beaches",
+      "name": "Goa Sunshine Beaches & Old Goa",
+      "category": "Tropical Coast & History",
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Golden sand beaches, Portuguese colonial churches, and sunset beach shacks.",
+      "overview": "Famous for seafood, watersports, and relaxed Mediterranean-style coastal vibes.",
+      "rating": 4.89,
+      "bestTimeToVisit": "November to February",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Goa Sunshine Beaches & Old Goa Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Goa Sunshine Beaches & Old Goa with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Goa Sunshine Beaches & Old Goa, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Goa Sunshine Beaches & Old Goa",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Goa Sunshine Beaches & Old Goa?",
+          "a": "The ideal season is November to February."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Goa Sunshine Beaches & Old Goa was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "udaipur-palace",
+      "name": "Udaipur City Palace & Lake Pichola",
+      "category": "Romantic Lake City",
+      "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f1c?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Floating Lake Palace and sprawling marble City Palace complex overlooking calm waters.",
+      "overview": "Known as the Venice of the East, famous for royal hospitality and sunset boat rides.",
+      "rating": 4.95,
+      "bestTimeToVisit": "October to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Udaipur City Palace & Lake Pichola Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Udaipur City Palace & Lake Pichola with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Udaipur City Palace & Lake Pichola, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Udaipur City Palace & Lake Pichola",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1615836245337-f5b9b2303f1c?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Udaipur City Palace & Lake Pichola?",
+          "a": "The ideal season is October to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Udaipur City Palace & Lake Pichola was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "ladakh-pangong",
+      "name": "Ladakh Pangong Tso & High Passes",
+      "category": "Himalayan Wilderness",
+      "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "High-altitude lake changing shades from turquoise to deep blue among barren Himalayan peaks.",
+      "overview": "Explore ancient Buddhist monasteries, Khardung La motorable pass, and starry night skies.",
+      "rating": 4.97,
+      "bestTimeToVisit": "May to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Ladakh Pangong Tso & High Passes Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Ladakh Pangong Tso & High Passes with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Ladakh Pangong Tso & High Passes, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Ladakh Pangong Tso & High Passes",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Ladakh Pangong Tso & High Passes?",
+          "a": "The ideal season is May to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Ladakh Pangong Tso & High Passes was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "amritsar-golden-temple",
+      "name": "Amritsar Golden Temple",
+      "category": "Sacred Sanctuary",
+      "image": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Resplendent gilded Sikh Gurdwara surrounded by the Amrit Sarovar holy tank.",
+      "overview": "Serves free community meals (Langar) to over 100,000 pilgrims daily regardless of background.",
+      "rating": 4.98,
+      "bestTimeToVisit": "October to March",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Amritsar Golden Temple Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Amritsar Golden Temple with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Amritsar Golden Temple, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Amritsar Golden Temple",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Amritsar Golden Temple?",
+          "a": "The ideal season is October to March."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Amritsar Golden Temple was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

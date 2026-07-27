@@ -23,65 +23,484 @@
   ],
   "famousPlaces": [
     {
-      "slug": "bangkok",
-      "name": "Bangkok Temples",
-      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&q=80&w=600",
-      "shortDesc": "A bustling capital city famous for ornate shrines, active street life, and canal transport loops.",
-      "overview": "Bangkok is a vibrant assault on the senses. Gold-domed temples sit beside modern high-rises and busy canal waterways. Visitors can tour the sacred Grand Palace, take a river taxi, and dine at street food stalls.",
-      "rating": 4.88,
-      "bestTimeToVisit": "November to February",
-      "packagePrice": 580,
+      "slug": "bangkok-grand-palace",
+      "name": "Bangkok Grand Palace & Wat Arun",
+      "category": "Royal & Temple",
+      "image": "https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Gilded spires of the Emerald Buddha temple, Wat Arun on the Chao Phraya, and street food.",
+      "overview": "Bangkok is a sensory capital combining glittering golden temples, tuk-tuks, and floating markets.",
+      "rating": 4.94,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
       "duration": "3 Days • 2 Nights",
       "hotels": [
         {
-          "name": "The Siam Hotel Bangkok",
+          "name": "Grand Bangkok Grand Palace & Wat Arun Resort",
           "rating": 4.9,
-          "description": "Art-deco luxury hotel located on the Chao Phraya River with private pier."
+          "description": "Luxury five-star hotel near Bangkok Grand Palace & Wat Arun with world-class dining."
         }
       ],
-      "meals": "Traditional breakfasts and private street-food market tours.",
-      "transport": "Skytrain passes and private river long-tail boats.",
-      "activities": "Grand Palace Tour, Wat Pho Reclining Buddha Visit, Chao Phraya Dinner Cruise.",
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Bangkok Grand Palace & Wat Arun, photo walk, and local cultural experience.",
       "included": [
-        "Riverfront hotel suite stay",
-        "Private boat charter for canal tour",
-        "Grand Palace entry tickets"
+        "Guided tour of Bangkok Grand Palace & Wat Arun",
+        "Private airport transfers",
+        "Luxury resort accommodation"
       ],
       "excluded": [
-        "Personal shopping at night bazaars"
+        "Personal expenses",
+        "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&q=80&w=800"
+        "https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=800"
       ],
       "faqs": [
         {
-          "q": "What is the dress code for temples?",
-          "a": "Shoulders and ankles must be covered. Slip-on shoes are recommended since you must remove them before entering temple buildings."
+          "q": "What is the best time to visit Bangkok Grand Palace & Wat Arun?",
+          "a": "The ideal season is November to April."
         }
       ],
       "reviews": [
         {
-          "author": "Rahul T.",
+          "author": "Elena R.",
           "rating": 5,
-          "text": "The Grand Palace details are spectacular. The dinner cruise on the Chao Phraya river was very romantic."
+          "text": "Visiting Bangkok Grand Palace & Wat Arun was an absolute highlight of our trip!"
         }
       ],
-      "itinerary": [
+      "itinerary": []
+    },
+    {
+      "slug": "phuket-patong",
+      "name": "Phuket Freedom Beach & Patong",
+      "category": "Island Coast",
+      "image": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "White sand beaches, island hopping cruises, Big Buddha, and vibrant nightlife.",
+      "overview": "Thailand's largest island offering luxury beach clubs, scuba diving, and rainforest sanctuaries.",
+      "rating": 4.9,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
         {
-          "day": 1,
-          "title": "Arrival & River Sunset Cruise",
-          "morning": "Airport pickup and transfer to hotel. Rest.",
-          "afternoon": "Private long-tail boat ride through the quiet Thonburi canal loops.",
-          "evening": "Chao Phraya luxury dinner cruise seeing Wat Arun lit up at night."
-        },
-        {
-          "day": 2,
-          "title": "Grand Palace & Street Food Crawl",
-          "morning": "Guided walking tour of the majestic Grand Palace and Wat Phra Kaew.",
-          "afternoon": "Visit Wat Pho to see the giant gold Reclining Buddha.",
-          "evening": "Street food crawl in Yaowarat Chinatown tasting local pad thai and mango sticky rice."
+          "name": "Grand Phuket Freedom Beach & Patong Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Phuket Freedom Beach & Patong with world-class dining."
         }
-      ]
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Phuket Freedom Beach & Patong, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Phuket Freedom Beach & Patong",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Phuket Freedom Beach & Patong?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Phuket Freedom Beach & Patong was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "chiang-mai-old-city",
+      "name": "Chiang Mai Old City & Elephants",
+      "category": "Northern Culture",
+      "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Misty northern mountain temples, ethical elephant rescue sanctuaries, and night bazaars.",
+      "overview": "Surrounded by mountain ranges, Chiang Mai is Thailand's spiritual and artistic hub.",
+      "rating": 4.93,
+      "bestTimeToVisit": "November to February",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Chiang Mai Old City & Elephants Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Chiang Mai Old City & Elephants with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Chiang Mai Old City & Elephants, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Chiang Mai Old City & Elephants",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Chiang Mai Old City & Elephants?",
+          "a": "The ideal season is November to February."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Chiang Mai Old City & Elephants was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "phi-phi-islands",
+      "name": "Phi Phi Islands & Maya Bay",
+      "category": "Karst Lagoon",
+      "image": "https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Towering limestone karst cliffs enclosing Maya Bay's glowing turquoise waters.",
+      "overview": "Famous filming location of The Beach, offering snorkeling with reef sharks and sea turtles.",
+      "rating": 4.96,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Phi Phi Islands & Maya Bay Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Phi Phi Islands & Maya Bay with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Phi Phi Islands & Maya Bay, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Phi Phi Islands & Maya Bay",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Phi Phi Islands & Maya Bay?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Phi Phi Islands & Maya Bay was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "krabi-railay",
+      "name": "Krabi Railay Beach & Caves",
+      "category": "Rock Climbing",
+      "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Peninsula accessible only by longtail boat with dramatic karst cliffs and Phra Nang cave.",
+      "overview": "A paradise for rock climbers, kayakers, and sunset beach relaxation.",
+      "rating": 4.92,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Krabi Railay Beach & Caves Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Krabi Railay Beach & Caves with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Krabi Railay Beach & Caves, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Krabi Railay Beach & Caves",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Krabi Railay Beach & Caves?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Krabi Railay Beach & Caves was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "ayutthaya-park",
+      "name": "Ayutthaya Historical Park",
+      "category": "Ancient Ruins",
+      "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "UNESCO World Heritage ruins of Siam's ancient capital with Buddha head encased in tree roots.",
+      "overview": "Explore ancient brick stupas and headless stone statues dating back to 1350.",
+      "rating": 4.88,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Ayutthaya Historical Park Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Ayutthaya Historical Park with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Ayutthaya Historical Park, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Ayutthaya Historical Park",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Ayutthaya Historical Park?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Ayutthaya Historical Park was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "koh-samui",
+      "name": "Koh Samui Chaweng & Fisherman's Village",
+      "category": "Gulf Paradise",
+      "image": "https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Coconut palm fringed beaches, Big Buddha shrine, and Bophut Fisherman's Village.",
+      "overview": "A luxury Gulf of Thailand island featuring luxury spa resorts and waterfall hikes.",
+      "rating": 4.91,
+      "bestTimeToVisit": "January to September",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Koh Samui Chaweng & Fisherman's Village Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Koh Samui Chaweng & Fisherman's Village with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Koh Samui Chaweng & Fisherman's Village, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Koh Samui Chaweng & Fisherman's Village",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Koh Samui Chaweng & Fisherman's Village?",
+          "a": "The ideal season is January to September."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Koh Samui Chaweng & Fisherman's Village was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "pattaya-floating-market",
+      "name": "Pattaya Sanctuary of Truth & Market",
+      "category": "Coastal Attraction",
+      "image": "https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Hand-carved wooden oceanfront Sanctuary of Truth castle and four-regions floating market.",
+      "overview": "A bustling coastal resort city featuring cabaret shows and coral island excursions.",
+      "rating": 4.85,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Pattaya Sanctuary of Truth & Market Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Pattaya Sanctuary of Truth & Market with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Pattaya Sanctuary of Truth & Market, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Pattaya Sanctuary of Truth & Market",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Pattaya Sanctuary of Truth & Market?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Pattaya Sanctuary of Truth & Market was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "sukhothai-ruins",
+      "name": "Sukhothai Historical Park",
+      "category": "Dawn of Happiness",
+      "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Serene lotus ponds surrounding ancient seated stone Buddha statues in Siam's first kingdom.",
+      "overview": "Rent a bicycle to explore 193 historical ruins spread over 70 square kilometers.",
+      "rating": 4.9,
+      "bestTimeToVisit": "November to April",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Sukhothai Historical Park Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Sukhothai Historical Park with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Sukhothai Historical Park, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Sukhothai Historical Park",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Sukhothai Historical Park?",
+          "a": "The ideal season is November to April."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Sukhothai Historical Park was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
+    },
+    {
+      "slug": "pai-canyon",
+      "name": "Pai Valley & Canyon",
+      "category": "Mountain Retreat",
+      "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&q=80&w=800",
+      "shortDesc": "Bohemian mountain valley town known for narrow canyon ridges, hot springs, and waterfalls.",
+      "overview": "A relaxed mountain haven nestled near the Myanmar border.",
+      "rating": 4.87,
+      "bestTimeToVisit": "November to February",
+      "packagePrice": 1500,
+      "duration": "3 Days • 2 Nights",
+      "hotels": [
+        {
+          "name": "Grand Pai Valley & Canyon Resort",
+          "rating": 4.9,
+          "description": "Luxury five-star hotel near Pai Valley & Canyon with world-class dining."
+        }
+      ],
+      "meals": "Breakfast & Gourmet dinners included.",
+      "transport": "Luxury private transfers and guided excursions.",
+      "activities": "Guided tour of Pai Valley & Canyon, photo walk, and local cultural experience.",
+      "included": [
+        "Guided tour of Pai Valley & Canyon",
+        "Private airport transfers",
+        "Luxury resort accommodation"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "International airfare"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&q=80&w=800"
+      ],
+      "faqs": [
+        {
+          "q": "What is the best time to visit Pai Valley & Canyon?",
+          "a": "The ideal season is November to February."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Elena R.",
+          "rating": 5,
+          "text": "Visiting Pai Valley & Canyon was an absolute highlight of our trip!"
+        }
+      ],
+      "itinerary": []
     }
   ]
 }

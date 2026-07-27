@@ -107,676 +107,425 @@ export interface BlogPost {
 // Curated India ethical tour data mapping to original IDs
 export const destinations: Destination[] = [
   {
-    id: "santorini",
-    name: "Mumbai Dharavi & Local Communities",
-    country: "India",
-    duration: "1–2 Days",
-    price: 45,
-    rating: 4.92,
-    description: "Witness the industrial drive and vibrant spirit of Dharavi. Discover recycling systems, leather workshops, and pottery lanes.",
-    heroImage: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&q=80&w=1200",
-    category: "Solo",
-    about: "Mumbai, the financial capital of India, is home to the world’s most active community-run light industries. Our guided walking tours take you through Dharavi’s diverse commercial centers. Meet pottery artists at Kumbharwada, see how local plastics and metals are sorted for recycling, and talk with small business owners. To respect the privacy and dignity of local residents, we enforce a strict NO PHOTOGRAPHY policy inside the community area. 80% of our post-tax profits fund education programs through Reality Gives.",
-    weather: "Warm and tropical. Temperatures stay between 26°C and 34°C. Monsoons arrive in June and clear by late September.",
-    bestSeason: "October to March when the climate is cool, dry, and pleasant.",
-    visaInfo: "All foreign travelers require a valid passport and an Indian tourist e-Visa obtained before arrival.",
-    currency: "Indian Rupee (INR)",
-    languages: [
-      "Hindi",
-      "Marathi",
-      "English"
-    ],
-    culture: "An extraordinary community characterized by cooperative light industry, multi-faith shrines, shared workspaces, and mutual community welfare.",
-    gallery: [
-      "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Is photography allowed inside Dharavi?",
-        answer: "No. We enforce a strict No Photography policy on all slum walks to respect the residents' privacy and dignity."
-      },
-      {
-        question: "How does this tour support the local community?",
-        answer: "80% of our post-tax profits are donated directly to our sister NGO, Reality Gives, which runs English language, computer literacy, and youth empowerment programs inside Dharavi."
-      }
-    ],
-    coordinates: {
-      lat: 19.076,
-      lng: 72.8777
-    }
-  },
-  {
     id: "switzerland",
-    name: "Delhi Sanjay Colony Community Walk",
-    country: "India",
-    duration: "1–2 Days",
-    price: 40,
-    rating: 4.88,
-    description: "Explore the textile sorting and recycling workshops of Sanjay Colony in South Delhi, discovering daily neighborhood routines.",
-    heroImage: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=1200",
-    category: "Family",
-    about: "Sanjay Colony is an industrious enclave in South Delhi. This walking tour guides you through its manufacturing workshops, showing how garments are collected, shredded, and recycled into industrial materials. Walk past local schools, temples, and residential houses, learning about the community’s social fabric. A strict No Photography rule is enforced in residential parts. Profits directly support Reality Gives classrooms located inside Sanjay Colony.",
-    weather: "Subtropical climate. Very warm summers (up to 42°C) and cool, misty winters (as low as 6°C).",
-    bestSeason: "October to April when the Delhi breeze is fresh and pleasant.",
-    visaInfo: "Valid passport and Indian tourist e-Visa required prior to departure.",
-    currency: "Indian Rupee (INR)",
-    languages: [
-      "Hindi",
-      "English",
-      "Punjabi"
-    ],
-    culture: "A mixture of regional cultures from all over Northern India, reflecting in local foods, temple festivals, and shared commercial works.",
-    gallery: [
-      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "What businesses operate in Sanjay Colony?",
-        answer: "It is a major center for fabric recycling, garment sewing, small scale metal casting, and food distribution."
-      },
-      {
-        question: "Do guides speak English?",
-        answer: "Yes, all guides are bilingual local residents trained to explain the community history in English and Hindi."
-      }
-    ],
-    coordinates: {
-      lat: 28.5355,
-      lng: 77.2737
-    }
-  },
-  {
-    id: "maldives",
-    name: "Rajasthan Heritage & Rural Villages",
-    country: "India",
-    duration: "4–6 Days",
-    price: 320,
-    rating: 4.95,
-    description: "Journey through Jaipur's historic pink alleys, rural village cooperatives, and the desert communities of Rajasthan.",
-    heroImage: "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=1200",
-    category: "Road Trips",
-    about: "Rajasthan is a land of architectural marvels and deep heritage. Our multi-day itinerary takes you beyond the grand forts of Jaipur and Udaipur to interact directly with rural craft cooperatives. Stay in community-run lodges, see traditional block-printing masters at work, and support conservation initiatives that preserve local groundwater reserves. A portion of every trip fee is shared with regional village craft guilds.",
-    weather: "Dry, arid climate. Hot summer months and cool, comfortable winter nights.",
-    bestSeason: "November to March for comfortable walking and sightseeing temperatures.",
-    visaInfo: "Valid passport and Indian tourist e-Visa required.",
-    currency: "Indian Rupee (INR)",
-    languages: [
-      "Hindi",
-      "Rajasthani",
-      "English"
-    ],
-    culture: "Folk music, hand-woven block-printed textiles, historic desert fortifications, and shared communal dining tables.",
-    gallery: [
-      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Are village tours private?",
-        answer: "We run small, intimate groups of under 8 people to reduce impact and support direct conversations with local craftspeople."
-      }
-    ],
-    coordinates: {
-      lat: 26.9124,
-      lng: 75.7873
-    }
-  },
-  {
-    id: "kyoto",
-    name: "Kerala Village Life & Backwaters",
-    country: "India",
-    duration: "5–8 Days",
-    price: 280,
-    rating: 4.89,
-    description: "Cruise Kerala’s backwaters on a traditional eco-houseboat, and support organic spice farmers in cooperative programs.",
-    heroImage: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=1200",
-    category: "Honeymoon",
-    about: "Explore Kerala, South India’s lush coastal state. Relax on a traditional thatched-roof houseboat powered by solar energy, dine with local farming families, and stroll through organic spice hills. We work with local village councils (Panchayats) to ensure tourism benefits are shared equally among local boatmen, fishers, and organic cultivators.",
-    weather: "Humid and tropical. Cool coastal breezes with heavy rains during June–August monsoons.",
-    bestSeason: "October to February when the backwaters are calm and nights are breezy.",
-    visaInfo: "Valid passport and Indian tourist e-Visa required.",
-    currency: "Indian Rupee (INR)",
-    languages: [
-      "Malayalam",
-      "English"
-    ],
-    culture: "Kathakali classical dance, organic coconut agriculture, Ayurvedic wellness heritages, and riverside villages.",
-    gallery: [
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "How is the houseboat sustainable?",
-        answer: "We use solar panels for lighting and electricity, implement waste-filtration units, and employ local oarsmen."
-      }
-    ],
-    coordinates: {
-      lat: 10.8505,
-      lng: 76.2711
-    }
-  },
-  {
-    id: "serengeti",
-    name: "Old Delhi Heritage & Street Food Crawl",
-    country: "India",
-    duration: "1 Day",
-    price: 35,
-    rating: 4.97,
-    description: "Navigate the historic alleys of Chandni Chowk, sampling authentic street foods from sanitarily vetted local vendors.",
-    heroImage: "https://images.unsplash.com/photo-1597075687490-8f673c6c17f6?auto=format&fit=crop&q=80&w=1200",
-    category: "Adventure",
-    about: "Old Delhi (Shahjahanabad) is a sensory explosion. Ride a cycle rickshaw through the historic spice markets of Khari Baoli, visit ancient multi-faith temples, and sample delicious local street food. All food stalls are carefully selected and sanitarily vetted by our guides to ensure a safe, tasty culinary journey. 80% of our profits support Delhi community schooling.",
-    weather: "Subtropical. Sunny and hot in summer; cool and misty in winter months.",
-    bestSeason: "October to March for comfortable outdoor walking conditions.",
-    visaInfo: "Valid passport and Indian tourist e-Visa required.",
-    currency: "Indian Rupee (INR)",
-    languages: [
-      "Hindi",
-      "Urdu",
-      "English"
-    ],
-    culture: "Mughal-era architectures, busy street markets, historic Sufi music shrines, and centuries-old culinary lineages.",
-    gallery: [
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Is the street food safe to eat?",
-        answer: "Yes! We only visit vendors who use clean, filtered water, fresh ingredients, and have been vetted for hygiene by our culinary guides."
-      }
-    ],
-    coordinates: {
-      lat: 28.6562,
-      lng: 77.2307
-    }
-  },
-  {
-    id: "amalfi",
-    name: "Agra Heritage & Taj Mahal Sunrise",
-    country: "India",
-    duration: "1–2 Days",
-    price: 65,
-    rating: 4.93,
-    description: "Experience the Taj Mahal at sunrise. Support local marble artisans and explore the red walls of Agra Fort.",
-    heroImage: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=1200",
-    category: "Luxury",
-    about: "Witness the Taj Mahal, the world’s monument to love, in the soft morning light. Our Agra tour takes you beyond the white marble dome to meet local marble inlay craftsmen and stone sculptors, keeping ancient artisan traditions alive. All guides are certified community historians who share the local narratives of the Yamuna River.",
-    weather: "Warm summers and cool, foggy winter mornings.",
-    bestSeason: "October to March when skies are clear for sunrise views.",
-    visaInfo: "Valid passport and Indian tourist e-Visa required.",
-    currency: "Indian Rupee (INR)",
-    languages: [
-      "Hindi",
-      "English"
-    ],
-    culture: "Mughal historic arts, Pietra Dura marble inlay carvings, and traditional sweet making (Petha).",
-    gallery: [
-      "https://images.unsplash.com/photo-1542856391-010fb87dcfed?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "What is the entry policy for the Taj Mahal?",
-        answer: "Standard security is tight; large bags, chargers, and tripods are not permitted inside the monument grounds."
-      }
-    ],
-    coordinates: {
-      lat: 27.1751,
-      lng: 78.0421
-    }
-  },
-  {
-    id: "switzerland-luxury",
-    name: "Swiss Alpine Grandeur",
+    name: "Switzerland",
     country: "Switzerland",
-    duration: "6–8 Days",
-    price: 1450,
-    rating: 4.98,
-    description: "Experience majestic snow-covered peaks, alpine lakes, and premium luxury retreats in the heart of Zermatt and St. Moritz.",
-    heroImage: "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=1200",
-    category: "Luxury",
-    about: "Switzerland stands as the pinnacle of European refinement. Travel on the Glacier Express, stay in grand wood-panelled chalets with private thermal spas, and explore the soaring Matterhorn. Our private alpine loops combine scenic helicopter transfers with custom ski and hiking guides.",
-    weather: "Cool and crisp. Highs of 22°C in summer, drops below freezing with heavy snow in winter months.",
-    bestSeason: "June to September for hiking, December to March for world-class winter sports.",
-    visaInfo: "Schengen Area visa rules apply. Valid passport required.",
-    currency: "Swiss Franc (CHF)",
-    languages: [
-      "German",
-      "French",
-      "Italian",
-      "English"
-    ],
-    culture: "Watchmaking heritage, chocolate craftsmanship, mountaineering legends, and clean sustainability.",
-    gallery: [
-      "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Is the Swiss Travel Pass included?",
-        answer: "Yes, all our Swiss itineraries include first-class passes for national rail networks and mountain cableways."
-      }
-    ],
-    coordinates: {
-      lat: 46.8011,
-      lng: 8.2275
-    }
-  },
-  {
-    id: "dubai",
-    name: "Dubai Modern Oasis",
-    country: "UAE",
-    duration: "4–6 Days",
-    price: 980,
-    rating: 4.92,
-    description: "Marvel at futuristic skylines, luxury desert safaris, and high-fashion shopping in the world’s most glamorous metropolis.",
-    heroImage: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1200",
-    category: "Luxury",
-    about: "Dubai represents a futuristic oasis where heritage meets architectural marvels. Stay at the iconic Burj Al Arab, cruise on a private yacht, and fly over the Palm Jumeirah. Your trip includes a private vintage Land Rover safari through the Dubai Desert Conservation Reserve, ending with a starlit banquet.",
-    weather: "Hot and sunny year-round. Temperatures range from 20°C in winter to 43°C in summer.",
-    bestSeason: "November to March when the desert breeze is cool and outdoor events are active.",
-    visaInfo: "Visa-on-arrival is available for travelers from over 70 countries.",
-    currency: "UAE Dirham (AED)",
-    languages: [
-      "Arabic",
-      "English"
-    ],
-    culture: "Traditional Bedouin heritage, high-luxury shopping festivals, modern architectures, and multi-cultural dining.",
-    gallery: [
-      "https://images.unsplash.com/photo-1526495124232-a04e18491f5a?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "What is the dress code?",
-        answer: "Modest wear is appreciated in public areas, while luxury resorts and dining venues welcome elegant resort wear."
-      }
-    ],
-    coordinates: {
-      lat: 25.2048,
-      lng: 55.2708
-    }
+    duration: "5–8 Days",
+    price: 2450,
+    rating: 4.96,
+    description: "Majestic snow peaks, pristine alpine lakes, and world-class luxury resorts.",
+    heroImage: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&q=80&w=1200",
+    category: "Mountains" as any,
+    about: "Majestic snow peaks, pristine alpine lakes, and world-class luxury resorts.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Dec to Apr & Jul to Sep",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Switzerland?", answer: "Dec to Apr & Jul to Sep" }],
+    coordinates: { lat: 0, lng: 0 }
   },
   {
     id: "japan",
-    name: "Kyoto & Tokyo Heritage",
+    name: "Japan",
     country: "Japan",
     duration: "7–10 Days",
-    price: 1350,
-    rating: 4.99,
-    description: "Immerse in the neon-lit streets of Tokyo, ancient wooden temples of Kyoto, and custom tea ceremonies.",
+    price: 2100,
+    rating: 4.95,
+    description: "Futuristic skylines, ancient shrines, cherry blossoms, and Michelin dining.",
     heroImage: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=1200",
-    category: "Luxury",
-    about: "Japan is a land where ancient traditions blend seamlessly with futuristic innovation. Stay in a luxury ryokan with natural hot springs (onsen), savor Michelin-starred Kaiseki dining, and enjoy private guides through Kyoto’s hidden shrines. Travel in bullet train green cars throughout your tour.",
-    weather: "Four distinct seasons. Moderate spring (15°C) and autumn (18°C), hot humid summers, and snowy winters in the north.",
-    bestSeason: "April for cherry blossoms, and November for fiery autumn maple leaves.",
-    visaInfo: "Visa-free entry for up to 90 days for most tourist passports.",
-    currency: "Japanese Yen (JPY)",
-    languages: [
-      "Japanese",
-      "English"
-    ],
-    culture: "Zen philosophy, tea ceremony arts, culinary mastery, shinto shrines, and meticulous hospitality (Omotenashi).",
-    gallery: [
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1490806843957-31f4c9a91c6d?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Do you arrange private tea ceremonies?",
-        answer: "Yes, we arrange private tea sessions hosted by tea masters in private Kyoto gardens closed to the public."
-      }
-    ],
-    coordinates: {
-      lat: 35.6762,
-      lng: 139.6503
-    }
-  },
-  {
-    id: "bali",
-    name: "Bali Tropical Sanctuary",
-    country: "Indonesia",
-    duration: "5–8 Days",
-    price: 680,
-    rating: 4.94,
-    description: "Unwind in cliffside ocean-view villas, terraced rice fields of Ubud, and sacred water purification ceremonies.",
-    heroImage: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=1200",
-    category: "Beach",
-    about: "Bali, the Island of the Gods, is a haven of spirituality, surf, and sanctuary. Relax in Ubud’s jungle resorts and Uluwatu’s clifftops. Your tour includes a custom blessing ritual at Tirta Empul, private yacht cruises to Nusa Penida, and organic volcanic coffee plantation workshops.",
-    weather: "Tropical climate. Average temperature stays around 28°C. Rainy monsoon is October–March; dry season is April–September.",
-    bestSeason: "May to September for clear skies, low humidity, and pleasant sea breezes.",
-    visaInfo: "30-day Visa-on-arrival is available for travelers from over 85 countries.",
-    currency: "Indonesian Rupiah (IDR)",
-    languages: [
-      "Indonesian",
-      "Balinese",
-      "English"
-    ],
-    culture: "Hindu temple festivals, traditional Gamelan music, wood carving, and seaside sunset offerings.",
-    gallery: [
-      "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1552678440-b9604618e7e1?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Is a private driver included?",
-        answer: "Yes, a private air-conditioned SUV with an experienced English-speaking driver is provided throughout your stay."
-      }
-    ],
-    coordinates: {
-      lat: -8.4095,
-      lng: 115.1889
-    }
-  },
-  {
-    id: "maldives-luxury",
-    name: "Maldives Private Lagoons",
-    country: "Maldives",
-    duration: "5–7 Days",
-    price: 1580,
-    rating: 4.97,
-    description: "Escape to private overwater villas, turquoise lagoons, and glowing bioluminescent beaches in the Indian Ocean.",
-    heroImage: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=1200",
-    category: "Beach",
-    about: "The Maldives represents the ultimate off-grid luxury. Fly on a seaplane to your private island resort, dine in underwater glass restaurants, and swim with manta rays. Each villa features a private infinity pool and direct lagoon slides.",
-    weather: "Warm and tropical. Average daytime temperature is 30°C. Brief monsoon rains occur from May to October.",
-    bestSeason: "December to April for sunny blue skies and calm, transparent waters.",
-    visaInfo: "Free 30-day visa on arrival issued to all nationalities with return ticket.",
-    currency: "Maldivian Rufiyaa (MVR) / USD widely accepted",
-    languages: [
-      "Dhivehi",
-      "English"
-    ],
-    culture: "Island fishing heritage, wooden dhoni boat building, and local coconut gastronomy.",
-    gallery: [
-      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "How do we reach the resort?",
-        answer: "All packages include roundtrip luxury speedboat or private seaplane transfers from Malé Airport."
-      }
-    ],
-    coordinates: {
-      lat: 3.2028,
-      lng: 73.2207
-    }
-  },
-  {
-    id: "singapore",
-    name: "Singapore Gardens & Marina",
-    country: "Singapore",
-    duration: "3–5 Days",
-    price: 850,
-    rating: 4.91,
-    description: "Explore the futuristic Gardens by the Bay, luxury Marina Bay sands suites, and Michelin street-food stalls.",
-    heroImage: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=1200",
-    category: "Luxury",
-    about: "Singapore is a green, clean metropolis at the crossroads of Asia. Walk through the avatar-like Supertree Grove, shop at Orchard Road, and enjoy private cocktail tasting at the historic Raffles Hotel. Discover the local Peranakan heritage and diverse culinary neighborhoods.",
-    weather: "Hot and humid tropical climate. Constant 31°C year-round with occasional short rainfall.",
-    bestSeason: "February to April when rainfall is lowest, or September during the Night Formula 1 Grand Prix.",
-    visaInfo: "Visa-free entry for up to 90 days for most nationalities. SG Arrival Card required.",
-    currency: "Singapore Dollar (SGD)",
-    languages: [
-      "English",
-      "Mandarin",
-      "Malay",
-      "Tamil"
-    ],
-    culture: "Hawker culinary heritage, Peranakan historic architectures, and modern green urbanism.",
-    gallery: [
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1506505776263-d13b724e155e?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Is the Sands pool accessible?",
-        answer: "Yes, our Singapore suites include exclusive access to the world-famous Sands SkyPark Infinity Pool."
-      }
-    ],
-    coordinates: {
-      lat: 1.3521,
-      lng: 103.8198
-    }
-  },
-  {
-    id: "thailand",
-    name: "Thailand Temples & Islands",
-    country: "Thailand",
-    duration: "6–8 Days",
-    price: 580,
-    rating: 4.88,
-    description: "Discover ornate golden temples in Bangkok, ethical elephant sanctuaries in Chiang Mai, and white beaches of Phuket.",
-    heroImage: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&q=80&w=1200",
-    category: "Adventure",
-    about: "Thailand, the Land of Smiles, offers a rich tapestry of history, street food, and tropical beauty. Stay in boutique eco-lodges, visit ancient ruins of Ayutthaya, and cruise by private long-tail boat through Phang Nga Bay’s limestone peaks.",
-    weather: "Warm and tropical. Hot season (March–May), monsoon season (June–October), and cool dry season (November–February).",
-    bestSeason: "November to February when weather is dry and temperatures are comfortable (26°C).",
-    visaInfo: "Visa exemption available for tourist stays up to 30 or 60 days for many countries.",
-    currency: "Thai Baht (THB)",
-    languages: [
-      "Thai",
-      "English"
-    ],
-    culture: "Buddhist temple codes, traditional Muay Thai boxing, street food gastronomy, and organic farming.",
-    gallery: [
-      "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1528181304800-2f1908c3951f?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Are elephant rides included?",
-        answer: "No. We strictly support elephant conservation and only visit ethical sanctuaries where riding is banned."
-      }
-    ],
-    coordinates: {
-      lat: 13.7563,
-      lng: 100.5018
-    }
+    category: "Luxury" as any,
+    about: "Futuristic skylines, ancient shrines, cherry blossoms, and Michelin dining.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Mar to May & Oct to Nov",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Japan?", answer: "Mar to May & Oct to Nov" }],
+    coordinates: { lat: 0, lng: 0 }
   },
   {
     id: "italy",
-    name: "Rome & Amalfi Coast Heritage",
+    name: "Italy",
     country: "Italy",
     duration: "6–9 Days",
+    price: 1950,
+    rating: 4.94,
+    description: "Ancient Roman ruins, Venetian gondolas, Renaissance art, and coastal Positano.",
+    heroImage: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&q=80&w=1200",
+    category: "Luxury" as any,
+    about: "Ancient Roman ruins, Venetian gondolas, Renaissance art, and coastal Positano.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Apr to Jun & Sep to Oct",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Italy?", answer: "Apr to Jun & Sep to Oct" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "dubai",
+    name: "Dubai (UAE)",
+    country: "UAE",
+    duration: "4–6 Days",
+    price: 1650,
+    rating: 4.93,
+    description: "Burj Khalifa, luxury palm islands, desert dune safaris, and high-end shopping.",
+    heroImage: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1200",
+    category: "Luxury" as any,
+    about: "Burj Khalifa, luxury palm islands, desert dune safaris, and high-end shopping.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Oct to Apr",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Dubai (UAE)?", answer: "Oct to Apr" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "bali",
+    name: "Bali",
+    country: "Indonesia",
+    duration: "5–8 Days",
+    price: 1350,
+    rating: 4.92,
+    description: "Sacred sea temples, emerald rice terraces, volcanic sunsets, and beach clubs.",
+    heroImage: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=1200",
+    category: "Beach" as any,
+    about: "Sacred sea temples, emerald rice terraces, volcanic sunsets, and beach clubs.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "May to Sep",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Bali?", answer: "May to Sep" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "maldives",
+    name: "Maldives",
+    country: "Maldives",
+    duration: "4–7 Days",
+    price: 2800,
+    rating: 4.98,
+    description: "Overwater lagoon villas, whale shark sanctuaries, and crystal turquoise waters.",
+    heroImage: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=1200",
+    category: "Beach" as any,
+    about: "Overwater lagoon villas, whale shark sanctuaries, and crystal turquoise waters.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Nov to Apr",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Maldives?", answer: "Nov to Apr" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "singapore",
+    name: "Singapore",
+    country: "Singapore",
+    duration: "3–5 Days",
+    price: 1750,
+    rating: 4.91,
+    description: "Marina Bay Sands rooftop pool, Supertree Grove, and multicultural street hawkers.",
+    heroImage: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=1200",
+    category: "Luxury" as any,
+    about: "Marina Bay Sands rooftop pool, Supertree Grove, and multicultural street hawkers.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Year-round",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Singapore?", answer: "Year-round" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "thailand",
+    name: "Thailand",
+    country: "Thailand",
+    duration: "6–9 Days",
     price: 1250,
-    rating: 4.96,
-    description: "Stroll through Rome’s historic ruins, explore cliffside villas of Positano, and enjoy private winery tours in Tuscany.",
-    heroImage: "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?auto=format&fit=crop&q=80&w=1200",
-    category: "Luxury",
-    about: "Italy is a sensory masterpiece. Tour the Colosseum privately at night, cruise the Amalfi Coast on a vintage Riva boat, and sample white truffles at family estates. Stay in converted Renaissance palaces and luxury clifftop suites.",
-    weather: "Mediterranean climate. Hot summers (30°C) and cool, mild winters (10°C) with regular rainfall.",
-    bestSeason: "May to June, and September to October for warm sun without summer crowds.",
-    visaInfo: "Schengen Area passport rules apply.",
-    currency: "Euro (EUR)",
-    languages: [
-      "Italian",
-      "English"
-    ],
-    culture: "Renaissance art history, vintage automotive heritage, slow food culinary culture, and high-fashion tailoring.",
-    gallery: [
-      "https://images.unsplash.com/photo-1531572753322-ad063caff12e?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Do you arrange cooking classes?",
-        answer: "Yes, all itineraries include a private pasta-making session with local chefs in historical Roman villas."
-      }
-    ],
-    coordinates: {
-      lat: 41.9028,
-      lng: 12.4964
-    }
+    rating: 4.9,
+    description: "Bangkok golden temples, Phi Phi limestone karsts, and northern elephant sanctuaries.",
+    heroImage: "https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=1200",
+    category: "Beach" as any,
+    about: "Bangkok golden temples, Phi Phi limestone karsts, and northern elephant sanctuaries.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Nov to Apr",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Thailand?", answer: "Nov to Apr" }],
+    coordinates: { lat: 0, lng: 0 }
   },
   {
     id: "france",
-    name: "Parisian Art & Provence Chateaux",
+    name: "France",
     country: "France",
-    duration: "5–8 Days",
-    price: 1380,
+    duration: "6–9 Days",
+    price: 2150,
     rating: 4.95,
-    description: "Sip champagne in private Reims cellars, cruise the Seine, and stay in converted 17th-century Loire Valley chateaux.",
+    description: "Eiffel Tower lights, French Riviera coast, Mont Saint-Michel, and fine wines.",
     heroImage: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=1200",
-    category: "Luxury",
-    about: "France is the birthplace of haute couture and fine dining. Enjoy exclusive, after-hours access to the Louvre, private wine tastings in Bordeaux, and perfume-making masterclasses in Grasse. Sleep under gilded ceilings in grand boutique hotels.",
-    weather: "Temperate climate. Pleasant warm summers (25°C) and cool winters (5°C).",
-    bestSeason: "April to June, and September to November for cultural events and mild weather.",
-    visaInfo: "Schengen Area passport rules apply.",
-    currency: "Euro (EUR)",
-    languages: [
-      "French",
-      "English"
-    ],
-    culture: "Impressionist art, classic gastronomy, perfume crafting, champagne cellars, and historic chateaux.",
-    gallery: [
-      "https://images.unsplash.com/photo-1499856871958-5b9647a6409a?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1503917988258-f87a78e3c995?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Are Eiffel Tower fast-pass tickets included?",
-        answer: "Yes, we secure skip-the-line reservations to the private summit platform for all our guests."
-      }
-    ],
-    coordinates: {
-      lat: 48.8566,
-      lng: 2.3522
-    }
+    category: "Luxury" as any,
+    about: "Eiffel Tower lights, French Riviera coast, Mont Saint-Michel, and fine wines.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "May to Oct",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit France?", answer: "May to Oct" }],
+    coordinates: { lat: 0, lng: 0 }
   },
   {
     id: "australia",
-    name: "Sydney Harbour & Great Barrier Reef",
+    name: "Australia",
     country: "Australia",
     duration: "8–12 Days",
-    price: 1680,
-    rating: 4.94,
-    description: "Fly over the Great Barrier Reef, watch sunset at Uluru, and sail on a private catamaran under Sydney Harbour Bridge.",
-    heroImage: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=1200",
-    category: "Adventure",
-    about: "Australia is a land of massive geological wonders and modern coastal lifestyle. Swim with sea turtles in Queensland, explore ancient rainforests, and dine at Sydney’s Opera House. Your itinerary features luxury eco-lodges situated directly inside national reserves.",
-    weather: "Varies by region. Tropical warm climate in the north, temperate seasons in the south. Summer is December–February.",
-    bestSeason: "September to November, and March to May for comfortable national touring.",
-    visaInfo: "Electronic Travel Authority (ETA) visa required for most international visitors.",
-    currency: "Australian Dollar (AUD)",
-    languages: [
-      "English"
-    ],
-    culture: "Indigenous Aboriginal heritage, beach lifestyle, organic wines, and wildlife conservation.",
-    gallery: [
-      "https://images.unsplash.com/photo-1524820197278-540916411e20?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Is scuba gear provided for the Reef?",
-        answer: "Yes, all gear and professional PADI instructors are included on our private catamaran dive charters."
-      }
-    ],
-    coordinates: {
-      lat: -33.8688,
-      lng: 151.2093
-    }
+    price: 2600,
+    rating: 4.96,
+    description: "Sydney Opera House, Great Barrier Reef diving, Uluru red outback, and wildlife.",
+    heroImage: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=1200",
+    category: "Adventure" as any,
+    about: "Sydney Opera House, Great Barrier Reef diving, Uluru red outback, and wildlife.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Sep to Nov & Mar to May",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Australia?", answer: "Sep to Nov & Mar to May" }],
+    coordinates: { lat: 0, lng: 0 }
   },
   {
     id: "usa",
-    name: "New York Skyline & Canyons",
+    name: "United States",
     country: "USA",
-    duration: "7–10 Days",
-    price: 1420,
+    duration: "7–12 Days",
+    price: 2400,
     rating: 4.93,
-    description: "Take a private helicopter tour over Manhattan, hike the Grand Canyon, and stay in luxury desert retreats in Utah.",
-    heroImage: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=1200",
-    category: "Road Trips",
-    about: "Explore the vast landscapes and cities of the United States. Wake up in a skyscraper overlooking Central Park, fly in a private charter to the Grand Canyon rim, and dine on gourmet Southwestern cuisine at Amangiri desert resort.",
-    weather: "Diverse climate. Highs of 35°C in Southwestern deserts, snow in northern states in winter.",
-    bestSeason: "September to November (Autumn) for comfortable road trips and foliage views.",
-    visaInfo: "Electronic System for Travel Authorization (ESTA) or US tourist visa required.",
-    currency: "US Dollar (USD)",
-    languages: [
-      "English",
-      "Spanish"
-    ],
-    culture: "Broadway theatre, Native American art history, jazz music, and modern culinary gastronomy.",
-    gallery: [
-      "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "Are Broadway tickets guaranteed?",
-        answer: "Yes, we secure premium front-mezzanine seats for all major Broadway shows in advance."
-      }
-    ],
-    coordinates: {
-      lat: 40.7128,
-      lng: -74.006
-    }
+    description: "New York Manhattan skyline, Grand Canyon, Las Vegas strip, and Hawaiian coast.",
+    heroImage: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=1200",
+    category: "Adventure" as any,
+    about: "New York Manhattan skyline, Grand Canyon, Las Vegas strip, and Hawaiian coast.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Apr to Jun & Sep to Nov",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit United States?", answer: "Apr to Jun & Sep to Nov" }],
+    coordinates: { lat: 0, lng: 0 }
   },
   {
     id: "turkey",
-    name: "Bosphorus Cruise & Cappadocia Caves",
+    name: "Turkey",
     country: "Turkey",
-    duration: "5–8 Days",
-    price: 880,
-    rating: 4.96,
-    description: "Fly in hot air balloons over Cappadocia’s fairy chimneys, cruise the Bosphorus, and tour the historic Hagia Sophia.",
+    duration: "6–9 Days",
+    price: 1600,
+    rating: 4.94,
+    description: "Istanbul Hagia Sophia, Cappadocia hot air balloons, and Pamukkale thermal pools.",
     heroImage: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200",
-    category: "Adventure",
-    about: "Turkey is a historic bridge between Europe and Asia. Explore Ottoman palaces with expert historians, sleep in luxury cave suites in Cappadocia, and soak in ancient thermal hammams. Feast on generational Mezze tables.",
-    weather: "Mediterranean climate. Hot dry summers (32°C) and cool wet winters (8°C). Snow is common in Cappadocia.",
-    bestSeason: "April to May, and September to October for comfortable sightseeing and active balloon flights.",
-    visaInfo: "E-Visa required for many nationalities, obtainable online in minutes.",
-    currency: "Turkish Lira (TRY)",
-    languages: [
-      "Turkish",
-      "English"
-    ],
-    culture: "Ottoman mosaic art, whirling dervish ceremonies, spice bazaar trade, and historic Roman ruins.",
-    gallery: [
-      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1504382262782-5b4cf10d7d1f?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [
-      {
-        question: "What happens if balloons are canceled?",
-        answer: "We schedule a 3-night stay in Cappadocia to maximize flight chances; if canceled due to wind, we offer full refunds for that segment."
-      }
-    ],
-    coordinates: {
-      lat: 41.0082,
-      lng: 28.9784
-    }
+    category: "Luxury" as any,
+    about: "Istanbul Hagia Sophia, Cappadocia hot air balloons, and Pamukkale thermal pools.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Apr to Jun & Sep to Oct",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Turkey?", answer: "Apr to Jun & Sep to Oct" }],
+    coordinates: { lat: 0, lng: 0 }
   },
   {
     id: "india",
-    name: "Spiritual & Industrial Heritage",
+    name: "India",
     country: "India",
-    duration: "1–8 Days",
-    price: 35,
-    rating: 4.92,
-    description: "Witness the industrial drive of Mumbai Dharavi, local Delhi communities, the pink forts of Jaipur, and Taj Mahal at sunrise.",
+    duration: "6–10 Days",
+    price: 1200,
+    rating: 4.95,
+    description: "Taj Mahal, Jaipur royal palaces, Kerala backwaters, and spiritual Varanasi ghats.",
     heroImage: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=1200",
-    category: "Solo",
-    about: "India represents an extraordinary tapestry of history, community enterprise, and architectural marvels. From Mumbai's active community-run recycling industries to the historic palaces of Rajasthan and the tranquil backwaters of Kerala, this journey covers the diverse cultural landscapes of the subcontinent.",
-    weather: "Varies by region. Tropical warm in the south, seasonal in the north.",
-    bestSeason: "October to March when the climate is cool, dry, and pleasant across most regions.",
-    visaInfo: "All foreign travelers require a valid passport and an Indian tourist e-Visa.",
-    currency: "Indian Rupee (INR)",
-    languages: ["Hindi", "English", "Marathi", "Malayalam"],
-    culture: "Generational crafts, busy historic street bazaars, spiritual river offerings, and sustainable village cooperatives.",
-    gallery: [
-      "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=800"
-    ],
-    faq: [],
-    coordinates: { lat: 20.5937, lng: 78.9629 }
-  }
+    category: "Solo" as any,
+    about: "Taj Mahal, Jaipur royal palaces, Kerala backwaters, and spiritual Varanasi ghats.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Oct to Mar",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit India?", answer: "Oct to Mar" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "egypt",
+    name: "Egypt",
+    country: "Egypt",
+    duration: "6–9 Days",
+    price: 1550,
+    rating: 4.96,
+    description: "Great Pyramids of Giza, Sphinx, Nile felucca cruises, and Pharaonic temples.",
+    heroImage: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=1200",
+    category: "Adventure" as any,
+    about: "Great Pyramids of Giza, Sphinx, Nile felucca cruises, and Pharaonic temples.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Oct to Apr",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Egypt?", answer: "Oct to Apr" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "greece",
+    name: "Greece",
+    country: "Greece",
+    duration: "6–9 Days",
+    price: 1950,
+    rating: 4.97,
+    description: "Santorini blue dome calderas, Athens Parthenon, and Mykonos white windmills.",
+    heroImage: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=1200",
+    category: "Honeymoon" as any,
+    about: "Santorini blue dome calderas, Athens Parthenon, and Mykonos white windmills.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "May to Oct",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Greece?", answer: "May to Oct" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "brazil",
+    name: "Brazil",
+    country: "Brazil",
+    duration: "7–10 Days",
+    price: 1850,
+    rating: 4.95,
+    description: "Christ the Redeemer, Sugarloaf mountain, Iguazu Falls, and Amazon rainforest.",
+    heroImage: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=1200",
+    category: "Adventure" as any,
+    about: "Christ the Redeemer, Sugarloaf mountain, Iguazu Falls, and Amazon rainforest.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Dec to Mar",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Brazil?", answer: "Dec to Mar" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "uk",
+    name: "United Kingdom",
+    country: "UK",
+    duration: "6–9 Days",
+    price: 2100,
+    rating: 4.94,
+    description: "Big Ben, Buckingham Palace, Edinburgh Castle, and Cotswold stone villages.",
+    heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200",
+    category: "Family" as any,
+    about: "Big Ben, Buckingham Palace, Edinburgh Castle, and Cotswold stone villages.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "May to Sep",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit United Kingdom?", answer: "May to Sep" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "south-africa",
+    name: "South Africa",
+    country: "South Africa",
+    duration: "7–10 Days",
+    price: 2200,
+    rating: 4.97,
+    description: "Table Mountain Cape Town, Kruger Big 5 game safaris, and Stellenbosch winelands.",
+    heroImage: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200",
+    category: "Wildlife" as any,
+    about: "Table Mountain Cape Town, Kruger Big 5 game safaris, and Stellenbosch winelands.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "May to Sep",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit South Africa?", answer: "May to Sep" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "spain",
+    name: "Spain",
+    country: "Spain",
+    duration: "6–9 Days",
+    price: 1850,
+    rating: 4.96,
+    description: "Sagrada Família, Granada Alhambra, Seville Flamenco, and Mediterranean tapas.",
+    heroImage: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=1200",
+    category: "Luxury" as any,
+    about: "Sagrada Família, Granada Alhambra, Seville Flamenco, and Mediterranean tapas.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Apr to Jun & Sep to Nov",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Spain?", answer: "Apr to Jun & Sep to Nov" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
+  {
+    id: "canada",
+    name: "Canada",
+    country: "Canada",
+    duration: "7–11 Days",
+    price: 2350,
+    rating: 4.98,
+    description: "Banff turquoise glacial lakes, Niagara Falls, and Rocky Mountain wilderness.",
+    heroImage: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=1200",
+    category: "Mountains" as any,
+    about: "Banff turquoise glacial lakes, Niagara Falls, and Rocky Mountain wilderness.",
+    weather: "Temperate and pleasant during peak travel season.",
+    bestSeason: "Jun to Sep",
+    visaInfo: "Tourist Visa / E-Visa available.",
+    currency: "Local Currency",
+    languages: ["English", "Local"],
+    culture: "Vibrant local traditions, cuisine, and heritage.",
+    gallery: ["https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=1200"],
+    faq: [{ question: "What is the best season to visit Canada?", answer: "Jun to Sep" }],
+    coordinates: { lat: 0, lng: 0 }
+  },
 ];
 
 export const attractions: Attraction[] = [

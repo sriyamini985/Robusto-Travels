@@ -92,21 +92,9 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         url = '/destinations';
         break;
       case 'destination-details': {
-        const id = newParams.destinationId || '';
-        const oldIdMap: Record<string, { destId: string, locId: string }> = {
-          'santorini': { destId: 'india', locId: 'mumbai' },
-          'switzerland': { destId: 'india', locId: 'delhi' },
-          'maldives': { destId: 'india', locId: 'rajasthan' },
-          'kyoto': { destId: 'india', locId: 'kerala' },
-          'serengeti': { destId: 'india', locId: 'olddelhi' },
-          'amalfi': { destId: 'india', locId: 'agra' }
-        };
-        if (oldIdMap[id]) {
-          url = `/trips/${oldIdMap[id].destId}/${oldIdMap[id].locId}`;
-        } else {
-          const slug = id.toLowerCase().replace('-luxury', '');
-          url = `/destinations/${slug}`;
-        }
+        const id = newParams.destinationId || 'switzerland';
+        const slug = id.toLowerCase().replace('-luxury', '');
+        url = `/destinations/${slug}`;
         break;
       }
       case 'trip-details':
@@ -162,39 +150,18 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     let page: PageType = 'landing';
     let newParams: RouteParams = {};
 
-    const oldIdMap: Record<string, { destId: string, locId: string }> = {
-      'santorini': { destId: 'india', locId: 'mumbai' },
-      'switzerland': { destId: 'india', locId: 'delhi' },
-      'maldives': { destId: 'india', locId: 'rajasthan' },
-      'kyoto': { destId: 'india', locId: 'kerala' },
-      'serengeti': { destId: 'india', locId: 'olddelhi' },
-      'amalfi': { destId: 'india', locId: 'agra' }
-    };
-
     if (path === '/' || path === '') {
       page = 'landing';
     } else if (path === '/destinations') {
       page = 'destinations';
     } else if (path.startsWith('/destinations/')) {
       const slug = path.split('/')[2];
-      if (oldIdMap[slug]) {
-        page = 'trip-details';
-        newParams.destinationId = oldIdMap[slug].destId;
-        newParams.locationId = oldIdMap[slug].locId;
-      } else {
-        page = 'destination-details';
-        newParams.destinationId = slug;
-      }
+      page = 'destination-details';
+      newParams.destinationId = slug;
     } else if (path.startsWith('/destination/')) {
       const id = path.split('/')[2];
-      if (oldIdMap[id]) {
-        page = 'trip-details';
-        newParams.destinationId = oldIdMap[id].destId;
-        newParams.locationId = oldIdMap[id].locId;
-      } else {
-        page = 'destination-details';
-        newParams.destinationId = id;
-      }
+      page = 'destination-details';
+      newParams.destinationId = id;
     } else if (path.startsWith('/trips/')) {
       page = 'trip-details';
       newParams.destinationId = path.split('/')[2];

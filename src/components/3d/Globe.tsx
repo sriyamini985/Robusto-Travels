@@ -554,10 +554,12 @@ export const Globe: React.FC<GlobeProps> = ({
     }
   }, [originId, destinationId]);
 
+  const isMobileWindow = typeof window !== 'undefined' && window.innerWidth < 768;
+
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <Canvas
-        camera={{ position: [0, 0.4, 7.2], fov: 42 }}
+        camera={{ position: isMobileWindow ? [0, 0.4, 9.2] : [0, 0.4, 7.2], fov: isMobileWindow ? 46 : 42 }}
         style={{ width: '100%', height: '100%', background: 'transparent' }}
         gl={{ antialias: true, alpha: true }}
       >

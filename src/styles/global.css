@@ -279,3 +279,44 @@ button {
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
+
+/* ── COMPREHENSIVE MOBILE & TABLET RESPONSIVE SYSTEM ── */
+@media (max-width: 1024px) {
+  .destinations-layout {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html, body {
+    font-size: 14px;
+    overflow-x: hidden !important;
+  }
+  
+  .section-padding {
+    padding-top: 36px !important;
+    padding-bottom: 36px !important;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    min-height: 48px;
+  }
+
+  /* Full-width responsive tap targets */
+  button, input, select, textarea {
+    min-height: 44px;
+  }
+
+  /* Force responsive cards to single column on mobile screens */
+  .famous-place-card {
+    border-radius: 18px !important;
+  }
+
+  /* Prevent text overflow on small screens */
+  h1, h2, h3, p {
+    word-break: break-word;
+  }
+}
+

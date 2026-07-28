@@ -352,10 +352,11 @@ interface MarkersLayerProps {
   destinationId?: string | null;
   onHover:       (id: string | null) => void;
   onClick:       (id: string) => void;
+  isIndiaMode?:  boolean;
 }
 
 const MarkersLayer: React.FC<MarkersLayerProps> = ({
-  screenPosRef, allMarkers, hoveredId, selectedId, originId, destinationId, onHover, onClick,
+  screenPosRef, allMarkers, hoveredId, selectedId, originId, destinationId, onHover, onClick, isIndiaMode
 }) => {
   const domRefs = useRef<Map<string, HTMLDivElement | null>>(new Map());
 
@@ -448,24 +449,26 @@ const MarkersLayer: React.FC<MarkersLayerProps> = ({
               }} />
             </div>
 
-            {/* Country label pill */}
-            <div style={{
-              background: isOrigin ? 'rgba(0, 240, 255, 0.95)' : isDest ? 'rgba(255, 193, 7, 0.95)' : 'rgba(3, 10, 35, 0.90)',
-              backdropFilter: 'blur(10px)',
-              color: isOrigin || isDest ? '#070f24' : '#ffffff',
-              fontSize: active ? '11px' : '10px',
-              fontWeight: 800,
-              padding: '3px 10px',
-              borderRadius: '10px',
-              whiteSpace: 'nowrap',
-              border: `1.5px solid ${pinColor}`,
-              boxShadow: `0 2px 12px rgba(0,0,0,0.5)`,
-              letterSpacing: '0.04em',
-              userSelect: 'none',
-              transition: 'all 0.2s',
-            }}>
-              {pinTag}
-            </div>
+            {/* Country label pill (hidden in India mode unless hovered/selected to prevent text clutter) */}
+            {(!isIndiaMode || active) && (
+              <div style={{
+                background: isOrigin ? 'rgba(0, 240, 255, 0.95)' : isDest ? 'rgba(255, 193, 7, 0.95)' : 'rgba(3, 10, 35, 0.90)',
+                backdropFilter: 'blur(10px)',
+                color: isOrigin || isDest ? '#070f24' : '#ffffff',
+                fontSize: active ? '11px' : '10px',
+                fontWeight: 800,
+                padding: '3px 10px',
+                borderRadius: '10px',
+                whiteSpace: 'nowrap',
+                border: `1.5px solid ${pinColor}`,
+                boxShadow: `0 2px 12px rgba(0,0,0,0.5)`,
+                letterSpacing: '0.04em',
+                userSelect: 'none',
+                transition: 'all 0.2s',
+              }}>
+                {pinTag}
+              </div>
+            )}
           </div>
         );
       })}
@@ -587,7 +590,10 @@ export const Globe: React.FC<GlobeProps> = ({
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <Canvas
-        camera={{ position: isMobileWindow ? [0, 0.4, 9.2] : [0, 0.4, 7.2], fov: isMobileWindow ? 46 : 42 }}
+        camera={{ 
+          position: isIndiaMode ? [0, 0.25, 4.4] : isMobileWindow ? [0, 0.4, 9.2] : [0, 0.4, 7.2], 
+          fov: isIndiaMode ? 38 : isMobileWindow ? 46 : 42 
+        }}
         style={{ width: '100%', height: '100%', background: 'transparent' }}
         gl={{ antialias: true, alpha: true }}
       >
@@ -638,6 +644,7 @@ export const Globe: React.FC<GlobeProps> = ({
         destinationId={destinationId}
         onHover={handleHover}
         onClick={handleClick}
+        isIndiaMode={isIndiaMode}
       />
     </div>
   );

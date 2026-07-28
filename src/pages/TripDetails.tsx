@@ -1,23 +1,45 @@
 import React from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { getCountryData } from '../data/countries';
+import { getStateData } from '../data/india';
+import { ALL_INDIAN_STATES } from '../data/india/statesData';
 import { 
   ArrowLeft, 
   Star, 
   Compass, 
   Calendar,
-  Sparkles,
-  Hotel
+  Sparkles
 } from 'lucide-react';
 
 export const TripDetails: React.FC = () => {
   const { params, navigateTo } = useNavigation();
 
-  const destId = params.destinationId || 'switzerland';
-  const placeSlug = params.locationId || 'zermatt';
+  const rawDestId = params.destinationId || 'switzerland';
+  const rawPlaceSlug = params.locationId || 'zermatt';
 
-  const countryData = getCountryData(destId);
-  const place = countryData.famousPlaces.find((p: any) => p.slug === placeSlug) || countryData.famousPlaces[0];
+  const cleanDestId = rawDestId.toLowerCase().replace(/[^a-z0-9-]/g, '');
+  const cleanPlaceSlug = rawPlaceSlug.toLowerCase().replace(/[^a-z0-9-]/g, '');
+
+  const isIndianState = ALL_INDIAN_STATES.some(s => s.id === cleanDestId);
+
+  // Retrieve container (Indian state or global country)
+  const containerData = isIndianState ? getStateData(cleanDestId) : getCountryData(cleanDestId);
+
+  // Retrieve famous place
+  const place = containerData.famousPlaces.find((p: any) => 
+    p.slug === cleanPlaceSlug || 
+    p.slug.includes(cleanPlaceSlug) || 
+    cleanPlaceSlug.includes(p.slug) ||
+    p.name.toLowerCase().replace(/[^a-z0-9-]/g, '').includes(cleanPlaceSlug)
+  ) || containerData.famousPlaces[0];
+
+  const handleBack = () => {
+    if (isIndianState) {
+      navigateTo('state-details', { destinationId: containerData.id });
+    } else {
+      navigateTo('destination-details', { destinationId: (containerData as any).slug || containerData.id });
+    }
+  };
 
   return (
     <div style={{ 
@@ -45,7 +67,7 @@ export const TripDetails: React.FC = () => {
         }}>
           {/* Back button */}
           <button 
-            onClick={() => navigateTo('destination-details', { destinationId: countryData.slug })}
+            onClick={handleBack}
             style={{ 
               display: 'inline-flex', 
               alignItems: 'center', 
@@ -65,11 +87,11 @@ export const TripDetails: React.FC = () => {
             onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
             onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.06)'}
           >
-            <ArrowLeft size={14} /> Back to {countryData.name} Places
+            <ArrowLeft size={14} /> Back to {containerData.name} Places
           </button>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
-            <span style={{ fontSize: '1.2rem' }}>{countryData.flag}</span>
+            <span style={{ fontSize: '1.2rem' }}>{isIndianState ? '🇮🇳' : (containerData as any).flag || '🌍'}</span>
             <span style={{ 
               fontSize: '0.75rem', 
               textTransform: 'uppercase', 
@@ -77,7 +99,7 @@ export const TripDetails: React.FC = () => {
               color: '#38bdf8', 
               fontWeight: 800
             }}>
-              {countryData.name} • Iconic Landmark
+              {containerData.name} • Iconic Landmark
             </span>
           </div>
 
@@ -93,7 +115,7 @@ export const TripDetails: React.FC = () => {
         </div>
       </section>
 
-      {/* 2. Main Content Stream (Simple, Clean & Uncluttered) */}
+      {/* 2. Main Content Stream */}
       <main style={{
         maxWidth: '960px',
         margin: '0 auto',
@@ -127,7 +149,7 @@ export const TripDetails: React.FC = () => {
               Best Season
             </span>
             <strong style={{ fontSize: '0.92rem', color: '#ffc107', display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Calendar size={14} /> {place.bestTimeToVisit || 'April – October'}
+              <Calendar size={14} /> {(place as any).bestTimeToVisit || containerData.bestTime || 'October – March'}
             </strong>
           </div>
 
@@ -136,7 +158,7 @@ export const TripDetails: React.FC = () => {
               Traveler Rating
             </span>
             <strong style={{ fontSize: '0.92rem', color: '#10b981', display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Star size={14} fill="#10b981" color="#10b981" /> {place.rating ? place.rating.toFixed(2) : '4.92'} / 5.0
+              <Star size={14} fill="#10b981" color="#10b981" /> {place.rating ? place.rating.toFixed(2) : '4.95'} / 5.0
             </strong>
           </div>
         </div>
@@ -180,17 +202,17 @@ export const TripDetails: React.FC = () => {
             <Sparkles size={24} color="#ffc107" style={{ flexShrink: 0, marginTop: '2px' }} />
             <div>
               <h3 style={{ margin: '0 0 8px 0', fontSize: '1.15rem', fontWeight: 700, color: '#fff' }}>
-                Unforgettable Highlights
+                Unforgettable Highlights of {place.name}
               </h3>
               <p style={{ margin: 0, color: 'rgba(255,255,255,0.8)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                {place.shortDesc}
+                {(place as any).shortDesc || place.overview}
               </p>
             </div>
           </div>
         </section>
 
         {/* Visual Gallery */}
-        {place.gallery && place.gallery.length > 0 && (
+        {((place as any).gallery || [place.image]).length > 0 && (
           <section>
             <span style={{ fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.18em', color: '#38bdf8', fontWeight: 800, display: 'block', marginBottom: '6px' }}>
               Visual Preview
@@ -203,7 +225,7 @@ export const TripDetails: React.FC = () => {
               gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
               gap: '20px'
             }}>
-              {place.gallery.map((imgUrl: string, idx: number) => (
+              {((place as any).gallery || [place.image, containerData.heroImage]).map((imgUrl: string, idx: number) => (
                 <div 
                   key={idx} 
                   style={{ 
@@ -216,51 +238,9 @@ export const TripDetails: React.FC = () => {
                   <img 
                     src={imgUrl} 
                     alt={`${place.name} preview ${idx+1}`} 
+                    onError={e => e.currentTarget.src = place.image}
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
                   />
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Accommodations (If available) */}
-        {place.hotels && place.hotels.length > 0 && (
-          <section>
-            <span style={{ fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.18em', color: '#38bdf8', fontWeight: 800, display: 'block', marginBottom: '6px' }}>
-              Where To Stay
-            </span>
-            <h2 style={{ fontSize: '1.6rem', fontWeight: 800, margin: '0 0 20px 0', color: '#fff' }}>
-              Recommended Accommodations
-            </h2>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
-              {place.hotels.map((hotel: any, idx: number) => (
-                <div 
-                  key={idx}
-                  style={{
-                    background: 'rgba(255,255,255,0.02)',
-                    border: '1px solid rgba(255,255,255,0.08)',
-                    borderRadius: '20px',
-                    padding: '24px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'space-between'
-                  }}
-                >
-                  <div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                      <h4 style={{ margin: 0, fontSize: '1.05rem', fontWeight: 700, color: '#fff', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <Hotel size={16} color="#38bdf8" /> {hotel.name}
-                      </h4>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '3px' }}>
-                        <Star size={12} fill="#ffc107" color="#ffc107" />
-                        <span style={{ fontSize: '0.8rem', fontWeight: 700 }}>{hotel.rating}</span>
-                      </div>
-                    </div>
-                    <p style={{ margin: 0, fontSize: '0.86rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.5 }}>
-                      {hotel.description}
-                    </p>
-                  </div>
                 </div>
               ))}
             </div>

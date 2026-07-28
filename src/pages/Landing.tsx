@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { Globe as GlobeComponent } from '../components/3d/Globe';
 import { ALL_LOCATIONS } from '../utils/journey';
+import { ALL_INDIAN_STATES } from '../data/india/statesData';
 import { 
   RotateCcw, 
-  Sparkles 
+  Sparkles,
+  Search,
+  MapPin
 } from 'lucide-react';
 
 export const Landing: React.FC = () => {
@@ -20,6 +23,14 @@ export const Landing: React.FC = () => {
 
   // India Interactive Hub Mode
   const [isIndiaMode, setIsIndiaMode] = useState<boolean>(false);
+  const [stateSearchQuery, setStateSearchQuery] = useState<string>('');
+
+  const filteredStates = React.useMemo(() => {
+    return ALL_INDIAN_STATES.filter(s => 
+      s.name.toLowerCase().includes(stateSearchQuery.toLowerCase()) || 
+      s.capital.toLowerCase().includes(stateSearchQuery.toLowerCase())
+    );
+  }, [stateSearchQuery]);
 
   // Handle globe click selection logic
   const handleGlobeSelect = (loc: any) => {
@@ -240,8 +251,84 @@ export const Landing: React.FC = () => {
         )}
       </div>
 
+      {/* ── INDIA HUB CLEAN STATE SELECTOR BAR (In India Mode) ── */}
+      {isIndiaMode && (
+        <div style={{
+          position: 'absolute',
+          bottom: '28px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          zIndex: 30,
+          maxWidth: '92vw',
+          width: '780px',
+          background: 'rgba(7, 15, 36, 0.88)',
+          backdropFilter: 'blur(20px)',
+          border: '1px solid rgba(56, 189, 248, 0.3)',
+          borderRadius: '24px',
+          padding: '14px 20px',
+          boxShadow: '0 20px 50px rgba(0,0,0,0.6)',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '12px'
+        }}>
+          {/* Search bar */}
+          <div style={{ position: 'relative', width: '100%' }}>
+            <Search size={16} color="#38bdf8" style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)' }} />
+            <input 
+              type="text" 
+              placeholder="Search 28 States & 8 Union Territories in India (e.g. Goa, Kerala, Rajasthan)..."
+              value={stateSearchQuery}
+              onChange={e => setStateSearchQuery(e.target.value)}
+              style={{
+                width: '100%',
+                padding: '10px 14px 10px 42px',
+                background: 'rgba(255,255,255,0.06)',
+                border: '1px solid rgba(255,255,255,0.15)',
+                borderRadius: '16px',
+                color: '#fff',
+                fontSize: '0.85rem'
+              }}
+            />
+          </div>
+
+          {/* Quick Select State Chips */}
+          <div style={{
+            display: 'flex',
+            gap: '8px',
+            overflowX: 'auto',
+            paddingBottom: '4px'
+          }}>
+            {filteredStates.slice(0, 12).map(stateObj => (
+              <button
+                key={stateObj.id}
+                onClick={() => handleStateSelect(stateObj)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                  padding: '6px 14px',
+                  background: 'rgba(255,255,255,0.06)',
+                  border: '1px solid rgba(255,255,255,0.12)',
+                  borderRadius: '16px',
+                  color: '#fff',
+                  fontSize: '0.78rem',
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  transition: 'all 0.2s'
+                }}
+                onMouseEnter={e => { e.currentTarget.style.background = 'rgba(56,189,248,0.2)'; e.currentTarget.style.borderColor = '#38bdf8'; }}
+                onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.06)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.12)'; }}
+              >
+                <MapPin size={12} color="#38bdf8" /> {stateObj.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* ── HOVER PREVIEW TOOLTIP ── */}
-      {hoveredLoc && (
+      {hoveredLoc && !isIndiaMode && (
         <div style={{
           position: 'absolute',
           bottom: '36px',

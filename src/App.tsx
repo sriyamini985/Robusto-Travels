@@ -19,6 +19,8 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Booking } from './pages/Booking';
 
+import { StateDetails } from './pages/StateDetails';
+
 const AppContent: React.FC = () => {
   const { currentPage, isTransitioning } = useNavigation();
 
@@ -31,6 +33,8 @@ const AppContent: React.FC = () => {
         return <Destinations />;
       case 'destination-details':
         return <DestinationDetails />;
+      case 'state-details':
+        return <StateDetails />;
       case 'trip-details':
         return <TripDetails />;
       case 'package-details':

@@ -18,20 +18,26 @@ export const Landing: React.FC = () => {
   // Selected objects
   const destLoc   = ALL_LOCATIONS.find(l => l.id === destId) || null;
 
-  // Handle globe click selection logic (NO POPUP MODAL)
+  // India Interactive Hub Mode
+  const [isIndiaMode, setIsIndiaMode] = useState<boolean>(false);
+
+  // Handle globe click selection logic
   const handleGlobeSelect = (loc: any) => {
+    if (loc.id === 'india') {
+      setIsIndiaMode(true);
+      return;
+    }
+
     if (!originId) {
       setOriginId(loc.id);
     } else if (originId && !destId) {
       if (loc.id !== originId) {
         setDestId(loc.id);
-        // Smooth rotation animation, then direct navigation to famous places
         setTimeout(() => {
           navigateTo('destination-details', { destinationId: loc.id });
         }, 1500);
       }
     } else {
-      // Direct navigation if destination is clicked again
       if (loc.id !== originId) {
         setDestId(loc.id);
         setTimeout(() => {
@@ -41,9 +47,14 @@ export const Landing: React.FC = () => {
     }
   };
 
+  const handleStateSelect = (stateObj: any) => {
+    navigateTo('state-details', { destinationId: stateObj.id });
+  };
+
   const handleResetSelection = () => {
     setOriginId(null);
     setDestId(null);
+    setIsIndiaMode(false);
   };
 
   // Realistic Twinkling Star Field
@@ -128,6 +139,8 @@ export const Landing: React.FC = () => {
             onSelectLocation={handleGlobeSelect}
             originId={originId}
             destinationId={destId}
+            isIndiaMode={isIndiaMode}
+            onSelectState={handleStateSelect}
           />
         </div>
       </div>
@@ -142,31 +155,68 @@ export const Landing: React.FC = () => {
         pointerEvents: 'auto',
         display: 'flex',
         alignItems: 'center',
-        gap: '12px'
+        gap: '12px',
+        maxWidth: '90vw'
       }}>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '10px',
-          background: 'rgba(7, 15, 36, 0.80)',
-          backdropFilter: 'blur(20px)',
-          border: '1px solid rgba(255, 255, 255, 0.16)',
-          borderRadius: '30px',
-          padding: '8px 24px',
-          boxShadow: '0 12px 36px rgba(0,0,0,0.45)',
-          fontSize: '0.85rem',
-          fontWeight: 700,
-          color: '#e2e8f0'
-        }}>
-          <Sparkles size={16} color="#38bdf8" />
-          <span>
-            {!originId ? 'Step 1: Click your Origin location on 3D Earth' :
-             !destId ? 'Step 2: Click your Destination location on 3D Earth' :
-             `Opening Famous Places in ${destLoc?.name}...`}
-          </span>
-        </div>
+        {isIndiaMode ? (
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '12px',
+            background: 'rgba(7, 15, 36, 0.88)',
+            backdropFilter: 'blur(20px)',
+            border: '1px solid rgba(56, 189, 248, 0.4)',
+            borderRadius: '30px',
+            padding: '6px 20px',
+            boxShadow: '0 12px 36px rgba(0,0,0,0.45)',
+            fontSize: '0.85rem',
+            fontWeight: 700,
+            color: '#e2e8f0'
+          }}>
+            <span style={{ fontSize: '1.1rem' }}>🇮🇳</span>
+            <span>Exploring 28 States & 8 Union Territories in India</span>
+            <button
+              onClick={handleResetSelection}
+              style={{
+                background: 'rgba(255,255,255,0.1)',
+                border: 'none',
+                borderRadius: '20px',
+                padding: '4px 12px',
+                color: '#38bdf8',
+                fontSize: '0.75rem',
+                fontWeight: 800,
+                cursor: 'pointer',
+                marginLeft: '8px'
+              }}
+            >
+              ← Back to Global Earth
+            </button>
+          </div>
+        ) : (
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(7, 15, 36, 0.80)',
+            backdropFilter: 'blur(20px)',
+            border: '1px solid rgba(255, 255, 255, 0.16)',
+            borderRadius: '30px',
+            padding: '8px 24px',
+            boxShadow: '0 12px 36px rgba(0,0,0,0.45)',
+            fontSize: '0.85rem',
+            fontWeight: 700,
+            color: '#e2e8f0'
+          }}>
+            <Sparkles size={16} color="#38bdf8" />
+            <span>
+              {!originId ? 'Step 1: Click your Origin location on 3D Earth' :
+               !destId ? 'Step 2: Click your Destination location on 3D Earth' :
+               `Opening Famous Places in ${destLoc?.name}...`}
+            </span>
+          </div>
+        )}
 
-        {(originId || destId) && (
+        {(originId || destId) && !isIndiaMode && (
           <button
             onClick={handleResetSelection}
             title="Reset selection"

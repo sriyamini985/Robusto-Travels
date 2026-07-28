@@ -473,7 +473,8 @@ const MarkersLayer: React.FC<MarkersLayerProps> = ({
   );
 };
 
-// ─── Exported Globe component ──────────────────────────────────────────────────
+import { ALL_INDIAN_STATES } from '../../data/india/statesData';
+
 export interface GlobeProps {
   onHoverDest:    (d: any | null) => void;
   hoveredDest:    any | null;
@@ -481,10 +482,12 @@ export interface GlobeProps {
   originId?:      string | null;
   destinationId?: string | null;
   onSelectLocation?: (loc: any) => void;
+  isIndiaMode?: boolean;
+  onSelectState?: (stateObj: any) => void;
 }
 
 export const Globe: React.FC<GlobeProps> = ({
-  onHoverDest, onClickDest, originId, destinationId, onSelectLocation,
+  onHoverDest, onClickDest, originId, destinationId, onSelectLocation, isIndiaMode, onSelectState
 }) => {
   const screenPosRef = useRef<Map<string, ScreenPos>>(new Map());
   const earthGroupRef = useRef<THREE.Group | null>(null);
@@ -493,19 +496,44 @@ export const Globe: React.FC<GlobeProps> = ({
   const [hoveredId,   setHoveredId]   = useState<string | null>(null);
   const [selectedId,  setSelectedId]  = useState<string | null>(null);
 
-  const allMarkers = DEST_MARKERS;
+  const indianMarkers: MarkerInfo[] = useMemo(() => {
+    return ALL_INDIAN_STATES.map(s => ({
+      id: s.id,
+      name: s.name,
+      label: s.name,
+      lat: s.lat,
+      lng: s.lng,
+      color: '#38bdf8'
+    }));
+  }, []);
+
+  const allMarkers: MarkerInfo[] = isIndiaMode ? indianMarkers : DEST_MARKERS;
 
   const handleHover = useCallback((id: string | null) => {
     setHoveredId(id);
     if (id) {
-      const loc = ALL_LOCATIONS.find(l => l.id === id);
-      if (loc) onHoverDest(loc);
+      if (isIndiaMode) {
+        const stateObj = ALL_INDIAN_STATES.find(s => s.id === id);
+        if (stateObj) onHoverDest(stateObj);
+      } else {
+        const loc = ALL_LOCATIONS.find(l => l.id === id);
+        if (loc) onHoverDest(loc);
+      }
     } else {
       onHoverDest(null);
     }
-  }, [onHoverDest]);
+  }, [onHoverDest, isIndiaMode]);
 
   const handleClick = useCallback((id: string) => {
+    if (isIndiaMode) {
+      const stateObj = ALL_INDIAN_STATES.find(s => s.id === id);
+      if (stateObj) {
+        setSelectedId(id);
+        onSelectState?.(stateObj);
+      }
+      return;
+    }
+
     const loc = ALL_LOCATIONS.find(l => l.id === id);
     if (!loc) return;
 
@@ -529,7 +557,7 @@ export const Globe: React.FC<GlobeProps> = ({
         ease: 'power3.inOut',
       });
     }
-  }, [onClickDest, onSelectLocation]);
+  }, [onClickDest, onSelectLocation, isIndiaMode, onSelectState]);
 
   // Smooth camera positioning when both origin and destination are selected
   useEffect(() => {

@@ -5,6 +5,7 @@ export type PageType =
   | 'landing' 
   | 'destinations' 
   | 'destination-details' 
+  | 'state-details'
   | 'trip-details'
   | 'package-details' 
   | 'itinerary' 
@@ -97,6 +98,12 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         url = `/destinations/${slug}`;
         break;
       }
+      case 'state-details': {
+        const id = newParams.destinationId || 'andhra-pradesh';
+        const slug = id.toLowerCase().replace(/[^a-z0-9-]/g, '');
+        url = `/india/${slug}`;
+        break;
+      }
       case 'trip-details':
         url = `/trips/${newParams.destinationId || ''}/${newParams.locationId || ''}`;
         break;
@@ -162,6 +169,10 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       const id = path.split('/')[2];
       page = 'destination-details';
       newParams.destinationId = id;
+    } else if (path.startsWith('/india/')) {
+      const stateId = path.split('/')[2];
+      page = 'state-details';
+      newParams.destinationId = stateId;
     } else if (path.startsWith('/trips/')) {
       page = 'trip-details';
       newParams.destinationId = path.split('/')[2];

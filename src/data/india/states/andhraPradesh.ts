@@ -34,7 +34,7 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
   type: 'State',
   capital: 'Amaravati',
   tagline: 'The Sunrise State & Land of Sacred Temples',
-  heroImage: 'https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&q=80&w=1200',
+  heroImage: '/images/andhra-pradesh/tirupati.png',
   about: 'Andhra Pradesh is a premier South Indian coastal state known for its rich spiritual heritage, dramatic Eastern Ghats hill valleys, ancient limestone caves, and legendary spicy coastal cuisine.',
   bestTime: 'October – March',
   climate: 'Tropical climate with pleasant winter temperatures ranging between 18°C and 28°C.',
@@ -45,13 +45,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Tirumala Venkateswara Temple (Tirupati)',
       slug: 'tirupati-venkateswara-temple',
       category: 'Spiritual Shrine',
-      image: 'https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&q=80&w=1200',
+      image: '/images/andhra-pradesh/tirupati.png',
       overview: 'Perched atop the sacred Seshachalam Hills in Tirupati, Sri Venkateswara Swamy Temple is one of the world’s most revered pilgrimage shrines, famous for its Dravidian gold-plated dome (Ananda Nilayam) and Tirupati Laddu Prasadam.',
       rating: 4.98,
       bestTimeToVisit: 'September – February',
       shortDesc: 'World-renowned hilltop temple of Lord Venkateswara at Tirumala.',
       gallery: [
-        'https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/tirupati.png'
       ],
       nearbyAttractions: ['Kapila Theertham Waterfalls', 'Sri Kalahasteeswara Temple', 'Silathoranam Natural Arch', 'Chandragiri Fort'],
       recommendedHotels: ['Fortune Select Grand Ridge Tirupati', 'Taj Tirupati', 'Marasa Sarovar Premiere'],
@@ -61,13 +61,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Araku Valley',
       slug: 'araku-valley',
       category: 'Hill Station',
-      image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200',
-      overview: 'Nestled in the lush Eastern Ghats near Visakhapatnam, Araku Valley is an enchanting hill resort surrounded by misty green peaks, organic coffee plantations, waterfalls, and rich tribal heritage museum.',
+      image: '/images/andhra-pradesh/araku.png',
+      overview: 'Nestled in the lush Eastern Ghats near Visakhapatnam, Araku Valley is an enchanting hill resort surrounded by misty green peaks, organic coffee plantations, terraced agricultural fields, and rich tribal heritage museum.',
       rating: 4.92,
       bestTimeToVisit: 'September – March',
-      shortDesc: 'Lush Eastern Ghats hill valley famous for organic coffee and waterfalls.',
+      shortDesc: 'Lush Eastern Ghats hill valley famous for organic coffee and terraced green fields.',
       gallery: [
-        'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/araku.png'
       ],
       nearbyAttractions: ['Katiki Waterfalls', 'Chaparai Water Cascade', 'Tribal Museum Araku', 'Padmapuram Gardens'],
       recommendedHotels: ['Haritha Hill Resort Araku', 'La Serene Resort Araku', 'Vistadome Rail Suite'],
@@ -77,13 +77,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Borra Caves',
       slug: 'borra-caves',
       category: 'Natural Wonder',
-      image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1200',
-      overview: 'Discovered in 1807 in the Ananthagiri Hills of Visakhapatnam, Borra Caves are million-year-old natural limestone caves formed by the Gosthani River, featuring spectacular stalactite and stalagmite rock formations illuminated with colorful ambient lights.',
+      image: '/images/andhra-pradesh/borra-caves.png',
+      overview: 'Discovered in 1807 in the Ananthagiri Hills of Visakhapatnam, Borra Caves are million-year-old natural limestone caves formed by the Gosthani River, featuring spectacular stalactite and stalagmite rock formations illuminated with natural sunlight and ambient lights.',
       rating: 4.89,
       bestTimeToVisit: 'November – February',
       shortDesc: 'Million-year-old limestone stalactite & stalagmite caves in Ananthagiri.',
       gallery: [
-        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/borra-caves.png'
       ],
       nearbyAttractions: ['Ananthagiri Coffee Plantations', 'Gosthani River Viewpoint', 'Katiki Falls Trek'],
       recommendedHotels: ['APTDC Punnamia Borra Resort', 'Tyda Jungle Bells Eco Resort'],
@@ -93,13 +93,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Gandikota (Grand Canyon of India)',
       slug: 'gandikota',
       category: 'Gorge & Fort',
-      image: 'https://images.unsplash.com/photo-1506461883276-594a12b11cf3?auto=format&fit=crop&q=80&w=1200',
+      image: '/images/andhra-pradesh/gandikota.jpg',
       overview: 'Known as the Grand Canyon of India, Gandikota is a breathtaking gorge formed by the Penna River cutting through the Erramala hills in Kadapa district, enclosed by a medieval 13th-century red sandstone fortress.',
       rating: 4.95,
       bestTimeToVisit: 'October – March',
       shortDesc: 'Breathtaking Penna river gorge enclosed by medieval red stone fort.',
       gallery: [
-        'https://images.unsplash.com/photo-1506461883276-594a12b11cf3?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/gandikota.jpg'
       ],
       nearbyAttractions: ['Gandikota Fort Granary', 'Madhavaraya Temple', 'Raghunathaswamy Temple', 'Mylavaram Dam'],
       recommendedHotels: ['Haritha Resort Gandikota', 'Freakouts Adventure Camp Gandikota'],
@@ -109,13 +109,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Belum Caves',
       slug: 'belum-caves',
       category: 'Subterranean Wonder',
-      image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1200',
-      overview: 'Belum Caves in Kurnool district are the second longest cave system in the Indian subcontinent (3.5 km long). Famous for black limestone passages, freshwater siphons, and ancient Buddhist monk relics.',
+      image: '/images/andhra-pradesh/belum-caves.png',
+      overview: 'Belum Caves in Kurnool district are the second longest cave system in the Indian subcontinent (3.5 km long). Famous for black limestone passages, subterranean stone sinkholes, freshwater siphons, and ancient Buddhist monk relics.',
       rating: 4.86,
       bestTimeToVisit: 'October – March',
       shortDesc: 'Second longest subterranean cave system in the Indian subcontinent.',
       gallery: [
-        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/belum-caves.png'
       ],
       nearbyAttractions: ['Giant Dhyana Buddha Statue Belum', 'Yaganti Temple', 'Rollapadu Wildlife Sanctuary'],
       recommendedHotels: ['Haritha Belum Caves Resort', 'Hotel Mourya Inn Kurnool'],

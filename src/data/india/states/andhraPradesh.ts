@@ -125,13 +125,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Srisailam Temple & Tiger Reserve',
       slug: 'srisailam',
       category: 'Pilgrimage & Wildlife',
-      image: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80&w=1200',
+      image: '/images/andhra-pradesh/srisailam.jpg',
       overview: 'Located on the banks of Krishna River in the Nallamala Hills, Srisailam houses Sri Mallikarjuna Swamy Temple (one of the 12 sacred Jyotirlingas and 18 Shakti Peethas) set within India’s largest tiger reserve forest.',
       rating: 4.94,
       bestTimeToVisit: 'September – March',
       shortDesc: 'Sacred Mallikarjuna Jyotirlinga shrine inside Nallamala forest reserve.',
       gallery: [
-        'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/srisailam.jpg'
       ],
       nearbyAttractions: ['Srisailam Dam Ropeway', 'Pathala Ganga', 'Akka Mahadevi Caves', 'Sakshi Ganapati Temple'],
       recommendedHotels: ['Haritha Srisailam', 'Grand Kousthubha Srisailam'],
@@ -141,13 +141,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Visakhapatnam Beaches & Submarine',
       slug: 'visakhapatnam-beaches',
       category: 'Coastal City',
-      image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200',
-      overview: 'Visakhapatnam (Vizag) is a vibrant coastal port city featuring golden sands at Rishikonda Beach, the historic INS Kursura Submarine Museum on RK Beach, Dolphin’s Nose headland, and Kailasagiri hilltop park.',
+      image: '/images/andhra-pradesh/vizag-beach.png',
+      overview: 'Visakhapatnam (Vizag) is a vibrant coastal port city featuring golden sands at Rishikonda Beach, the coastal mountain curves, the historic INS Kursura Submarine Museum on RK Beach, Dolphin’s Nose headland, and Kailasagiri hilltop park.',
       rating: 4.90,
       bestTimeToVisit: 'October – March',
       shortDesc: 'Rishikonda beach and INS Kursura Submarine Museum on RK Beach.',
       gallery: [
-        'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/vizag-beach.png'
       ],
       nearbyAttractions: ['INS Kursura Submarine Museum', 'Kailasagiri Ropeway', 'Simhachalam Temple', 'Dolphin’s Nose Lighthouse'],
       recommendedHotels: ['The Gateway Hotel Beach Road Vizag', 'Novotel Visakhapatnam Varun Beach', 'Radisson Blu Resort Vizag'],
@@ -157,13 +157,13 @@ export const ANDHRA_PRADESH_DATA: AndhraPradeshStateData = {
       name: 'Lambasingi',
       slug: 'lambasingi',
       category: 'Alpine Village',
-      image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200',
+      image: '/images/andhra-pradesh/lambasingi.png',
       overview: 'Referred to as the "Kashmir of Andhra Pradesh", Lambasingi is a serene high-altitude village in Alluri Sitharama Raju district known for sub-zero winter temperatures, apple orchards, cloud beds, and strawberry farms.',
       rating: 4.88,
       bestTimeToVisit: 'November – January',
       shortDesc: 'Misty high-altitude hill village known as the Kashmir of Andhra Pradesh.',
       gallery: [
-        'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200'
+        '/images/andhra-pradesh/lambasingi.png'
       ],
       nearbyAttractions: ['Kothapalli Waterfalls', 'Lambasingi Strawberry Farms', 'Susan Garden Viewpoint'],
       recommendedHotels: ['Haritha Lambasingi Eco Resort', 'Lambasingi Tent Stays'],

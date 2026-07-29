@@ -1,17 +1,19 @@
 import { ALL_INDIAN_STATES } from './statesData';
 import { ANDHRA_PRADESH_DATA, type AndhraPradeshStateData } from './states/andhraPradesh';
+import { TELANGANA_DATA, type TelanganaStateData } from './states/telangana';
 
-export type StateFullData = AndhraPradeshStateData;
+export type StateFullData = AndhraPradeshStateData | TelanganaStateData;
 
 // State Registry containing built & approved state modules
 const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
-  'andhra-pradesh': ANDHRA_PRADESH_DATA
+  'andhra-pradesh': ANDHRA_PRADESH_DATA,
+  'telangana': TELANGANA_DATA
 };
 
 export const getStateData = (stateId: string): StateFullData => {
   const cleanId = stateId.toLowerCase().replace(/[^a-z0-9-]/g, '');
 
-  // If state is built and verified (e.g. Andhra Pradesh)
+  // If state is built and verified (e.g. Andhra Pradesh, Telangana)
   if (BUILT_STATES_REGISTRY[cleanId]) {
     return BUILT_STATES_REGISTRY[cleanId];
   }
@@ -26,7 +28,7 @@ export const getStateData = (stateId: string): StateFullData => {
     capital: stateMeta.capital,
     tagline: stateMeta.tagline,
     heroImage: stateMeta.heroImage,
-    about: `${stateMeta.name} travel module is currently pending state-by-state approval. Focus is currently on Andhra Pradesh (State #1).`,
+    about: `${stateMeta.name} travel module is currently pending state-by-state approval. Focus is currently on completed states (Andhra Pradesh, Telangana).`,
     bestTime: stateMeta.bestTime,
     climate: 'Information currently undergoing state-by-state quality verification.',
     famousFood: stateMeta.famousFood,
@@ -37,7 +39,7 @@ export const getStateData = (stateId: string): StateFullData => {
         slug: `${stateMeta.id}-coming-soon`,
         category: 'Under State Review',
         image: '',
-        overview: `${stateMeta.name} is scheduled for individual verification following approval of Andhra Pradesh (State #1).`,
+        overview: `${stateMeta.name} is scheduled for individual verification following approval of active state modules.`,
         rating: 5.0
       }
     ]

@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { getStateData } from '../data/india';
+import { ImageWithFallback } from '../components/common/ImageWithFallback';
 import { 
   ArrowLeft, 
   Star, 
@@ -218,11 +219,9 @@ export const StateDetails: React.FC = () => {
               <div>
                 {/* Image */}
                 <div style={{ height: '220px', position: 'relative', overflow: 'hidden' }}>
-                  <img 
+                  <ImageWithFallback 
                     src={place.image} 
                     alt={place.name} 
-                    onError={e => (e.currentTarget.src = 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80&w=1200')}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                   <div style={{
                     position: 'absolute',

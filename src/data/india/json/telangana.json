@@ -1,0 +1,391 @@
+{
+  "state": "Telangana",
+  "stateCode": "TG",
+  "capital": "Hyderabad",
+  "tagline": "The Cyber Pearl & Historic Nizami Kingdom",
+  "heroImage": "/images/telangana/charminar.png",
+  "bestTimeToVisitState": "October – March",
+  "climateOverview": "Semi-arid tropical climate with pleasant winter temperatures ranging between 16°C and 28°C.",
+  "localFood": [
+    "Hyderabadi Dum Biryani",
+    "Hyderabadi Haleem",
+    "Double Ka Meetha",
+    "Sarva Pindi",
+    "Sakinalu"
+  ],
+  "destinations": [
+    {
+      "placeName": "Charminar",
+      "slug": "charminar",
+      "district": "Hyderabad",
+      "city": "Hyderabad",
+      "category": "Heritage Monument",
+      "shortDescription": "16th-century iconic Qutb Shahi monument with 4 minarets in Old Hyderabad.",
+      "detailedDescription": "Built in 1591 by Sultan Muhammad Quli Qutb Shah, Charminar is the iconic 16th-century square monument featuring four 48.7m high grand minarets, grand arches, and a mosque overlooking Laad Bazaar in Old Hyderabad.",
+      "bestTimeToVisit": "October – March",
+      "timings": "09:30 AM – 05:30 PM",
+      "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
+      "recommendedVisitDuration": "1 – 2 Hours",
+      "coordinates": {
+        "lat": 17.3616,
+        "lng": 78.4747
+      },
+      "nearbyAttractions": [
+        "Mecca Masjid",
+        "Laad Bazaar (Bangle Market)",
+        "Chowmahalla Palace",
+        "Salhar Jung Museum"
+      ],
+      "nearbyHotels": [
+        "Taj Falaknuma Palace",
+        "Park Hyatt Hyderabad",
+        "ITC Kakatiya"
+      ],
+      "nearbyRestaurants": [
+        "Hotel Shadab",
+        "Bawarchi Biryani",
+        "Paradise Biryani Secunderabad",
+        "Nimrah Cafe & Bakery"
+      ],
+      "activities": [
+        "Heritage Minaret Walk",
+        "Laad Bazaar Bangle Shopping",
+        "Iranian Chai Tasting",
+        "Night Illumination Photography"
+      ],
+      "weather": "Warm days and cool evening breezes.",
+      "heroImage": "/images/telangana/charminar.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/charminar.png",
+          "altText": "Charminar iconic 16th century monument in Old Hyderabad",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Golconda Fort",
+      "slug": "golconda-fort",
+      "district": "Hyderabad",
+      "city": "Hyderabad",
+      "category": "Medieval Fortress",
+      "shortDescription": "Imposing hill citadel renowned for acoustic engineering and diamond vaults.",
+      "detailedDescription": "Situated on a 120m high granite hill west of Hyderabad, Golconda Fort is a monumental medieval citadel famous for its acoustic engineering (a clap at the entrance gate can be heard at the hilltop pavilion), 87 bastions, and royal diamond vaults.",
+      "bestTimeToVisit": "October – March",
+      "timings": "09:00 AM – 05:30 PM",
+      "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
+      "recommendedVisitDuration": "3 – 4 Hours",
+      "coordinates": {
+        "lat": 17.3833,
+        "lng": 78.4011
+      },
+      "nearbyAttractions": [
+        "Qutb Shahi Tombs",
+        "Taramati Baradari",
+        "Naya Qila (African Baobab Tree)"
+      ],
+      "nearbyHotels": [
+        "Radisson Blu Plaza Banjara Hills",
+        "The Park Hyderabad"
+      ],
+      "nearbyRestaurants": [
+        "Chutneys Banjara Hills",
+        "Rayalaseema Ruchulu",
+        "Jewel of Nizam"
+      ],
+      "activities": [
+        "Fort Citadel Trekking",
+        "Sound & Light Show",
+        "Acoustic Whispering Gallery Test"
+      ],
+      "weather": "Pleasant winter climate.",
+      "heroImage": "/images/telangana/golconda-fort.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/golconda-fort.png",
+          "altText": "Golconda Fort hilltop granite citadel and battlements",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Ramoji Film City",
+      "slug": "ramoji-film-city",
+      "district": "Ranga Reddy",
+      "city": "Hayathnagar",
+      "category": "Entertainment Hub",
+      "shortDescription": "World’s largest integrated film studio complex and theme park.",
+      "detailedDescription": "Certified by the Guinness World Records as the world’s largest integrated film studio complex (spanning 2,000 acres), Ramoji Film City offers live film shooting sets, stunt shows, Japanese gardens, and theme park rides.",
+      "bestTimeToVisit": "October – February",
+      "timings": "09:00 AM – 05:30 PM",
+      "entryFee": "₹1,350 (Adults), ₹1,150 (Children)",
+      "recommendedVisitDuration": "1 Full Day",
+      "coordinates": {
+        "lat": 17.2543,
+        "lng": 78.6808
+      },
+      "nearbyAttractions": [
+        "Sanghi Temple",
+        "Mount Opera Water Park"
+      ],
+      "recommendedHotels": [
+        "Hotel Sitara Ramoji Film City",
+        "Hotel Tara Ramoji"
+      ],
+      "famousRestaurants": [
+        "Dil Se Restaurant",
+        "Jimmy’s Drive-In"
+      ],
+      "activities": [
+        "Studio Tour",
+        "Stunt Show",
+        "Vintage Bus Ride",
+        "Theme Park Rides"
+      ],
+      "weather": "Sunny and dry climate.",
+      "heroImage": "/images/telangana/ramoji-film-city.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/ramoji-film-city.png",
+          "altText": "Ramoji Film City grand entrance arch and tour bus",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Yadadri Sri Lakshmi Narasimha Temple",
+      "slug": "yadadri-temple",
+      "district": "Yadadri Bhuvanagiri",
+      "city": "Yadagirigutta",
+      "category": "Spiritual Shrine",
+      "shortDescription": "Magnificent mega-carved granite hill temple dedicated to Lord Narasimha.",
+      "detailedDescription": "Perched on a scenic hillock in Yadadri Bhuvanagiri district, Yadadri Temple is a magnificent mega-carved black granite temple complex built according to ancient Pancharatra Agamas, dedicated to Lord Lakshmi Narasimha.",
+      "bestTimeToVisit": "September – March",
+      "timings": "04:00 AM – 09:30 PM",
+      "entryFee": "Free General Darshan / Special Entry Tickets",
+      "recommendedVisitDuration": "3 – 4 Hours",
+      "coordinates": {
+        "lat": 17.5888,
+        "lng": 78.9442
+      },
+      "nearbyAttractions": [
+        "Bhongir Fort",
+        "Surendrapuri Mythological Theme Park"
+      ],
+      "nearbyHotels": [
+        "Yadadri Devasthanam Cottages",
+        "Haritha Resort Yadadri"
+      ],
+      "nearbyRestaurants": [
+        "Yadadri Annaprasadam Hall",
+        "Sri Narsimha Bhojanalaya"
+      ],
+      "activities": [
+        "Hilltop Temple Darshan",
+        "Granite Carving Photography",
+        "Pooja Ceremonies"
+      ],
+      "weather": "Cool hill breezes.",
+      "heroImage": "/images/telangana/yadadri-temple.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/yadadri-temple.png",
+          "altText": "Yadadri Sri Lakshmi Narasimha Temple black granite complex",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Warangal Fort & Thousand Pillar Temple",
+      "slug": "warangal-fort",
+      "district": "Hanamkonda",
+      "city": "Warangal",
+      "category": "Kakatiya Heritage",
+      "shortDescription": "12th-century Kakatiya stone gateways and star-shaped carved monoliths.",
+      "detailedDescription": "Located in Warangal, the 12th-century capital of the Kakatiya Dynasty features imposing stone gateways (Kakatiya Kala Thoranam), fortress ruins, and the famous Thousand Pillar Temple (Rudreshwara Swamy) with star-shaped carved monolithic pillars.",
+      "bestTimeToVisit": "October – March",
+      "timings": "06:00 AM – 08:00 PM",
+      "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
+      "recommendedVisitDuration": "4 Hours",
+      "coordinates": {
+        "lat": 17.9547,
+        "lng": 79.6133
+      },
+      "nearbyAttractions": [
+        "Bhadrakali Temple Lake",
+        "Kakatiya Musical Garden",
+        "Pakhal Lake"
+      ],
+      "nearbyHotels": [
+        "Haritha Kakatiya Hotel Warangal",
+        "Hotel Grand Gayathri"
+      ],
+      "nearbyRestaurants": [
+        "Subhani Hotel Warangal",
+        "Potlam Biryani Warangal"
+      ],
+      "activities": [
+        "Kakatiya Kala Thoranam Visit",
+        "Stone Carving Inspection",
+        "Lake Boating"
+      ],
+      "weather": "Pleasant in winter months.",
+      "heroImage": "/images/telangana/warangal-fort.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/warangal-fort.png",
+          "altText": "Warangal Fort Kakatiya Kala Thoranam carved stone arch gateway",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Ramappa Temple (UNESCO World Heritage)",
+      "slug": "ramappa-temple",
+      "district": "Mulugu",
+      "city": "Palampet",
+      "category": "UNESCO Shrine",
+      "shortDescription": "13th-century floating-brick temple masterpiece near Palampet.",
+      "detailedDescription": "Inscribed as a UNESCO World Heritage Site in 2021, Ramappa Temple (1213 AD) in Palampet is a structural masterpiece built using lightweight floating bricks, intricate granite carvings, and a sandbox foundation engineered by chief architect Ramappa.",
+      "bestTimeToVisit": "October – March",
+      "timings": "06:00 AM – 06:00 PM",
+      "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
+      "recommendedVisitDuration": "2 – 3 Hours",
+      "coordinates": {
+        "lat": 18.2587,
+        "lng": 79.9439
+      },
+      "nearbyAttractions": [
+        "Ramappa Lake",
+        "Laknavaram Lake Hanging Bridge"
+      ],
+      "nearbyHotels": [
+        "Haritha Lake Resort Laknavaram",
+        "Haritha Ramappa Cottages"
+      ],
+      "nearbyRestaurants": [
+        "Laknavaram Island Restaurant",
+        "Palampet Dhaba"
+      ],
+      "activities": [
+        "UNESCO Heritage Tour",
+        "Floating Brick Demonstration",
+        "Ramappa Lake Boating"
+      ],
+      "weather": "Mild winter climate.",
+      "heroImage": "/images/telangana/ramappa-temple.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/ramappa-temple.png",
+          "altText": "Ramappa Temple 13th century UNESCO Kakatiya floating brick shrine",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Hussain Sagar & Buddha Statue",
+      "slug": "hussain-sagar-buddha",
+      "district": "Hyderabad",
+      "city": "Hyderabad",
+      "category": "Urban Waterfront",
+      "shortDescription": "Heart-shaped lake featuring the world’s tallest monolithic Buddha.",
+      "detailedDescription": "Constructed in 1563 by Ibrahim Quli Qutb Shah, Hussain Sagar is a heart-shaped lake connecting Hyderabad and Secunderabad, featuring the world’s tallest monolithic statue of Gautama Buddha (18m high) standing on Gibraltar Rock.",
+      "bestTimeToVisit": "October – March",
+      "timings": "08:00 AM – 10:00 PM",
+      "entryFee": "Free Entry (Speedboat/Ferry: ₹100 – ₹300)",
+      "recommendedVisitDuration": "2 – 3 Hours",
+      "coordinates": {
+        "lat": 17.4239,
+        "lng": 78.4738
+      },
+      "nearbyAttractions": [
+        "NTR Gardens",
+        "Lumbini Park Laser Show",
+        "Sanjeevaiah Park",
+        "Telangana Martyrs Memorial"
+      ],
+      "nearbyHotels": [
+        "Marriott Hotel & Convention Centre",
+        "Taj Krishna Hyderabad"
+      ],
+      "nearbyRestaurants": [
+        "Water Front Restaurant",
+        "Eat Street Hussain Sagar",
+        "Ohri’s 70mm"
+      ],
+      "activities": [
+        "Boat Ride to Buddha Statue",
+        "Lumbini Park Laser Show",
+        "Necklace Road Evening Stroll"
+      ],
+      "weather": "Refreshing water breeze in the evening.",
+      "heroImage": "/images/telangana/hussain-sagar-buddha.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/hussain-sagar-buddha.png",
+          "altText": "Hussain Sagar lake monolithic Buddha statue",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Bhongir Fort",
+      "slug": "bhongir-fort",
+      "district": "Yadadri Bhuvanagiri",
+      "city": "Bhuvanagiri",
+      "category": "Monolithic Citadel",
+      "shortDescription": "Unique 500ft high monolithic egg-shaped rock fort.",
+      "detailedDescription": "Built in the 10th century by Chalukya ruler Tribhuvanamalla Vikramaditya VI, Bhongir Fort sits atop an isolated 500ft high monolithic egg-shaped rock hill in Bhuvanagiri, offering popular rock climbing and trekking routes.",
+      "bestTimeToVisit": "October – March",
+      "timings": "10:00 AM – 05:00 PM",
+      "entryFee": "₹25 (Adults)",
+      "recommendedVisitDuration": "3 Hours",
+      "coordinates": {
+        "lat": 17.5113,
+        "lng": 78.8872
+      },
+      "nearbyAttractions": [
+        "Yadadri Temple",
+        "Kulpakji Jain Temple"
+      ],
+      "nearbyHotels": [
+        "Haritha Bhongir Eco Resort",
+        "Hotel Highway Grand"
+      ],
+      "nearbyRestaurants": [
+        "Bhuvanagiri Dhaba",
+        "Highway Food Court"
+      ],
+      "activities": [
+        "Rock Trekking",
+        "Rappelling",
+        "Monolithic Fort Summit View"
+      ],
+      "weather": "Warm and windy atop hill.",
+      "heroImage": "/images/telangana/bhongir-fort.png",
+      "gallery": [
+        {
+          "imageURL": "/images/telangana/bhongir-fort.png",
+          "altText": "Bhongir Fort monolithic egg-shaped stone hill and staircase",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    }
+  ]
+}

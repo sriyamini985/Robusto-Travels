@@ -1,0 +1,402 @@
+{
+  "state": "Andhra Pradesh",
+  "stateCode": "AP",
+  "capital": "Amaravati",
+  "tagline": "The Sunrise State & Land of Sacred Temples",
+  "heroImage": "/images/andhra-pradesh/tirupati.png",
+  "bestTimeToVisitState": "October – March",
+  "climateOverview": "Tropical climate with pleasant winter temperatures ranging between 18°C and 28°C.",
+  "localFood": [
+    "Potharekulu (Paper Sweet)",
+    "Gongura Pachadi",
+    "Royyala Veepudu (Prawn Fry)",
+    "Ulavacharu",
+    "Kakinada Kaja"
+  ],
+  "destinations": [
+    {
+      "placeName": "Tirumala Venkateswara Temple",
+      "slug": "tirupati-venkateswara-temple",
+      "district": "Tirupati",
+      "city": "Tirupati",
+      "category": "Spiritual Shrine",
+      "shortDescription": "World-renowned hilltop temple of Lord Venkateswara at Tirumala.",
+      "detailedDescription": "Perched atop the sacred Seshachalam Hills in Tirupati, Sri Venkateswara Swamy Temple is one of the world’s most revered pilgrimage shrines, famous for its Dravidian gold-plated dome (Ananda Nilayam) and Tirupati Laddu Prasadam.",
+      "bestTimeToVisit": "September – February",
+      "timings": "03:00 AM – 11:30 PM",
+      "entryFee": "Free General Darshan / ₹300 Special Entry Darshan",
+      "recommendedVisitDuration": "4 – 6 Hours",
+      "coordinates": {
+        "lat": 13.6833,
+        "lng": 79.35
+      },
+      "nearbyAttractions": [
+        "Kapila Theertham Waterfalls",
+        "Sri Kalahasteeswara Temple",
+        "Silathoranam Natural Arch",
+        "Chandragiri Fort"
+      ],
+      "nearbyHotels": [
+        "Fortune Select Grand Ridge Tirupati",
+        "Taj Tirupati",
+        "Marasa Sarovar Premiere"
+      ],
+      "nearbyRestaurants": [
+        "Bhimas Deluxe Restaurant",
+        "Hotel Mayura Pure Veg",
+        "Minerva Grand Tirupati"
+      ],
+      "activities": [
+        "Pilgrimage Darshan",
+        "Tirumala Hill Trek",
+        "Hair Tonsure Ritual",
+        "Laddoo Tasting"
+      ],
+      "weather": "Pleasant in winter (18°C – 26°C), warm in summer (32°C – 40°C).",
+      "heroImage": "/images/andhra-pradesh/tirupati.png",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/tirupati.png",
+          "altText": "Sri Venkateswara Temple Gold Gopuram at Tirumala",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Araku Valley",
+      "slug": "araku-valley",
+      "district": "Alluri Sitharama Raju",
+      "city": "Araku",
+      "category": "Hill Station",
+      "shortDescription": "Lush Eastern Ghats hill valley famous for organic coffee and terraced green fields.",
+      "detailedDescription": "Nestled in the lush Eastern Ghats near Visakhapatnam, Araku Valley is an enchanting hill resort surrounded by misty green peaks, organic coffee plantations, terraced agricultural fields, and rich tribal heritage museum.",
+      "bestTimeToVisit": "September – March",
+      "timings": "Open 24 Hours",
+      "entryFee": "Free Entry (Museum/Gardens: ₹20 – ₹50)",
+      "recommendedVisitDuration": "1 – 2 Days",
+      "coordinates": {
+        "lat": 18.3273,
+        "lng": 82.8825
+      },
+      "nearbyAttractions": [
+        "Katiki Waterfalls",
+        "Chaparai Water Cascade",
+        "Tribal Museum Araku",
+        "Padmapuram Gardens"
+      ],
+      "nearbyHotels": [
+        "Haritha Hill Resort Araku",
+        "La Serene Resort Araku",
+        "Vistadome Rail Suite"
+      ],
+      "nearbyRestaurants": [
+        "Vasundhara Coffee House",
+        "Bamboo Chicken Araku Hub",
+        "Haritha Restaurant"
+      ],
+      "activities": [
+        "Coffee Plantation Tour",
+        "Vistadome Glass Train Ride",
+        "Tribal Dhimsa Dance",
+        "Terrace Photography"
+      ],
+      "weather": "Cool hill climate (14°C – 25°C).",
+      "heroImage": "/images/andhra-pradesh/araku.png",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/araku.png",
+          "altText": "Araku Valley terraced green fields and hill village",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Borra Caves",
+      "slug": "borra-caves",
+      "district": "Alluri Sitharama Raju",
+      "city": "Ananthagiri",
+      "category": "Natural Wonder",
+      "shortDescription": "Million-year-old limestone stalactite & stalagmite caves in Ananthagiri.",
+      "detailedDescription": "Discovered in 1807 in the Ananthagiri Hills of Visakhapatnam, Borra Caves are million-year-old natural limestone caves formed by the Gosthani River, featuring spectacular stalactite and stalagmite rock formations illuminated with natural sunlight and ambient lights.",
+      "bestTimeToVisit": "November – February",
+      "timings": "10:00 AM – 05:00 PM",
+      "entryFee": "₹80 (Adults), ₹60 (Children)",
+      "recommendedVisitDuration": "2 – 3 Hours",
+      "coordinates": {
+        "lat": 18.2804,
+        "lng": 83.0396
+      },
+      "nearbyAttractions": [
+        "Ananthagiri Coffee Plantations",
+        "Gosthani River Viewpoint",
+        "Katiki Falls Trek"
+      ],
+      "nearbyHotels": [
+        "APTDC Punnamia Borra Resort",
+        "Tyda Jungle Bells Eco Resort"
+      ],
+      "nearbyRestaurants": [
+        "Ananthagiri Bamboo Bites",
+        "Borra Cave Canteen"
+      ],
+      "activities": [
+        "Cave Exploration",
+        "Stalactite Photography",
+        "Eco Trekking"
+      ],
+      "weather": "Cool subterranean environment.",
+      "heroImage": "/images/andhra-pradesh/borra-caves.png",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/borra-caves.png",
+          "altText": "Borra Caves subterranean limestone chamber with stairs",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Gandikota (Grand Canyon of India)",
+      "slug": "gandikota",
+      "district": "YSR Kadapa",
+      "city": "Jammalamadugu",
+      "category": "Gorge & Fort",
+      "shortDescription": "Breathtaking Penna river gorge enclosed by medieval red stone fort.",
+      "detailedDescription": "Known as the Grand Canyon of India, Gandikota is a breathtaking gorge formed by the Penna River cutting through the Erramala hills in Kadapa district, enclosed by a medieval 13th-century red sandstone fortress.",
+      "bestTimeToVisit": "October – March",
+      "timings": "Open 24 Hours",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "1 Day",
+      "coordinates": {
+        "lat": 14.8152,
+        "lng": 78.2863
+      },
+      "nearbyAttractions": [
+        "Gandikota Fort Granary",
+        "Madhavaraya Temple",
+        "Raghunathaswamy Temple",
+        "Mylavaram Dam"
+      ],
+      "nearbyHotels": [
+        "Haritha Resort Gandikota",
+        "Freakouts Adventure Camp Gandikota"
+      ],
+      "nearbyRestaurants": [
+        "Gandikota Cliffside Cafe",
+        "Haritha Restaurant Kadapa"
+      ],
+      "activities": [
+        "Cliffside Camping",
+        "Sunset Gorge Photography",
+        "Kayaking",
+        "Fort Exploration"
+      ],
+      "weather": "Dry tropical climate (20°C – 32°C).",
+      "heroImage": "/images/andhra-pradesh/gandikota.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/gandikota.jpg",
+          "altText": "Gandikota Penna River gorge red sandstone canyon view",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Belum Caves",
+      "slug": "belum-caves",
+      "district": "Nandyal",
+      "city": "Kolimigundla",
+      "category": "Subterranean Wonder",
+      "shortDescription": "Second longest subterranean cave system in the Indian subcontinent.",
+      "detailedDescription": "Belum Caves in Nandyal district are the second longest cave system in the Indian subcontinent (3.5 km long). Famous for black limestone passages, subterranean stone sinkholes, freshwater siphons, and ancient Buddhist monk relics.",
+      "bestTimeToVisit": "October – March",
+      "timings": "10:00 AM – 05:00 PM",
+      "entryFee": "₹65 (Indians), ₹300 (Foreigners)",
+      "recommendedVisitDuration": "2 – 3 Hours",
+      "coordinates": {
+        "lat": 15.1037,
+        "lng": 78.1133
+      },
+      "nearbyAttractions": [
+        "Giant Dhyana Buddha Statue Belum",
+        "Yaganti Temple",
+        "Rollapadu Wildlife Sanctuary"
+      ],
+      "nearbyHotels": [
+        "Haritha Belum Caves Resort",
+        "Hotel Mourya Inn Kurnool"
+      ],
+      "nearbyRestaurants": [
+        "Belum Cave Restaurant",
+        "Kurnool Rayalaseema Ruchulu"
+      ],
+      "activities": [
+        "Subterranean Passageway Walk",
+        "Sinkhole Photography",
+        "Buddhist Relics Visit"
+      ],
+      "weather": "Subterranean humid climate.",
+      "heroImage": "/images/andhra-pradesh/belum-caves.png",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/belum-caves.png",
+          "altText": "Belum Caves stone sinkhole entrance staircase",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Srisailam Temple & Tiger Reserve",
+      "slug": "srisailam",
+      "district": "Nandyal",
+      "city": "Srisailam",
+      "category": "Pilgrimage & Wildlife",
+      "shortDescription": "Sacred Mallikarjuna Jyotirlinga shrine inside Nallamala forest reserve.",
+      "detailedDescription": "Located on the banks of Krishna River in the Nallamala Hills, Srisailam houses Sri Mallikarjuna Swamy Temple (one of the 12 sacred Jyotirlingas and 18 Shakti Peethas) set within India’s largest tiger reserve forest.",
+      "bestTimeToVisit": "September – March",
+      "timings": "04:30 AM – 10:00 PM",
+      "entryFee": "Free General Entry / Special Tickets Available",
+      "recommendedVisitDuration": "1 – 2 Days",
+      "coordinates": {
+        "lat": 16.0748,
+        "lng": 78.8687
+      },
+      "nearbyAttractions": [
+        "Srisailam Dam Ropeway",
+        "Pathala Ganga",
+        "Akka Mahadevi Caves",
+        "Sakshi Ganapati Temple"
+      ],
+      "nearbyHotels": [
+        "Haritha Srisailam",
+        "Grand Kousthubha Srisailam"
+      ],
+      "nearbyRestaurants": [
+        "Srisailam Devasthanam Annaprasadam",
+        "Annapurna Mess"
+      ],
+      "activities": [
+        "Jyotirlinga Darshan",
+        "Krishna River Boating",
+        "Ropeway Ride",
+        "Forest Safari"
+      ],
+      "weather": "Forest hill climate (18°C – 30°C).",
+      "heroImage": "/images/andhra-pradesh/srisailam.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/srisailam.jpg",
+          "altText": "Srisailam Mallikarjuna Swamy illuminated riverfront temple",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Visakhapatnam Beaches & Submarine",
+      "slug": "visakhapatnam-beaches",
+      "district": "Visakhapatnam",
+      "city": "Visakhapatnam",
+      "category": "Coastal City",
+      "shortDescription": "Rishikonda beach and INS Kursura Submarine Museum on RK Beach.",
+      "detailedDescription": "Visakhapatnam (Vizag) is a vibrant coastal port city featuring golden sands at Rishikonda Beach, the coastal mountain curves, the historic INS Kursura Submarine Museum on RK Beach, Dolphin’s Nose headland, and Kailasagiri hilltop park.",
+      "bestTimeToVisit": "October – March",
+      "timings": "Open 24 Hours (Museum: 02:00 PM – 08:30 PM)",
+      "entryFee": "Free Beach Entry / Museum: ₹40",
+      "recommendedVisitDuration": "2 Days",
+      "coordinates": {
+        "lat": 17.7126,
+        "lng": 83.3179
+      },
+      "nearbyAttractions": [
+        "INS Kursura Submarine Museum",
+        "Kailasagiri Ropeway",
+        "Simhachalam Temple",
+        "Dolphin’s Nose Lighthouse"
+      ],
+      "nearbyHotels": [
+        "The Gateway Hotel Beach Road Vizag",
+        "Novotel Visakhapatnam Varun Beach",
+        "Radisson Blu Resort Vizag"
+      ],
+      "nearbyRestaurants": [
+        "Sea Inn (Raju Gaari Thali)",
+        "Dharani Restaurant",
+        "Kamat Restaurant Vizag"
+      ],
+      "activities": [
+        "Beach Surfing",
+        "Submarine Tour",
+        "Ropeway Ride",
+        "Seafood Dining"
+      ],
+      "weather": "Pleasant sea breeze in winter (20°C – 28°C).",
+      "heroImage": "/images/andhra-pradesh/vizag-beach.png",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/vizag-beach.png",
+          "altText": "Visakhapatnam Rishikonda beach highway coastal view",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    },
+    {
+      "placeName": "Lambasingi",
+      "slug": "lambasingi",
+      "district": "Alluri Sitharama Raju",
+      "city": "Chintapalli",
+      "category": "Alpine Village",
+      "shortDescription": "Misty high-altitude hill village known as the Kashmir of Andhra Pradesh.",
+      "detailedDescription": "Referred to as the 'Kashmir of Andhra Pradesh', Lambasingi is a serene high-altitude village in Alluri Sitharama Raju district known for sub-zero winter temperatures, apple orchards, cloud beds, and strawberry farms.",
+      "bestTimeToVisit": "November – January",
+      "timings": "Open 24 Hours",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "1 Day",
+      "coordinates": {
+        "lat": 17.8183,
+        "lng": 82.4933
+      },
+      "nearbyAttractions": [
+        "Kothapalli Waterfalls",
+        "Lambasingi Strawberry Farms",
+        "Susan Garden Viewpoint"
+      ],
+      "nearbyHotels": [
+        "Haritha Lambasingi Eco Resort",
+        "Lambasingi Tent Stays"
+      ],
+      "nearbyRestaurants": [
+        "Lambasingi Hillside Food Court",
+        "Chintapalli Dhaba"
+      ],
+      "activities": [
+        "Winter Cloud Bed Viewing",
+        "Strawberry Picking",
+        "Waterfall Trekking"
+      ],
+      "weather": "Misty and cold (0°C – 15°C in winter).",
+      "heroImage": "/images/andhra-pradesh/lambasingi.png",
+      "gallery": [
+        {
+          "imageURL": "/images/andhra-pradesh/lambasingi.png",
+          "altText": "Lambasingi misty high-altitude village above cloud beds",
+          "imageSource": "User Verified Collection / Robusto Storage",
+          "photographer": "Official Tourism Photography",
+          "license": "Verified Robusto Asset"
+        }
+      ]
+    }
+  ]
+}

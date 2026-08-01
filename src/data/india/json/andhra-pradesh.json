@@ -3,7 +3,7 @@
   "stateCode": "AP",
   "capital": "Amaravati",
   "tagline": "The Sunrise State & Land of Sacred Temples",
-  "heroImage": "/images/andhra-pradesh/tirupati.png",
+  "heroImage": "/images/andhra-pradesh/tirupati-venkateswara-temple/hero.png",
   "bestTimeToVisitState": "October – March",
   "climateOverview": "Tropical climate with pleasant winter temperatures ranging between 18°C and 28°C.",
   "localFood": [
@@ -53,10 +53,10 @@
         "Laddoo Tasting"
       ],
       "weather": "Pleasant in winter (18°C – 26°C), warm in summer (32°C – 40°C).",
-      "heroImage": "/images/andhra-pradesh/tirupati.png",
+      "heroImage": "/images/andhra-pradesh/tirupati-venkateswara-temple/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/tirupati.png",
+          "imageURL": "/images/andhra-pradesh/tirupati-venkateswara-temple/hero.png",
           "altText": "Sri Venkateswara Temple Gold Gopuram at Tirumala",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -103,10 +103,10 @@
         "Terrace Photography"
       ],
       "weather": "Cool hill climate (14°C – 25°C).",
-      "heroImage": "/images/andhra-pradesh/araku.png",
+      "heroImage": "/images/andhra-pradesh/araku-valley/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/araku.png",
+          "imageURL": "/images/andhra-pradesh/araku-valley/hero.png",
           "altText": "Araku Valley terraced green fields and hill village",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -149,10 +149,10 @@
         "Eco Trekking"
       ],
       "weather": "Cool subterranean environment.",
-      "heroImage": "/images/andhra-pradesh/borra-caves.png",
+      "heroImage": "/images/andhra-pradesh/borra-caves/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/borra-caves.png",
+          "imageURL": "/images/andhra-pradesh/borra-caves/hero.png",
           "altText": "Borra Caves subterranean limestone chamber with stairs",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -197,10 +197,10 @@
         "Fort Exploration"
       ],
       "weather": "Dry tropical climate (20°C – 32°C).",
-      "heroImage": "/images/andhra-pradesh/gandikota.jpg",
+      "heroImage": "/images/andhra-pradesh/gandikota/hero.jpg",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/gandikota.jpg",
+          "imageURL": "/images/andhra-pradesh/gandikota/hero.jpg",
           "altText": "Gandikota Penna River gorge red sandstone canyon view",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -243,10 +243,10 @@
         "Buddhist Relics Visit"
       ],
       "weather": "Subterranean humid climate.",
-      "heroImage": "/images/andhra-pradesh/belum-caves.png",
+      "heroImage": "/images/andhra-pradesh/belum-caves/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/belum-caves.png",
+          "imageURL": "/images/andhra-pradesh/belum-caves/hero.png",
           "altText": "Belum Caves stone sinkhole entrance staircase",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -291,10 +291,10 @@
         "Forest Safari"
       ],
       "weather": "Forest hill climate (18°C – 30°C).",
-      "heroImage": "/images/andhra-pradesh/srisailam.jpg",
+      "heroImage": "/images/andhra-pradesh/srisailam/hero.jpg",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/srisailam.jpg",
+          "imageURL": "/images/andhra-pradesh/srisailam/hero.jpg",
           "altText": "Srisailam Mallikarjuna Swamy illuminated riverfront temple",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -341,10 +341,10 @@
         "Seafood Dining"
       ],
       "weather": "Pleasant sea breeze in winter (20°C – 28°C).",
-      "heroImage": "/images/andhra-pradesh/vizag-beach.png",
+      "heroImage": "/images/andhra-pradesh/visakhapatnam-beaches/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/vizag-beach.png",
+          "imageURL": "/images/andhra-pradesh/visakhapatnam-beaches/hero.png",
           "altText": "Visakhapatnam Rishikonda beach highway coastal view",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -387,10 +387,10 @@
         "Waterfall Trekking"
       ],
       "weather": "Misty and cold (0°C – 15°C in winter).",
-      "heroImage": "/images/andhra-pradesh/lambasingi.png",
+      "heroImage": "/images/andhra-pradesh/lambasingi/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/andhra-pradesh/lambasingi.png",
+          "imageURL": "/images/andhra-pradesh/lambasingi/hero.png",
           "altText": "Lambasingi misty high-altitude village above cloud beds",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",

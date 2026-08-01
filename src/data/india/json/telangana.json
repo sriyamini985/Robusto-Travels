@@ -3,7 +3,7 @@
   "stateCode": "TG",
   "capital": "Hyderabad",
   "tagline": "The Cyber Pearl & Historic Nizami Kingdom",
-  "heroImage": "/images/telangana/charminar.png",
+  "heroImage": "/images/telangana/charminar/hero.png",
   "bestTimeToVisitState": "October – March",
   "climateOverview": "Semi-arid tropical climate with pleasant winter temperatures ranging between 16°C and 28°C.",
   "localFood": [
@@ -54,10 +54,10 @@
         "Night Illumination Photography"
       ],
       "weather": "Warm days and cool evening breezes.",
-      "heroImage": "/images/telangana/charminar.png",
+      "heroImage": "/images/telangana/charminar/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/charminar.png",
+          "imageURL": "/images/telangana/charminar/hero.png",
           "altText": "Charminar iconic 16th century monument in Old Hyderabad",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -101,10 +101,10 @@
         "Acoustic Whispering Gallery Test"
       ],
       "weather": "Pleasant winter climate.",
-      "heroImage": "/images/telangana/golconda-fort.png",
+      "heroImage": "/images/telangana/golconda-fort/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/golconda-fort.png",
+          "imageURL": "/images/telangana/golconda-fort/hero.png",
           "altText": "Golconda Fort hilltop granite citadel and battlements",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -132,7 +132,7 @@
         "Sanghi Temple",
         "Mount Opera Water Park"
       ],
-      "recommendedHotels": [
+      "nearbyHotels": [
         "Hotel Sitara Ramoji Film City",
         "Hotel Tara Ramoji"
       ],
@@ -147,10 +147,10 @@
         "Theme Park Rides"
       ],
       "weather": "Sunny and dry climate.",
-      "heroImage": "/images/telangana/ramoji-film-city.png",
+      "heroImage": "/images/telangana/ramoji-film-city/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/ramoji-film-city.png",
+          "imageURL": "/images/telangana/ramoji-film-city/hero.png",
           "altText": "Ramoji Film City grand entrance arch and tour bus",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -192,10 +192,10 @@
         "Pooja Ceremonies"
       ],
       "weather": "Cool hill breezes.",
-      "heroImage": "/images/telangana/yadadri-temple.png",
+      "heroImage": "/images/telangana/yadadri-temple/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/yadadri-temple.png",
+          "imageURL": "/images/telangana/yadadri-temple/hero.png",
           "altText": "Yadadri Sri Lakshmi Narasimha Temple black granite complex",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -238,10 +238,10 @@
         "Lake Boating"
       ],
       "weather": "Pleasant in winter months.",
-      "heroImage": "/images/telangana/warangal-fort.png",
+      "heroImage": "/images/telangana/warangal-fort/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/warangal-fort.png",
+          "imageURL": "/images/telangana/warangal-fort/hero.png",
           "altText": "Warangal Fort Kakatiya Kala Thoranam carved stone arch gateway",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -283,10 +283,10 @@
         "Ramappa Lake Boating"
       ],
       "weather": "Mild winter climate.",
-      "heroImage": "/images/telangana/ramappa-temple.png",
+      "heroImage": "/images/telangana/ramappa-temple/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/ramappa-temple.png",
+          "imageURL": "/images/telangana/ramappa-temple/hero.png",
           "altText": "Ramappa Temple 13th century UNESCO Kakatiya floating brick shrine",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -331,10 +331,10 @@
         "Necklace Road Evening Stroll"
       ],
       "weather": "Refreshing water breeze in the evening.",
-      "heroImage": "/images/telangana/hussain-sagar-buddha.png",
+      "heroImage": "/images/telangana/hussain-sagar-buddha/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/hussain-sagar-buddha.png",
+          "imageURL": "/images/telangana/hussain-sagar-buddha/hero.png",
           "altText": "Hussain Sagar lake monolithic Buddha statue",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",
@@ -376,10 +376,10 @@
         "Monolithic Fort Summit View"
       ],
       "weather": "Warm and windy atop hill.",
-      "heroImage": "/images/telangana/bhongir-fort.png",
+      "heroImage": "/images/telangana/bhongir-fort/hero.png",
       "gallery": [
         {
-          "imageURL": "/images/telangana/bhongir-fort.png",
+          "imageURL": "/images/telangana/bhongir-fort/hero.png",
           "altText": "Bhongir Fort monolithic egg-shaped stone hill and staircase",
           "imageSource": "User Verified Collection / Robusto Storage",
           "photographer": "Official Tourism Photography",

@@ -97,16 +97,8 @@
         "War Memorial Homage"
       ],
       "weather": "Sub-zero temperatures in winter (-10°C – 5°C).",
-      "heroImage": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1200",
-      "gallery": [
-        {
-          "imageURL": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1200",
-          "altText": "Sela Pass 13,700ft frozen alpine lake and snow peaks",
-          "imageSource": "Unsplash Verified Photography",
-          "photographer": "Unsplash Travel Contributor",
-          "license": "Unsplash License"
-        }
-      ]
+      "heroImage": "",
+      "gallery": []
     },
     {
       "placeName": "Ziro Valley",
@@ -146,16 +138,8 @@
         "Rice-Fish Farming Demonstration"
       ],
       "weather": "Pleasant temperate valley climate (12°C – 22°C).",
-      "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
-      "gallery": [
-        {
-          "imageURL": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
-          "altText": "Ziro Valley pine hills and Apatani rice fields",
-          "imageSource": "Unsplash Verified Photography",
-          "photographer": "Unsplash Travel Contributor",
-          "license": "Unsplash License"
-        }
-      ]
+      "heroImage": "",
+      "gallery": []
     },
     {
       "placeName": "Sangetsar Lake (Madhuri Lake)",
@@ -192,16 +176,8 @@
         "Border Plateau Photography"
       ],
       "weather": "Freezing winds at 12,000ft.",
-      "heroImage": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=1200",
-      "gallery": [
-        {
-          "imageURL": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=1200",
-          "altText": "Sangetsar Madhuri Lake high-altitude glacial waters",
-          "imageSource": "Unsplash Verified Photography",
-          "photographer": "Unsplash Travel Contributor",
-          "license": "Unsplash License"
-        }
-      ]
+      "heroImage": "",
+      "gallery": []
     },
     {
       "placeName": "Namdapha National Park",
@@ -239,16 +215,8 @@
         "Wildlife Safari"
       ],
       "weather": "Humid rainforest climate.",
-      "heroImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200",
-      "gallery": [
-        {
-          "imageURL": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200",
-          "altText": "Namdapha National Park rainforest wilderness",
-          "imageSource": "Unsplash Verified Photography",
-          "photographer": "Unsplash Travel Contributor",
-          "license": "Unsplash License"
-        }
-      ]
+      "heroImage": "",
+      "gallery": []
     },
     {
       "placeName": "Nuranang Waterfalls (Jang Falls)",
@@ -284,16 +252,8 @@
         "Tea Break"
       ],
       "weather": "Cool spray mist climate.",
-      "heroImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=80&w=1200",
-      "gallery": [
-        {
-          "imageURL": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=80&w=1200",
-          "altText": "Nuranang Jang Waterfalls 100m roaring cliff cascade",
-          "imageSource": "Unsplash Verified Photography",
-          "photographer": "Unsplash Travel Contributor",
-          "license": "Unsplash License"
-        }
-      ]
+      "heroImage": "",
+      "gallery": []
     },
     {
       "placeName": "Dirang Valley & Dirang Dzong",
@@ -331,16 +291,8 @@
         "Dirang Dzong Exploration"
       ],
       "weather": "Pleasant valley climate (10°C – 20°C).",
-      "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
-      "gallery": [
-        {
-          "imageURL": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
-          "altText": "Dirang Valley Kameng River and mountain orchards",
-          "imageSource": "Unsplash Verified Photography",
-          "photographer": "Unsplash Travel Contributor",
-          "license": "Unsplash License"
-        }
-      ]
+      "heroImage": "",
+      "gallery": []
     },
     {
       "placeName": "Itanagar Ita Fort & Gompa",
@@ -377,16 +329,8 @@
         "State Museum Tour"
       ],
       "weather": "Pleasant sub-tropical climate (15°C – 25°C).",
-      "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=1200",
-      "gallery": [
-        {
-          "imageURL": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=1200",
-          "altText": "Itanagar Ita Fort ancient brick rampart walls",
-          "imageSource": "Unsplash Verified Photography",
-          "photographer": "Unsplash Travel Contributor",
-          "license": "Unsplash License"
-        }
-      ]
+      "heroImage": "",
+      "gallery": []
     }
   ]
 }

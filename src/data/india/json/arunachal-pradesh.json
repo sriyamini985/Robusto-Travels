@@ -1,0 +1,392 @@
+{
+  "state": "Arunachal Pradesh",
+  "stateCode": "AR",
+  "capital": "Itanagar",
+  "tagline": "Land of the Dawn-Lit Mountains",
+  "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
+  "bestTimeToVisitState": "October – April",
+  "climateOverview": "Alpine to sub-tropical climate with cold winters (0°C – 15°C) and pleasant spring weather.",
+  "localFood": [
+    "Thukpa (Noodle Soup)",
+    "Zan (Millet Porridge)",
+    "Pika Pila (Bamboo Shoot Pickle)",
+    "Lukter (Dry Meat with Chili)",
+    "Marua Millet Beverage"
+  ],
+  "destinations": [
+    {
+      "placeName": "Tawang Monastery",
+      "slug": "tawang-monastery",
+      "district": "Tawang",
+      "city": "Tawang",
+      "category": "Buddhist Shrine",
+      "shortDescription": "India’s largest Buddhist monastery perched atop 10,000ft in Tawang.",
+      "detailedDescription": "Perched at an elevation of 10,000ft overlooking the Tawang Chu valley, Galden Namgey Lhatse (Tawang Monastery) was founded in 1680 and is India’s largest monastery and the second largest in the world.",
+      "bestTimeToVisit": "October – April",
+      "timings": "07:00 AM – 07:00 PM",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "3 – 4 Hours",
+      "coordinates": {
+        "lat": 27.5861,
+        "lng": 91.8594
+      },
+      "nearbyAttractions": [
+        "Tawang War Memorial",
+        "Giant Buddha Statue Tawang",
+        "Urgyelling Monastery",
+        "Ani Gompa"
+      ],
+      "nearbyHotels": [
+        "Hotel Vajrasattva Tawang",
+        "Hotel Tawang Heights",
+        "Dondrub Homestay"
+      ],
+      "nearbyRestaurants": [
+        "Dragon Restaurant Tawang",
+        "Orange Bar & Restaurant",
+        "Mon-Inn Cafe"
+      ],
+      "activities": [
+        "Monastery Prayer Attendance",
+        "Museum Tour",
+        "High-Altitude Photography"
+      ],
+      "weather": "Cold alpine climate (0°C – 12°C).",
+      "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Tawang Monastery 10,000ft high Buddhist shrine",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Sela Pass & Sela Lake",
+      "slug": "sela-pass",
+      "district": "Tawang",
+      "city": "Dirang-Tawang Highway",
+      "category": "Alpine Mountain Pass",
+      "shortDescription": "High-altitude mountain pass at 13,700ft with pristine alpine Sela Lake.",
+      "detailedDescription": "Situated at a breathtaking altitude of 13,700ft, Sela Pass connects Tawang to the rest of India and is home to the sacred Sela Lake, which remains partially frozen during winter months surrounded by snow peaks.",
+      "bestTimeToVisit": "October – April",
+      "timings": "Open 24 Hours",
+      "entryFee": "Free Entry (Inner Line Permit required)",
+      "recommendedVisitDuration": "1 – 2 Hours",
+      "coordinates": {
+        "lat": 27.5056,
+        "lng": 92.1039
+      },
+      "nearbyAttractions": [
+        "Jaswant Garh War Memorial",
+        "Baisakhi Army Camp"
+      ],
+      "nearbyHotels": [
+        "Sela Pass Army Transit Lodge",
+        "Dirang Boutique Cottages"
+      ],
+      "nearbyRestaurants": [
+        "Sela Pass Army Canteen (Hot Chai & Momos)",
+        "Jaswant Garh Canteen"
+      ],
+      "activities": [
+        "High-Altitude Snow Pass Crossing",
+        "Sela Lake Walk",
+        "War Memorial Homage"
+      ],
+      "weather": "Sub-zero temperatures in winter (-10°C – 5°C).",
+      "heroImage": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Sela Pass 13,700ft frozen alpine lake and snow peaks",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Ziro Valley",
+      "slug": "ziro-valley",
+      "district": "Lower Subansiri",
+      "city": "Ziro",
+      "category": "UNESCO Cultural Landscape",
+      "shortDescription": "UNESCO tentative heritage valley known for Apatani tribal culture & music festival.",
+      "detailedDescription": "Home to the facial-tattooed Apatani tribe, Ziro Valley is an idyllic plateau surrounded by pine hills and wet rice-cum-fish cultivation fields, world-famous for hosting the outdoor Ziro Festival of Music.",
+      "bestTimeToVisit": "September – March",
+      "timings": "Open 24 Hours",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "2 Days",
+      "coordinates": {
+        "lat": 27.5947,
+        "lng": 93.8383
+      },
+      "nearbyAttractions": [
+        "Kile Pakho Viewpoint",
+        "Tarin Fish Farm",
+        "Meghna Cave Temple",
+        "Talley Valley Wildlife Sanctuary"
+      ],
+      "nearbyHotels": [
+        "Ziro Palace Inn",
+        "Siiro Resort Ziro",
+        "Apatani Tribal Homestays"
+      ],
+      "nearbyRestaurants": [
+        "Apatani Kitchen Ziro",
+        "City Hotel Restaurant",
+        "Bamboo Hut Cafe"
+      ],
+      "activities": [
+        "Ziro Music Festival",
+        "Apatani Village Walk",
+        "Rice-Fish Farming Demonstration"
+      ],
+      "weather": "Pleasant temperate valley climate (12°C – 22°C).",
+      "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Ziro Valley pine hills and Apatani rice fields",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Sangetsar Lake (Madhuri Lake)",
+      "slug": "sangetsar-lake",
+      "district": "Tawang",
+      "city": "Tawang High Plateau",
+      "category": "Glacial Lake",
+      "shortDescription": "Breathtaking high-altitude glacial lake with submerged tree trunks near Tawang.",
+      "detailedDescription": "Formed by a earthquake in 1971 near the Indo-China border at 12,000ft, Sangetsar Lake features upright dead tree trunks standing out of clear glacial waters, famously nicknamed Madhuri Lake after the Bollywood movie Koyla.",
+      "bestTimeToVisit": "October – April",
+      "timings": "08:00 AM – 04:00 PM",
+      "entryFee": "Free Entry (Special Army Permit required)",
+      "recommendedVisitDuration": "2 Hours",
+      "coordinates": {
+        "lat": 27.6978,
+        "lng": 91.8683
+      },
+      "nearbyAttractions": [
+        "Bum La Pass (Indo-China Border)",
+        "PT Tso Lake",
+        "Nuranang Waterfalls (Jang Falls)"
+      ],
+      "nearbyHotels": [
+        "Army Transit Camp Tawang",
+        "Hotel Yid-Ga-Chosin"
+      ],
+      "nearbyRestaurants": [
+        "Sangetsar Army Canteen",
+        "Jang Waterfall Dhaba"
+      ],
+      "activities": [
+        "Glacial Lake Walk",
+        "Army Canteen Hot Momos",
+        "Border Plateau Photography"
+      ],
+      "weather": "Freezing winds at 12,000ft.",
+      "heroImage": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Sangetsar Madhuri Lake high-altitude glacial waters",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Namdapha National Park",
+      "slug": "namdapha-national-park",
+      "district": "Changlang",
+      "city": "Miao",
+      "category": "Biodiversity Reserve",
+      "shortDescription": "Biodiversity hotspot & tiger reserve with lowland rainforests in Changlang.",
+      "detailedDescription": "Located in Changlang district near the Myanmar border, Namdapha is India’s third largest national park, harboring pristine lowland evergreen rainforests home to all four big cat species (Tiger, Leopard, Snow Leopard, Clouded Leopard).",
+      "bestTimeToVisit": "October – March",
+      "timings": "06:00 AM – 05:00 PM",
+      "entryFee": "₹50 (Indians), ₹500 (Foreigners)",
+      "recommendedVisitDuration": "2 Days",
+      "coordinates": {
+        "lat": 27.4916,
+        "lng": 96.3886
+      },
+      "nearbyAttractions": [
+        "Miao River Waterfront",
+        "Miao Tribal Village",
+        "Noa-Dehing River Rafting"
+      ],
+      "nearbyHotels": [
+        "Namdapha Jungle Camp Miao",
+        "Forest Rest House Deban"
+      ],
+      "nearbyRestaurants": [
+        "Miao Bamboo Restaurant",
+        "Deban Camp Canteen"
+      ],
+      "activities": [
+        "Rainforest Trekking",
+        "Bird Watching",
+        "River Rafting",
+        "Wildlife Safari"
+      ],
+      "weather": "Humid rainforest climate.",
+      "heroImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Namdapha National Park rainforest wilderness",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Nuranang Waterfalls (Jang Falls)",
+      "slug": "nuranang-waterfalls",
+      "district": "Tawang",
+      "city": "Jang",
+      "category": "Cascade Waterfalls",
+      "shortDescription": "Majestic 100m roaring glacial waterfall near Jang town.",
+      "detailedDescription": "Plunging 100 meters down a sheer cliff near Jang town, Nuranang Falls is a spectacular roaring waterfall fed by high-altitude glacial streams, surrounded by lush rhododendron hills.",
+      "bestTimeToVisit": "October – April",
+      "timings": "06:00 AM – 05:00 PM",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "1 – 2 Hours",
+      "coordinates": {
+        "lat": 27.5816,
+        "lng": 91.9784
+      },
+      "nearbyAttractions": [
+        "Jang Hydel Power Plant",
+        "Tawang Chu River Confluence"
+      ],
+      "nearbyHotels": [
+        "Jang Eco Resort",
+        "Hotel Tawang Heights"
+      ],
+      "nearbyRestaurants": [
+        "Jang Falls Tea Stall",
+        "Riverside Momos Corner"
+      ],
+      "activities": [
+        "Waterfall Spray Photography",
+        "River Hydro Walk",
+        "Tea Break"
+      ],
+      "weather": "Cool spray mist climate.",
+      "heroImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Nuranang Jang Waterfalls 100m roaring cliff cascade",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Dirang Valley & Dirang Dzong",
+      "slug": "dirang-valley",
+      "district": "West Kameng",
+      "city": "Dirang",
+      "category": "Historic Valley",
+      "shortDescription": "Picturesque valley with hot springs, apple orchards, and Dirang Dzong fort.",
+      "detailedDescription": "Situated along the Kameng River between Bomdila and Tawang, Dirang Valley features natural hot water sulphur springs, apple orchards, kiwi farms, and the historic 17th-century stone fort Dirang Dzong.",
+      "bestTimeToVisit": "October – March",
+      "timings": "Open 24 Hours",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "1 Day",
+      "coordinates": {
+        "lat": 27.3578,
+        "lng": 92.2417
+      },
+      "nearbyAttractions": [
+        "Dirang Hot Water Springs",
+        "National Research Centre on Yak",
+        "Kalachakra Gompa"
+      ],
+      "nearbyHotels": [
+        "Norphel Retreat Dirang",
+        "Hotel Pemaling Dirang"
+      ],
+      "nearbyRestaurants": [
+        "Dirang Dzong Cafe",
+        "Kameng River View Dhaba"
+      ],
+      "activities": [
+        "Hot Spring Sulphur Bath",
+        "Yak Farm Visit",
+        "Apple Orchard Walk",
+        "Dirang Dzong Exploration"
+      ],
+      "weather": "Pleasant valley climate (10°C – 20°C).",
+      "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Dirang Valley Kameng River and mountain orchards",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Itanagar Ita Fort & Gompa",
+      "slug": "itanagar-ita-fort",
+      "district": "Papum Pare",
+      "city": "Itanagar",
+      "category": "Heritage Citadel",
+      "shortDescription": "Capital city featuring the 14th-century brick Ita Fort and Yellow Sect Gompa.",
+      "detailedDescription": "Located in the capital city of Itanagar, Ita Fort ('Fort of Bricks') is an irregularly shaped 14th-century fortress built by the Chutia dynasty, accompanied by the hilltop Theravada Buddhist Gompa consecrated by the Dalai Lama.",
+      "bestTimeToVisit": "October – March",
+      "timings": "08:00 AM – 05:00 PM",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "3 Hours",
+      "coordinates": {
+        "lat": 27.0844,
+        "lng": 93.6053
+      },
+      "nearbyAttractions": [
+        "Ganga Lake (Gyakar Sinyi)",
+        "Jawaharlal Nehru State Museum",
+        "Biological Park Itanagar"
+      ],
+      "nearbyHotels": [
+        "Hotel Donyi Polo Ashok",
+        "Hotel Blue Pine Itanagar"
+      ],
+      "nearbyRestaurants": [
+        "Poong Food Court",
+        "Polo Colony Bamboo Kitchen"
+      ],
+      "activities": [
+        "Ita Fort Brick Rampart Tour",
+        "Buddhist Gompa Meditation",
+        "State Museum Tour"
+      ],
+      "weather": "Pleasant sub-tropical climate (15°C – 25°C).",
+      "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        {
+          "imageURL": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=1200",
+          "altText": "Itanagar Ita Fort ancient brick rampart walls",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Travel Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    }
+  ]
+}

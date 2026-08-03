@@ -1,0 +1,404 @@
+{
+  "state": "Assam",
+  "stateCode": "AS",
+  "capital": "Dispur",
+  "tagline": "The Land of Red River and Blue Hills",
+  "heroImage": "/images/assam/kaziranga-national-park/hero.jpg",
+  "bestTimeToVisitState": "November – April",
+  "climateOverview": "Humid subtropical climate with warm summers and mild, dry winters.",
+  "localFood": [
+    "Khaar (Papaya Extract Dish)",
+    "Masor Tenga (Sour Fish Curry)",
+    "Duck Meat Curry with Ash Gourd",
+    "Pitha (Rice Cakes)",
+    "Assam Orthodox Tea"
+  ],
+  "destinations": [
+    {
+      "placeName": "Kaziranga National Park",
+      "slug": "kaziranga-national-park",
+      "district": "Golaghat",
+      "city": "Kohora",
+      "category": "Wildlife Sanctuary",
+      "shortDescription": "UNESCO World Heritage Site home to the one-horned rhinoceros.",
+      "detailedDescription": "A UNESCO World Heritage Site, Kaziranga National Park spans across Golaghat and Nagaon districts, hosting two-thirds of the world’s great Indian one-horned rhinoceros population, along with elephants, wild water buffaloes, and tigers.",
+      "bestTimeToVisit": "November – April",
+      "timings": "07:30 AM – 04:00 PM",
+      "entryFee": "₹100 (Indians), ₹650 (Foreigners)",
+      "recommendedVisitDuration": "1 Day",
+      "coordinates": {
+        "lat": 26.5775,
+        "lng": 93.1711
+      },
+      "nearbyAttractions": [
+        "Kaziranga National Orchid Park",
+        "Kakochang Waterfalls",
+        "Hathikuli Tea Estate"
+      ],
+      "nearbyHotels": [
+        "The Borgos Resort Kaziranga",
+        "Infinity Resorts Kaziranga",
+        "Jungle Travel Camp"
+      ],
+      "nearbyRestaurants": [
+        "Hornbill Restaurant Kaziranga",
+        "Maihang Restaurant",
+        "Orchid Canteen"
+      ],
+      "activities": [
+        "Elephant Safari",
+        "Jeep Safari Wildlife Spotting",
+        "Orchid Park Flower Tour"
+      ],
+      "weather": "Mild winters (10°C – 23°C), pleasant river breeze.",
+      "heroImage": "/images/assam/kaziranga-national-park/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/kaziranga-national-park/hero.jpg",
+          "altText": "Kaziranga National Park one-horned rhinoceros in tall grass",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Kamakhya Temple",
+      "slug": "kamakhya-temple",
+      "district": "Kamrup Metropolitan",
+      "city": "Guwahati",
+      "category": "Spiritual Shrine",
+      "shortDescription": "Revered hilltop Shakti Peetha temple on Nilachal Hill in Guwahati.",
+      "detailedDescription": "Perched on the Nilachal Hills in Guwahati, Kamakhya Temple is one of the oldest and most revered Shakti Peethas in India, dedicated to the mother goddess Kamakhya, and host to the annual Ambubachi Mela festival.",
+      "bestTimeToVisit": "October – April",
+      "timings": "05:30 AM – 10:00 PM",
+      "entryFee": "Free General Entry / ₹501 VIP Darshan",
+      "recommendedVisitDuration": "3 – 4 Hours",
+      "coordinates": {
+        "lat": 26.1662,
+        "lng": 91.7056
+      },
+      "nearbyAttractions": [
+        "Umananda Temple (Peacock Island)",
+        "Guwahati Planetarium",
+        "Assam State Museum"
+      ],
+      "nearbyHotels": [
+        "Radisson Blu Hotel Guwahati",
+        "Kiranshree Grand",
+        "Taj Vivanta Guwahati"
+      ],
+      "nearbyRestaurants": [
+        "Paradise Chowk Guwahati",
+        "Gam’s Delicacy Restaurant",
+        "Michinga"
+      ],
+      "activities": [
+        "Temple Darshan Ritual",
+        "Ambubachi Mela festival",
+        "Guwahati Valley Viewpoint viewing"
+      ],
+      "weather": "Warm subtropical climate.",
+      "heroImage": "/images/assam/kamakhya-temple/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/kamakhya-temple/hero.jpg",
+          "altText": "Kamakhya Temple Nilachal Hill Guwahati shikhara dome",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Majuli Island",
+      "slug": "majuli-island",
+      "district": "Majuli",
+      "city": "Garamur",
+      "category": "River Island",
+      "shortDescription": "World’s largest river island and hub of Neo-Vaishnavite culture.",
+      "detailedDescription": "Formed by the Brahmaputra River system, Majuli is the world’s largest river island and the cultural capital of Assam, famous for its Neo-Vaishnavite Satras (monasteries), traditional mask-making, and pottery.",
+      "bestTimeToVisit": "October – March",
+      "timings": "Open 24 Hours (Ferry timings: 07:00 AM – 03:00 PM)",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "2 Days",
+      "coordinates": {
+        "lat": 26.9611,
+        "lng": 94.2256
+      },
+      "nearbyAttractions": [
+        "Kamalabari Satra",
+        "Auniati Satra",
+        "Dakhinpat Satra",
+        "Samaguri Satra (Mask-making)"
+      ],
+      "nearbyHotels": [
+        "La Maison de Ananda Majuli",
+        "Dekasang Resort Majuli",
+        "Yggdrasill Bamboo Cottages"
+      ],
+      "nearbyRestaurants": [
+        "Kareng Food Point",
+        "Utsav Restaurant Majuli",
+        "Satra Canteen"
+      ],
+      "activities": [
+        "Satra Monastery Tour",
+        "Brahmaputra Ferry Crossing",
+        "Traditional Mask Making Workshop",
+        "Sunset River Photography"
+      ],
+      "weather": "Breezy river valley environment.",
+      "heroImage": "/images/assam/majuli-island/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/majuli-island/hero.jpg",
+          "altText": "Majuli river island Brahmaputra traditional boats",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Sivasagar (Rongpur)",
+      "slug": "sivasagar",
+      "district": "Sivasagar",
+      "city": "Sivasagar",
+      "category": "Historical Heritage",
+      "shortDescription": "Historical capital of the Ahom Kingdom with brick palaces.",
+      "detailedDescription": "The historical capital of the Ahom Kingdom (1699–1788), Sivasagar houses iconic brick monuments including the Rang Ghar (royal amphitheater), Talatal Ghar (palace fortress), and the massive Sivasagar Tank and Sivadol temple complex.",
+      "bestTimeToVisit": "October – March",
+      "timings": "09:00 AM – 05:00 PM",
+      "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
+      "recommendedVisitDuration": "1 Day",
+      "coordinates": {
+        "lat": 26.9839,
+        "lng": 94.6425
+      },
+      "nearbyAttractions": [
+        "Rang Ghar",
+        "Talatal Ghar",
+        "Kareng Ghar",
+        "Sivadol Temple"
+      ],
+      "recommendedHotels": [
+        "Hotel Shiva Palace Sivasagar",
+        "Hotel Brindavan",
+        "Haripriya Lodge"
+      ],
+      "nearbyRestaurants": [
+        "Ahom Restaurant",
+        "Food Court Sivasagar",
+        "Brahmaputra Cabin"
+      ],
+      "activities": [
+        "Ahom Palace Ruins Exploration",
+        "Sivadol Temple Darshan",
+        "Royal Amphitheater walk"
+      ],
+      "weather": "Mild subtropical winter.",
+      "heroImage": "/images/assam/sivasagar/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/sivasagar/hero.jpg",
+          "altText": "Sivasagar Rang Ghar double storied royal pavilion",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Manas National Park",
+      "slug": "manas-national-park",
+      "district": "Baksa",
+      "city": "Barpeta Road",
+      "category": "Wildlife Sanctuary",
+      "shortDescription": "UNESCO World Heritage tiger reserve on the Bhutan border.",
+      "detailedDescription": "Manas is a UNESCO World Heritage Site, Project Tiger Reserve, and biosphere reserve on the Bhutan border, known for its rare endemic species like the Pygmy Hog, Golden Langur, and Assam Roofed Turtle.",
+      "bestTimeToVisit": "November – April",
+      "timings": "06:00 AM – 04:30 PM",
+      "entryFee": "₹100 (Indians), ₹500 (Foreigners)",
+      "recommendedVisitDuration": "2 Days",
+      "coordinates": {
+        "lat": 26.7272,
+        "lng": 90.9617
+      },
+      "nearbyAttractions": [
+        "Manas River Rafting",
+        "Bansbari Range Safari",
+        "Mathanguri Forest Lodge"
+      ],
+      "recommendedHotels": [
+        "Musa Jungle Retreat Manas",
+        "Sikhiri Cottage Manas",
+        "Florican Cottage"
+      ],
+      "nearbyRestaurants": [
+        "Musa Restaurant",
+        "Bansbari Camp Canteen"
+      ],
+      "activities": [
+        "Tiger Reserve Safari",
+        "River Rafting",
+        "Golden Langur Spotting",
+        "Eco Jungle walk"
+      ],
+      "weather": "Sub-tropical forest environment.",
+      "heroImage": "/images/assam/manas-national-park/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/manas-national-park/hero.jpg",
+          "altText": "Manas National Park blue river flowing on Bhutan border",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Hoollongapar Gibbon Sanctuary",
+      "slug": "gibbon-sanctuary",
+      "district": "Jorhat",
+      "city": "Mariani",
+      "category": "Wildlife Sanctuary",
+      "shortDescription": "Isolated evergreen forest home to India’s only ape species, the Hoolock Gibbon.",
+      "detailedDescription": "An isolated evergreen forest pocket in Jorhat district, Hoollongapar is home to India’s only ape species—the Western Hoolock Gibbon—as well as the Bengal Slow Loris and stump-tailed macaques.",
+      "bestTimeToVisit": "October – March",
+      "timings": "09:00 AM – 04:00 PM",
+      "entryFee": "₹50 (Indians), ₹500 (Foreigners)",
+      "recommendedVisitDuration": "4 Hours",
+      "coordinates": {
+        "lat": 26.6888,
+        "lng": 94.3806
+      },
+      "nearbyAttractions": [
+        "Jorhat Gymkhana Club",
+        "Toklai Tea Research Centre",
+        "Nimati Ghat Riverfront"
+      ],
+      "recommendedHotels": [
+        "The Manor Jorhat",
+        "Jorhat Gymkhana Guest House",
+        "Hotel Junction Jorhat"
+      ],
+      "nearbyRestaurants": [
+        "Nimantran Restaurant Jorhat",
+        "Heritage Cafe Toklai",
+        "Jorhat Cabin"
+      ],
+      "activities": [
+        "Hoolock Gibbon Spotting",
+        "Eco Rainforest Jungle Walk",
+        "Slow Loris Night Safari"
+      ],
+      "weather": "Shaded canopy rainforest environment.",
+      "heroImage": "/images/assam/gibbon-sanctuary/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/gibbon-sanctuary/hero.jpg",
+          "altText": "Hoollongapar Hoolock Gibbon ape swinging from green branches",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Haflong Hill Station & Jatinga",
+      "slug": "haflong-hills",
+      "district": "Dima Hasao",
+      "city": "Haflong",
+      "category": "Hill Station",
+      "shortDescription": "Assam’s only hill station with scenic Haflong Lake and mountain vistas.",
+      "detailedDescription": "Assam’s only hill station, Haflong offers panoramic vistas of the Dima Hasao mountains, tea gardens, and Haflong Lake. Nearby Jatinga village is famous for the mysterious seasonal bird phenomenon.",
+      "bestTimeToVisit": "October – February",
+      "timings": "Open 24 Hours",
+      "entryFee": "Free Entry",
+      "recommendedVisitDuration": "2 Days",
+      "coordinates": {
+        "lat": 25.1833,
+        "lng": 93.0333
+      },
+      "nearbyAttractions": [
+        "Haflong Lake Park",
+        "Jatinga Bird Observatory",
+        "Maibang Historical ruins"
+      ],
+      "recommendedHotels": [
+        "Landmark Hotels Haflong",
+        "Haritha Hill Resort Haflong",
+        "Jatinga Tribal Homestay"
+      ],
+      "nearbyRestaurants": [
+        "Haflong Hillside Diner",
+        "Dima Hasao Kitchen"
+      ],
+      "activities": [
+        "Haflong Lake Boating",
+        "Jatinga Bird Observatory viewing",
+        "Tribal Village Tour",
+        "Mountain View Trekking"
+      ],
+      "weather": "Cool hill climate (10°C – 18°C in winter).",
+      "heroImage": "/images/assam/haflong-hills/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/haflong-hills/hero.jpg",
+          "altText": "Haflong hills valley park and lake view",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    },
+    {
+      "placeName": "Tezpur (Agnigarh Hillock)",
+      "slug": "tezpur-agnigarh",
+      "district": "Sonitpur",
+      "city": "Tezpur",
+      "category": "Historical Heritage",
+      "shortDescription": "Fortress hillock in Tezpur overlooking the Brahmaputra River.",
+      "detailedDescription": "Steeped in mythological romance, Agnigarh is a fortress hillock in Tezpur overlooking the Brahmaputra River, famous for the stone reliefs illustrating the legendary love story of Usha and Aniruddha.",
+      "bestTimeToVisit": "October – April",
+      "timings": "09:00 AM – 06:00 PM",
+      "entryFee": "₹20",
+      "recommendedVisitDuration": "2 Hours",
+      "coordinates": {
+        "lat": 26.6214,
+        "lng": 92.7933
+      },
+      "nearbyAttractions": [
+        "Cole Park (Chitralekha Udyan)",
+        "Mahabhairab Temple",
+        "Kalia Bhomora Setu Bridge"
+      ],
+      "recommendedHotels": [
+        "Hotel Green Gold Tezpur",
+        "KF Tezpur",
+        "The Fern Residency Tezpur"
+      ],
+      "nearbyRestaurants": [
+        "Saffron Restaurant Tezpur",
+        "Brahmaputra View Restaurant"
+      ],
+      "activities": [
+        "Agnigarh Fortress walk",
+        "Stone Relief Inspection",
+        "Brahmaputra Bridge Sunset Viewing"
+      ],
+      "weather": "Subtropical valley climate.",
+      "heroImage": "/images/assam/tezpur-agnigarh/hero.jpg",
+      "gallery": [
+        {
+          "imageURL": "/images/assam/tezpur-agnigarh/hero.jpg",
+          "altText": "Tezpur Agnigarh fortress monument overlooking river",
+          "imageSource": "Unsplash Verified Photography",
+          "photographer": "Unsplash Contributor",
+          "license": "Unsplash License"
+        }
+      ]
+    }
+  ]
+}

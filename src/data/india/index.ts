@@ -2,20 +2,22 @@ import { ALL_INDIAN_STATES } from './statesData';
 import { ANDHRA_PRADESH_DATA, type AndhraPradeshStateData } from './states/andhraPradesh';
 import { TELANGANA_DATA, type TelanganaStateData } from './states/telangana';
 import { ARUNACHAL_PRADESH_DATA, type ArunachalPradeshStateData } from './states/arunachalPradesh';
+import { ASSAM_DATA, type AssamStateData } from './states/assam';
 
-export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData;
+export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData;
 
 // State Registry containing built & approved state modules
 const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
   'andhra-pradesh': ANDHRA_PRADESH_DATA,
   'telangana': TELANGANA_DATA,
-  'arunachal-pradesh': ARUNACHAL_PRADESH_DATA
+  'arunachal-pradesh': ARUNACHAL_PRADESH_DATA,
+  'assam': ASSAM_DATA
 };
 
 export const getStateData = (stateId: string): StateFullData => {
   const cleanId = stateId.toLowerCase().replace(/[^a-z0-9-]/g, '');
 
-  // If state is built and verified (e.g. Andhra Pradesh, Telangana, Arunachal Pradesh)
+  // If state is built and verified
   if (BUILT_STATES_REGISTRY[cleanId]) {
     return BUILT_STATES_REGISTRY[cleanId];
   }
@@ -30,7 +32,7 @@ export const getStateData = (stateId: string): StateFullData => {
     capital: stateMeta.capital,
     tagline: stateMeta.tagline,
     heroImage: stateMeta.heroImage,
-    about: `${stateMeta.name} travel module is currently pending state-by-state approval. Focus is currently on completed states (Andhra Pradesh, Telangana, Arunachal Pradesh).`,
+    about: `${stateMeta.name} travel module is currently pending state-by-state approval. Focus is currently on completed states (Andhra Pradesh, Telangana, Arunachal Pradesh, Assam).`,
     bestTime: stateMeta.bestTime,
     climate: 'Information currently undergoing state-by-state quality verification.',
     famousFood: stateMeta.famousFood,

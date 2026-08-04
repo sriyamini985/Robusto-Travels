@@ -53,7 +53,7 @@ export const TripDetails: React.FC = () => {
         position: 'relative',
         height: '48vh',
         minHeight: '360px',
-        background: `linear-gradient(to bottom, rgba(5, 10, 24, 0.2), rgba(5, 10, 24, 0.98)), url("${place.image}") no-repeat center center/cover`,
+        background: `linear-gradient(to bottom, rgba(5, 10, 24, 0.2), rgba(5, 10, 24, 0.98)), url("${place.image || containerData.heroImage || '/images/placeholder.jpg'}") no-repeat center center/cover`,
         display: 'flex',
         alignItems: 'flex-end',
         paddingBottom: '40px'

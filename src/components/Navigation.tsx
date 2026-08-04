@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigation } from '../context/NavigationContext';
-import { Menu, X, ChevronDown, Search, MapPin, Compass, ArrowRight } from 'lucide-react';
+import { Menu, X, ChevronDown, Search, MapPin, Compass, ArrowRight, Settings } from 'lucide-react';
 
 export const Navigation: React.FC = () => {
   const { navigateTo, currentPage } = useNavigation();
@@ -178,6 +178,13 @@ export const Navigation: React.FC = () => {
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
             <button style={{ background: 'none', border: 'none', cursor: 'pointer', color: textColor, transition: 'color 0.4s', padding: '6px' }}>
               <Search size={18} />
+            </button>
+            <button 
+              onClick={() => go('admin-image-manager')}
+              style={{ background: 'none', border: 'none', cursor: 'pointer', color: textColor, transition: 'color 0.4s', padding: '6px' }}
+              title="Destination Image Manager"
+            >
+              <Settings size={18} />
             </button>
             <button
               onClick={() => go('booking')}

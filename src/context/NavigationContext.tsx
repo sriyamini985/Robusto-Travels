@@ -15,7 +15,8 @@ export type PageType =
   | 'blog' 
   | 'about' 
   | 'contact' 
-  | 'booking';
+  | 'booking'
+  | 'admin-image-manager';
 
 export interface RouteParams {
   destinationId?: string;
@@ -138,6 +139,9 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       case 'booking':
         url = '/booking';
         break;
+      case 'admin-image-manager':
+        url = '/admin/image-manager';
+        break;
       default:
         url = '/';
     }
@@ -202,6 +206,8 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       page = 'contact';
     } else if (path === '/booking') {
       page = 'booking';
+    } else if (path === '/admin/image-manager') {
+      page = 'admin-image-manager';
     }
 
     setCurrentPage(page);

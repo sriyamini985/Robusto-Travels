@@ -20,6 +20,7 @@ import { Contact } from './pages/Contact';
 import { Booking } from './pages/Booking';
 
 import { StateDetails } from './pages/StateDetails';
+import { AdminImageManager } from './pages/AdminImageManager';
 
 const AppContent: React.FC = () => {
   const { currentPage, isTransitioning } = useNavigation();
@@ -55,6 +56,8 @@ const AppContent: React.FC = () => {
         return <Contact />;
       case 'booking':
         return <Booking />;
+      case 'admin-image-manager':
+        return <AdminImageManager />;
       default:
         return <Landing />;
     }

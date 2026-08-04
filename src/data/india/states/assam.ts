@@ -51,7 +51,9 @@ export const ASSAM_DATA: AssamStateData = {
       bestTimeToVisit: 'November – April',
       shortDesc: 'UNESCO World Heritage Site home to the one-horned rhinoceros.',
       gallery: [
-        '/images/assam/kaziranga-national-park/hero.jpg'
+        '/images/assam/kaziranga-national-park/gallery-1.jpg',
+        '/images/assam/kaziranga-national-park/gallery-2.jpg',
+        '/images/assam/kaziranga-national-park/gallery-3.jpg'
       ],
       nearbyAttractions: ['Kaziranga National Orchid Park', 'Kakochang Waterfalls', 'Hathikuli Tea Estate'],
       recommendedHotels: ['The Borgos Resort Kaziranga', 'Infinity Resorts Kaziranga', 'Jungle Travel Camp'],
@@ -67,7 +69,9 @@ export const ASSAM_DATA: AssamStateData = {
       bestTimeToVisit: 'October – April',
       shortDesc: 'Revered hilltop Shakti Peetha temple on Nilachal Hill in Guwahati.',
       gallery: [
-        '/images/assam/kamakhya-temple/hero.jpg'
+        '/images/assam/kamakhya-temple/gallery-1.jpg',
+        '/images/assam/kamakhya-temple/gallery-2.jpg',
+        '/images/assam/kamakhya-temple/gallery-3.jpg'
       ],
       nearbyAttractions: ['Umananda Temple (Peacock Island)', 'Guwahati Planetarium', 'Assam State Museum'],
       recommendedHotels: ['Radisson Blu Hotel Guwahati', 'Kiranshree Grand', 'Taj Vivanta Guwahati'],
@@ -83,27 +87,13 @@ export const ASSAM_DATA: AssamStateData = {
       bestTimeToVisit: 'October – March',
       shortDesc: 'World’s largest river island and hub of Neo-Vaishnavite culture.',
       gallery: [
-        '/images/assam/majuli-island/hero.jpg'
+        '/images/assam/majuli-island/gallery-1.jpg',
+        '/images/assam/majuli-island/gallery-2.jpg',
+        '/images/assam/majuli-island/gallery-3.jpg'
       ],
       nearbyAttractions: ['Kamalabari Satra', 'Auniati Satra', 'Dakhinpat Satra', 'Samaguri Satra (Mask-making)'],
       recommendedHotels: ['La Maison de Ananda Majuli', 'Dekasang Resort Majuli', 'Yggdrasill Bamboo Cottages'],
       famousRestaurants: ['Kareng Food Point', 'Utsav Restaurant Majuli', 'Satra Canteen']
-    },
-    {
-      name: 'Sivasagar (Rongpur)',
-      slug: 'sivasagar',
-      category: 'Historical Heritage',
-      image: '/images/assam/sivasagar/hero.jpg',
-      overview: 'The historical capital of the Ahom Kingdom (1699–1788), Sivasagar houses iconic brick monuments including the Rang Ghar (royal amphitheater), Talatal Ghar (palace fortress), and the massive Sivasagar Tank and Sivadol temple complex.',
-      rating: 4.91,
-      bestTimeToVisit: 'October – March',
-      shortDesc: 'Historical capital of the Ahom Kingdom with brick palaces.',
-      gallery: [
-        '/images/assam/sivasagar/hero.jpg'
-      ],
-      nearbyAttractions: ['Rang Ghar', 'Talatal Ghar', 'Kareng Ghar', 'Sivadol Temple'],
-      recommendedHotels: ['Hotel Shiva Palace Sivasagar', 'Hotel Brindavan', 'Haripriya Lodge'],
-      famousRestaurants: ['Ahom Restaurant', 'Food Court Sivasagar', 'Brahmaputra Cabin']
     },
     {
       name: 'Manas National Park',
@@ -115,30 +105,34 @@ export const ASSAM_DATA: AssamStateData = {
       bestTimeToVisit: 'November – April',
       shortDesc: 'UNESCO World Heritage tiger reserve on the Bhutan border.',
       gallery: [
-        '/images/assam/manas-national-park/hero.jpg'
+        '/images/assam/manas-national-park/gallery-1.jpg',
+        '/images/assam/manas-national-park/gallery-2.jpg',
+        '/images/assam/manas-national-park/gallery-3.jpg'
       ],
       nearbyAttractions: ['Manas River Rafting', 'Bansbari Range Safari', 'Mathanguri Forest Lodge'],
       recommendedHotels: ['Musa Jungle Retreat Manas', 'Sikhiri Cottage Manas', 'Florican Cottage'],
       famousRestaurants: ['Musa Restaurant', 'Bansbari Camp Canteen']
     },
     {
-      name: 'Hoollongapar Gibbon Sanctuary',
-      slug: 'gibbon-sanctuary',
-      category: 'Wildlife Sanctuary',
-      image: '/images/assam/gibbon-sanctuary/hero.jpg',
-      overview: 'An isolated evergreen forest pocket in Jorhat district, Hoollongapar is home to India’s only ape species—the Western Hoolock Gibbon—as well as the Bengal Slow Loris and stump-tailed macaques.',
-      rating: 4.88,
-      bestTimeToVisit: 'October – March',
-      shortDesc: 'Isolated evergreen forest home to India’s only ape species, the Hoolock Gibbon.',
+      name: 'Umananda Temple',
+      slug: 'umananda-temple',
+      category: 'Spiritual Shrine',
+      image: '/images/assam/umananda-temple/hero.jpg',
+      overview: 'Situated on the Peacock Island in the middle of the Brahmaputra River in Guwahati, Umananda Temple is a 17th-century Shiva temple built by Ahom King Gadadhar Singha, accessible by ferry ride.',
+      rating: 4.92,
+      bestTimeToVisit: 'October – April',
+      shortDesc: 'Hillock temple on the world’s smallest inhabited river island.',
       gallery: [
-        '/images/assam/gibbon-sanctuary/hero.jpg'
+        '/images/assam/umananda-temple/gallery-1.jpg',
+        '/images/assam/umananda-temple/gallery-2.jpg',
+        '/images/assam/umananda-temple/gallery-3.jpg'
       ],
-      nearbyAttractions: ['Jorhat Gymkhana Club', 'Toklai Tea Research Centre', 'Nimati Ghat Riverfront'],
-      recommendedHotels: ['The Manor Jorhat', 'Jorhat Gymkhana Guest House', 'Hotel Junction Jorhat'],
-      famousRestaurants: ['Nimantran Restaurant Jorhat', 'Heritage Cafe Toklai', 'Jorhat Cabin']
+      nearbyAttractions: ['Guwahati Planetarium', 'Kamakhya Temple', 'Fancy Bazar'],
+      recommendedHotels: ['Taj Vivanta Guwahati', 'Novotel Guwahati'],
+      famousRestaurants: ['Michinga Restaurant', 'Gam’s Delicacy']
     },
     {
-      name: 'Haflong Hill Station & Jatinga',
+      name: 'Haflong Hills',
       slug: 'haflong-hills',
       category: 'Hill Station',
       image: '/images/assam/haflong-hills/hero.jpg',
@@ -147,27 +141,49 @@ export const ASSAM_DATA: AssamStateData = {
       bestTimeToVisit: 'October – February',
       shortDesc: 'Assam’s only hill station with scenic Haflong Lake and mountain vistas.',
       gallery: [
-        '/images/assam/haflong-hills/hero.jpg'
+        '/images/assam/haflong-hills/gallery-1.jpg',
+        '/images/assam/haflong-hills/gallery-2.jpg',
+        '/images/assam/haflong-hills/gallery-3.jpg'
       ],
       nearbyAttractions: ['Haflong Lake Park', 'Jatinga Bird Observatory', 'Maibang Historical ruins'],
       recommendedHotels: ['Landmark Hotels Haflong', 'Haritha Hill Resort Haflong', 'Jatinga Tribal Homestay'],
       famousRestaurants: ['Haflong Hillside Diner', 'Dima Hasao Kitchen']
     },
     {
-      name: 'Tezpur (Agnigarh Hillock)',
-      slug: 'tezpur-agnigarh',
+      name: 'Sivasagar (Rongpur)',
+      slug: 'sivasagar',
       category: 'Historical Heritage',
-      image: '/images/assam/tezpur-agnigarh/hero.jpg',
-      overview: 'Steeped in mythological romance, Agnigarh is a fortress hillock in Tezpur overlooking the Brahmaputra River, famous for the stone reliefs illustrating the legendary love story of Usha and Aniruddha.',
-      rating: 4.89,
-      bestTimeToVisit: 'October – April',
-      shortDesc: 'Fortress hillock in Tezpur overlooking the Brahmaputra River.',
+      image: '/images/assam/sivasagar/hero.jpg',
+      overview: 'The historical capital of the Ahom Kingdom (1699–1788), Sivasagar houses iconic brick monuments including the Rang Ghar (royal amphitheater), Talatal Ghar (palace fortress), and the massive Sivasagar Tank and Sivadol temple complex.',
+      rating: 4.91,
+      bestTimeToVisit: 'October – March',
+      shortDesc: 'Historical capital of the Ahom Kingdom with brick palaces.',
       gallery: [
-        '/images/assam/tezpur-agnigarh/hero.jpg'
+        '/images/assam/sivasagar/gallery-1.jpg',
+        '/images/assam/sivasagar/gallery-2.jpg',
+        '/images/assam/sivasagar/gallery-3.jpg'
       ],
-      nearbyAttractions: ['Cole Park (Chitralekha Udyan)', 'Mahabhairab Temple', 'Kalia Bhomora Setu Bridge'],
-      recommendedHotels: ['Hotel Green Gold Tezpur', 'KF Tezpur', 'The Fern Residency Tezpur'],
-      famousRestaurants: ['Saffron Restaurant Tezpur', 'Brahmaputra View Restaurant']
+      nearbyAttractions: ['Rang Ghar', 'Talatal Ghar', 'Kareng Ghar', 'Sivadol Temple'],
+      recommendedHotels: ['Hotel Shiva Palace Sivasagar', 'Hotel Brindavan', 'Haripriya Lodge'],
+      famousRestaurants: ['Ahom Restaurant', 'Food Court Sivasagar', 'Brahmaputra Cabin']
+    },
+    {
+      name: 'Pobitora Wildlife Sanctuary',
+      slug: 'pobitora-wildlife-sanctuary',
+      category: 'Wildlife Sanctuary',
+      image: '/images/assam/pobitora-wildlife-sanctuary/hero.jpg',
+      overview: 'Famous for having the highest density of Indian one-horned rhinoceroses in the world, Pobitora Wildlife Sanctuary features flat swamp grasslands on the floodplains of the Brahmaputra River.',
+      rating: 4.90,
+      bestTimeToVisit: 'November – April',
+      shortDesc: 'Sanctuary holding the world’s highest density of great Indian rhinoceroses.',
+      gallery: [
+        '/images/assam/pobitora-wildlife-sanctuary/gallery-1.jpg',
+        '/images/assam/pobitora-wildlife-sanctuary/gallery-2.jpg',
+        '/images/assam/pobitora-wildlife-sanctuary/gallery-3.jpg'
+      ],
+      nearbyAttractions: ['Mayong (Land of Black Magic)', 'Haduk Hanging Bridge'],
+      recommendedHotels: ['Pobitora Village Resort', 'Arya Eco Resort'],
+      famousRestaurants: ['Rhino Cafe Pobitora', 'Mayong Dining Hall']
     }
   ]
 };

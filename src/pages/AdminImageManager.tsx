@@ -8,13 +8,15 @@ import { ANDHRA_PRADESH_DATA } from '../data/india/states/andhraPradesh';
 import { TELANGANA_DATA } from '../data/india/states/telangana';
 import { ARUNACHAL_PRADESH_DATA } from '../data/india/states/arunachalPradesh';
 import { ASSAM_DATA } from '../data/india/states/assam';
+import { BIHAR_DATA } from '../data/india/states/bihar';
 
 // Combine built states for the dropdown selection
 const STATES_REGISTRY: Record<string, any> = {
   'andhra-pradesh': ANDHRA_PRADESH_DATA,
   'telangana': TELANGANA_DATA,
   'arunachal-pradesh': ARUNACHAL_PRADESH_DATA,
-  'assam': ASSAM_DATA
+  'assam': ASSAM_DATA,
+  'bihar': BIHAR_DATA
 };
 
 interface CloudinaryConfig {

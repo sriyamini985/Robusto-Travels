@@ -3,15 +3,17 @@ import { ANDHRA_PRADESH_DATA, type AndhraPradeshStateData } from './states/andhr
 import { TELANGANA_DATA, type TelanganaStateData } from './states/telangana';
 import { ARUNACHAL_PRADESH_DATA, type ArunachalPradeshStateData } from './states/arunachalPradesh';
 import { ASSAM_DATA, type AssamStateData } from './states/assam';
+import { BIHAR_DATA, type BiharStateData } from './states/bihar';
 
-export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData;
+export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData;
 
 // State Registry containing built & approved state modules
 const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
   'andhra-pradesh': ANDHRA_PRADESH_DATA,
   'telangana': TELANGANA_DATA,
   'arunachal-pradesh': ARUNACHAL_PRADESH_DATA,
-  'assam': ASSAM_DATA
+  'assam': ASSAM_DATA,
+  'bihar': BIHAR_DATA
 };
 
 export const getStateData = (stateId: string): StateFullData => {

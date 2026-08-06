@@ -3,7 +3,7 @@
   "stateCode": "AR",
   "capital": "Itanagar",
   "tagline": "Land of the Dawn-Lit Mountains",
-  "heroImage": "/images/arunachal-pradesh/tawang-monastery/hero.jpg",
+  "heroImage": "/images/arunachal-pradesh/tawang-monastery/hero-v3.jpg",
   "bestTimeToVisitState": "October – April",
   "climateOverview": "Alpine to sub-tropical climate with cold winters (0°C – 15°C) and pleasant spring weather.",
   "localFood": [
@@ -52,10 +52,10 @@
         "High-Altitude Photography"
       ],
       "weather": "Cold alpine climate (0°C – 12°C).",
-      "heroImage": "/images/arunachal-pradesh/tawang-monastery/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/tawang-monastery/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/tawang-monastery/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/tawang-monastery/hero-v3.jpg",
           "altText": "Tawang Monastery 10,000ft high Buddhist shrine",
           "imageSource": "Wikimedia Commons",
           "photographer": "Official Tourism Photography",
@@ -97,10 +97,10 @@
         "War Memorial Homage"
       ],
       "weather": "Sub-zero temperatures in winter (-10°C – 5°C).",
-      "heroImage": "/images/arunachal-pradesh/sela-pass/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/sela-pass/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/sela-pass/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/sela-pass/hero-v3.jpg",
           "altText": "Sela Pass 13,700ft frozen alpine lake",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -146,10 +146,10 @@
         "Rice-Fish Farming Demonstration"
       ],
       "weather": "Pleasant temperate valley climate (12°C – 22°C).",
-      "heroImage": "/images/arunachal-pradesh/ziro-valley/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/ziro-valley/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/ziro-valley/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/ziro-valley/hero-v3.jpg",
           "altText": "Ziro Valley Apatani rice terraced plateau",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -192,10 +192,10 @@
         "Border Plateau Photography"
       ],
       "weather": "Freezing winds at 12,000ft.",
-      "heroImage": "/images/arunachal-pradesh/sangetsar-lake/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/sangetsar-lake/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/sangetsar-lake/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/sangetsar-lake/hero-v3.jpg",
           "altText": "Sangetsar Madhuri Glacial Lake with dead tree trunks",
           "imageSource": "Wikimedia Commons",
           "photographer": "Wikimedia Contributor",
@@ -239,10 +239,10 @@
         "Wildlife Safari"
       ],
       "weather": "Humid rainforest climate.",
-      "heroImage": "/images/arunachal-pradesh/namdapha-national-park/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/namdapha-national-park/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/namdapha-national-park/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/namdapha-national-park/hero-v3.jpg",
           "altText": "Namdapha National Park rainforest wilderness",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -284,10 +284,10 @@
         "Tea Break"
       ],
       "weather": "Cool spray mist climate.",
-      "heroImage": "/images/arunachal-pradesh/nuranang-waterfalls/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/nuranang-waterfalls/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/nuranang-waterfalls/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/nuranang-waterfalls/hero-v3.jpg",
           "altText": "Nuranang Jang Waterfalls 100m roaring cliff cascade",
           "imageSource": "Wikimedia Commons",
           "photographer": "Wikimedia Contributor",
@@ -331,10 +331,10 @@
         "Dirang Dzong Exploration"
       ],
       "weather": "Pleasant valley climate (10°C – 20°C).",
-      "heroImage": "/images/arunachal-pradesh/dirang-valley/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/dirang-valley/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/dirang-valley/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/dirang-valley/hero-v3.jpg",
           "altText": "Dirang Valley Kameng River and mountain orchards",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -377,10 +377,10 @@
         "State Museum Tour"
       ],
       "weather": "Pleasant sub-tropical climate (15°C – 25°C).",
-      "heroImage": "/images/arunachal-pradesh/itanagar-ita-fort/hero.jpg",
+      "heroImage": "/images/arunachal-pradesh/itanagar-ita-fort/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/arunachal-pradesh/itanagar-ita-fort/hero.jpg",
+          "imageURL": "/images/arunachal-pradesh/itanagar-ita-fort/hero-v3.jpg",
           "altText": "Itanagar Ita Fort ancient brick rampart walls",
           "imageSource": "Wikimedia Commons",
           "photographer": "Wikimedia Contributor",

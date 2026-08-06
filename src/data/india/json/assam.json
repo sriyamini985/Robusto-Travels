@@ -3,7 +3,7 @@
   "stateCode": "AS",
   "capital": "Dispur",
   "tagline": "The Land of Red River and Blue Hills",
-  "heroImage": "/images/assam/kaziranga-national-park/hero.jpg",
+  "heroImage": "/images/assam/kaziranga-national-park/hero-v3.jpg",
   "bestTimeToVisitState": "November – April",
   "climateOverview": "Humid subtropical climate with warm summers and mild, dry winters.",
   "localFood": [
@@ -51,10 +51,10 @@
         "Orchid Park Flower Tour"
       ],
       "weather": "Mild winters (10°C – 23°C), pleasant river breeze.",
-      "heroImage": "/images/assam/kaziranga-national-park/hero.jpg",
+      "heroImage": "/images/assam/kaziranga-national-park/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/kaziranga-national-park/hero.jpg",
+          "imageURL": "/images/assam/kaziranga-national-park/hero-v3.jpg",
           "altText": "Kaziranga National Park one-horned rhinoceros in tall grass",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -99,10 +99,10 @@
         "Guwahati Valley Viewpoint viewing"
       ],
       "weather": "Warm subtropical climate.",
-      "heroImage": "/images/assam/kamakhya-temple/hero.jpg",
+      "heroImage": "/images/assam/kamakhya-temple/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/kamakhya-temple/hero.jpg",
+          "imageURL": "/images/assam/kamakhya-temple/hero-v3.jpg",
           "altText": "Kamakhya Temple Nilachal Hill Guwahati shikhara dome",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -149,10 +149,10 @@
         "Sunset River Photography"
       ],
       "weather": "Breezy river valley environment.",
-      "heroImage": "/images/assam/majuli-island/hero.jpg",
+      "heroImage": "/images/assam/majuli-island/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/majuli-island/hero.jpg",
+          "imageURL": "/images/assam/majuli-island/hero-v3.jpg",
           "altText": "Majuli river island Brahmaputra traditional boats",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -198,10 +198,10 @@
         "Royal Amphitheater walk"
       ],
       "weather": "Mild subtropical winter.",
-      "heroImage": "/images/assam/sivasagar/hero.jpg",
+      "heroImage": "/images/assam/sivasagar/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/sivasagar/hero.jpg",
+          "imageURL": "/images/assam/sivasagar/hero-v3.jpg",
           "altText": "Sivasagar Rang Ghar double storied royal pavilion",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -246,10 +246,10 @@
         "Eco Jungle walk"
       ],
       "weather": "Sub-tropical forest environment.",
-      "heroImage": "/images/assam/manas-national-park/hero.jpg",
+      "heroImage": "/images/assam/manas-national-park/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/manas-national-park/hero.jpg",
+          "imageURL": "/images/assam/manas-national-park/hero-v3.jpg",
           "altText": "Manas National Park blue river flowing on Bhutan border",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -294,10 +294,10 @@
         "Slow Loris Night Safari"
       ],
       "weather": "Shaded canopy rainforest environment.",
-      "heroImage": "/images/assam/gibbon-sanctuary/hero.jpg",
+      "heroImage": "/images/assam/gibbon-sanctuary/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/gibbon-sanctuary/hero.jpg",
+          "imageURL": "/images/assam/gibbon-sanctuary/hero-v3.jpg",
           "altText": "Hoollongapar Hoolock Gibbon ape swinging from green branches",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -342,10 +342,10 @@
         "Mountain View Trekking"
       ],
       "weather": "Cool hill climate (10°C – 18°C in winter).",
-      "heroImage": "/images/assam/haflong-hills/hero.jpg",
+      "heroImage": "/images/assam/haflong-hills/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/haflong-hills/hero.jpg",
+          "imageURL": "/images/assam/haflong-hills/hero-v3.jpg",
           "altText": "Haflong hills valley park and lake view",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",
@@ -389,10 +389,10 @@
         "Brahmaputra Bridge Sunset Viewing"
       ],
       "weather": "Subtropical valley climate.",
-      "heroImage": "/images/assam/tezpur-agnigarh/hero.jpg",
+      "heroImage": "/images/assam/tezpur-agnigarh/hero-v3.jpg",
       "gallery": [
         {
-          "imageURL": "/images/assam/tezpur-agnigarh/hero.jpg",
+          "imageURL": "/images/assam/tezpur-agnigarh/hero-v3.jpg",
           "altText": "Tezpur Agnigarh fortress monument overlooking river",
           "imageSource": "Unsplash Verified Photography",
           "photographer": "Unsplash Contributor",

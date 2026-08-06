@@ -12,6 +12,7 @@ import { BIHAR_DATA } from '../data/india/states/bihar';
 import { CHHATTISGARH_DATA } from '../data/india/states/chhattisgarh';
 import { GOA_DATA } from '../data/india/states/goa';
 import { GUJARAT_DATA } from '../data/india/states/gujarat';
+import { HARYANA_DATA } from '../data/india/states/haryana';
 
 // Combine built states for the dropdown selection
 const STATES_REGISTRY: Record<string, any> = {
@@ -22,7 +23,8 @@ const STATES_REGISTRY: Record<string, any> = {
   'bihar': BIHAR_DATA,
   'chhattisgarh': CHHATTISGARH_DATA,
   'goa': GOA_DATA,
-  'gujarat': GUJARAT_DATA
+  'gujarat': GUJARAT_DATA,
+  'haryana': HARYANA_DATA
 };
 
 interface CloudinaryConfig {

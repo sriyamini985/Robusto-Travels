@@ -221,7 +221,8 @@ export const StateDetails: React.FC = () => {
                 <div style={{ height: '220px', position: 'relative', overflow: 'hidden' }}>
                   <ImageWithFallback 
                     src={place.image} 
-                    alt={place.name} 
+                    alt={place.name}
+                    style={{ objectPosition: 'top center' }}
                   />
                   <div style={{
                     position: 'absolute',

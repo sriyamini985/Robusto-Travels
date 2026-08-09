@@ -30,6 +30,7 @@ import { SIKKIM_DATA } from '../data/india/states/sikkim';
 import { TAMIL_NADU_DATA } from '../data/india/states/tamil-nadu';
 import { TRIPURA_DATA } from '../data/india/states/tripura';
 import { UTTAR_PRADESH_DATA } from '../data/india/states/uttar-pradesh';
+import { UTTARAKHAND_DATA } from '../data/india/states/uttarakhand';
 
 // Combine built states for the dropdown selection
 const STATES_REGISTRY: Record<string, any> = {
@@ -58,7 +59,8 @@ const STATES_REGISTRY: Record<string, any> = {
   'sikkim': SIKKIM_DATA,
   'tamil-nadu': TAMIL_NADU_DATA,
   'tripura': TRIPURA_DATA,
-  'uttar-pradesh': UTTAR_PRADESH_DATA
+  'uttar-pradesh': UTTAR_PRADESH_DATA,
+  'uttarakhand': UTTARAKHAND_DATA
 };
 
 interface CloudinaryConfig {

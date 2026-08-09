@@ -23,8 +23,9 @@ import { PUNJAB_DATA, type PunjabStateData } from './states/punjab';
 import { RAJASTHAN_DATA, type RajasthanStateData } from './states/rajasthan';
 import { SIKKIM_DATA, type SikkimStateData } from './states/sikkim';
 import { TAMIL_NADU_DATA, type TamilNaduStateData } from './states/tamil-nadu';
+import { TRIPURA_DATA, type TripuraStateData } from './states/tripura';
 
-export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData | JharkhandStateData | KarnatakaStateData | KeralaStateData | MadhyaPradeshStateData | MaharashtraStateData | ManipurStateData | MeghalayaStateData | MizoramStateData | NagalandStateData | OdishaStateData | PunjabStateData | RajasthanStateData | SikkimStateData | TamilNaduStateData;
+export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData | JharkhandStateData | KarnatakaStateData | KeralaStateData | MadhyaPradeshStateData | MaharashtraStateData | ManipurStateData | MeghalayaStateData | MizoramStateData | NagalandStateData | OdishaStateData | PunjabStateData | RajasthanStateData | SikkimStateData | TamilNaduStateData | TripuraStateData;
 
 // State Registry containing built & approved state modules
 const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
@@ -51,7 +52,8 @@ const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
   'punjab': PUNJAB_DATA,
   'rajasthan': RAJASTHAN_DATA,
   'sikkim': SIKKIM_DATA,
-  'tamil-nadu': TAMIL_NADU_DATA
+  'tamil-nadu': TAMIL_NADU_DATA,
+  'tripura': TRIPURA_DATA
 };
 
 export const getStateData = (stateId: string): StateFullData => {

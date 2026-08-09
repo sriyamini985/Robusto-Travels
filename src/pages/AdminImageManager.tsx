@@ -23,6 +23,7 @@ import { MANIPUR_DATA } from '../data/india/states/manipur';
 import { MEGHALAYA_DATA } from '../data/india/states/meghalaya';
 import { MIZORAM_DATA } from '../data/india/states/mizoram';
 import { NAGALAND_DATA } from '../data/india/states/nagaland';
+import { ODISHA_DATA } from '../data/india/states/odisha';
 
 // Combine built states for the dropdown selection
 const STATES_REGISTRY: Record<string, any> = {
@@ -44,7 +45,8 @@ const STATES_REGISTRY: Record<string, any> = {
   'manipur': MANIPUR_DATA,
   'meghalaya': MEGHALAYA_DATA,
   'mizoram': MIZORAM_DATA,
-  'nagaland': NAGALAND_DATA
+  'nagaland': NAGALAND_DATA,
+  'odisha': ODISHA_DATA
 };
 
 interface CloudinaryConfig {

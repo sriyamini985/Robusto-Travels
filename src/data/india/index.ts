@@ -14,8 +14,9 @@ import { KARNATAKA_DATA, type KarnatakaStateData } from './states/karnataka';
 import { KERALA_DATA, type KeralaStateData } from './states/kerala';
 import { MADHYA_PRADESH_DATA, type MadhyaPradeshStateData } from './states/madhya-pradesh';
 import { MAHARASHTRA_DATA, type MaharashtraStateData } from './states/maharashtra';
+import { MANIPUR_DATA, type ManipurStateData } from './states/manipur';
 
-export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData | JharkhandStateData | KarnatakaStateData | KeralaStateData | MadhyaPradeshStateData | MaharashtraStateData;
+export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData | JharkhandStateData | KarnatakaStateData | KeralaStateData | MadhyaPradeshStateData | MaharashtraStateData | ManipurStateData;
 
 // State Registry containing built & approved state modules
 const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
@@ -33,7 +34,8 @@ const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
   'karnataka': KARNATAKA_DATA,
   'kerala': KERALA_DATA,
   'madhya-pradesh': MADHYA_PRADESH_DATA,
-  'maharashtra': MAHARASHTRA_DATA
+  'maharashtra': MAHARASHTRA_DATA,
+  'manipur': MANIPUR_DATA
 };
 
 export const getStateData = (stateId: string): StateFullData => {

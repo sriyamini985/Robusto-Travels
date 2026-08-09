@@ -9,8 +9,9 @@ import { GOA_DATA, type GoaStateData } from './states/goa';
 import { GUJARAT_DATA, type GujaratStateData } from './states/gujarat';
 import { HARYANA_DATA, type HaryanaStateData } from './states/haryana';
 import { HIMACHAL_DATA, type HimachalStateData } from './states/himachal-pradesh';
+import { JHARKHAND_DATA, type JharkhandStateData } from './states/jharkhand';
 
-export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData;
+export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData | JharkhandStateData;
 
 // State Registry containing built & approved state modules
 const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
@@ -23,7 +24,8 @@ const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
   'goa': GOA_DATA,
   'gujarat': GUJARAT_DATA,
   'haryana': HARYANA_DATA,
-  'himachal-pradesh': HIMACHAL_DATA
+  'himachal-pradesh': HIMACHAL_DATA,
+  'jharkhand': JHARKHAND_DATA
 };
 
 export const getStateData = (stateId: string): StateFullData => {

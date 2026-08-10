@@ -2,7 +2,7 @@
   "name": "Brazil",
   "slug": "brazil",
   "flag": "🇧🇷",
-  "heroImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/brazil/hero-v3.jpg",
   "intro": "Immerse yourself in tropical rainforests, golden Atlantic beaches, vibrant Samba rhythm, and monumental natural wonders.",
   "bestSeason": "December to March (Summer) & May to September (Mild)",
   "weather": "Tropical climate. Warm and humid year-round (24°C to 32°C).",
@@ -18,14 +18,16 @@
     "Amazon Rainforest"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/brazil/gallery-1-v3.jpg",
+    "/images/countries/brazil/gallery-2-v3.jpg",
+    "/images/countries/brazil/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "rio-christ-redeemer",
       "name": "Christ the Redeemer & Corcovado",
       "category": "World Wonder",
-      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/rio-christ-redeemer/hero-v3.jpg",
       "shortDesc": "30-meter Art Deco statue of Jesus Christ atop Corcovado mountain embracing Rio de Janeiro.",
       "overview": "Offers unmatched panoramic views over Guanabara Bay and Sugarloaf Mountain.",
       "rating": 4.98,
@@ -52,7 +54,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/rio-christ-redeemer/gallery-1-v3.jpg",
+        "/images/countries/brazil/rio-christ-redeemer/gallery-2-v3.jpg",
+        "/images/countries/brazil/rio-christ-redeemer/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -72,7 +76,7 @@
       "slug": "sugarloaf-mountain",
       "name": "Sugarloaf Mountain Cable Car",
       "category": "Coastal Monolith",
-      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/sugarloaf-mountain/hero-v3.jpg",
       "shortDesc": "Glass-walled cable car ride to the peak of a 396m quartz granite monolith.",
       "overview": "Witness spectacular sunset vistas over Copacabana and Ipanema beaches.",
       "rating": 4.96,
@@ -99,7 +103,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/sugarloaf-mountain/gallery-1-v3.jpg",
+        "/images/countries/brazil/sugarloaf-mountain/gallery-2-v3.jpg",
+        "/images/countries/brazil/sugarloaf-mountain/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -119,7 +125,7 @@
       "slug": "iguazu-falls",
       "name": "Iguazu Falls & Devil's Throat",
       "category": "Natural Thunder",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/iguazu-falls/hero-v3.jpg",
       "shortDesc": "275 roaring waterfall cascades straddling the border of Brazil and Argentina.",
       "overview": "Walk along mist-covered boardwalks right into the roaring abyss of the Devil's Throat.",
       "rating": 4.99,
@@ -146,7 +152,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/iguazu-falls/gallery-1-v3.jpg",
+        "/images/countries/brazil/iguazu-falls/gallery-2-v3.jpg",
+        "/images/countries/brazil/iguazu-falls/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -166,7 +174,7 @@
       "slug": "copacabana-beach",
       "name": "Copacabana & Ipanema Beach",
       "category": "Beach Culture",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/copacabana-beach/hero-v3.jpg",
       "shortDesc": "World-famous black-and-white wave tile mosaic boardwalk and golden Atlantic sands.",
       "overview": "Rio's social heart for caipirinhas, beach volleyball, and bossa nova sunsets.",
       "rating": 4.92,
@@ -193,7 +201,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/copacabana-beach/gallery-1-v3.jpg",
+        "/images/countries/brazil/copacabana-beach/gallery-2-v3.jpg",
+        "/images/countries/brazil/copacabana-beach/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -213,7 +223,7 @@
       "slug": "amazon-rainforest",
       "name": "Amazon Rainforest Manaus",
       "category": "Biodiversity Reserve",
-      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/amazon-rainforest/hero-v3.jpg",
       "shortDesc": "The world's largest tropical rainforest and the Meeting of Waters near Manaus.",
       "overview": "Embark on jungle eco-lodges, pink river dolphin spotting, and canopy walks.",
       "rating": 4.95,
@@ -240,7 +250,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/amazon-rainforest/gallery-1-v3.jpg",
+        "/images/countries/brazil/amazon-rainforest/gallery-2-v3.jpg",
+        "/images/countries/brazil/amazon-rainforest/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -260,7 +272,7 @@
       "slug": "salvador-pelourinho",
       "name": "Salvador da Bahia & Pelourinho",
       "category": "Afro-Brazilian Culture",
-      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/salvador-pelourinho/hero-v3.jpg",
       "shortDesc": "Pastel Portuguese colonial mansions, Olodum drumming, and Capoeira performances.",
       "overview": "The vibrant cultural soul of Brazil rich in Afro-centric traditions and seafood moqueca.",
       "rating": 4.9,
@@ -287,7 +299,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/salvador-pelourinho/gallery-1-v3.jpg",
+        "/images/countries/brazil/salvador-pelourinho/gallery-2-v3.jpg",
+        "/images/countries/brazil/salvador-pelourinho/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -307,7 +321,7 @@
       "slug": "lencois-maranhenses",
       "name": "Lençóis Maranhenses Dunes",
       "category": "Surreal Lagoons",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/lencois-maranhenses/hero-v3.jpg",
       "shortDesc": "Vast rolling white sand dunes filled with crystal blue rainwater lagoons.",
       "overview": "A otherworldly landscape created by seasonal rain trapped between coastal sand dunes.",
       "rating": 4.97,
@@ -334,7 +348,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/lencois-maranhenses/gallery-1-v3.jpg",
+        "/images/countries/brazil/lencois-maranhenses/gallery-2-v3.jpg",
+        "/images/countries/brazil/lencois-maranhenses/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -354,7 +370,7 @@
       "slug": "fernando-de-noronha",
       "name": "Fernando de Noronha Archipelago",
       "category": "Marine Sanctuary",
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/fernando-de-noronha/hero-v3.jpg",
       "shortDesc": "Protected volcanic island national park renowned for wild spinner dolphins and sea turtles.",
       "overview": "Baía do Sancho is consistently voted one of the best beaches on Earth.",
       "rating": 4.98,
@@ -381,7 +397,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/fernando-de-noronha/gallery-1-v3.jpg",
+        "/images/countries/brazil/fernando-de-noronha/gallery-2-v3.jpg",
+        "/images/countries/brazil/fernando-de-noronha/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -401,7 +419,7 @@
       "slug": "pantanal-wetlands",
       "name": "Pantanal Jaguar Safari",
       "category": "Wildlife Reserve",
-      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/pantanal-wetlands/hero-v3.jpg",
       "shortDesc": "World's largest tropical wetland ecosystem offering the best chance to spot wild jaguars.",
       "overview": "Home to giant anteaters, hyacinth macaws, and thousands of caimans.",
       "rating": 4.96,
@@ -428,7 +446,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/pantanal-wetlands/gallery-1-v3.jpg",
+        "/images/countries/brazil/pantanal-wetlands/gallery-2-v3.jpg",
+        "/images/countries/brazil/pantanal-wetlands/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -448,7 +468,7 @@
       "slug": "paraty-colonial",
       "name": "Paraty Gold Trail Village",
       "category": "Historic Coast",
-      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/brazil/paraty-colonial/hero-v3.jpg",
       "shortDesc": "Car-free 17th-century cobblestone seaside town framed by emerald jungle mountains.",
       "overview": "Discover hidden island beaches via traditional colorful wooden boats.",
       "rating": 4.91,
@@ -475,7 +495,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/brazil/paraty-colonial/gallery-1-v3.jpg",
+        "/images/countries/brazil/paraty-colonial/gallery-2-v3.jpg",
+        "/images/countries/brazil/paraty-colonial/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

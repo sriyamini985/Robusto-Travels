@@ -2,7 +2,7 @@
   "name": "Egypt",
   "slug": "egypt",
   "flag": "🇪🇬",
-  "heroImage": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/egypt/hero-v3.jpg",
   "intro": "Step back in time to the land of Pharaohs, ancient pyramids, golden desert sands, and the timeless Nile River.",
   "bestSeason": "October to April",
   "weather": "Warm desert climate. Mild winters (15°C to 25°C), hot dry summers (30°C to 40°C).",
@@ -18,14 +18,16 @@
     "Valley of the Kings"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/egypt/gallery-1-v3.jpg",
+    "/images/countries/egypt/gallery-2-v3.jpg",
+    "/images/countries/egypt/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "pyramids-giza",
       "name": "Great Pyramids of Giza & Sphinx",
       "category": "Ancient Wonder",
-      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/pyramids-giza/hero-v3.jpg",
       "shortDesc": "The last surviving wonder of the ancient world guarded by the enigmatic Great Sphinx.",
       "overview": "The Giza plateau houses Khufu, Khafre, and Menkaure pyramids dating back 4,500 years.",
       "rating": 4.98,
@@ -52,7 +54,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/pyramids-giza/gallery-1-v3.jpg",
+        "/images/countries/egypt/pyramids-giza/gallery-2-v3.jpg",
+        "/images/countries/egypt/pyramids-giza/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -72,7 +76,7 @@
       "slug": "luxor-karnak",
       "name": "Luxor & Karnak Temple Complex",
       "category": "Pharaonic Heritage",
-      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/luxor-karnak/hero-v3.jpg",
       "shortDesc": "World's largest open-air museum featuring hypostyle hall columns and avenue of sphinxes.",
       "overview": "Luxor preserves the monumental religious sanctuaries of ancient Thebes.",
       "rating": 4.95,
@@ -99,7 +103,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/luxor-karnak/gallery-1-v3.jpg",
+        "/images/countries/egypt/luxor-karnak/gallery-2-v3.jpg",
+        "/images/countries/egypt/luxor-karnak/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -119,7 +125,7 @@
       "slug": "valley-of-kings",
       "name": "Valley of the Kings & Tutankhamun",
       "category": "Royal Tombs",
-      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/valley-of-kings/hero-v3.jpg",
       "shortDesc": "Subterranean rock-cut tombs of New Kingdom pharaohs adorned with vivid hieroglyphics.",
       "overview": "Home to King Tutankhamun's tomb and Ramses VI colorful burial chambers.",
       "rating": 4.96,
@@ -146,7 +152,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/valley-of-kings/gallery-1-v3.jpg",
+        "/images/countries/egypt/valley-of-kings/gallery-2-v3.jpg",
+        "/images/countries/egypt/valley-of-kings/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -166,7 +174,7 @@
       "slug": "abu-simbel",
       "name": "Abu Simbel Sun Temples",
       "category": "Monumental Temple",
-      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/abu-simbel/hero-v3.jpg",
       "shortDesc": "Colossal 20m rock-carved statues of Ramses II on the shores of Lake Nasser.",
       "overview": "Relocated by UNESCO in a heroic engineering feat during the Aswan High Dam construction.",
       "rating": 4.97,
@@ -193,7 +201,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/abu-simbel/gallery-1-v3.jpg",
+        "/images/countries/egypt/abu-simbel/gallery-2-v3.jpg",
+        "/images/countries/egypt/abu-simbel/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -213,7 +223,7 @@
       "slug": "cairo-museum",
       "name": "Grand Egyptian Museum Cairo",
       "category": "Cultural Treasure",
-      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/cairo-museum/hero-v3.jpg",
       "shortDesc": "World's largest archaeological museum dedicated to a single civilization.",
       "overview": "Houses King Tutankhamun's complete 5,000-piece golden treasure collection.",
       "rating": 4.93,
@@ -240,7 +250,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/cairo-museum/gallery-1-v3.jpg",
+        "/images/countries/egypt/cairo-museum/gallery-2-v3.jpg",
+        "/images/countries/egypt/cairo-museum/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -260,7 +272,7 @@
       "slug": "nile-cruise",
       "name": "Nile River Felucca Cruise",
       "category": "River Odyssey",
-      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/nile-cruise/hero-v3.jpg",
       "shortDesc": "Tranquil sailing between Aswan and Luxor aboard traditional wooden feluccas.",
       "overview": "Float past palm groves, ancient temples, and rural Egyptian riverbanks.",
       "rating": 4.94,
@@ -287,7 +299,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/nile-cruise/gallery-1-v3.jpg",
+        "/images/countries/egypt/nile-cruise/gallery-2-v3.jpg",
+        "/images/countries/egypt/nile-cruise/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -307,7 +321,7 @@
       "slug": "sharm-el-sheikh",
       "name": "Sharm El Sheikh Red Sea Reefs",
       "category": "Coral Coast",
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/sharm-el-sheikh/hero-v3.jpg",
       "shortDesc": "World-class Red Sea scuba diving at Ras Mohammed National Park.",
       "overview": "Renowned for crystal clear underwater coral gardens and luxury beach resorts.",
       "rating": 4.91,
@@ -334,7 +348,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/sharm-el-sheikh/gallery-1-v3.jpg",
+        "/images/countries/egypt/sharm-el-sheikh/gallery-2-v3.jpg",
+        "/images/countries/egypt/sharm-el-sheikh/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -354,7 +370,7 @@
       "slug": "alexandria-library",
       "name": "Alexandria Library & Citadel",
       "category": "Mediterranean Port",
-      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/alexandria-library/hero-v3.jpg",
       "shortDesc": "Modern Bibliotheca Alexandrina and Qaitbay Citadel on the Mediterranean shoreline.",
       "overview": "Founded by Alexander the Great, the historic intellectual capital of the ancient world.",
       "rating": 4.88,
@@ -381,7 +397,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/alexandria-library/gallery-1-v3.jpg",
+        "/images/countries/egypt/alexandria-library/gallery-2-v3.jpg",
+        "/images/countries/egypt/alexandria-library/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -401,7 +419,7 @@
       "slug": "siwa-oasis",
       "name": "Siwa Oasis & Salt Lakes",
       "category": "Desert Sanctuary",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/siwa-oasis/hero-v3.jpg",
       "shortDesc": "Secluded Western Desert oasis featuring turquoise salt pools and mud-brick Shali Fortress.",
       "overview": "Famous for natural hot springs and Alexander the Great's Oracle Temple.",
       "rating": 4.92,
@@ -428,7 +446,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/siwa-oasis/gallery-1-v3.jpg",
+        "/images/countries/egypt/siwa-oasis/gallery-2-v3.jpg",
+        "/images/countries/egypt/siwa-oasis/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -448,7 +468,7 @@
       "slug": "white-desert",
       "name": "White Desert National Park",
       "category": "Chalk Formations",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/egypt/white-desert/hero-v3.jpg",
       "shortDesc": "Surreal wind-carved white chalk mushroom rock formations in the Libyan Desert.",
       "overview": "Camp beneath brilliant starlit skies among ghost-like white rock sculptures.",
       "rating": 4.95,
@@ -475,7 +495,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/egypt/white-desert/gallery-1-v3.jpg",
+        "/images/countries/egypt/white-desert/gallery-2-v3.jpg",
+        "/images/countries/egypt/white-desert/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

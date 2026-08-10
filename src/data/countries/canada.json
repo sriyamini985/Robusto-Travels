@@ -2,7 +2,7 @@
   "name": "Canada",
   "slug": "canada",
   "flag": "🇨🇦",
-  "heroImage": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/canada/hero-v3.jpg",
   "intro": "Glacial turquoise lakes, majestic Rocky Mountain peaks, vast wilderness, and vibrant cosmopolitan cities.",
   "bestSeason": "June to September (Summer) & December to March (Skiing)",
   "weather": "Diverse climate. Mild summers (20°C to 26°C), snowy freezing winters (-5°C to -15°C).",
@@ -18,14 +18,16 @@
     "Whistler Snow Resort"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/canada/gallery-1-v3.jpg",
+    "/images/countries/canada/gallery-2-v3.jpg",
+    "/images/countries/canada/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "banff-lake-louise",
       "name": "Banff & Lake Louise",
       "category": "Glacial Lake",
-      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/banff-lake-louise/hero-v3.jpg",
       "shortDesc": "Famous electric-turquoise mountain lake framed by Victoria Glacier and Fairmont Chateau.",
       "overview": "Canoe across tranquil glacial waters and ride the Banff Gondola to Sulphur Mountain.",
       "rating": 4.99,
@@ -52,7 +54,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/banff-lake-louise/gallery-1-v3.jpg",
+        "/images/countries/canada/banff-lake-louise/gallery-2-v3.jpg",
+        "/images/countries/canada/banff-lake-louise/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -72,7 +76,7 @@
       "slug": "niagara-falls",
       "name": "Niagara Falls & Maid of the Mist",
       "category": "Waterfall Wonder",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/niagara-falls/hero-v3.jpg",
       "shortDesc": "Thunderous Horseshoe Falls plunging 57 meters into the roaring Niagara gorge.",
       "overview": "Take the iconic boat cruise right into the heart of the roaring misty spray.",
       "rating": 4.95,
@@ -99,7 +103,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/niagara-falls/gallery-1-v3.jpg",
+        "/images/countries/canada/niagara-falls/gallery-2-v3.jpg",
+        "/images/countries/canada/niagara-falls/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -119,7 +125,7 @@
       "slug": "jasper-icefields",
       "name": "Jasper & Icefields Parkway",
       "category": "Mountain Highway",
-      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/jasper-icefields/hero-v3.jpg",
       "shortDesc": "One of the world's most scenic drives featuring Columbia Icefield snow coach tours.",
       "overview": "Walk on ancient glacier ice and spot wild grizzly bears and elk along Athabasca Falls.",
       "rating": 4.97,
@@ -146,7 +152,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/jasper-icefields/gallery-1-v3.jpg",
+        "/images/countries/canada/jasper-icefields/gallery-2-v3.jpg",
+        "/images/countries/canada/jasper-icefields/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -166,7 +174,7 @@
       "slug": "toronto-cn-tower",
       "name": "Toronto CN Tower & Waterfront",
       "category": "Skyline Landmark",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/toronto-cn-tower/hero-v3.jpg",
       "shortDesc": "553-meter tall CN Tower with glass floor observation deck and EdgeWalk.",
       "overview": "Explore Toronto Islands, Ripley's Aquarium, and multicultural food markets.",
       "rating": 4.9,
@@ -193,7 +201,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/toronto-cn-tower/gallery-1-v3.jpg",
+        "/images/countries/canada/toronto-cn-tower/gallery-2-v3.jpg",
+        "/images/countries/canada/toronto-cn-tower/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -213,7 +223,7 @@
       "slug": "vancouver-stanley-park",
       "name": "Vancouver Stanley Park & Capilano",
       "category": "Pacific Northwest",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/vancouver-stanley-park/hero-v3.jpg",
       "shortDesc": "Seawall bike paths surrounded by Pacific Ocean waters and Capilano Suspension Bridge.",
       "overview": "A coastal metropolis combining mountain snow peaks with temperate rainforests.",
       "rating": 4.94,
@@ -240,7 +250,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/vancouver-stanley-park/gallery-1-v3.jpg",
+        "/images/countries/canada/vancouver-stanley-park/gallery-2-v3.jpg",
+        "/images/countries/canada/vancouver-stanley-park/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -260,7 +272,7 @@
       "slug": "quebec-chateau-frontenac",
       "name": "Quebec City & Château Frontenac",
       "category": "French Colonial",
-      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/quebec-chateau-frontenac/hero-v3.jpg",
       "shortDesc": "Iconic grand hotel standing above fortified stone walls of North America's oldest French city.",
       "overview": "Walk narrow cobblestone streets of Petit Champlain and savor authentic poutine.",
       "rating": 4.96,
@@ -287,7 +299,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/quebec-chateau-frontenac/gallery-1-v3.jpg",
+        "/images/countries/canada/quebec-chateau-frontenac/gallery-2-v3.jpg",
+        "/images/countries/canada/quebec-chateau-frontenac/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -307,7 +321,7 @@
       "slug": "whistler-blackcomb",
       "name": "Whistler Blackcomb Ski Resort",
       "category": "Alpine Snow",
-      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/whistler-blackcomb/hero-v3.jpg",
       "shortDesc": "North America's premier ski resort featuring the Peak 2 Peak glass gondola.",
       "overview": "Enjoy world-class powder snow skiing, mountain biking, and luxury chalet spas.",
       "rating": 4.98,
@@ -334,7 +348,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/whistler-blackcomb/gallery-1-v3.jpg",
+        "/images/countries/canada/whistler-blackcomb/gallery-2-v3.jpg",
+        "/images/countries/canada/whistler-blackcomb/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -354,7 +370,7 @@
       "slug": "montreal-old-port",
       "name": "Montreal Old Port & Notre-Dame",
       "category": "Culture & Festivals",
-      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/montreal-old-port/hero-v3.jpg",
       "shortDesc": "Gothic Revival Notre-Dame Basilica with azure stained glass and cobblestone French dining.",
       "overview": "Canada's cultural capital famous for international jazz festivals and culinary art.",
       "rating": 4.91,
@@ -381,7 +397,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/montreal-old-port/gallery-1-v3.jpg",
+        "/images/countries/canada/montreal-old-port/gallery-2-v3.jpg",
+        "/images/countries/canada/montreal-old-port/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -401,7 +419,7 @@
       "slug": "moraine-lake",
       "name": "Moraine Lake & Valley of 10 Peaks",
       "category": "Alpine Gem",
-      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/moraine-lake/hero-v3.jpg",
       "shortDesc": "Luminous deep blue lake enclosed by ten soaring jagged Rocky Mountain peaks.",
       "overview": "A pristine wilderness photo paradise accessible during summer months.",
       "rating": 4.99,
@@ -428,7 +446,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/moraine-lake/gallery-1-v3.jpg",
+        "/images/countries/canada/moraine-lake/gallery-2-v3.jpg",
+        "/images/countries/canada/moraine-lake/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -448,7 +468,7 @@
       "slug": "yellowknife-aurora",
       "name": "Yellowknife Northern Lights",
       "category": "Aurora Borealis",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/canada/yellowknife-aurora/hero-v3.jpg",
       "shortDesc": "World's premier location for viewing dancing green and violet Aurora Borealis skies.",
       "overview": "Enjoy dog sledding, snowmobiling, and heated teepee viewing lodges.",
       "rating": 4.97,
@@ -475,7 +495,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/canada/yellowknife-aurora/gallery-1-v3.jpg",
+        "/images/countries/canada/yellowknife-aurora/gallery-2-v3.jpg",
+        "/images/countries/canada/yellowknife-aurora/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

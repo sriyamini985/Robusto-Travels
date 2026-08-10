@@ -2,7 +2,7 @@
   "name": "Japan",
   "slug": "japan",
   "flag": "🇯🇵",
-  "heroImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/japan/hero-v3.jpg",
   "intro": "Immerse in a land where ancient temple courtyards meet neon-lit futuristic skylines. From the serene gardens of Kyoto to the bustling energy of Tokyo, Japan is a sensory masterpiece of culture, technology, and cuisine.",
   "bestSeason": "Spring (March to May) for Cherry Blossoms & Autumn (September to November) for foliage",
   "weather": "Temperate climate with four distinct seasons. Mild springs, warm humid summers (25°C to 32°C), crisp colorful autumns, and cold winters with heavy snow in northern regions.",
@@ -18,16 +18,16 @@
     "Ride the ultra-fast Shinkansen bullet train across the country"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1490806843957-31f4c9a91c6d?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/japan/gallery-1-v3.jpg",
+    "/images/countries/japan/gallery-2-v3.jpg",
+    "/images/countries/japan/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "tokyo-skytree",
       "name": "Tokyo Skytree & Shibuya",
       "category": "Metropolitan Culture",
-      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/tokyo-skytree/hero-v3.jpg",
       "shortDesc": "Futuristic skyline, neon-lit Shibuya Scramble Crossing, and ancient Asakusa Sensoji Temple.",
       "overview": "Tokyo blends cutting-edge technology with century-old shrines, Michelin dining, and anime culture.",
       "rating": 4.94,
@@ -54,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/tokyo-skytree/gallery-1-v3.jpg",
+        "/images/countries/japan/tokyo-skytree/gallery-2-v3.jpg",
+        "/images/countries/japan/tokyo-skytree/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -75,7 +77,7 @@
       "slug": "kyoto-bamboo",
       "name": "Kyoto Fushimi Inari & Bamboo Grove",
       "category": "Ancient Heritage",
-      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/kyoto-bamboo/hero-v3.jpg",
       "shortDesc": "Thousands of vermilion Torii gates climbing Mount Inari and serene Arashiyama bamboo trails.",
       "overview": "Kyoto is Japan's cultural heartland, home to geishas, Zen gardens, and historic wooden machiya houses.",
       "rating": 4.98,
@@ -102,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/kyoto-bamboo/gallery-1-v3.jpg",
+        "/images/countries/japan/kyoto-bamboo/gallery-2-v3.jpg",
+        "/images/countries/japan/kyoto-bamboo/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -123,7 +127,7 @@
       "slug": "mount-fuji",
       "name": "Mount Fuji & Lake Kawaguchiko",
       "category": "Volcanic Peak",
-      "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/mount-fuji/hero-v3.jpg",
       "shortDesc": "Japan's sacred snow-capped volcano reflected across Fuji Five Lakes.",
       "overview": "A UNESCO World Heritage site revered by artists and pilgrims for centuries.",
       "rating": 4.96,
@@ -150,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/mount-fuji/gallery-1-v3.jpg",
+        "/images/countries/japan/mount-fuji/gallery-2-v3.jpg",
+        "/images/countries/japan/mount-fuji/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -171,7 +177,7 @@
       "slug": "osaka-dotonbori",
       "name": "Osaka Dotonbori & Castle",
       "category": "Culinary & History",
-      "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/osaka-dotonbori/hero-v3.jpg",
       "shortDesc": "Vibrant street food haven featuring Takoyaki, neon Glico Running Man, and historic Osaka Castle.",
       "overview": "Known as the Nation's Kitchen, Osaka is famous for warm hospitality and lively nightlife.",
       "rating": 4.89,
@@ -198,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/osaka-dotonbori/gallery-1-v3.jpg",
+        "/images/countries/japan/osaka-dotonbori/gallery-2-v3.jpg",
+        "/images/countries/japan/osaka-dotonbori/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -219,7 +227,7 @@
       "slug": "nara-park",
       "name": "Nara Deer Park & Todaiji Temple",
       "category": "Wildlife & Shrines",
-      "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/nara-park/hero-v3.jpg",
       "shortDesc": "Friendly free-roaming sika deer surrounding the Great Buddha Hall.",
       "overview": "Nara was Japan's first permanent capital, boasting monumental wooden temples and peaceful parks.",
       "rating": 4.92,
@@ -246,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/nara-park/gallery-1-v3.jpg",
+        "/images/countries/japan/nara-park/gallery-2-v3.jpg",
+        "/images/countries/japan/nara-park/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -267,7 +277,7 @@
       "slug": "hiroshima",
       "name": "Hiroshima Peace Memorial & Miyajima",
       "category": "Historical Monument",
-      "image": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/hiroshima/hero-v3.jpg",
       "shortDesc": "Floating Torii Gate of Itsukushima Shrine and poignant Peace Memorial Park.",
       "overview": "A powerful testament to peace and resilience set against scenic Seto Inland Sea islands.",
       "rating": 4.91,
@@ -294,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/hiroshima/gallery-1-v3.jpg",
+        "/images/countries/japan/hiroshima/gallery-2-v3.jpg",
+        "/images/countries/japan/hiroshima/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -315,7 +327,7 @@
       "slug": "hakone-onsen",
       "name": "Hakone Hot Springs & Onsen",
       "category": "Thermal Retreat",
-      "image": "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/hakone-onsen/hero-v3.jpg",
       "shortDesc": "Relaxing geothermal ryokan hot springs with pirate boat cruises on Lake Ashi.",
       "overview": "Hakone offers soothing mineral waters, open-air museums, and distant Fuji views.",
       "rating": 4.9,
@@ -342,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/hakone-onsen/gallery-1-v3.jpg",
+        "/images/countries/japan/hakone-onsen/gallery-2-v3.jpg",
+        "/images/countries/japan/hakone-onsen/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -363,7 +377,7 @@
       "slug": "nikko-toshogu",
       "name": "Nikko Toshogu Shrine",
       "category": "UNESCO Heritage",
-      "image": "https://images.unsplash.com/photo-1576675784201-0e1697721887?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/nikko-toshogu/hero-v3.jpg",
       "shortDesc": "Elaborately carved gold leaf shrine complex nestled among ancient cedar forests.",
       "overview": "The final resting place of Shogun Tokugawa Ieyasu, renowned for the Three Wise Monkeys carving.",
       "rating": 4.88,
@@ -390,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1576675784201-0e1697721887?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/nikko-toshogu/gallery-1-v3.jpg",
+        "/images/countries/japan/nikko-toshogu/gallery-2-v3.jpg",
+        "/images/countries/japan/nikko-toshogu/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -411,7 +427,7 @@
       "slug": "sapporo-hokkaido",
       "name": "Sapporo & Hokkaido Snow Park",
       "category": "Winter Wonderland",
-      "image": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/sapporo-hokkaido/hero-v3.jpg",
       "shortDesc": "Powder snow skiing in Niseko, Sapporo Snow Festival, and fresh sea urchin markets.",
       "overview": "Hokkaido is Japan's northern wild frontier famous for powder snow and lavender fields in summer.",
       "rating": 4.93,
@@ -438,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/sapporo-hokkaido/gallery-1-v3.jpg",
+        "/images/countries/japan/sapporo-hokkaido/gallery-2-v3.jpg",
+        "/images/countries/japan/sapporo-hokkaido/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -459,7 +477,7 @@
       "slug": "okinawa-beaches",
       "name": "Okinawa Coral Reefs & Islands",
       "category": "Tropical Paradise",
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/japan/okinawa-beaches/hero-v3.jpg",
       "shortDesc": "Crystal turquoise waters, Ryukyu Kingdom heritage, and world-class scuba diving.",
       "overview": "Japan's tropical archipelago offering white sand beaches, manta rays, and longevity cuisine.",
       "rating": 4.87,
@@ -486,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/japan/okinawa-beaches/gallery-1-v3.jpg",
+        "/images/countries/japan/okinawa-beaches/gallery-2-v3.jpg",
+        "/images/countries/japan/okinawa-beaches/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

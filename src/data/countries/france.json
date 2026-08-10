@@ -2,7 +2,7 @@
   "name": "France",
   "slug": "france",
   "flag": "🇫🇷",
-  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/france/hero-v3.jpg",
   "intro": "Unlock the home of haute couture, fine vintage vineyards, and legendary art. From the historic avenues of Paris to the lavender hills of Provence, France is the ultimate cultural voyage.",
   "bestSeason": "April to June (Springtime) & September to October (Grape harvest)",
   "weather": "Temperate maritime climate. Pleasant warm summers (20°C to 28°C), cool winters (3°C to 8°C) with regular rainfall.",
@@ -18,15 +18,16 @@
     "Stay in converted 17th-century royal chateaux in the Loire Valley"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1499856871958-5b9647a6409a?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1503917988258-f87a78e3c995?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/france/gallery-1-v3.jpg",
+    "/images/countries/france/gallery-2-v3.jpg",
+    "/images/countries/france/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "paris-eiffel",
       "name": "Paris Eiffel Tower & Louvre",
       "category": "Capital of Romance",
-      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/paris-eiffel/hero-v3.jpg",
       "shortDesc": "Iron Lady illumination, Mona Lisa at the Louvre, Notre-Dame, and Seine River cruises.",
       "overview": "The global capital of art, fashion, gastronomy, and culture.",
       "rating": 4.96,
@@ -53,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/paris-eiffel/gallery-1-v3.jpg",
+        "/images/countries/france/paris-eiffel/gallery-2-v3.jpg",
+        "/images/countries/france/paris-eiffel/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -74,7 +77,7 @@
       "slug": "french-riviera-nice",
       "name": "French Riviera, Nice & Cannes",
       "category": "Mediterranean Coast",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/french-riviera-nice/hero-v3.jpg",
       "shortDesc": "Promenade des Anglais in Nice, Cannes red carpet film festival, and Monaco superyachts.",
       "overview": "The glamorous Cote d'Azur favored by artists and international jetsetters.",
       "rating": 4.94,
@@ -101,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/french-riviera-nice/gallery-1-v3.jpg",
+        "/images/countries/france/french-riviera-nice/gallery-2-v3.jpg",
+        "/images/countries/france/french-riviera-nice/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -122,7 +127,7 @@
       "slug": "mont-saint-michel",
       "name": "Mont Saint-Michel Abbey",
       "category": "Medieval Citadel",
-      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/mont-saint-michel/hero-v3.jpg",
       "shortDesc": "Gravity-defying Gothic abbey perched on a rocky island surrounded by extreme tides.",
       "overview": "A UNESCO World Heritage site in Normandy that transforms into an island during high tide.",
       "rating": 4.97,
@@ -149,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/mont-saint-michel/gallery-1-v3.jpg",
+        "/images/countries/france/mont-saint-michel/gallery-2-v3.jpg",
+        "/images/countries/france/mont-saint-michel/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -170,7 +177,7 @@
       "slug": "versailles-palace",
       "name": "Palace of Versailles & Gardens",
       "category": "Royal Estate",
-      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/versailles-palace/hero-v3.jpg",
       "shortDesc": "Louis XIV's extravagant Hall of Mirrors, royal apartments, and fountain gardens.",
       "overview": "The pinnacle of French 17th-century classical architecture and royal opulence.",
       "rating": 4.92,
@@ -197,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/versailles-palace/gallery-1-v3.jpg",
+        "/images/countries/france/versailles-palace/gallery-2-v3.jpg",
+        "/images/countries/france/versailles-palace/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -218,7 +227,7 @@
       "slug": "bordeaux-vineyards",
       "name": "Bordeaux Wine Region & Cité du Vin",
       "category": "Wine Capital",
-      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/bordeaux-vineyards/hero-v3.jpg",
       "shortDesc": "Historic Saint-Emilion chateaux, grand wine tastings, and 18th-century stone mansions.",
       "overview": "The world's premier wine capital featuring ultra-modern Cité du Vin wine museum.",
       "rating": 4.9,
@@ -245,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/bordeaux-vineyards/gallery-1-v3.jpg",
+        "/images/countries/france/bordeaux-vineyards/gallery-2-v3.jpg",
+        "/images/countries/france/bordeaux-vineyards/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -266,7 +277,7 @@
       "slug": "chamonix-mont-blanc",
       "name": "Chamonix Mont-Blanc & Aiguille du Midi",
       "category": "Alpine Wilderness",
-      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/chamonix-mont-blanc/hero-v3.jpg",
       "shortDesc": "Cable car to 3,842m Aiguille du Midi glass skywalk overlooking Western Europe's highest peak.",
       "overview": "The birthplace of mountaineering and extreme winter sports in the French Alps.",
       "rating": 4.95,
@@ -293,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/chamonix-mont-blanc/gallery-1-v3.jpg",
+        "/images/countries/france/chamonix-mont-blanc/gallery-2-v3.jpg",
+        "/images/countries/france/chamonix-mont-blanc/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -314,7 +327,7 @@
       "slug": "provence-lavender",
       "name": "Provence Lavender Fields & Gordes",
       "category": "Floral Countryside",
-      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/provence-lavender/hero-v3.jpg",
       "shortDesc": "Purple blooming lavender fields at Senanque Abbey and stone hilltop villages.",
       "overview": "A sun-drenched region of olive groves, truffle markets, and Van Gogh landscapes.",
       "rating": 4.93,
@@ -341,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/provence-lavender/gallery-1-v3.jpg",
+        "/images/countries/france/provence-lavender/gallery-2-v3.jpg",
+        "/images/countries/france/provence-lavender/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -362,7 +377,7 @@
       "slug": "loire-valley-castles",
       "name": "Loire Valley Châteaux (Chambord)",
       "category": "Renaissance Castles",
-      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/loire-valley-castles/hero-v3.jpg",
       "shortDesc": "Château de Chambord's double helix staircase and Château de Chenonceau arched over Cher river.",
       "overview": "The Garden of France packed with over 300 Renaissance royal castles.",
       "rating": 4.91,
@@ -389,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/loire-valley-castles/gallery-1-v3.jpg",
+        "/images/countries/france/loire-valley-castles/gallery-2-v3.jpg",
+        "/images/countries/france/loire-valley-castles/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -410,7 +427,7 @@
       "slug": "strasbourg-alsace",
       "name": "Strasbourg & Alsace Wine Route",
       "category": "Franco-German Charm",
-      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/strasbourg-alsace/hero-v3.jpg",
       "shortDesc": "Half-timbered fairy tale houses in Petite France and historic Christmas markets.",
       "overview": "Capital of Alsace blending French and German heritage, wine, and Gothic cathedrals.",
       "rating": 4.89,
@@ -437,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/strasbourg-alsace/gallery-1-v3.jpg",
+        "/images/countries/france/strasbourg-alsace/gallery-2-v3.jpg",
+        "/images/countries/france/strasbourg-alsace/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -458,7 +477,7 @@
       "slug": "biarritz-coast",
       "name": "Biarritz Basque Coast",
       "category": "Atlantic Surfing",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/france/biarritz-coast/hero-v3.jpg",
       "shortDesc": "Empress Eugenie's seaside palace, Grande Plage surfing, and Basque tapas cuisine.",
       "overview": "An elegant Atlantic resort town combining royal heritage with surfing culture.",
       "rating": 4.87,
@@ -485,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/france/biarritz-coast/gallery-1-v3.jpg",
+        "/images/countries/france/biarritz-coast/gallery-2-v3.jpg",
+        "/images/countries/france/biarritz-coast/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

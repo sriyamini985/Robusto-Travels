@@ -2,7 +2,7 @@
   "name": "India",
   "slug": "india",
   "flag": "🇮🇳",
-  "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/india/hero-v3.jpg",
   "intro": "Unlock a land of profound heritage, architectural marvels, and cooperative community enterprise. From the historical lanes of Old Delhi to the backwater lagoons of Kerala, India is a majestic cultural epic.",
   "bestSeason": "October to March (Cool and dry season across most regions)",
   "weather": "Varies by region. Tropical monsoon in the south, seasonal subtropical in the north. Comfortable dry winter months (12°C to 26°C) are ideal for sightseeing.",
@@ -18,16 +18,16 @@
     "Sleep in community-run heritage Haveli hotels in Old Delhi and Jaipur"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/india/gallery-1-v3.jpg",
+    "/images/countries/india/gallery-2-v3.jpg",
+    "/images/countries/india/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "taj-mahal",
       "name": "Taj Mahal & Agra Fort",
       "category": "Wonder of the World",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/taj-mahal/hero-v3.jpg",
       "shortDesc": "Immortal white marble mausoleum built by Emperor Shah Jahan on the banks of the Yamuna.",
       "overview": "A universal symbol of eternal love and peak Mughal architecture, glowing pink at sunrise.",
       "rating": 4.99,
@@ -54,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/taj-mahal/gallery-1-v3.jpg",
+        "/images/countries/india/taj-mahal/gallery-2-v3.jpg",
+        "/images/countries/india/taj-mahal/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -75,7 +77,7 @@
       "slug": "jaipur-amber-fort",
       "name": "Jaipur Amber Fort & Hawa Mahal",
       "category": "Royal Heritage",
-      "image": "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/jaipur-amber-fort/hero-v3.jpg",
       "shortDesc": "The Pink City's hilltop fortress with Sheesh Mahal mirror palace and honeycomb windows of Hawa Mahal.",
       "overview": "Immerse yourself in Rajput royal granduer, elephant gateways, and vibrant bazaars.",
       "rating": 4.94,
@@ -102,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/jaipur-amber-fort/gallery-1-v3.jpg",
+        "/images/countries/india/jaipur-amber-fort/gallery-2-v3.jpg",
+        "/images/countries/india/jaipur-amber-fort/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -123,7 +127,7 @@
       "slug": "kerala-backwaters",
       "name": "Kerala Backwaters & Houseboat",
       "category": "Eco Waterway",
-      "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/kerala-backwaters/hero-v3.jpg",
       "shortDesc": "Tranquil network of palm-fringed lagoons and eco-luxury houseboats in Alleppey.",
       "overview": "Float past paddy fields and coconut groves while enjoying authentic Ayurvedic wellness treatments.",
       "rating": 4.96,
@@ -150,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/kerala-backwaters/gallery-1-v3.jpg",
+        "/images/countries/india/kerala-backwaters/gallery-2-v3.jpg",
+        "/images/countries/india/kerala-backwaters/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -171,7 +177,7 @@
       "slug": "varanasi-ghats",
       "name": "Varanasi Ganges & Ganga Aarti",
       "category": "Spiritual Center",
-      "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/varanasi-ghats/hero-v3.jpg",
       "shortDesc": "One of the world's oldest living cities featuring sacred river ghats and evening fire rituals.",
       "overview": "Experience the mystical Ganga Aarti ceremony with chanting priests and floating brass oil lamps.",
       "rating": 4.92,
@@ -198,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/varanasi-ghats/gallery-1-v3.jpg",
+        "/images/countries/india/varanasi-ghats/gallery-2-v3.jpg",
+        "/images/countries/india/varanasi-ghats/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -219,7 +227,7 @@
       "slug": "mumbai-gateway",
       "name": "Mumbai Gateway of India & Marine Drive",
       "category": "Colonial & Coast",
-      "image": "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/mumbai-gateway/hero-v3.jpg",
       "shortDesc": "Yellow basalt arch overlooking Mumbai Harbour and the Queen's Necklace seaside promenade.",
       "overview": "The bustling financial heart of India, home to Bollywood and Victorian Gothic architecture.",
       "rating": 4.88,
@@ -246,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/mumbai-gateway/gallery-1-v3.jpg",
+        "/images/countries/india/mumbai-gateway/gallery-2-v3.jpg",
+        "/images/countries/india/mumbai-gateway/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -267,7 +277,7 @@
       "slug": "delhi-qutub",
       "name": "Delhi Qutub Minar & Humayun's Tomb",
       "category": "Historical Monument",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/delhi-qutub/hero-v3.jpg",
       "shortDesc": "World's tallest brick minaret and precursor to the Taj Mahal in red sandstone.",
       "overview": "Delhi's heritage spans ancient dynasties, Mughal garden tombs, and grand government avenues.",
       "rating": 4.9,
@@ -294,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/delhi-qutub/gallery-1-v3.jpg",
+        "/images/countries/india/delhi-qutub/gallery-2-v3.jpg",
+        "/images/countries/india/delhi-qutub/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -315,7 +327,7 @@
       "slug": "goa-beaches",
       "name": "Goa Sunshine Beaches & Old Goa",
       "category": "Tropical Coast & History",
-      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/goa-beaches/hero-v3.jpg",
       "shortDesc": "Golden sand beaches, Portuguese colonial churches, and sunset beach shacks.",
       "overview": "Famous for seafood, watersports, and relaxed Mediterranean-style coastal vibes.",
       "rating": 4.89,
@@ -342,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/goa-beaches/gallery-1-v3.jpg",
+        "/images/countries/india/goa-beaches/gallery-2-v3.jpg",
+        "/images/countries/india/goa-beaches/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -363,7 +377,7 @@
       "slug": "udaipur-palace",
       "name": "Udaipur City Palace & Lake Pichola",
       "category": "Romantic Lake City",
-      "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f1c?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/udaipur-palace/hero-v3.jpg",
       "shortDesc": "Floating Lake Palace and sprawling marble City Palace complex overlooking calm waters.",
       "overview": "Known as the Venice of the East, famous for royal hospitality and sunset boat rides.",
       "rating": 4.95,
@@ -390,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1615836245337-f5b9b2303f1c?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/udaipur-palace/gallery-1-v3.jpg",
+        "/images/countries/india/udaipur-palace/gallery-2-v3.jpg",
+        "/images/countries/india/udaipur-palace/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -411,7 +427,7 @@
       "slug": "ladakh-pangong",
       "name": "Ladakh Pangong Tso & High Passes",
       "category": "Himalayan Wilderness",
-      "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/ladakh-pangong/hero-v3.jpg",
       "shortDesc": "High-altitude lake changing shades from turquoise to deep blue among barren Himalayan peaks.",
       "overview": "Explore ancient Buddhist monasteries, Khardung La motorable pass, and starry night skies.",
       "rating": 4.97,
@@ -438,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/ladakh-pangong/gallery-1-v3.jpg",
+        "/images/countries/india/ladakh-pangong/gallery-2-v3.jpg",
+        "/images/countries/india/ladakh-pangong/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -459,7 +477,7 @@
       "slug": "amritsar-golden-temple",
       "name": "Amritsar Golden Temple",
       "category": "Sacred Sanctuary",
-      "image": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/india/amritsar-golden-temple/hero-v3.jpg",
       "shortDesc": "Resplendent gilded Sikh Gurdwara surrounded by the Amrit Sarovar holy tank.",
       "overview": "Serves free community meals (Langar) to over 100,000 pilgrims daily regardless of background.",
       "rating": 4.98,
@@ -486,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/india/amritsar-golden-temple/gallery-1-v3.jpg",
+        "/images/countries/india/amritsar-golden-temple/gallery-2-v3.jpg",
+        "/images/countries/india/amritsar-golden-temple/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

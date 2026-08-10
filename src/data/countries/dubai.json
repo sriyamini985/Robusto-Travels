@@ -2,7 +2,7 @@
   "name": "United Arab Emirates",
   "slug": "dubai",
   "flag": "🇦🇪",
-  "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/dubai/hero-v3.jpg",
   "intro": "Experience a futuristic oasis where heritage meets architectural marvels. From the soaring heights of the Burj Khalifa to luxury desert camps under the stars, Dubai is a playground of modern global luxury.",
   "bestSeason": "November to March (Winter outdoor weather)",
   "weather": "Hot desert climate. Pleasant warm winters (20°C to 30°C), scorching dry summers (40°C+) where indoor malls are preferred.",
@@ -18,16 +18,16 @@
     "Shop at the massive Dubai Mall and watch the choreographed fountain shows"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1526495124232-a04e18491f5a?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/dubai/gallery-1-v3.jpg",
+    "/images/countries/dubai/gallery-2-v3.jpg",
+    "/images/countries/dubai/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "burj-khalifa",
       "name": "Burj Khalifa Observatory",
       "category": "Sky-High Architecture",
-      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/burj-khalifa/hero-v3.jpg",
       "shortDesc": "The world's tallest building soaring 828m above the Dubai skyline.",
       "overview": "Ascend to the 148th floor At The Top SKY deck for unparalleled 360-degree views across the Arabian Gulf.",
       "rating": 4.97,
@@ -54,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/burj-khalifa/gallery-1-v3.jpg",
+        "/images/countries/dubai/burj-khalifa/gallery-2-v3.jpg",
+        "/images/countries/dubai/burj-khalifa/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -75,7 +77,7 @@
       "slug": "palm-jumeirah",
       "name": "Palm Jumeirah & Atlantis",
       "category": "Man-Made Island",
-      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/palm-jumeirah/hero-v3.jpg",
       "shortDesc": "Iconic palm-shaped island featuring Atlantis Aquaventure waterpark and luxury beach resorts.",
       "overview": "An engineering marvel packed with beach clubs, fine dining, and helicopter tours.",
       "rating": 4.94,
@@ -102,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/palm-jumeirah/gallery-1-v3.jpg",
+        "/images/countries/dubai/palm-jumeirah/gallery-2-v3.jpg",
+        "/images/countries/dubai/palm-jumeirah/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -123,7 +127,7 @@
       "slug": "museum-of-the-future",
       "name": "Museum of the Future",
       "category": "Futuristic Innovation",
-      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/museum-of-the-future/hero-v3.jpg",
       "shortDesc": "Torus-shaped architectural masterpiece featuring Arabic calligraphy and immersive AI exhibits.",
       "overview": "Explores how science, technology, and space exploration will transform human life by 2071.",
       "rating": 4.95,
@@ -150,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/museum-of-the-future/gallery-1-v3.jpg",
+        "/images/countries/dubai/museum-of-the-future/gallery-2-v3.jpg",
+        "/images/countries/dubai/museum-of-the-future/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -171,7 +177,7 @@
       "slug": "dubai-mall",
       "name": "Dubai Mall & Dancing Fountains",
       "category": "Shopping & Entertainment",
-      "image": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/dubai-mall/hero-v3.jpg",
       "shortDesc": "World's largest shopping mall with giant indoor aquarium and choreographed fountain show.",
       "overview": "Over 1,200 luxury boutiques, ice rink, and gourmet restaurants at the foot of Burj Khalifa.",
       "rating": 4.91,
@@ -198,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/dubai-mall/gallery-1-v3.jpg",
+        "/images/countries/dubai/dubai-mall/gallery-2-v3.jpg",
+        "/images/countries/dubai/dubai-mall/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -219,7 +227,7 @@
       "slug": "dubai-marina",
       "name": "Dubai Marina & JBR Beach",
       "category": "Waterfront Luxury",
-      "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/dubai-marina/hero-v3.jpg",
       "shortDesc": "Skyscraper-lined canal promenade, luxury yacht charters, and vibrant beach dining at JBR.",
       "overview": "Enjoy sunset dinner cruises and skydiving over the Marina skyline.",
       "rating": 4.9,
@@ -246,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/dubai-marina/gallery-1-v3.jpg",
+        "/images/countries/dubai/dubai-marina/gallery-2-v3.jpg",
+        "/images/countries/dubai/dubai-marina/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -267,7 +277,7 @@
       "slug": "burj-al-arab",
       "name": "Burj Al Arab 7-Star Hotel",
       "category": "Ultra-Luxury Hotel",
-      "image": "https://images.unsplash.com/photo-1526495124232-a04e1849168c?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/burj-al-arab/hero-v3.jpg",
       "shortDesc": "Sail-shaped landmark hotel on a private island offering butler service and gold-leaf afternoon tea.",
       "overview": "The global icon of Arabian luxury with helipad and underwater seafood restaurant.",
       "rating": 4.96,
@@ -294,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1526495124232-a04e1849168c?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/burj-al-arab/gallery-1-v3.jpg",
+        "/images/countries/dubai/burj-al-arab/gallery-2-v3.jpg",
+        "/images/countries/dubai/burj-al-arab/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -315,7 +327,7 @@
       "slug": "dubai-frame",
       "name": "Dubai Frame Landmark",
       "category": "Cultural Viewpoint",
-      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/dubai-frame/hero-v3.jpg",
       "shortDesc": "150m tall golden frame framing views of Old Dubai on one side and New Dubai skyscrapers on the other.",
       "overview": "Features a glass-bottom skywalk bridge giving a sheer drop view beneath your feet.",
       "rating": 4.88,
@@ -342,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/dubai-frame/gallery-1-v3.jpg",
+        "/images/countries/dubai/dubai-frame/gallery-2-v3.jpg",
+        "/images/countries/dubai/dubai-frame/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -363,7 +377,7 @@
       "slug": "desert-safari",
       "name": "Arabian Desert Safari & Dunes",
       "category": "Desert Adventure",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/desert-safari/hero-v3.jpg",
       "shortDesc": "4x4 dune bashing, camel riding, quad biking, and starlit Bedouin BBQ dinners.",
       "overview": "Experience thrilling red dune sandboarding and traditional Tanoura dance under desert stars.",
       "rating": 4.93,
@@ -390,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/desert-safari/gallery-1-v3.jpg",
+        "/images/countries/dubai/desert-safari/gallery-2-v3.jpg",
+        "/images/countries/dubai/desert-safari/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -411,7 +427,7 @@
       "slug": "global-village",
       "name": "Global Village Dubai",
       "category": "World Cultural Fair",
-      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/global-village/hero-v3.jpg",
       "shortDesc": "Multicultural festival park featuring pavilions from over 90 countries, food, and fireworks.",
       "overview": "A festive carnival of international handicrafts, street food, and cultural performances.",
       "rating": 4.89,
@@ -438,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/global-village/gallery-1-v3.jpg",
+        "/images/countries/dubai/global-village/gallery-2-v3.jpg",
+        "/images/countries/dubai/global-village/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -459,7 +477,7 @@
       "slug": "jumeirah-beach",
       "name": "Souk Madinat & Jumeirah Beach",
       "category": "Heritage & Coast",
-      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/dubai/jumeirah-beach/hero-v3.jpg",
       "shortDesc": "Traditional bazaar water canals with wooden abras reflecting the Burj Al Arab.",
       "overview": "Shop spices, carpets, and jewelry along tranquil lagoon waterways.",
       "rating": 4.91,
@@ -486,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/dubai/jumeirah-beach/gallery-1-v3.jpg",
+        "/images/countries/dubai/jumeirah-beach/gallery-2-v3.jpg",
+        "/images/countries/dubai/jumeirah-beach/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

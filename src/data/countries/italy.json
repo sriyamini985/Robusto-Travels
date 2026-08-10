@@ -2,7 +2,7 @@
   "name": "Italy",
   "slug": "italy",
   "flag": "🇮🇹",
-  "heroImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/italy/hero-v3.jpg",
   "intro": "Step into a country of deep historical heritage, unmatched Renaissance art masterworks, and absolute culinary delight. From Rome's ancient arenas to Amalfi's picturesque clifftop villas, Italy is the ultimate European romance.",
   "bestSeason": "April to June (Spring sun) & September to October (Golden autumn)",
   "weather": "Mediterranean climate. Warm dry summers (24°C to 33°C), cool rainy winters (6°C to 14°C) in the central plains.",
@@ -18,16 +18,16 @@
     "Drive a vintage convertible along the dramatic cliff roads of the Amalfi Coast"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1531572753322-ad063caff12e?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/italy/gallery-1-v3.jpg",
+    "/images/countries/italy/gallery-2-v3.jpg",
+    "/images/countries/italy/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "rome-colosseum",
       "name": "Rome Colosseum & Vatican City",
       "category": "Ancient History",
-      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/rome-colosseum/hero-v3.jpg",
       "shortDesc": "The Eternal City's iconic amphitheater, Roman Forum, Trevi Fountain, and Sistine Chapel.",
       "overview": "Rome is a living museum where ancient ruins stand side-by-side with lively piazzas and trattorias.",
       "rating": 4.95,
@@ -54,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/rome-colosseum/gallery-1-v3.jpg",
+        "/images/countries/italy/rome-colosseum/gallery-2-v3.jpg",
+        "/images/countries/italy/rome-colosseum/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -75,7 +77,7 @@
       "slug": "venice-canals",
       "name": "Venice Grand Canal & St. Mark's",
       "category": "Romantic Waterway",
-      "image": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/venice-canals/hero-v3.jpg",
       "shortDesc": "Gondola rides through winding historic canals, Doge's Palace, and Murano glassmaking.",
       "overview": "A magical car-free city built on 118 islands connected by romantic bridges.",
       "rating": 4.93,
@@ -102,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/venice-canals/gallery-1-v3.jpg",
+        "/images/countries/italy/venice-canals/gallery-2-v3.jpg",
+        "/images/countries/italy/venice-canals/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -123,7 +127,7 @@
       "slug": "florence-duomo",
       "name": "Florence Duomo & Uffizi Gallery",
       "category": "Renaissance Art",
-      "image": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/florence-duomo/hero-v3.jpg",
       "shortDesc": "Brunelleschi's terracotta dome, Michelangelo's David, and Tuscan wine tasting.",
       "overview": "The cradle of the Italian Renaissance, packed with masterpiece art galleries and cobblestone alleys.",
       "rating": 4.94,
@@ -150,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/florence-duomo/gallery-1-v3.jpg",
+        "/images/countries/italy/florence-duomo/gallery-2-v3.jpg",
+        "/images/countries/italy/florence-duomo/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -171,7 +177,7 @@
       "slug": "amalfi-coast",
       "name": "Amalfi Coast & Positano",
       "category": "Coastal Luxury",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/amalfi-coast/hero-v3.jpg",
       "shortDesc": "Dramatic cliffside pastel villages, lemon groves, and azure Mediterranean waters.",
       "overview": "Positano and Ravello offer glamourous cliffside luxury hotels overlooking the Tyrrhenian Sea.",
       "rating": 4.97,
@@ -198,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/amalfi-coast/gallery-1-v3.jpg",
+        "/images/countries/italy/amalfi-coast/gallery-2-v3.jpg",
+        "/images/countries/italy/amalfi-coast/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -219,7 +227,7 @@
       "slug": "milan-duomo",
       "name": "Milan Duomo & Fashion District",
       "category": "Fashion & Culture",
-      "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/milan-duomo/hero-v3.jpg",
       "shortDesc": "Gothic cathedral spires, Galleria Vittorio Emanuele II, and Da Vinci's Last Supper.",
       "overview": "Italy's capital of design, fashion, and commerce with world-class opera at La Scala.",
       "rating": 4.88,
@@ -246,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/milan-duomo/gallery-1-v3.jpg",
+        "/images/countries/italy/milan-duomo/gallery-2-v3.jpg",
+        "/images/countries/italy/milan-duomo/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -267,7 +277,7 @@
       "slug": "pisa-tower",
       "name": "Leaning Tower of Pisa",
       "category": "Architectural Marvel",
-      "image": "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/pisa-tower/hero-v3.jpg",
       "shortDesc": "World-famous bell tower known for its unintended 4-degree tilt on the Piazza dei Miracoli.",
       "overview": "Climb the 294 marble steps to the top for panoramic views across Pisa.",
       "rating": 4.85,
@@ -294,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/pisa-tower/gallery-1-v3.jpg",
+        "/images/countries/italy/pisa-tower/gallery-2-v3.jpg",
+        "/images/countries/italy/pisa-tower/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -315,7 +327,7 @@
       "slug": "cinque-terre",
       "name": "Cinque Terre Villages",
       "category": "Coastal Hiking",
-      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/cinque-terre/hero-v3.jpg",
       "shortDesc": "Five colorful centuries-old fishing villages clinging to rugged Ligurian cliffs.",
       "overview": "Monterosso, Vernazza, and Manarola feature coastal hiking trails and pesto cuisine.",
       "rating": 4.96,
@@ -342,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/cinque-terre/gallery-1-v3.jpg",
+        "/images/countries/italy/cinque-terre/gallery-2-v3.jpg",
+        "/images/countries/italy/cinque-terre/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -363,7 +377,7 @@
       "slug": "lake-como",
       "name": "Lake Como & Bellagio",
       "category": "Lakeside Villas",
-      "image": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/lake-como/hero-v3.jpg",
       "shortDesc": "Glacial lake framed by snow-capped peaks, extravagant botanical gardens, and celebrity villas.",
       "overview": "Known as the Pearl of the Lake, Bellagio offers elegant waterfront dining and boat tours.",
       "rating": 4.95,
@@ -390,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/lake-como/gallery-1-v3.jpg",
+        "/images/countries/italy/lake-como/gallery-2-v3.jpg",
+        "/images/countries/italy/lake-como/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -411,7 +427,7 @@
       "slug": "naples-pompeii",
       "name": "Naples & Ancient Pompeii",
       "category": "Archaeology & Food",
-      "image": "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/naples-pompeii/hero-v3.jpg",
       "shortDesc": "Preserved Roman streets buried by Mount Vesuvius eruption and authentic Neapolitan pizza.",
       "overview": "Walk through Roman villas frozen in time in 79 AD.",
       "rating": 4.87,
@@ -438,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/naples-pompeii/gallery-1-v3.jpg",
+        "/images/countries/italy/naples-pompeii/gallery-2-v3.jpg",
+        "/images/countries/italy/naples-pompeii/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -459,7 +477,7 @@
       "slug": "verona",
       "name": "Verona & Juliet's Balcony",
       "category": "Romantic Heritage",
-      "image": "https://images.unsplash.com/photo-1595867818082-083862f3d630?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/italy/verona/hero-v3.jpg",
       "shortDesc": "Setting of Shakespeare's Romeo & Juliet with an ancient Roman opera arena.",
       "overview": "Enjoy summer opera performances under the stars in a 2,000-year-old Roman amphitheater.",
       "rating": 4.86,
@@ -486,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1595867818082-083862f3d630?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/italy/verona/gallery-1-v3.jpg",
+        "/images/countries/italy/verona/gallery-2-v3.jpg",
+        "/images/countries/italy/verona/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

@@ -2,7 +2,7 @@
   "name": "Australia",
   "slug": "australia",
   "flag": "🇦🇺",
-  "heroImage": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/australia/hero-v3.jpg",
   "intro": "Explore a continent of ancient wonders, massive coral reefs, and laid-back coastal cities. Australia is a playground of natural beauty, outdoor adventure, and diverse wildlife.",
   "bestSeason": "September to November (Spring) & March to May (Autumn)",
   "weather": "Varies by region. Tropical warm climate in the north, temperate seasons in the south. Summer runs from December to February.",
@@ -18,15 +18,16 @@
     "Drive the spectacular ocean route of the Great Ocean Road"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1524820197278-540916411e20?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/australia/gallery-1-v3.jpg",
+    "/images/countries/australia/gallery-2-v3.jpg",
+    "/images/countries/australia/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "sydney-opera-house",
       "name": "Sydney Opera House & Harbour Bridge",
       "category": "Harbour Landmark",
-      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/sydney-opera-house/hero-v3.jpg",
       "shortDesc": "Jørn Utzon's sail-like shell architecture, BridgeClimb, and Bondi Beach coastal walk.",
       "overview": "Sydney Harbour is one of the world's most beautiful natural harbors.",
       "rating": 4.96,
@@ -53,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/sydney-opera-house/gallery-1-v3.jpg",
+        "/images/countries/australia/sydney-opera-house/gallery-2-v3.jpg",
+        "/images/countries/australia/sydney-opera-house/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -74,7 +77,7 @@
       "slug": "great-barrier-reef",
       "name": "Great Barrier Reef & Cairns",
       "category": "Natural Wonder",
-      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/great-barrier-reef/hero-v3.jpg",
       "shortDesc": "World's largest coral reef system visible from space, Heart Reef helicopter flights.",
       "overview": "Snorkel and scuba dive among 1,500 species of tropical fish and sea turtles.",
       "rating": 4.98,
@@ -101,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/great-barrier-reef/gallery-1-v3.jpg",
+        "/images/countries/australia/great-barrier-reef/gallery-2-v3.jpg",
+        "/images/countries/australia/great-barrier-reef/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -122,7 +127,7 @@
       "slug": "uluru-red-centre",
       "name": "Uluru & Kata Tjuta Red Centre",
       "category": "Sacred Monolith",
-      "image": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/uluru-red-centre/hero-v3.jpg",
       "shortDesc": "Sacred Anangu sandstone monolith glowing deep red at sunrise and sunset.",
       "overview": "The spiritual heart of Australia's Outback, home to ancient rock art and desert skies.",
       "rating": 4.94,
@@ -149,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/uluru-red-centre/gallery-1-v3.jpg",
+        "/images/countries/australia/uluru-red-centre/gallery-2-v3.jpg",
+        "/images/countries/australia/uluru-red-centre/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -170,7 +177,7 @@
       "slug": "melbourne-laneways",
       "name": "Melbourne Laneways & Yarra Valley",
       "category": "Coffee & Culture",
-      "image": "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/melbourne-laneways/hero-v3.jpg",
       "shortDesc": "Graffiti-covered Hosier Lane, world-leading coffee culture, and Yarra wine tasting.",
       "overview": "Australia's cultural and sporting capital known for arts, tram networks, and dining.",
       "rating": 4.9,
@@ -197,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/melbourne-laneways/gallery-1-v3.jpg",
+        "/images/countries/australia/melbourne-laneways/gallery-2-v3.jpg",
+        "/images/countries/australia/melbourne-laneways/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -218,7 +227,7 @@
       "slug": "great-ocean-road",
       "name": "Great Ocean Road & 12 Apostles",
       "category": "Coastal Drive",
-      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/great-ocean-road/hero-v3.jpg",
       "shortDesc": "243km scenic coastal drive featuring towering limestone sea stacks rising from the Southern Ocean.",
       "overview": "Drive through temperate rainforests, surf breaks, and wild koala habitats.",
       "rating": 4.95,
@@ -245,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/great-ocean-road/gallery-1-v3.jpg",
+        "/images/countries/australia/great-ocean-road/gallery-2-v3.jpg",
+        "/images/countries/australia/great-ocean-road/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -266,7 +277,7 @@
       "slug": "whitsundays-whitehaven",
       "name": "Whitsunday Islands & Whitehaven Beach",
       "category": "Silica Beach",
-      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/whitsundays-whitehaven/hero-v3.jpg",
       "shortDesc": "98% pure white silica sand beach with Hill Inlet swirling turquoise tides.",
       "overview": "74 tropical islands surrounded by the Coral Sea, ideal for bareboat sailing.",
       "rating": 4.97,
@@ -293,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/whitsundays-whitehaven/gallery-1-v3.jpg",
+        "/images/countries/australia/whitsundays-whitehaven/gallery-2-v3.jpg",
+        "/images/countries/australia/whitsundays-whitehaven/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -314,7 +327,7 @@
       "slug": "gold-coast",
       "name": "Gold Coast Surfers Paradise",
       "category": "Surfing & Parks",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/gold-coast/hero-v3.jpg",
       "shortDesc": "Long sandy beaches, iconic surfing breaks, Q1 Skypoint deck, and hinterland rainforests.",
       "overview": "A vibrant coastal resort city combining high-rise luxury apartments with surf culture.",
       "rating": 4.88,
@@ -341,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/gold-coast/gallery-1-v3.jpg",
+        "/images/countries/australia/gold-coast/gallery-2-v3.jpg",
+        "/images/countries/australia/gold-coast/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -362,7 +377,7 @@
       "slug": "kangaroo-island",
       "name": "Kangaroo Island Sanctuary",
       "category": "Wildlife Haven",
-      "image": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/kangaroo-island/hero-v3.jpg",
       "shortDesc": "Remarkable Rocks, wild sea lion colonies at Seal Bay, and koala sanctuaries.",
       "overview": "A pristine island haven for native Australian wildlife off the coast of Adelaide.",
       "rating": 4.92,
@@ -389,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/kangaroo-island/gallery-1-v3.jpg",
+        "/images/countries/australia/kangaroo-island/gallery-2-v3.jpg",
+        "/images/countries/australia/kangaroo-island/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -410,7 +427,7 @@
       "slug": "perth-rottnest",
       "name": "Perth & Rottnest Island Quokkas",
       "category": "West Coast Paradise",
-      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/perth-rottnest/hero-v3.jpg",
       "shortDesc": "Kings Park botanical gardens, Swan Valley wineries, and friendly Quokka selfies on Rottnest.",
       "overview": "Australia's sunniest capital city framed by the Indian Ocean.",
       "rating": 4.89,
@@ -437,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/perth-rottnest/gallery-1-v3.jpg",
+        "/images/countries/australia/perth-rottnest/gallery-2-v3.jpg",
+        "/images/countries/australia/perth-rottnest/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -458,7 +477,7 @@
       "slug": "tasmania-cradle-mountain",
       "name": "Tasmania Cradle Mountain & Dove Lake",
       "category": "Alpine Wilderness",
-      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/australia/tasmania-cradle-mountain/hero-v3.jpg",
       "shortDesc": "Glacial Dove Lake beneath jagged dolerite peaks of Cradle Mountain-Lake St Clair National Park.",
       "overview": "Wild island wilderness famous for Tasmanian devils and fresh oysters.",
       "rating": 4.91,
@@ -485,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/australia/tasmania-cradle-mountain/gallery-1-v3.jpg",
+        "/images/countries/australia/tasmania-cradle-mountain/gallery-2-v3.jpg",
+        "/images/countries/australia/tasmania-cradle-mountain/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

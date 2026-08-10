@@ -2,7 +2,7 @@
   "name": "Greece",
   "slug": "greece",
   "flag": "🇬🇷",
-  "heroImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/greece/hero-v3.jpg",
   "intro": "Whitewashed Aegean villages, cobalt-blue dome churches, ancient marble temples, and sun-drenched Mediterranean islands.",
   "bestSeason": "May to October",
   "weather": "Mediterranean climate. Hot dry summers (28°C to 34°C), mild wet winters (10°C to 16°C).",
@@ -18,14 +18,16 @@
     "Meteora Monasteries"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/greece/gallery-1-v3.jpg",
+    "/images/countries/greece/gallery-2-v3.jpg",
+    "/images/countries/greece/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "santorini-oia",
       "name": "Santorini & Oia Sunset",
       "category": "Cycladic Island",
-      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/santorini-oia/hero-v3.jpg",
       "shortDesc": "Iconic blue-domed churches clinging to volcanic caldera cliffs above the Aegean Sea.",
       "overview": "Oia offers the world's most famous sunset views over infinity pools and cliffside cave suites.",
       "rating": 4.99,
@@ -52,7 +54,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/santorini-oia/gallery-1-v3.jpg",
+        "/images/countries/greece/santorini-oia/gallery-2-v3.jpg",
+        "/images/countries/greece/santorini-oia/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -72,7 +76,7 @@
       "slug": "athens-acropolis",
       "name": "Athens Acropolis & Parthenon",
       "category": "Classical Antiquity",
-      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/athens-acropolis/hero-v3.jpg",
       "shortDesc": "5th-century BC marble Parthenon temple overlooking the cradle of Western democracy.",
       "overview": "Explore Plaka cobblestone alleys, ancient Agora, and Acropolis Museum.",
       "rating": 4.96,
@@ -99,7 +103,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/athens-acropolis/gallery-1-v3.jpg",
+        "/images/countries/greece/athens-acropolis/gallery-2-v3.jpg",
+        "/images/countries/greece/athens-acropolis/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -119,7 +125,7 @@
       "slug": "mykonos-windmills",
       "name": "Mykonos Windmills & Little Venice",
       "category": "Island Lifestyle",
-      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/mykonos-windmills/hero-v3.jpg",
       "shortDesc": "White-washed 16th-century windmills, waterfront cafes, and beach clubs.",
       "overview": "Greece's glamorous cosmopolitan island for beach lounges, boutiques, and nightlife.",
       "rating": 4.92,
@@ -146,7 +152,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/mykonos-windmills/gallery-1-v3.jpg",
+        "/images/countries/greece/mykonos-windmills/gallery-2-v3.jpg",
+        "/images/countries/greece/mykonos-windmills/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -166,7 +174,7 @@
       "slug": "meteora-monasteries",
       "name": "Meteora Hanging Monasteries",
       "category": "Mountain Sanctuary",
-      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/meteora-monasteries/hero-v3.jpg",
       "shortDesc": "Byzantine monasteries perched precariously atop immense natural sandstone rock pillars.",
       "overview": "A UNESCO World Heritage sanctuary offering breathtaking misty mountain views.",
       "rating": 4.97,
@@ -193,7 +201,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/meteora-monasteries/gallery-1-v3.jpg",
+        "/images/countries/greece/meteora-monasteries/gallery-2-v3.jpg",
+        "/images/countries/greece/meteora-monasteries/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -213,7 +223,7 @@
       "slug": "crete-elafonisi",
       "name": "Crete Elafonisi Pink Beach",
       "category": "Coastal Lagoon",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/crete-elafonisi/hero-v3.jpg",
       "shortDesc": "Famous pink sand lagoon with warm shallow turquoise waters in southwestern Crete.",
       "overview": "Explore Minoan Palace of Knossos, Samaria Gorge, and authentic Cretan olive oil gastronomy.",
       "rating": 4.94,
@@ -240,7 +250,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/crete-elafonisi/gallery-1-v3.jpg",
+        "/images/countries/greece/crete-elafonisi/gallery-2-v3.jpg",
+        "/images/countries/greece/crete-elafonisi/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -260,7 +272,7 @@
       "slug": "zakynthos-navagio",
       "name": "Zakynthos Shipwreck Beach",
       "category": "Iconic Cove",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/zakynthos-navagio/hero-v3.jpg",
       "shortDesc": "Navagio Cove's pristine white sand beach framed by 200m limestone cliffs and a stranded freighter.",
       "overview": "Accessible only by boat, offering luminous electric-blue sea caves.",
       "rating": 4.98,
@@ -287,7 +299,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/zakynthos-navagio/gallery-1-v3.jpg",
+        "/images/countries/greece/zakynthos-navagio/gallery-2-v3.jpg",
+        "/images/countries/greece/zakynthos-navagio/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -307,7 +321,7 @@
       "slug": "rhodes-old-town",
       "name": "Rhodes Medieval Old Town",
       "category": "Crusader Fortress",
-      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/rhodes-old-town/hero-v3.jpg",
       "shortDesc": "Palace of the Grand Master of the Knights of St. John inside fortified stone walls.",
       "overview": "One of the best-preserved medieval inhabited cities in Europe.",
       "rating": 4.9,
@@ -334,7 +348,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/rhodes-old-town/gallery-1-v3.jpg",
+        "/images/countries/greece/rhodes-old-town/gallery-2-v3.jpg",
+        "/images/countries/greece/rhodes-old-town/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -354,7 +370,7 @@
       "slug": "delphi-sanctuary",
       "name": "Delphi Sanctuary of Apollo",
       "category": "Oracle Sanctuary",
-      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/delphi-sanctuary/hero-v3.jpg",
       "shortDesc": "Ancient sanctuary on Mount Parnassus where Pythia the priestess delivered prophecies.",
       "overview": "Ancient theater, Tholos of Athena, and breathtaking mountain valley views.",
       "rating": 4.91,
@@ -381,7 +397,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/delphi-sanctuary/gallery-1-v3.jpg",
+        "/images/countries/greece/delphi-sanctuary/gallery-2-v3.jpg",
+        "/images/countries/greece/delphi-sanctuary/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -401,7 +419,7 @@
       "slug": "corfu-old-town",
       "name": "Corfu Old Town & Esplanade",
       "category": "Venetian Heritage",
-      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/corfu-old-town/hero-v3.jpg",
       "shortDesc": "Italianate Venetian architecture, Liston promenade, and pastel-painted alleyways.",
       "overview": "A green Ionian island known for olive groves, fortresses, and secluded coves.",
       "rating": 4.89,
@@ -428,7 +446,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/corfu-old-town/gallery-1-v3.jpg",
+        "/images/countries/greece/corfu-old-town/gallery-2-v3.jpg",
+        "/images/countries/greece/corfu-old-town/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -448,7 +468,7 @@
       "slug": "peloponnese-epidaurus",
       "name": "Epidaurus Ancient Theatre",
       "category": "Acoustic Marvel",
-      "image": "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/greece/peloponnese-epidaurus/hero-v3.jpg",
       "shortDesc": "4th-century BC stone amphitheater famous for its flawless acoustic perfection.",
       "overview": "A pin dropped at the center stage can be heard clearly from the highest tier row.",
       "rating": 4.88,
@@ -475,7 +495,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1555993539-1732b0308238?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/greece/peloponnese-epidaurus/gallery-1-v3.jpg",
+        "/images/countries/greece/peloponnese-epidaurus/gallery-2-v3.jpg",
+        "/images/countries/greece/peloponnese-epidaurus/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

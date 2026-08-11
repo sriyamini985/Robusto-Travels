@@ -2,7 +2,7 @@
   "name": "Maldives",
   "slug": "maldives",
   "flag": "🇲🇻",
-  "heroImage": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/maldives/hero-v3.jpg",
   "intro": "Escape to private overwater bungalows, turquoise lagoons, and white-sand bioluminescent beaches. The Maldives is the ultimate remote luxury sanctuary.",
   "bestSeason": "December to April (Dry season)",
   "weather": "Warm and tropical year-round. Average daytime temperature is 30°C. Brief monsoon rains occur from May to October.",
@@ -18,15 +18,16 @@
     "Dine in underwater glass restaurants surrounded by coral reefs"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/maldives/gallery-1-v3.jpg",
+    "/images/countries/maldives/gallery-2-v3.jpg",
+    "/images/countries/maldives/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "ari-atoll",
       "name": "Ari Atoll & Whale Shark Lagoon",
       "category": "Marine Reserve",
-      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/ari-atoll/hero-v3.jpg",
       "shortDesc": "World-famous marine sanctuary for year-round swimming with gentle whale sharks and manta rays.",
       "overview": "Ari Atoll offers turquoise lagoons, vibrant coral gardens, and world-class diving channels.",
       "rating": 4.98,
@@ -53,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/ari-atoll/gallery-1-v3.jpg",
+        "/images/countries/maldives/ari-atoll/gallery-2-v3.jpg",
+        "/images/countries/maldives/ari-atoll/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -74,7 +77,7 @@
       "slug": "baa-atoll",
       "name": "Baa Atoll UNESCO Biosphere",
       "category": "Coral Atoll",
-      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/baa-atoll/hero-v3.jpg",
       "shortDesc": "Hanifaru Bay feeding frenzy of hundreds of manta rays in crystal shallow waters.",
       "overview": "A globally protected UNESCO marine sanctuary with ultra-luxury eco-resorts.",
       "rating": 4.97,
@@ -101,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/baa-atoll/gallery-1-v3.jpg",
+        "/images/countries/maldives/baa-atoll/gallery-2-v3.jpg",
+        "/images/countries/maldives/baa-atoll/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -122,7 +127,7 @@
       "slug": "male-city",
       "name": "Male Capital & Grand Mosque",
       "category": "Island Capital",
-      "image": "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/male-city/hero-v3.jpg",
       "shortDesc": "Golden dome of Islamic Centre, bustling fish markets, and Sultan Park.",
       "overview": "The vibrant, densely populated capital island offering insights into Maldivian culture.",
       "rating": 4.82,
@@ -149,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/male-city/gallery-1-v3.jpg",
+        "/images/countries/maldives/male-city/gallery-2-v3.jpg",
+        "/images/countries/maldives/male-city/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -170,7 +177,7 @@
       "slug": "vaadhoo-bioluminescence",
       "name": "Vaadhoo Sea of Stars",
       "category": "Bioluminescent Beach",
-      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/vaadhoo-bioluminescence/hero-v3.jpg",
       "shortDesc": "Natural bioluminescent phytoplankton washing ashore like glowing blue stars at night.",
       "overview": "Witness the magical glowing blue waves beneath the starlit Maldivian night sky.",
       "rating": 4.96,
@@ -197,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/vaadhoo-bioluminescence/gallery-1-v3.jpg",
+        "/images/countries/maldives/vaadhoo-bioluminescence/gallery-2-v3.jpg",
+        "/images/countries/maldives/vaadhoo-bioluminescence/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -218,7 +227,7 @@
       "slug": "maafushi-island",
       "name": "Maafushi Local Island & Sandbanks",
       "category": "Local Paradise",
-      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/maafushi-island/hero-v3.jpg",
       "shortDesc": "Inhabited island offering budget luxury, sandbank excursions, and dolphin cruises.",
       "overview": "Snorkel with nurse sharks and sea turtles just offshore from pristine beaches.",
       "rating": 4.88,
@@ -245,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/maafushi-island/gallery-1-v3.jpg",
+        "/images/countries/maldives/maafushi-island/gallery-2-v3.jpg",
+        "/images/countries/maldives/maafushi-island/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -266,7 +277,7 @@
       "slug": "baros-resort",
       "name": "Baros Overwater Lagoon",
       "category": "Private Atoll",
-      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/baros-resort/hero-v3.jpg",
       "shortDesc": "Pioneer of Maldivian luxury with iconic round wooden overwater villas and house reefs.",
       "overview": "Consistently awarded the world's most romantic resort for couples and honeymoons.",
       "rating": 4.99,
@@ -293,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/baros-resort/gallery-1-v3.jpg",
+        "/images/countries/maldives/baros-resort/gallery-2-v3.jpg",
+        "/images/countries/maldives/baros-resort/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -314,7 +327,7 @@
       "slug": "hulhumale-beach",
       "name": "Hulhumale Island Beach",
       "category": "Coastal Promenade",
-      "image": "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/hulhumale-beach/hero-v3.jpg",
       "shortDesc": "Reclaimed green island connected to Male airport with long white sand public beaches.",
       "overview": "Features water sports centers, beachside cafes, and sunset boardwalks.",
       "rating": 4.84,
@@ -341,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/hulhumale-beach/gallery-1-v3.jpg",
+        "/images/countries/maldives/hulhumale-beach/gallery-2-v3.jpg",
+        "/images/countries/maldives/hulhumale-beach/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -362,7 +377,7 @@
       "slug": "sun-island-lagoon",
       "name": "Sun Island Resort & Atoll Lagoon",
       "category": "Tropical Lagoon",
-      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/sun-island-lagoon/hero-v3.jpg",
       "shortDesc": "Expansive island resort with lush coconut palm avenues, stingray feeding, and reef spas.",
       "overview": "One of the largest resort islands in South Ari Atoll featuring glass-bottom spa rooms.",
       "rating": 4.91,
@@ -389,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/sun-island-lagoon/gallery-1-v3.jpg",
+        "/images/countries/maldives/sun-island-lagoon/gallery-2-v3.jpg",
+        "/images/countries/maldives/sun-island-lagoon/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -410,7 +427,7 @@
       "slug": "veligandu-island",
       "name": "Veligandu Island Sandbar",
       "category": "Sandbar Lagoon",
-      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/veligandu-island/hero-v3.jpg",
       "shortDesc": "80-meter long pristine white sand spit stretching into clear turquoise waters.",
       "overview": "Enjoy private candlelit sandbar dinners surrounded by 360-degree ocean panoramas.",
       "rating": 4.95,
@@ -437,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/veligandu-island/gallery-1-v3.jpg",
+        "/images/countries/maldives/veligandu-island/gallery-2-v3.jpg",
+        "/images/countries/maldives/veligandu-island/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -458,7 +477,7 @@
       "slug": "dhaalu-atoll",
       "name": "Dhaalu Atoll Underwater Dining",
       "category": "Sub-Ocean Gastronomy",
-      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/maldives/dhaalu-atoll/hero-v3.jpg",
       "shortDesc": "Undersea glass restaurant dining 6 meters below sea level surrounded by coral fish.",
       "overview": "Dine on fine caviar while watching reef sharks swim past your table window.",
       "rating": 4.98,
@@ -485,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/maldives/dhaalu-atoll/gallery-1-v3.jpg",
+        "/images/countries/maldives/dhaalu-atoll/gallery-2-v3.jpg",
+        "/images/countries/maldives/dhaalu-atoll/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

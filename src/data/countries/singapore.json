@@ -2,7 +2,7 @@
   "name": "Singapore",
   "slug": "singapore",
   "flag": "🇸🇬",
-  "heroImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/singapore/hero-v3.jpg",
   "intro": "Explore the Garden City, a clean, high-tech metropolis at the crossroads of Southeast Asia. Singapore blends futuristic green architecture, luxury retail, and rich multi-cultural neighborhoods.",
   "bestSeason": "February to April (Lowest rainfall) & September (Formula 1 Grand Prix)",
   "weather": "Hot and humid tropical climate. Constant 31°C year-round with short daily tropical rainfall.",
@@ -18,15 +18,16 @@
     "Take a night safari through the world's first nocturnal wildlife park"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1506505776263-d13b724e155e?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/singapore/gallery-1-v3.jpg",
+    "/images/countries/singapore/gallery-2-v3.jpg",
+    "/images/countries/singapore/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "marina-bay-sands",
       "name": "Marina Bay Sands & SkyPark",
       "category": "Modern Architecture",
-      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/marina-bay-sands/hero-v3.jpg",
       "shortDesc": "Integrated resort featuring the world's largest rooftop infinity pool 57 stories high.",
       "overview": "An architectural marvel offering panoramic city views, luxury shopping, and ArtScience Museum.",
       "rating": 4.96,
@@ -53,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/marina-bay-sands/gallery-1-v3.jpg",
+        "/images/countries/singapore/marina-bay-sands/gallery-2-v3.jpg",
+        "/images/countries/singapore/marina-bay-sands/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -74,7 +77,7 @@
       "slug": "gardens-by-the-bay",
       "name": "Gardens by the Bay & Supertrees",
       "category": "Eco-Futuristic Botanical",
-      "image": "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/gardens-by-the-bay/hero-v3.jpg",
       "shortDesc": "Towering 50m Supertree structures, Flower Dome conservatory, and Cloud Forest waterfall.",
       "overview": "At night, witness the OCBC Garden Rhapsody light and sound show illuminating the canopy.",
       "rating": 4.98,
@@ -101,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/gardens-by-the-bay/gallery-1-v3.jpg",
+        "/images/countries/singapore/gardens-by-the-bay/gallery-2-v3.jpg",
+        "/images/countries/singapore/gardens-by-the-bay/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -122,7 +127,7 @@
       "slug": "sentosa-island",
       "name": "Sentosa Island & Resorts",
       "category": "Island Resort",
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/sentosa-island/hero-v3.jpg",
       "shortDesc": "Tropical playground with Palawan beach, cable cars, and S.E.A. Aquarium.",
       "overview": "Singapore's premier island escape for beaches, zip lines, and luxury resorts.",
       "rating": 4.91,
@@ -149,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/sentosa-island/gallery-1-v3.jpg",
+        "/images/countries/singapore/sentosa-island/gallery-2-v3.jpg",
+        "/images/countries/singapore/sentosa-island/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -170,7 +177,7 @@
       "slug": "universal-studios",
       "name": "Universal Studios Singapore",
       "category": "Theme Park",
-      "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/universal-studios/hero-v3.jpg",
       "shortDesc": "Thrilling rides and movie attractions across 7 themed zones including Sci-Fi City and Ancient Egypt.",
       "overview": "Home to Battlestar Galactica dueling roller coasters and Transformers 3D ride.",
       "rating": 4.92,
@@ -197,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/universal-studios/gallery-1-v3.jpg",
+        "/images/countries/singapore/universal-studios/gallery-2-v3.jpg",
+        "/images/countries/singapore/universal-studios/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -218,7 +227,7 @@
       "slug": "merlion-park",
       "name": "Merlion Park & Waterfront",
       "category": "National Icon",
-      "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/merlion-park/hero-v3.jpg",
       "shortDesc": "Mythical half-lion, half-fish statue spouting water into Marina Bay.",
       "overview": "The signature photo spot of Singapore overlooking the skyline and lotus-shaped museum.",
       "rating": 4.87,
@@ -245,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/merlion-park/gallery-1-v3.jpg",
+        "/images/countries/singapore/merlion-park/gallery-2-v3.jpg",
+        "/images/countries/singapore/merlion-park/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -266,7 +277,7 @@
       "slug": "singapore-flyer",
       "name": "Singapore Flyer Observation Wheel",
       "category": "Giant Ferris Wheel",
-      "image": "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/singapore-flyer/hero-v3.jpg",
       "shortDesc": "165m tall giant observation wheel offering views extending to Malaysia and Indonesia on clear days.",
       "overview": "Enjoy champagne or 4-course sky dining inside air-conditioned glass capsules.",
       "rating": 4.88,
@@ -293,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/singapore-flyer/gallery-1-v3.jpg",
+        "/images/countries/singapore/singapore-flyer/gallery-2-v3.jpg",
+        "/images/countries/singapore/singapore-flyer/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -314,7 +327,7 @@
       "slug": "jewel-changi",
       "name": "Jewel Changi Rain Vortex",
       "category": "Airport Marvel",
-      "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/jewel-changi/hero-v3.jpg",
       "shortDesc": "World's tallest indoor waterfall cascading 40m through a lush 4-story indoor rainforest.",
       "overview": "A futuristic lifestyle complex connecting Changi terminals with Canopy Park bridges.",
       "rating": 4.97,
@@ -341,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/jewel-changi/gallery-1-v3.jpg",
+        "/images/countries/singapore/jewel-changi/gallery-2-v3.jpg",
+        "/images/countries/singapore/jewel-changi/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -362,7 +377,7 @@
       "slug": "clarke-quay",
       "name": "Clarke Quay & Singapore River",
       "category": "Nightlife & Dining",
-      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/clarke-quay/hero-v3.jpg",
       "shortDesc": "Restored riverside godowns turned into vibrant dining bars and river cruise docks.",
       "overview": "Sample chilli crab and craft cocktails along illuminated waters.",
       "rating": 4.89,
@@ -389,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/clarke-quay/gallery-1-v3.jpg",
+        "/images/countries/singapore/clarke-quay/gallery-2-v3.jpg",
+        "/images/countries/singapore/clarke-quay/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -410,7 +427,7 @@
       "slug": "chinatown-singapore",
       "name": "Chinatown & Buddha Tooth Relic Temple",
       "category": "Cultural Heritage",
-      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/chinatown-singapore/hero-v3.jpg",
       "shortDesc": "Tang-style temple housing sacred relics, traditional tea houses, and Michelin hawker stalls.",
       "overview": "Experience Maxwell Food Centre's world-famous Tian Tian Hainanese Chicken Rice.",
       "rating": 4.9,
@@ -437,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/chinatown-singapore/gallery-1-v3.jpg",
+        "/images/countries/singapore/chinatown-singapore/gallery-2-v3.jpg",
+        "/images/countries/singapore/chinatown-singapore/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -458,7 +477,7 @@
       "slug": "orchard-road",
       "name": "Orchard Road Shopping Belt",
       "category": "Luxury Shopping",
-      "image": "https://images.unsplash.com/photo-1567449303078-57ad995bd301?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/singapore/orchard-road/hero-v3.jpg",
       "shortDesc": "2.2km boulevard lined with high-end designer malls like ION Orchard and Paragon.",
       "overview": "The ultimate shopping destination for international fashion and luxury watches.",
       "rating": 4.86,
@@ -485,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1567449303078-57ad995bd301?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/singapore/orchard-road/gallery-1-v3.jpg",
+        "/images/countries/singapore/orchard-road/gallery-2-v3.jpg",
+        "/images/countries/singapore/orchard-road/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

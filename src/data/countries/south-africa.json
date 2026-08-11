@@ -2,7 +2,7 @@
   "name": "South Africa",
   "slug": "south-africa",
   "flag": "🇿🇦",
-  "heroImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/south-africa/hero-v3.jpg",
   "intro": "Discover the Rainbow Nation's wildlife safaris, dramatic coastal cliffs, world-class winelands, and vibrant culture.",
   "bestSeason": "May to September (Safari) & November to March (Cape Town)",
   "weather": "Diverse climate. Warm sunny summers (20°C to 28°C), mild winters (10°C to 18°C).",
@@ -18,14 +18,16 @@
     "Stellenbosch Winelands"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/south-africa/gallery-1-v3.jpg",
+    "/images/countries/south-africa/gallery-2-v3.jpg",
+    "/images/countries/south-africa/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "cape-town-table-mountain",
       "name": "Table Mountain & Cape Town",
       "category": "Coastal Landmark",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/cape-town-table-mountain/hero-v3.jpg",
       "shortDesc": "Flat-topped 1,086m mountain framed by Atlantic ocean, V&A Waterfront, and Robben Island.",
       "overview": "Ride the rotating cable car to the summit for views over Camps Bay and Lion's Head.",
       "rating": 4.98,
@@ -52,7 +54,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/cape-town-table-mountain/gallery-1-v3.jpg",
+        "/images/countries/south-africa/cape-town-table-mountain/gallery-2-v3.jpg",
+        "/images/countries/south-africa/cape-town-table-mountain/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -72,7 +76,7 @@
       "slug": "kruger-safari",
       "name": "Kruger National Park Big 5 Safari",
       "category": "Wildlife Reserve",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/kruger-safari/hero-v3.jpg",
       "shortDesc": "One of Africa's greatest game reserves offering open 4x4 sightings of lions, leopards, and elephants.",
       "overview": "Stay in luxury private game lodges with starlit bush dinners.",
       "rating": 4.99,
@@ -99,7 +103,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/kruger-safari/gallery-1-v3.jpg",
+        "/images/countries/south-africa/kruger-safari/gallery-2-v3.jpg",
+        "/images/countries/south-africa/kruger-safari/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -119,7 +125,7 @@
       "slug": "cape-peninsula-boulders",
       "name": "Cape Point & Boulders Penguin Beach",
       "category": "Scenic Peninsula",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/cape-peninsula-boulders/hero-v3.jpg",
       "shortDesc": "Walk alongside thousands of wild African penguins on Boulders Beach sand dunes.",
       "overview": "Drive Chapman's Peak to the dramatic sea cliffs of Cape Point where oceans meet.",
       "rating": 4.96,
@@ -146,7 +152,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/cape-peninsula-boulders/gallery-1-v3.jpg",
+        "/images/countries/south-africa/cape-peninsula-boulders/gallery-2-v3.jpg",
+        "/images/countries/south-africa/cape-peninsula-boulders/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -166,7 +174,7 @@
       "slug": "stellenbosch-winelands",
       "name": "Stellenbosch & Franschhoek Winelands",
       "category": "Vineyard Valley",
-      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/stellenbosch-winelands/hero-v3.jpg",
       "shortDesc": "Historic Cape Dutch wine estates, gourmet fine dining, and open-air wine tram tours.",
       "overview": "Sample award-winning Pinotage and Cabernet Sauvignon surrounded by mountain peaks.",
       "rating": 4.93,
@@ -193,7 +201,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/stellenbosch-winelands/gallery-1-v3.jpg",
+        "/images/countries/south-africa/stellenbosch-winelands/gallery-2-v3.jpg",
+        "/images/countries/south-africa/stellenbosch-winelands/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -213,7 +223,7 @@
       "slug": "garden-route-knysna",
       "name": "Garden Route & Knysna Heads",
       "category": "Coastal Highway",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/garden-route-knysna/hero-v3.jpg",
       "shortDesc": "300km scenic coastal drive past ancient indigenous forests, lagoons, and Tsitsikamma bridges.",
       "overview": "Famous for whale watching, canopy ziplining, and lagoon oysters.",
       "rating": 4.94,
@@ -240,7 +250,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/garden-route-knysna/gallery-1-v3.jpg",
+        "/images/countries/south-africa/garden-route-knysna/gallery-2-v3.jpg",
+        "/images/countries/south-africa/garden-route-knysna/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -260,7 +272,7 @@
       "slug": "drakensberg-mountains",
       "name": "Drakensberg Mountains & Tugela",
       "category": "Mountain Escarpment",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/drakensberg-mountains/hero-v3.jpg",
       "shortDesc": "Jagged basalt peaks rising over 3,000 meters adorned with ancient San rock art caves.",
       "overview": "Hike to the world's second highest waterfall, Tugela Falls.",
       "rating": 4.91,
@@ -287,7 +299,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/drakensberg-mountains/gallery-1-v3.jpg",
+        "/images/countries/south-africa/drakensberg-mountains/gallery-2-v3.jpg",
+        "/images/countries/south-africa/drakensberg-mountains/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -307,7 +321,7 @@
       "slug": "blyde-river-canyon",
       "name": "Blyde River Canyon & God's Window",
       "category": "Geological Canyon",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/blyde-river-canyon/hero-v3.jpg",
       "shortDesc": "World's third largest canyon featuring Three Rondavels green rock formations.",
       "overview": "Look out across endless lowveld bush from God's Window cliff vantage point.",
       "rating": 4.92,
@@ -334,7 +348,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/blyde-river-canyon/gallery-1-v3.jpg",
+        "/images/countries/south-africa/blyde-river-canyon/gallery-2-v3.jpg",
+        "/images/countries/south-africa/blyde-river-canyon/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -354,7 +370,7 @@
       "slug": "hermanus-whales",
       "name": "Hermanus Bay Whale Watching",
       "category": "Marine Sanctuary",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/hermanus-whales/hero-v3.jpg",
       "shortDesc": "World's premier land-based whale watching capital for Southern Right Whales.",
       "overview": "Listen to the official Whale Crier blowing kelp horns when whales breach near shore.",
       "rating": 4.9,
@@ -381,7 +397,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/hermanus-whales/gallery-1-v3.jpg",
+        "/images/countries/south-africa/hermanus-whales/gallery-2-v3.jpg",
+        "/images/countries/south-africa/hermanus-whales/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -401,7 +419,7 @@
       "slug": "sabi-sands-lodge",
       "name": "Sabi Sands Private Game Reserve",
       "category": "Ultra-Luxury Safari",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/sabi-sands-lodge/hero-v3.jpg",
       "shortDesc": "World-famous private reserve adjacent to Kruger offering off-road leopard tracking.",
       "overview": "5-star infinity plunge pool villas overlooking animal watering holes.",
       "rating": 4.98,
@@ -428,7 +446,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/sabi-sands-lodge/gallery-1-v3.jpg",
+        "/images/countries/south-africa/sabi-sands-lodge/gallery-2-v3.jpg",
+        "/images/countries/south-africa/sabi-sands-lodge/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -448,7 +468,7 @@
       "slug": "johannesburg-soweto",
       "name": "Johannesburg & Soweto Nelson Mandela",
       "category": "Cultural History",
-      "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/south-africa/johannesburg-soweto/hero-v3.jpg",
       "shortDesc": "Apartheid Museum, Constitution Hill, and Vilakazi Street where Mandela lived.",
       "overview": "The vibrant urban heart of South Africa rich in contemporary art and African music.",
       "rating": 4.88,
@@ -475,7 +495,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/south-africa/johannesburg-soweto/gallery-1-v3.jpg",
+        "/images/countries/south-africa/johannesburg-soweto/gallery-2-v3.jpg",
+        "/images/countries/south-africa/johannesburg-soweto/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

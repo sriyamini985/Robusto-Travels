@@ -2,7 +2,7 @@
   "name": "Turkey",
   "slug": "turkey",
   "flag": "🇹🇷",
-  "heroImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/turkey/hero-v3.jpg",
   "intro": "Journey through a land that spans two continents. Turkey is a rich tapestry of Ottoman grand arches, ancient Roman relics, and the cave dwellings of Cappadocia.",
   "bestSeason": "April to May (Spring) & September to October (Autumn)",
   "weather": "Mediterranean climate. Warm dry summers (28°C to 34°C), cool rainy winters. Snow is common in central Cappadocia in winter.",
@@ -18,15 +18,16 @@
     "Relax in thermal historic Turkish baths (Hammams)"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1504382262782-5b4cf10d7d1f?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/turkey/gallery-1-v3.jpg",
+    "/images/countries/turkey/gallery-2-v3.jpg",
+    "/images/countries/turkey/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "istanbul-hagia-sophia",
       "name": "Istanbul Hagia Sophia & Grand Bazaar",
       "category": "Bosphorus Capital",
-      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/istanbul-hagia-sophia/hero-v3.jpg",
       "shortDesc": "Byzantine dome of Hagia Sophia, Blue Mosque, Topkapi Palace, and spice markets.",
       "overview": "Where East meets West across the Bosphorus strait, spanning Europe and Asia.",
       "rating": 4.96,
@@ -53,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/istanbul-hagia-sophia/gallery-1-v3.jpg",
+        "/images/countries/turkey/istanbul-hagia-sophia/gallery-2-v3.jpg",
+        "/images/countries/turkey/istanbul-hagia-sophia/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -74,7 +77,7 @@
       "slug": "cappadocia-balloons",
       "name": "Cappadocia Hot Air Balloons & Fairy Chimneys",
       "category": "Surreal Landscape",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/cappadocia-balloons/hero-v3.jpg",
       "shortDesc": "Hundreds of colorful hot air balloons rising over volcanic fairy chimneys and cave hotels.",
       "overview": "Sleep in ancient subterranean cave suites and explore Göreme Open Air Museum.",
       "rating": 4.99,
@@ -101,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/cappadocia-balloons/gallery-1-v3.jpg",
+        "/images/countries/turkey/cappadocia-balloons/gallery-2-v3.jpg",
+        "/images/countries/turkey/cappadocia-balloons/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -122,7 +127,7 @@
       "slug": "pamukkale-travertines",
       "name": "Pamukkale Thermal Travertines & Hierapolis",
       "category": "Thermal Spring",
-      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/pamukkale-travertines/hero-v3.jpg",
       "shortDesc": "Snow-white calcium carbonate terraces filled with warm mineral-rich thermal waters.",
       "overview": "Swim among submerged Roman marble columns in Cleopatra's Antique Pool.",
       "rating": 4.93,
@@ -149,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/pamukkale-travertines/gallery-1-v3.jpg",
+        "/images/countries/turkey/pamukkale-travertines/gallery-2-v3.jpg",
+        "/images/countries/turkey/pamukkale-travertines/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -170,7 +177,7 @@
       "slug": "ephesus-ruins",
       "name": "Ephesus Ancient Library of Celsus",
       "category": "Greco-Roman History",
-      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/ephesus-ruins/hero-v3.jpg",
       "shortDesc": "Magnificent 2-story façade of Celsus Library, Great Theatre, and marble Roman streets.",
       "overview": "One of the best-preserved ancient Greco-Roman cities in the Mediterranean.",
       "rating": 4.92,
@@ -197,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/ephesus-ruins/gallery-1-v3.jpg",
+        "/images/countries/turkey/ephesus-ruins/gallery-2-v3.jpg",
+        "/images/countries/turkey/ephesus-ruins/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -218,7 +227,7 @@
       "slug": "antalya-turquoise-coast",
       "name": "Antalya Turquoise Coast & Duden Falls",
       "category": "Mediterranean Riviera",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/antalya-turquoise-coast/hero-v3.jpg",
       "shortDesc": "Kaleici old town harbor, Konyaalti pebble beach, and Lower Duden waterfall tumbling into the sea.",
       "overview": "Gateway to the Turkish Riviera packed with Roman harbors and luxury beach resorts.",
       "rating": 4.9,
@@ -245,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/antalya-turquoise-coast/gallery-1-v3.jpg",
+        "/images/countries/turkey/antalya-turquoise-coast/gallery-2-v3.jpg",
+        "/images/countries/turkey/antalya-turquoise-coast/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -266,7 +277,7 @@
       "slug": "bodrum-marina",
       "name": "Bodrum Castle & Marina",
       "category": "Aegean Resort",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/bodrum-marina/hero-v3.jpg",
       "shortDesc": "Crusader Castle of St. Peter, underwater archaeology museum, and wooden gulet yacht cruises.",
       "overview": "The St. Tropez of Turkey featuring white-washed houses and lively Aegean nightlife.",
       "rating": 4.89,
@@ -293,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/bodrum-marina/gallery-1-v3.jpg",
+        "/images/countries/turkey/bodrum-marina/gallery-2-v3.jpg",
+        "/images/countries/turkey/bodrum-marina/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -314,7 +327,7 @@
       "slug": "fethiye-oludeniz",
       "name": "Fethiye Oludeniz Blue Lagoon",
       "category": "Paragliding Beach",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/fethiye-oludeniz/hero-v3.jpg",
       "shortDesc": "Tandem paragliding off Mount Babadag over the calm blue waters of the Blue Lagoon.",
       "overview": "Famous for Butterfly Valley hikes and crystal clear turquoise swimming coves.",
       "rating": 4.95,
@@ -341,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/fethiye-oludeniz/gallery-1-v3.jpg",
+        "/images/countries/turkey/fethiye-oludeniz/gallery-2-v3.jpg",
+        "/images/countries/turkey/fethiye-oludeniz/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -362,7 +377,7 @@
       "slug": "mount-nemrut",
       "name": "Mount Nemrut Giant Stone Heads",
       "category": "Ancient Tomb",
-      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/mount-nemrut/hero-v3.jpg",
       "shortDesc": "2,130m mountain summit adorned with 9-meter tall colossal stone head statues.",
       "overview": "Built by King Antiochus I in 62 BC, commanding breathtaking sunrise views.",
       "rating": 4.91,
@@ -389,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/mount-nemrut/gallery-1-v3.jpg",
+        "/images/countries/turkey/mount-nemrut/gallery-2-v3.jpg",
+        "/images/countries/turkey/mount-nemrut/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -410,7 +427,7 @@
       "slug": "sumela-monastery",
       "name": "Sumela Monastery Trabzon",
       "category": "Cliffside Sanctuary",
-      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/sumela-monastery/hero-v3.jpg",
       "shortDesc": "Greek Orthodox monastery carved into a steep cliff face in Altindere National Park.",
       "overview": "Founded in 386 AD, featuring vivid interior frescoes nestled in misty pine forests.",
       "rating": 4.88,
@@ -437,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/sumela-monastery/gallery-1-v3.jpg",
+        "/images/countries/turkey/sumela-monastery/gallery-2-v3.jpg",
+        "/images/countries/turkey/sumela-monastery/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -458,7 +477,7 @@
       "slug": "pergamum-acropolis",
       "name": "Pergamum Acropolis",
       "category": "Hellenistic Citadel",
-      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/turkey/pergamum-acropolis/hero-v3.jpg",
       "shortDesc": "Steepest ancient theater in the world built into the side of a dramatic hilltop acropolis.",
       "overview": "Ancient center of learning and healing home to the Asklepieion medical sanctuary.",
       "rating": 4.87,
@@ -485,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/turkey/pergamum-acropolis/gallery-1-v3.jpg",
+        "/images/countries/turkey/pergamum-acropolis/gallery-2-v3.jpg",
+        "/images/countries/turkey/pergamum-acropolis/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

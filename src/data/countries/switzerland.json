@@ -2,7 +2,7 @@
   "name": "Switzerland",
   "slug": "switzerland",
   "flag": "🇨🇭",
-  "heroImage": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/switzerland/hero-v3.jpg",
   "intro": "Experience majestic snow-covered peaks, pristine alpine lakes, and premium luxury retreats in the heart of Europe. Switzerland is a sanctuary of scenic beauty and timeless refinement.",
   "bestSeason": "June to September (Summer hiking) & December to March (Winter sports)",
   "weather": "Temperate climate. Pleasant mild summers (18°C to 28°C), freezing snowy winters (-2°C to 7°C) in the valleys.",
@@ -18,16 +18,16 @@
     "Ascend to the 'Top of Europe' at Jungfraujoch observatory"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/switzerland/gallery-1-v3.jpg",
+    "/images/countries/switzerland/gallery-2-v3.jpg",
+    "/images/countries/switzerland/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "zermatt",
       "name": "Zermatt & Matterhorn",
       "category": "Alpine Mountain",
-      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/zermatt/hero-v3.jpg",
       "shortDesc": "Car-free alpine village nestled at the foot of the iconic pyramid-shaped Matterhorn.",
       "overview": "Zermatt is Switzerland's ultimate mountain sanctuary. Free of combustion engine vehicles, the village preserves a peaceful alpine charm.",
       "rating": 4.96,
@@ -54,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/zermatt/gallery-1-v3.jpg",
+        "/images/countries/switzerland/zermatt/gallery-2-v3.jpg",
+        "/images/countries/switzerland/zermatt/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -75,7 +77,7 @@
       "slug": "jungfraujoch",
       "name": "Jungfraujoch (Top of Europe)",
       "category": "High-Altitude Peak",
-      "image": "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/jungfraujoch/hero-v3.jpg",
       "shortDesc": "Europe's highest railway station featuring snow observatories and ice palaces.",
       "overview": "Ascend via the Eiger Express tricable gondola to 3,454 meters altitude above the Aletsch Glacier.",
       "rating": 4.93,
@@ -102,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1536514072410-5019a3c69182?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/jungfraujoch/gallery-1-v3.jpg",
+        "/images/countries/switzerland/jungfraujoch/gallery-2-v3.jpg",
+        "/images/countries/switzerland/jungfraujoch/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -123,7 +127,7 @@
       "slug": "interlaken",
       "name": "Interlaken Lakes & Adventure",
       "category": "Adventure Capital",
-      "image": "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/interlaken/hero-v3.jpg",
       "shortDesc": "Set between Lake Thun and Lake Brienz, the gateway to alpine paragliding.",
       "overview": "Interlaken offers emerald waters, soaring peaks, and exhilarating skydiving and lake cruises.",
       "rating": 4.88,
@@ -150,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/interlaken/gallery-1-v3.jpg",
+        "/images/countries/switzerland/interlaken/gallery-2-v3.jpg",
+        "/images/countries/switzerland/interlaken/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -171,7 +177,7 @@
       "slug": "lucerne",
       "name": "Lucerne & Mount Pilatus",
       "category": "Heritage & Lake",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/lucerne/hero-v3.jpg",
       "shortDesc": "Medieval Chapel Bridge, pristine lake cruises, and the world's steepest cogwheel railway.",
       "overview": "Lucerne blends historic wooden bridges and lakefront promenades with dramatic mountain vistas.",
       "rating": 4.91,
@@ -198,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/lucerne/gallery-1-v3.jpg",
+        "/images/countries/switzerland/lucerne/gallery-2-v3.jpg",
+        "/images/countries/switzerland/lucerne/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -219,7 +227,7 @@
       "slug": "zurich",
       "name": "Zurich Old Town & Lake",
       "category": "Metropolitan Luxury",
-      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/zurich/hero-v3.jpg",
       "shortDesc": "World-class shopping on Bahnhofstrasse and medieval guild houses along the Limmat river.",
       "overview": "Zurich combines urban elegance with lakeside relaxation and vibrant fine dining.",
       "rating": 4.86,
@@ -246,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/zurich/gallery-1-v3.jpg",
+        "/images/countries/switzerland/zurich/gallery-2-v3.jpg",
+        "/images/countries/switzerland/zurich/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -267,7 +277,7 @@
       "slug": "geneva",
       "name": "Geneva & Jet d'Eau",
       "category": "Global Culture",
-      "image": "https://images.unsplash.com/photo-1572978084347-759604169542?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/geneva/hero-v3.jpg",
       "shortDesc": "Diplomatic hub on Lake Geneva famous for watchmaking and the 140m water fountain.",
       "overview": "Surrounded by the Alps and Jura mountains, Geneva is a center of haute horlogerie.",
       "rating": 4.85,
@@ -294,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1572978084347-759604169542?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/geneva/gallery-1-v3.jpg",
+        "/images/countries/switzerland/geneva/gallery-2-v3.jpg",
+        "/images/countries/switzerland/geneva/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -315,7 +327,7 @@
       "slug": "lauterbrunnen",
       "name": "Lauterbrunnen Valley",
       "category": "Waterfalls & Nature",
-      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/lauterbrunnen/hero-v3.jpg",
       "shortDesc": "Stunning glacial valley featuring 72 plunging waterfalls and cliffside meadows.",
       "overview": "Inspiration for Tolkien's Rivendell, Lauterbrunnen is one of the most picturesque valleys in the world.",
       "rating": 4.97,
@@ -342,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/lauterbrunnen/gallery-1-v3.jpg",
+        "/images/countries/switzerland/lauterbrunnen/gallery-2-v3.jpg",
+        "/images/countries/switzerland/lauterbrunnen/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -363,7 +377,7 @@
       "slug": "rhine-falls",
       "name": "Rhine Falls Neuhausen",
       "category": "Natural Wonder",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/rhine-falls/hero-v3.jpg",
       "shortDesc": "Europe's largest plain waterfall with thunderous roaring waters.",
       "overview": "Experience boat rides that take you right to the rock in the middle of the roaring falls.",
       "rating": 4.84,
@@ -390,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/rhine-falls/gallery-1-v3.jpg",
+        "/images/countries/switzerland/rhine-falls/gallery-2-v3.jpg",
+        "/images/countries/switzerland/rhine-falls/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -411,7 +427,7 @@
       "slug": "st-moritz",
       "name": "St. Moritz Alpine Resort",
       "category": "Luxury Winter Sports",
-      "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/st-moritz/hero-v3.jpg",
       "shortDesc": "Birthplace of Alpine winter tourism known for champagne climate and polo on ice.",
       "overview": "St. Moritz is the legendary playground of royalty and jetsetters.",
       "rating": 4.92,
@@ -438,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/st-moritz/gallery-1-v3.jpg",
+        "/images/countries/switzerland/st-moritz/gallery-2-v3.jpg",
+        "/images/countries/switzerland/st-moritz/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -459,7 +477,7 @@
       "slug": "grindelwald",
       "name": "Grindelwald First",
       "category": "Alpine Cliff Walk",
-      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/switzerland/grindelwald/hero-v3.jpg",
       "shortDesc": "Thrilling Tissot Cliff Walk and First Flyer zip lines overlooking the Eiger mountain.",
       "overview": "Grindelwald First is a haven for mountain walkers, zip-liners, and mountain cart adventurers.",
       "rating": 4.9,
@@ -486,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/switzerland/grindelwald/gallery-1-v3.jpg",
+        "/images/countries/switzerland/grindelwald/gallery-2-v3.jpg",
+        "/images/countries/switzerland/grindelwald/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

@@ -2,7 +2,7 @@
   "name": "United Kingdom",
   "slug": "uk",
   "flag": "🇬🇧",
-  "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/uk/hero-v3.jpg",
   "intro": "Explore majestic royal palaces, historic castles, green rolling hills, and world-leading arts in Great Britain.",
   "bestSeason": "May to September",
   "weather": "Temperate maritime climate. Mild summers (18°C to 24°C), cool damp winters (3°C to 8°C).",
@@ -18,14 +18,16 @@
     "Stonehenge"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/uk/gallery-1-v3.jpg",
+    "/images/countries/uk/gallery-2-v3.jpg",
+    "/images/countries/uk/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "london-big-ben",
       "name": "Big Ben & Tower Bridge",
       "category": "Metropolitan Royal",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/london-big-ben/hero-v3.jpg",
       "shortDesc": "Gothic Elizabeth Tower Big Ben, historic Tower of London, and iconic red double-decker buses.",
       "overview": "London combines royal heritage at Buckingham Palace with West End theater and British Museum.",
       "rating": 4.96,
@@ -52,7 +54,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/london-big-ben/gallery-1-v3.jpg",
+        "/images/countries/uk/london-big-ben/gallery-2-v3.jpg",
+        "/images/countries/uk/london-big-ben/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -72,7 +76,7 @@
       "slug": "edinburgh-castle",
       "name": "Edinburgh Castle & Royal Mile",
       "category": "Scottish Fortress",
-      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/edinburgh-castle/hero-v3.jpg",
       "shortDesc": "Historic fortress standing on Castle Rock dominating the skyline of Scotland's capital.",
       "overview": "Walk the cobblestone Royal Mile, explore Holyrood Palace, and taste single malt Scotch whisky.",
       "rating": 4.97,
@@ -99,7 +103,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/edinburgh-castle/gallery-1-v3.jpg",
+        "/images/countries/uk/edinburgh-castle/gallery-2-v3.jpg",
+        "/images/countries/uk/edinburgh-castle/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -119,7 +125,7 @@
       "slug": "stonehenge",
       "name": "Stonehenge Ancient Circle",
       "category": "Prehistoric Monument",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/stonehenge/hero-v3.jpg",
       "shortDesc": "Mysterious 5,000-year-old megalithic stone circle standing on Salisbury Plain.",
       "overview": "A UNESCO World Heritage wonder engineered by Neolithic builders.",
       "rating": 4.92,
@@ -146,7 +152,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/stonehenge/gallery-1-v3.jpg",
+        "/images/countries/uk/stonehenge/gallery-2-v3.jpg",
+        "/images/countries/uk/stonehenge/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -166,7 +174,7 @@
       "slug": "loch-ness-highlands",
       "name": "Loch Ness & Scottish Highlands",
       "category": "Mountain Glens",
-      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/loch-ness-highlands/hero-v3.jpg",
       "shortDesc": "Dramatic mountain glens of Glen Coe, Isle of Skye fairy pools, and Urquhart Castle on Loch Ness.",
       "overview": "Experience wild Scottish scenery, red deer, and historic clan heritage.",
       "rating": 4.95,
@@ -193,7 +201,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/loch-ness-highlands/gallery-1-v3.jpg",
+        "/images/countries/uk/loch-ness-highlands/gallery-2-v3.jpg",
+        "/images/countries/uk/loch-ness-highlands/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -213,7 +223,7 @@
       "slug": "lake-district",
       "name": "Lake District National Park",
       "category": "Lakeside Poets",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/lake-district/hero-v3.jpg",
       "shortDesc": "England's premier national park featuring Lake Windermere, fells, and Beatrix Potter countryside.",
       "overview": "A picturesque haven for hikers, steam boat cruises, and lakeside tea rooms.",
       "rating": 4.93,
@@ -240,7 +250,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/lake-district/gallery-1-v3.jpg",
+        "/images/countries/uk/lake-district/gallery-2-v3.jpg",
+        "/images/countries/uk/lake-district/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -260,7 +272,7 @@
       "slug": "bath-roman-baths",
       "name": "Bath Roman Baths & Royal Crescent",
       "category": "Georgian Architecture",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/bath-roman-baths/hero-v3.jpg",
       "shortDesc": "Preserved ancient Roman thermal bath complex and honey-colored Georgian stone crescents.",
       "overview": "Relax in modern rooftop thermal spa waters overlooking the historic abbey.",
       "rating": 4.91,
@@ -287,7 +299,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/bath-roman-baths/gallery-1-v3.jpg",
+        "/images/countries/uk/bath-roman-baths/gallery-2-v3.jpg",
+        "/images/countries/uk/bath-roman-baths/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -307,7 +321,7 @@
       "slug": "cotswolds-villages",
       "name": "Cotswolds & Castle Combe",
       "category": "English Countryside",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/cotswolds-villages/hero-v3.jpg",
       "shortDesc": "Fairy-tale honey-stone thatched cottages, thatched pubs, and rolling green hills.",
       "overview": "Explore Bourton-on-the-Water and traditional English cream tea gardens.",
       "rating": 4.94,
@@ -334,7 +348,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/cotswolds-villages/gallery-1-v3.jpg",
+        "/images/countries/uk/cotswolds-villages/gallery-2-v3.jpg",
+        "/images/countries/uk/cotswolds-villages/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -354,7 +370,7 @@
       "slug": "oxford-university",
       "name": "Oxford University & Bodleian",
       "category": "Historic Academia",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/oxford-university/hero-v3.jpg",
       "shortDesc": "The City of Dreaming Spires, home to the oldest university in the English-speaking world.",
       "overview": "Tour Christ Church College dining hall that inspired Harry Potter's Hogwarts.",
       "rating": 4.9,
@@ -381,7 +397,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/oxford-university/gallery-1-v3.jpg",
+        "/images/countries/uk/oxford-university/gallery-2-v3.jpg",
+        "/images/countries/uk/oxford-university/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -401,7 +419,7 @@
       "slug": "giant-causeway",
       "name": "Giant's Causeway Northern Ireland",
       "category": "Basalt Pillars",
-      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/giant-causeway/hero-v3.jpg",
       "shortDesc": "40,000 interlocking hexagonal basalt columns formed by ancient volcanic eruptions.",
       "overview": "Walk along dramatic coastal cliffs featured in Game of Thrones legends.",
       "rating": 4.96,
@@ -428,7 +446,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/giant-causeway/gallery-1-v3.jpg",
+        "/images/countries/uk/giant-causeway/gallery-2-v3.jpg",
+        "/images/countries/uk/giant-causeway/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -448,7 +468,7 @@
       "slug": "windsor-castle",
       "name": "Windsor Castle Estate",
       "category": "Royal Residence",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/uk/windsor-castle/hero-v3.jpg",
       "shortDesc": "The oldest and largest occupied castle in the world, home to British monarchs for 1,000 years.",
       "overview": "Visit St George's Chapel and State Apartments showcasing royal art collections.",
       "rating": 4.92,
@@ -475,7 +495,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/uk/windsor-castle/gallery-1-v3.jpg",
+        "/images/countries/uk/windsor-castle/gallery-2-v3.jpg",
+        "/images/countries/uk/windsor-castle/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

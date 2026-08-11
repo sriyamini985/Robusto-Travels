@@ -2,7 +2,7 @@
   "name": "Spain",
   "slug": "spain",
   "flag": "🇪🇸",
-  "heroImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/spain/hero-v3.jpg",
   "intro": "Vibrant Iberian passion featuring Antoni Gaudí architectural marvels, Moorish palaces, golden Mediterranean beaches, and tapas.",
   "bestSeason": "April to June & September to November",
   "weather": "Mediterranean climate. Hot dry summers (28°C to 35°C), mild winters (10°C to 16°C).",
@@ -18,14 +18,16 @@
     "Seville Cathedral"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/spain/gallery-1-v3.jpg",
+    "/images/countries/spain/gallery-2-v3.jpg",
+    "/images/countries/spain/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "barcelona-sagrada-familia",
       "name": "Barcelona Sagrada Família & Park Güell",
       "category": "Gaudí Architecture",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/barcelona-sagrada-familia/hero-v3.jpg",
       "shortDesc": "Antoni Gaudí's towering basilica masterpiece with stained glass forest light.",
       "overview": "Stroll colorful Park Güell mosaics, Gothic Quarter, and vibrant La Rambla street.",
       "rating": 4.98,
@@ -52,7 +54,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/barcelona-sagrada-familia/gallery-1-v3.jpg",
+        "/images/countries/spain/barcelona-sagrada-familia/gallery-2-v3.jpg",
+        "/images/countries/spain/barcelona-sagrada-familia/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -72,7 +76,7 @@
       "slug": "granada-alhambra",
       "name": "Granada Alhambra & Generalife",
       "category": "Moorish Palace",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/granada-alhambra/hero-v3.jpg",
       "shortDesc": "Red stone Moorish fortress palace featuring intricate Islamic arabesque tilework and fountains.",
       "overview": "Perched against the snow-capped Sierra Nevada mountains in Andalusia.",
       "rating": 4.99,
@@ -99,7 +103,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/granada-alhambra/gallery-1-v3.jpg",
+        "/images/countries/spain/granada-alhambra/gallery-2-v3.jpg",
+        "/images/countries/spain/granada-alhambra/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -119,7 +125,7 @@
       "slug": "seville-real-alcazar",
       "name": "Seville Real Alcázar & Plaza de España",
       "category": "Andalusian Romance",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/seville-real-alcazar/hero-v3.jpg",
       "shortDesc": "Mudéjar royal palace complex, orange blossom courtyards, and passionate Flamenco shows.",
       "overview": "Plaza de España features ceramic tiled bridges and rowing canal boats.",
       "rating": 4.96,
@@ -146,7 +152,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/seville-real-alcazar/gallery-1-v3.jpg",
+        "/images/countries/spain/seville-real-alcazar/gallery-2-v3.jpg",
+        "/images/countries/spain/seville-real-alcazar/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -166,7 +174,7 @@
       "slug": "madrid-royal-palace",
       "name": "Madrid Royal Palace & Prado Museum",
       "category": "Imperial Capital",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/madrid-royal-palace/hero-v3.jpg",
       "shortDesc": "Europe's largest operating royal palace, Prado art museum with Velázquez masterpieces.",
       "overview": "Relax at El Retiro park glass palace and enjoy authentic rooftop tapas bars.",
       "rating": 4.92,
@@ -193,7 +201,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/madrid-royal-palace/gallery-1-v3.jpg",
+        "/images/countries/spain/madrid-royal-palace/gallery-2-v3.jpg",
+        "/images/countries/spain/madrid-royal-palace/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -213,7 +223,7 @@
       "slug": "ibiza-island",
       "name": "Ibiza Sunset Beaches & Old Town",
       "category": "Mediterranean Lifestyle",
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/ibiza-island/hero-v3.jpg",
       "shortDesc": "Clear turquoise coves of Cala Comte, UNESCO Dalt Vila fortress, and electronic music.",
       "overview": "A world-famous Balearic island for luxury beach clubs and bohemian sunsets.",
       "rating": 4.91,
@@ -240,7 +250,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/ibiza-island/gallery-1-v3.jpg",
+        "/images/countries/spain/ibiza-island/gallery-2-v3.jpg",
+        "/images/countries/spain/ibiza-island/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -260,7 +272,7 @@
       "slug": "mallorca-valldemossa",
       "name": "Mallorca Beaches & Tramuntana",
       "category": "Balearic Island",
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/mallorca-valldemossa/hero-v3.jpg",
       "shortDesc": "Serra de Tramuntana olive mountain villages, golden sand calas, and Palma Cathedral.",
       "overview": "Discover pristine coves with glass-bottom waters and almond blossoms.",
       "rating": 4.93,
@@ -287,7 +299,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/mallorca-valldemossa/gallery-1-v3.jpg",
+        "/images/countries/spain/mallorca-valldemossa/gallery-2-v3.jpg",
+        "/images/countries/spain/mallorca-valldemossa/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -307,7 +321,7 @@
       "slug": "cordoba-mezquita",
       "name": "Córdoba Mosque-Cathedral",
       "category": "Architectural Fusion",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/cordoba-mezquita/hero-v3.jpg",
       "shortDesc": "Monumental 8th-century forest of 856 red-and-white candy striped horseshoe arches.",
       "overview": "A unique architectural hybrid of Islamic mosque and Christian Renaissance cathedral.",
       "rating": 4.95,
@@ -334,7 +348,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/cordoba-mezquita/gallery-1-v3.jpg",
+        "/images/countries/spain/cordoba-mezquita/gallery-2-v3.jpg",
+        "/images/countries/spain/cordoba-mezquita/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -354,7 +370,7 @@
       "slug": "san-sebastian-concha",
       "name": "San Sebastián La Concha & Pintxos",
       "category": "Culinary Capital",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/san-sebastian-concha/hero-v3.jpg",
       "shortDesc": "Perfect crescent beach framed by Mount Igueldo, renowned for Michelin-starred dining.",
       "overview": "Famous for Basque pintxos bar crawling in the historic cobblestone old quarter.",
       "rating": 4.94,
@@ -381,7 +397,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/san-sebastian-concha/gallery-1-v3.jpg",
+        "/images/countries/spain/san-sebastian-concha/gallery-2-v3.jpg",
+        "/images/countries/spain/san-sebastian-concha/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -401,7 +419,7 @@
       "slug": "toledo-medieval",
       "name": "Toledo Medieval Citadel",
       "category": "Three Cultures",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/toledo-medieval/hero-v3.jpg",
       "shortDesc": "Hilltop stone fortress city surrounded by the Tagus river, historic steel sword craftsmanship.",
       "overview": "Known as the City of Three Cultures where Christian, Muslim, and Jewish traditions coexisted.",
       "rating": 4.9,
@@ -428,7 +446,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/toledo-medieval/gallery-1-v3.jpg",
+        "/images/countries/spain/toledo-medieval/gallery-2-v3.jpg",
+        "/images/countries/spain/toledo-medieval/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -448,7 +468,7 @@
       "slug": "ronda-bridge",
       "name": "Ronda Puente Nuevo Gorge",
       "category": "Cliffside City",
-      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/spain/ronda-bridge/hero-v3.jpg",
       "shortDesc": "Monumental 120-meter high stone bridge spanning the deep El Tajo gorge.",
       "overview": "White-washed cliffside houses commanding dramatic vistas across Andalusian valleys.",
       "rating": 4.92,
@@ -475,7 +495,9 @@
         "International flights"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/spain/ronda-bridge/gallery-1-v3.jpg",
+        "/images/countries/spain/ronda-bridge/gallery-2-v3.jpg",
+        "/images/countries/spain/ronda-bridge/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

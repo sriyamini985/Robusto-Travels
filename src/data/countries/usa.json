@@ -2,7 +2,7 @@
   "name": "United States",
   "slug": "usa",
   "flag": "🇺🇸",
-  "heroImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=1200",
+  "heroImage": "/images/countries/usa/hero-v3.jpg",
   "intro": "Explore the diverse landscapes of the United States. From the soaring skyscrapers of Manhattan to the massive sandstone canyons of Utah, the USA is a continent-spanning journey.",
   "bestSeason": "September to November (Autumn foliage) & April to June (Spring)",
   "weather": "Diverse climate. Warm sunny days in California, hot dry desert sun in Utah, and snowy cold winters in the northern states.",
@@ -18,15 +18,16 @@
     "Stay in architectural desert retreats in Canyon Point, Utah"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800"
+    "/images/countries/usa/gallery-1-v3.jpg",
+    "/images/countries/usa/gallery-2-v3.jpg",
+    "/images/countries/usa/gallery-3-v3.jpg"
   ],
   "famousPlaces": [
     {
       "slug": "new-york-times-square",
       "name": "New York Times Square & Central Park",
       "category": "Metropolis Landmark",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/new-york-times-square/hero-v3.jpg",
       "shortDesc": "Broadway theater lights, Statue of Liberty, Empire State Building, and Central Park.",
       "overview": "The city that never sleeps, packed with world-famous museums, yellow cabs, and skylines.",
       "rating": 4.95,
@@ -53,7 +54,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/new-york-times-square/gallery-1-v3.jpg",
+        "/images/countries/usa/new-york-times-square/gallery-2-v3.jpg",
+        "/images/countries/usa/new-york-times-square/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -74,7 +77,7 @@
       "slug": "grand-canyon",
       "name": "Grand Canyon National Park",
       "category": "Geological Wonder",
-      "image": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/grand-canyon/hero-v3.jpg",
       "shortDesc": "Carved by the Colorado River, a 277-mile long canyon exhibiting 2 billion years of Earth's history.",
       "overview": "Walk the Skywalk glass bridge at the South Rim or fly by helicopter over the abyss.",
       "rating": 4.98,
@@ -101,7 +104,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/grand-canyon/gallery-1-v3.jpg",
+        "/images/countries/usa/grand-canyon/gallery-2-v3.jpg",
+        "/images/countries/usa/grand-canyon/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -122,7 +127,7 @@
       "slug": "las-vegas-strip",
       "name": "Las Vegas Strip & Fountains",
       "category": "Entertainment Capital",
-      "image": "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/las-vegas-strip/hero-v3.jpg",
       "shortDesc": "Mega-resorts, Bellagio fountain shows, Cirque du Soleil spectacles, and neon lights.",
       "overview": "The adult entertainment capital of the world offering world-class dining and shows.",
       "rating": 4.9,
@@ -149,7 +154,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/las-vegas-strip/gallery-1-v3.jpg",
+        "/images/countries/usa/las-vegas-strip/gallery-2-v3.jpg",
+        "/images/countries/usa/las-vegas-strip/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -170,7 +177,7 @@
       "slug": "san-francisco-golden-gate",
       "name": "San Francisco Golden Gate Bridge",
       "category": "Bay City Icon",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/san-francisco-golden-gate/hero-v3.jpg",
       "shortDesc": "Iconic International Orange suspension bridge, cable cars, and Alcatraz Island.",
       "overview": "A hilly peninsula city famous for fog, Silicon Valley innovation, and Fisherman's Wharf.",
       "rating": 4.93,
@@ -197,7 +204,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/san-francisco-golden-gate/gallery-1-v3.jpg",
+        "/images/countries/usa/san-francisco-golden-gate/gallery-2-v3.jpg",
+        "/images/countries/usa/san-francisco-golden-gate/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -218,7 +227,7 @@
       "slug": "yellowstone-geysers",
       "name": "Yellowstone Grand Prismatic & Old Faithful",
       "category": "Geothermal Park",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/yellowstone-geysers/hero-v3.jpg",
       "shortDesc": "Rainbow-colored hot springs, erupting Old Faithful geyser, and free-roaming bison herds.",
       "overview": "The world's first national park sitting atop a volcanic supervolcano.",
       "rating": 4.97,
@@ -245,7 +254,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/yellowstone-geysers/gallery-1-v3.jpg",
+        "/images/countries/usa/yellowstone-geysers/gallery-2-v3.jpg",
+        "/images/countries/usa/yellowstone-geysers/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -266,7 +277,7 @@
       "slug": "miami-south-beach",
       "name": "Miami South Beach & Art Deco",
       "category": "Coastal Glamour",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/miami-south-beach/hero-v3.jpg",
       "shortDesc": "Pastel Art Deco architecture, Ocean Drive beach clubs, and Wynwood Walls street art.",
       "overview": "A vibrant Latin-infused oceanfront city with turquoise waters and nightlife.",
       "rating": 4.89,
@@ -293,7 +304,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/miami-south-beach/gallery-1-v3.jpg",
+        "/images/countries/usa/miami-south-beach/gallery-2-v3.jpg",
+        "/images/countries/usa/miami-south-beach/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -314,7 +327,7 @@
       "slug": "hawaii-waikiki",
       "name": "Hawaii Waikiki & Volcanoes",
       "category": "Pacific Archipelago",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/hawaii-waikiki/hero-v3.jpg",
       "shortDesc": "Diamond Head crater views, surf breaks, active Kilauea lava flows, and Polynesian luau.",
       "overview": "Tropical Pacific paradise featuring black sand beaches and dramatic Na Pali coast cliffs.",
       "rating": 4.96,
@@ -341,7 +354,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/hawaii-waikiki/gallery-1-v3.jpg",
+        "/images/countries/usa/hawaii-waikiki/gallery-2-v3.jpg",
+        "/images/countries/usa/hawaii-waikiki/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -362,7 +377,7 @@
       "slug": "los-angeles-hollywood",
       "name": "Los Angeles Hollywood & Santa Monica",
       "category": "Entertainment Hub",
-      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/los-angeles-hollywood/hero-v3.jpg",
       "shortDesc": "Walk of Fame stars, Griffith Observatory, Beverly Hills, and Santa Monica Pier ferris wheel.",
       "overview": "The global capital of cinema, celebrity culture, and Pacific sunsets.",
       "rating": 4.88,
@@ -389,7 +404,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/los-angeles-hollywood/gallery-1-v3.jpg",
+        "/images/countries/usa/los-angeles-hollywood/gallery-2-v3.jpg",
+        "/images/countries/usa/los-angeles-hollywood/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -410,7 +427,7 @@
       "slug": "yosemite-falls",
       "name": "Yosemite Valley & El Capitan",
       "category": "Granite Cliffs",
-      "image": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/yosemite-falls/hero-v3.jpg",
       "shortDesc": "Monolithic El Capitan granite wall, Half Dome, plunging waterfalls, and giant sequoias.",
       "overview": "A Sierra Nevada mountain wonderland made famous by photographer Ansel Adams.",
       "rating": 4.96,
@@ -437,7 +454,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/yosemite-falls/gallery-1-v3.jpg",
+        "/images/countries/usa/yosemite-falls/gallery-2-v3.jpg",
+        "/images/countries/usa/yosemite-falls/gallery-3-v3.jpg"
       ],
       "faqs": [
         {
@@ -458,7 +477,7 @@
       "slug": "washington-monuments",
       "name": "Washington DC National Mall & Capitol",
       "category": "National Capital",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "image": "/images/countries/usa/washington-monuments/hero-v3.jpg",
       "shortDesc": "The Lincoln Memorial, US Capitol dome, Smithsonian museums, and cherry blossom basin.",
       "overview": "The historic center of American democracy lined with free national museums.",
       "rating": 4.91,
@@ -485,7 +504,9 @@
         "International airfare"
       ],
       "gallery": [
-        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+        "/images/countries/usa/washington-monuments/gallery-1-v3.jpg",
+        "/images/countries/usa/washington-monuments/gallery-2-v3.jpg",
+        "/images/countries/usa/washington-monuments/gallery-3-v3.jpg"
       ],
       "faqs": [
         {

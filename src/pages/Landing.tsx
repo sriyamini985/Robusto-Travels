@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { Globe as GlobeComponent } from '../components/3d/Globe';
-import { ALL_LOCATIONS } from '../utils/journey';
+import { ALL_LOCATIONS, calculateDistanceKm, calculateFlightHours, getVisaRequirement, getBestTravelSeason } from '../utils/journey';
 import { ALL_INDIAN_STATES } from '../data/india/statesData';
 import { 
   RotateCcw, 
   Sparkles,
   Search,
-  MapPin
+  MapPin,
+  Plane,
+  Compass,
+  Clock,
+  ShieldCheck,
+  ArrowRight
 } from 'lucide-react';
 
 export const Landing: React.FC = () => {
@@ -19,6 +24,7 @@ export const Landing: React.FC = () => {
   const [hoveredLoc, setHoveredLoc] = useState<any | null>(null);
 
   // Selected objects
+  const originLoc = ALL_LOCATIONS.find(l => l.id === originId) || null;
   const destLoc   = ALL_LOCATIONS.find(l => l.id === destId) || null;
 
   // India Interactive Hub Mode
@@ -34,26 +40,15 @@ export const Landing: React.FC = () => {
 
   // Handle globe click selection logic
   const handleGlobeSelect = (loc: any) => {
-    if (loc.id === 'india') {
-      setIsIndiaMode(true);
-      return;
-    }
-
     if (!originId) {
       setOriginId(loc.id);
     } else if (originId && !destId) {
       if (loc.id !== originId) {
         setDestId(loc.id);
-        setTimeout(() => {
-          navigateTo('destination-details', { destinationId: loc.id });
-        }, 1500);
       }
     } else {
       if (loc.id !== originId) {
         setDestId(loc.id);
-        setTimeout(() => {
-          navigateTo('destination-details', { destinationId: loc.id });
-        }, 1500);
       }
     }
   };
@@ -156,7 +151,7 @@ export const Landing: React.FC = () => {
         </div>
       </div>
 
-      {/* ── TOP MINIMAL STATUS PROMPT ── */}
+      {/* ── TOP MINIMAL STATUS PROMPT & INDIA STATE HUB BUTTON ── */}
       <div style={{
         position: 'absolute',
         top: '92px',
@@ -222,9 +217,32 @@ export const Landing: React.FC = () => {
             <span>
               {!originId ? 'Step 1: Click your Origin location on 3D Earth' :
                !destId ? 'Step 2: Click your Destination location on 3D Earth' :
-               `Opening Famous Places in ${destLoc?.name}...`}
+               `3D Flight Route Connected: ${originLoc?.name} ✈️ ${destLoc?.name}`}
             </span>
           </div>
+        )}
+
+        {!isIndiaMode && (
+          <button
+            onClick={() => setIsIndiaMode(true)}
+            style={{
+              background: 'linear-gradient(135deg, rgba(255,153,51,0.2), rgba(18,136,7,0.2))',
+              backdropFilter: 'blur(12px)',
+              border: '1px solid rgba(255,153,51,0.5)',
+              borderRadius: '24px',
+              padding: '8px 16px',
+              color: '#fff',
+              fontSize: '0.78rem',
+              fontWeight: 800,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.3)'
+            }}
+          >
+            🇮🇳 Explore Indian States (28 Hub)
+          </button>
         )}
 
         {(originId || destId) && !isIndiaMode && (
@@ -250,6 +268,123 @@ export const Landing: React.FC = () => {
           </button>
         )}
       </div>
+
+      {/* ── ACTIVE FLIGHT ROUTE JOURNEY HUD PANEL ── */}
+      {originLoc && destLoc && !isIndiaMode && (() => {
+        const distKm = calculateDistanceKm(originLoc.lat, originLoc.lng, destLoc.lat, destLoc.lng);
+        const flightInfo = calculateFlightHours(distKm);
+        const visaStatus = getVisaRequirement(originLoc.id, destLoc.id);
+        const bestSeason = getBestTravelSeason(destLoc.id);
+
+        return (
+          <div style={{
+            position: 'absolute',
+            bottom: '32px',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            zIndex: 35,
+            width: '90vw',
+            maxWidth: '720px',
+            background: 'rgba(7, 15, 36, 0.92)',
+            backdropFilter: 'blur(24px)',
+            border: '1.5px solid rgba(0, 240, 255, 0.4)',
+            borderRadius: '24px',
+            padding: '20px 24px',
+            boxShadow: '0 25px 60px rgba(0, 240, 255, 0.25), 0 0 40px rgba(0,0,0,0.8)',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '16px'
+          }}>
+            {/* Header Flight Route Connection */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '14px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <div style={{ background: 'rgba(0,240,255,0.15)', border: '1px solid #00f0ff', borderRadius: '12px', padding: '6px 12px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span>{originLoc.flag}</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#00f0ff' }}>ORIGIN: {originLoc.name}</span>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#ffc107', fontWeight: 800 }}>
+                  <Plane size={16} style={{ transform: 'rotate(90deg)' }} />
+                  <span style={{ fontSize: '0.75rem', letterSpacing: '0.08em' }}>FLIGHT ARC</span>
+                  <ArrowRight size={16} />
+                </div>
+
+                <div style={{ background: 'rgba(255,193,7,0.15)', border: '1px solid #ffc107', borderRadius: '12px', padding: '6px 12px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span>{destLoc.flag}</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#ffc107' }}>DEST: {destLoc.name}</span>
+                </div>
+              </div>
+
+              <button
+                onClick={handleResetSelection}
+                style={{ background: 'transparent', border: 'none', color: '#94a3b8', fontSize: '0.75rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}
+              >
+                <RotateCcw size={12} /> Reset Route
+              </button>
+            </div>
+
+            {/* Flight Metrics Grid */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '12px' }}>
+              <div style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '14px', padding: '10px 12px' }}>
+                <span style={{ fontSize: '0.7rem', color: '#94a3b8', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Compass size={12} color="#00f0ff" /> Distance
+                </span>
+                <span style={{ fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginTop: '2px', display: 'block' }}>
+                  {distKm.toLocaleString()} km
+                </span>
+              </div>
+
+              <div style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '14px', padding: '10px 12px' }}>
+                <span style={{ fontSize: '0.7rem', color: '#94a3b8', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Clock size={12} color="#ffc107" /> Est. Flight Time
+                </span>
+                <span style={{ fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginTop: '2px', display: 'block' }}>
+                  {flightInfo.formatted}
+                </span>
+              </div>
+
+              <div style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '14px', padding: '10px 12px' }}>
+                <span style={{ fontSize: '0.7rem', color: '#94a3b8', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <ShieldCheck size={12} color="#10b981" /> Visa Requirements
+                </span>
+                <span style={{ fontSize: '0.78rem', fontWeight: 700, color: '#10b981', marginTop: '2px', display: 'block' }}>
+                  {visaStatus}
+                </span>
+              </div>
+            </div>
+
+            {/* Travel Action Footer */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '4px' }}>
+              <span style={{ fontSize: '0.75rem', color: '#cbd5e1' }}>
+                📅 <strong>Best Season:</strong> {bestSeason}
+              </span>
+
+              <button
+                onClick={() => navigateTo('destination-details', { destinationId: destLoc.id })}
+                style={{
+                  background: 'linear-gradient(135deg, #00f0ff 0%, #3b82f6 100%)',
+                  border: 'none',
+                  borderRadius: '16px',
+                  padding: '10px 22px',
+                  color: '#070f24',
+                  fontSize: '0.85rem',
+                  fontWeight: 800,
+                  cursor: 'pointer',
+                  boxShadow: '0 6px 20px rgba(0, 240, 255, 0.4)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  transition: 'transform 0.2s'
+                }}
+                onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.04)'}
+                onMouseLeave={e => e.currentTarget.style.transform = 'scale(1.0)'}
+              >
+                Explore {destLoc.name} Guide <ArrowRight size={16} />
+              </button>
+            </div>
+          </div>
+        );
+      })()}
 
       {/* ── INDIA HUB CLEAN STATE SELECTOR BAR (In India Mode) ── */}
       {isIndiaMode && (
@@ -328,7 +463,7 @@ export const Landing: React.FC = () => {
       )}
 
       {/* ── HOVER PREVIEW TOOLTIP ── */}
-      {hoveredLoc && !isIndiaMode && (
+      {hoveredLoc && !isIndiaMode && !destLoc && (
         <div style={{
           position: 'absolute',
           bottom: '36px',

@@ -157,9 +157,18 @@ const FlightLine: React.FC<{ curve: THREE.QuadraticBezierCurve3; colorHex?: numb
   return <primitive object={lineObj} />;
 };
 
+export function getLocationCoord(id: string): { lat: number; lng: number } | null {
+  if (GPS[id]) return GPS[id];
+  const loc = ALL_LOCATIONS.find(l => l.id === id);
+  if (loc) return { lat: loc.lat, lng: loc.lng };
+  const st = ALL_INDIAN_STATES.find(s => s.id === id);
+  if (st) return { lat: st.lat, lng: st.lng };
+  return null;
+}
+
 const ActiveJourneyRoute: React.FC<{ originId: string; destinationId: string }> = ({ originId, destinationId }) => {
-  const originCoord = GPS[originId];
-  const destCoord   = GPS[destinationId];
+  const originCoord = getLocationCoord(originId);
+  const destCoord   = getLocationCoord(destinationId);
   if (!originCoord || !destCoord) return null;
 
   const startVec = latlng2vec(originCoord.lat, originCoord.lng);
@@ -179,7 +188,8 @@ const ActiveJourneyRoute: React.FC<{ originId: string; destinationId: string }> 
       <FlightLine curve={curve} colorHex={0xffc107} />
       {/* Jet animation */}
       <FlightDot curve={curve} offset={0} />
-      <FlightDot curve={curve} offset={0.5} />
+      <FlightDot curve={curve} offset={0.33} />
+      <FlightDot curve={curve} offset={0.66} />
     </group>
   );
 };
@@ -565,8 +575,8 @@ export const Globe: React.FC<GlobeProps> = ({
   // Smooth camera positioning when both origin and destination are selected
   useEffect(() => {
     if (originId && destinationId && earthGroupRef.current) {
-      const oCoord = GPS[originId];
-      const dCoord = GPS[destinationId];
+      const oCoord = getLocationCoord(originId);
+      const dCoord = getLocationCoord(destinationId);
       if (oCoord && dCoord) {
         const midLng = (oCoord.lng + dCoord.lng) / 2;
         const targetRot = -Math.PI / 2 - (midLng * Math.PI / 180);

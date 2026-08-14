@@ -42,13 +42,12 @@ export const Landing: React.FC = () => {
   const handleGlobeSelect = (loc: any) => {
     if (!originId) {
       setOriginId(loc.id);
-    } else if (originId && !destId) {
-      if (loc.id !== originId) {
-        setDestId(loc.id);
-      }
     } else {
       if (loc.id !== originId) {
         setDestId(loc.id);
+        setTimeout(() => {
+          navigateTo('destination-details', { destinationId: loc.id });
+        }, 1600);
       }
     }
   };

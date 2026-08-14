@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Clock, ArrowRight, X } from 'lucide-react';
+import { ImageWithFallback } from '../common/ImageWithFallback';
 
 interface DestinationHoverCardProps {
   dest: {
@@ -85,8 +86,6 @@ export const DestinationHoverCard: React.FC<DestinationHoverCardProps> = ({
   onClose,
   onExplore,
 }) => {
-  const [imgLoaded, setImgLoaded] = useState(false);
-
   if (!dest) return null;
 
   const flag   = COUNTRY_FLAGS[dest.country] ?? '🌍';
@@ -162,15 +161,10 @@ export const DestinationHoverCard: React.FC<DestinationHoverCardProps> = ({
 
       {/* ── Destination image ── */}
       <div style={{ margin: '12px 16px', borderRadius: '14px', overflow: 'hidden', height: '155px', background: '#e2e8f0' }}>
-        <img
+        <ImageWithFallback
           src={dest.heroImage}
           alt={dest.country}
-          onLoad={() => setImgLoaded(true)}
-          style={{
-            width: '100%', height: '100%', objectFit: 'cover', display: 'block',
-            opacity: imgLoaded ? 1 : 0,
-            transition: 'opacity 0.4s ease',
-          }}
+          style={{ width: '100%', height: '100%', borderRadius: '14px' }}
         />
       </div>
 

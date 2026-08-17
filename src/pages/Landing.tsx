@@ -38,17 +38,14 @@ export const Landing: React.FC = () => {
     );
   }, [stateSearchQuery]);
 
-  // Handle globe click selection logic
+  // Handle globe click selection logic - directly opens destination place
   const handleGlobeSelect = (loc: any) => {
-    if (!originId) {
-      setOriginId(loc.id);
+    if (!loc) return;
+    const isState = ALL_INDIAN_STATES.some(s => s.id === loc.id);
+    if (isState) {
+      navigateTo('state-details', { destinationId: loc.id });
     } else {
-      if (loc.id !== originId) {
-        setDestId(loc.id);
-        setTimeout(() => {
-          navigateTo('destination-details', { destinationId: loc.id });
-        }, 1600);
-      }
+      navigateTo('destination-details', { destinationId: loc.id });
     }
   };
 

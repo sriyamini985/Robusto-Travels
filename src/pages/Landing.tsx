@@ -38,14 +38,21 @@ export const Landing: React.FC = () => {
     );
   }, [stateSearchQuery]);
 
-  // Handle globe click selection logic - directly opens destination place
+  // Handle globe click selection logic (Origin & Destination selection)
   const handleGlobeSelect = (loc: any) => {
     if (!loc) return;
-    const isState = ALL_INDIAN_STATES.some(s => s.id === loc.id);
-    if (isState) {
-      navigateTo('state-details', { destinationId: loc.id });
+    if (!originId) {
+      setOriginId(loc.id);
     } else {
-      navigateTo('destination-details', { destinationId: loc.id });
+      if (loc.id !== originId) {
+        setDestId(loc.id);
+        const isState = ALL_INDIAN_STATES.some(s => s.id === loc.id);
+        if (isState) {
+          navigateTo('state-details', { destinationId: loc.id });
+        } else {
+          navigateTo('destination-details', { destinationId: loc.id });
+        }
+      }
     }
   };
 
@@ -354,29 +361,6 @@ export const Landing: React.FC = () => {
               <span style={{ fontSize: '0.75rem', color: '#cbd5e1' }}>
                 📅 <strong>Best Season:</strong> {bestSeason}
               </span>
-
-              <button
-                onClick={() => navigateTo('destination-details', { destinationId: destLoc.id })}
-                style={{
-                  background: 'linear-gradient(135deg, #00f0ff 0%, #3b82f6 100%)',
-                  border: 'none',
-                  borderRadius: '16px',
-                  padding: '10px 22px',
-                  color: '#070f24',
-                  fontSize: '0.85rem',
-                  fontWeight: 800,
-                  cursor: 'pointer',
-                  boxShadow: '0 6px 20px rgba(0, 240, 255, 0.4)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                  transition: 'transform 0.2s'
-                }}
-                onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.04)'}
-                onMouseLeave={e => e.currentTarget.style.transform = 'scale(1.0)'}
-              >
-                Explore {destLoc.name} Guide <ArrowRight size={16} />
-              </button>
             </div>
           </div>
         );

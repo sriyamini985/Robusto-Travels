@@ -47,11 +47,13 @@ export const Landing: React.FC = () => {
       if (loc.id !== originId) {
         setDestId(loc.id);
         const isState = ALL_INDIAN_STATES.some(s => s.id === loc.id);
-        if (isState) {
-          navigateTo('state-details', { destinationId: loc.id });
-        } else {
-          navigateTo('destination-details', { destinationId: loc.id });
-        }
+        setTimeout(() => {
+          if (isState) {
+            navigateTo('state-details', { destinationId: loc.id });
+          } else {
+            navigateTo('destination-details', { destinationId: loc.id });
+          }
+        }, 1600);
       }
     }
   };

@@ -9,7 +9,7 @@ export const Destinations: React.FC = () => {
   // Filter States
   const [selectedCountry, setSelectedCountry] = useState<string>('All');
   const [selectedSeason, setSelectedSeason] = useState<string>('All');
-  const [maxBudget, setMaxBudget] = useState<number>(1000);
+  const [maxBudget, setMaxBudget] = useState<number>(6000);
   const [selectedStyle, setSelectedStyle] = useState<string>('All');
   const [selectedDuration, setSelectedDuration] = useState<string>('All');
 
@@ -54,7 +54,7 @@ export const Destinations: React.FC = () => {
   const resetFilters = () => {
     setSelectedCountry('All');
     setSelectedSeason('All');
-    setMaxBudget(1000);
+    setMaxBudget(6000);
     setSelectedStyle('All');
     setSelectedDuration('All');
   };
@@ -154,16 +154,16 @@ export const Destinations: React.FC = () => {
               </div>
               <input 
                 type="range" 
-                min="10" 
-                max="1000" 
-                step="10" 
+                min="1000" 
+                max="6000" 
+                step="100" 
                 value={maxBudget}
                 onChange={(e) => setMaxBudget(Number(e.target.value))}
                 style={{ width: '100%', accentColor: 'var(--color-forest-green)' }}
               />
               <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.65rem', opacity: 0.6, marginTop: '4px' }}>
-                <span>$10</span>
                 <span>$1,000</span>
+                <span>$6,000</span>
               </div>
             </div>
           </aside>

@@ -60,6 +60,15 @@ export const Landing: React.FC = () => {
   // Handle globe click selection logic (Origin & Destination selection)
   const handleGlobeSelect = (loc: any) => {
     if (!loc) return;
+    
+    // Shortcut: Clicking India on the global globe enters India Mode instantly
+    if (loc.id === 'india' && !isIndiaMode) {
+      setOriginId(null);
+      setDestId(null);
+      setIsIndiaMode(true);
+      return;
+    }
+
     if (!originId) {
       setOriginId(loc.id);
     } else {

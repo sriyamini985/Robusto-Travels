@@ -80,7 +80,6 @@ export const Navigation: React.FC = () => {
               { label: 'Destinations', page: 'destinations', hasDropdown: true },
               { label: 'Packages',     page: 'destinations' },
               { label: 'Experiences',  page: 'experiences' },
-              { label: 'Visa',         page: 'about' },
               { label: 'About Us',     page: 'about' },
               { label: 'Contact',      page: 'contact' },
             ].map(item => (

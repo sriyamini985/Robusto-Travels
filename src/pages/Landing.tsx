@@ -18,18 +18,24 @@ import {
 export const Landing: React.FC = () => {
   const { navigateTo } = useNavigation();
 
+  // India Interactive Hub Mode
+  const [isIndiaMode, setIsIndiaMode] = useState<boolean>(false);
+  const [stateSearchQuery, setStateSearchQuery] = useState<string>('');
+
   // Selection states (Origin & Destination)
   const [originId, setOriginId]     = useState<string | null>(null);
   const [destId, setDestId]         = useState<string | null>(null);
   const [hoveredLoc, setHoveredLoc] = useState<any | null>(null);
+  const [zoomTrigger, setZoomTrigger] = useState<{ type: 'in' | 'out' | 'reset'; timestamp: number } | null>(null);
 
-  // Selected objects
-  const originLoc = ALL_LOCATIONS.find(l => l.id === originId) || null;
-  const destLoc   = ALL_LOCATIONS.find(l => l.id === destId) || null;
+  // Selected objects - resolved for both International and India modes
+  const originLoc = (isIndiaMode 
+    ? ALL_INDIAN_STATES.find(s => s.id === originId)
+    : ALL_LOCATIONS.find(l => l.id === originId)) || null;
 
-  // India Interactive Hub Mode
-  const [isIndiaMode, setIsIndiaMode] = useState<boolean>(false);
-  const [stateSearchQuery, setStateSearchQuery] = useState<string>('');
+  const destLoc   = (isIndiaMode 
+    ? ALL_INDIAN_STATES.find(s => s.id === destId)
+    : ALL_LOCATIONS.find(l => l.id === destId)) || null;
 
   const filteredStates = React.useMemo(() => {
     return ALL_INDIAN_STATES.filter(s => 
@@ -37,6 +43,19 @@ export const Landing: React.FC = () => {
       s.capital.toLowerCase().includes(stateSearchQuery.toLowerCase())
     );
   }, [stateSearchQuery]);
+
+  // Prevent browser window pinch-to-zoom on desktop trackpad pinches
+  React.useEffect(() => {
+    const preventPinch = (e: WheelEvent) => {
+      if (e.ctrlKey) {
+        e.preventDefault();
+      }
+    };
+    window.addEventListener('wheel', preventPinch, { passive: false });
+    return () => {
+      window.removeEventListener('wheel', preventPinch);
+    };
+  }, []);
 
   // Handle globe click selection logic (Origin & Destination selection)
   const handleGlobeSelect = (loc: any) => {
@@ -59,7 +78,7 @@ export const Landing: React.FC = () => {
   };
 
   const handleStateSelect = (stateObj: any) => {
-    navigateTo('state-details', { destinationId: stateObj.id });
+    handleGlobeSelect(stateObj);
   };
 
   const handleResetSelection = () => {
@@ -151,7 +170,8 @@ export const Landing: React.FC = () => {
             originId={originId}
             destinationId={destId}
             isIndiaMode={isIndiaMode}
-            onSelectState={handleStateSelect}
+            onSelectState={handleGlobeSelect}
+            zoomTrigger={zoomTrigger}
           />
         </div>
       </div>
@@ -185,7 +205,11 @@ export const Landing: React.FC = () => {
             color: '#e2e8f0'
           }}>
             <span style={{ fontSize: '1.1rem' }}>🇮🇳</span>
-            <span>Exploring 28 States & 8 Union Territories in India</span>
+            <span>
+              {!originId ? 'Step 1: Click your Origin State on 3D Earth' :
+               !destId ? 'Step 2: Click your Destination State on 3D Earth' :
+               `Connected: ${originLoc?.name} ✈️ ${destLoc?.name}`}
+            </span>
             <button
               onClick={handleResetSelection}
               style={{
@@ -250,7 +274,7 @@ export const Landing: React.FC = () => {
           </button>
         )}
 
-        {(originId || destId) && !isIndiaMode && (
+        {(originId || destId) && (
           <button
             onClick={handleResetSelection}
             title="Reset selection"
@@ -275,11 +299,11 @@ export const Landing: React.FC = () => {
       </div>
 
       {/* ── ACTIVE FLIGHT ROUTE JOURNEY HUD PANEL ── */}
-      {originLoc && destLoc && !isIndiaMode && (() => {
+      {originLoc && destLoc && (() => {
         const distKm = calculateDistanceKm(originLoc.lat, originLoc.lng, destLoc.lat, destLoc.lng);
         const flightInfo = calculateFlightHours(distKm);
-        const visaStatus = getVisaRequirement(originLoc.id, destLoc.id);
-        const bestSeason = getBestTravelSeason(destLoc.id);
+        const visaStatus = isIndiaMode ? "Domestic / No Visa Required" : getVisaRequirement(originLoc.id, destLoc.id);
+        const bestSeason = isIndiaMode ? ((destLoc as any).bestTime || "October to March") : getBestTravelSeason(destLoc.id);
 
         return (
           <div style={{
@@ -304,7 +328,7 @@ export const Landing: React.FC = () => {
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '14px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <div style={{ background: 'rgba(0,240,255,0.15)', border: '1px solid #00f0ff', borderRadius: '12px', padding: '6px 12px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <span>{originLoc.flag}</span>
+                  <span>{(originLoc as any).flag || '🇮🇳'}</span>
                   <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#00f0ff' }}>ORIGIN: {originLoc.name}</span>
                 </div>
 
@@ -315,7 +339,7 @@ export const Landing: React.FC = () => {
                 </div>
 
                 <div style={{ background: 'rgba(255,193,7,0.15)', border: '1px solid #ffc107', borderRadius: '12px', padding: '6px 12px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <span>{destLoc.flag}</span>
+                  <span>{(destLoc as any).flag || '🇮🇳'}</span>
                   <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#ffc107' }}>DEST: {destLoc.name}</span>
                 </div>
               </div>
@@ -498,6 +522,10 @@ export const Landing: React.FC = () => {
             cursor: 'pointer',
             transition: 'background 0.2s',
           }}
+            onClick={() => {
+              const types: ('in' | 'out' | 'reset')[] = ['in', 'out', 'reset'];
+              setZoomTrigger({ type: types[i], timestamp: Date.now() });
+            }}
             onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.25)'}
             onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.12)'}
           >

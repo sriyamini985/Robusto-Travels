@@ -194,6 +194,40 @@ const ActiveJourneyRoute: React.FC<{ originId: string; destinationId: string }> 
   );
 };
 
+const ZoomHandler: React.FC<{ trigger: { type: 'in' | 'out' | 'reset', timestamp: number } | null | undefined; isIndiaMode?: boolean }> = ({ trigger, isIndiaMode }) => {
+  const { camera } = useThree();
+  useEffect(() => {
+    if (!trigger) return;
+    const factor = trigger.type === 'in' ? 0.8 : trigger.type === 'out' ? 1.25 : 1.0;
+    if (trigger.type === 'reset') {
+      const targetZ = isIndiaMode ? 4.4 : 7.2;
+      const targetY = isIndiaMode ? 0.25 : 0.4;
+      gsap.to(camera.position, {
+        x: 0,
+        y: targetY,
+        z: targetZ,
+        duration: 0.6,
+        ease: 'power2.out',
+        onUpdate: () => camera.lookAt(0, 0, 0)
+      });
+    } else {
+      const currentDist = camera.position.length();
+      const nextDist = currentDist * factor;
+      if (nextDist >= 3.8 && nextDist <= 15.0) {
+        gsap.to(camera.position, {
+          x: camera.position.x * factor,
+          y: camera.position.y * factor,
+          z: camera.position.z * factor,
+          duration: 0.5,
+          ease: 'power2.out',
+          onUpdate: () => camera.lookAt(0, 0, 0)
+        });
+      }
+    }
+  }, [trigger, camera, isIndiaMode]);
+  return null;
+};
+
 // ─── EarthScene — runs inside Canvas ──────────────────────────────────────────
 interface EarthSceneProps {
   earthGroupRef: React.MutableRefObject<THREE.Group | null>;
@@ -497,10 +531,11 @@ export interface GlobeProps {
   onSelectLocation?: (loc: any) => void;
   isIndiaMode?: boolean;
   onSelectState?: (stateObj: any) => void;
+  zoomTrigger?:   { type: 'in' | 'out' | 'reset', timestamp: number } | null;
 }
 
 export const Globe: React.FC<GlobeProps> = ({
-  onHoverDest, onClickDest, originId, destinationId, onSelectLocation, isIndiaMode, onSelectState
+  onHoverDest, onClickDest, originId, destinationId, onSelectLocation, isIndiaMode, onSelectState, zoomTrigger
 }) => {
   const screenPosRef = useRef<Map<string, ScreenPos>>(new Map());
   const earthGroupRef = useRef<THREE.Group | null>(null);
@@ -629,6 +664,11 @@ export const Globe: React.FC<GlobeProps> = ({
           originId={originId}
           destinationId={destinationId}
           screenPosRef={screenPosRef}
+        />
+
+        <ZoomHandler
+          trigger={zoomTrigger}
+          isIndiaMode={isIndiaMode}
         />
 
         <OrbitControls

@@ -4,7 +4,7 @@ import { destinations } from '../data/mockData';
 import { Star, ArrowRight, SlidersHorizontal, Compass } from 'lucide-react';
 
 export const Destinations: React.FC = () => {
-  const { navigateTo } = useNavigation();
+  const { openQuoteModal } = useNavigation();
   
   // Filter States
   const [selectedCountry, setSelectedCountry] = useState<string>('All');
@@ -186,7 +186,7 @@ export const Destinations: React.FC = () => {
             ) : (
               <div className="destinations-grid">
                 {filteredDestinations.map(d => (
-                  <div key={d.id} className="luxury-dest-card" onClick={() => navigateTo('destination-details', { destinationId: d.id })}>
+                  <div key={d.id} className="luxury-dest-card" onClick={() => openQuoteModal(d.name, d.id, false)}>
                     <div className="luxury-dest-img-wrap">
                       <img src={d.heroImage} alt={d.name} />
                       <div className="luxury-dest-meta">

@@ -44,6 +44,13 @@ interface BookingDetails {
   cardCvv?: string;
 }
 
+export interface QuoteModalState {
+  isOpen: boolean;
+  destinationName: string;
+  destinationId: string;
+  isState: boolean;
+}
+
 interface NavigationContextType {
   currentPage: PageType;
   params: RouteParams;
@@ -52,6 +59,9 @@ interface NavigationContextType {
   updateBooking: (details: Partial<BookingDetails>) => void;
   resetBooking: () => void;
   navigateTo: (page: PageType, newParams?: RouteParams) => void;
+  quoteModal: QuoteModalState;
+  openQuoteModal: (name: string, id: string, isState: boolean) => void;
+  closeQuoteModal: () => void;
 }
 
 const NavigationContext = createContext<NavigationContextType | undefined>(undefined);
@@ -69,6 +79,26 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     guests: 2,
     startDate: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0] // default 1 week out
   });
+
+  const [quoteModal, setQuoteModal] = useState<QuoteModalState>({
+    isOpen: false,
+    destinationName: '',
+    destinationId: '',
+    isState: false
+  });
+
+  const openQuoteModal = (name: string, id: string, isState: boolean) => {
+    setQuoteModal({
+      isOpen: true,
+      destinationName: name,
+      destinationId: id,
+      isState
+    });
+  };
+
+  const closeQuoteModal = () => {
+    setQuoteModal(prev => ({ ...prev, isOpen: false }));
+  };
 
   const updateBooking = (details: Partial<BookingDetails>) => {
     setBooking(prev => ({ ...prev, ...details }));
@@ -223,7 +253,10 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         booking, 
         updateBooking, 
         resetBooking, 
-        navigateTo 
+        navigateTo,
+        quoteModal,
+        openQuoteModal,
+        closeQuoteModal
       }}
     >
       {children}

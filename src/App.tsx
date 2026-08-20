@@ -3,6 +3,7 @@ import { NavigationProvider, useNavigation } from './context/NavigationContext';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
 import { FloatingCTA } from './components/FloatingCTA';
+import { QuoteModal } from './components/common/QuoteModal';
 
 // Import all 12 Pages
 import { Landing } from './pages/Landing';
@@ -83,6 +84,9 @@ const AppContent: React.FC = () => {
 
       {/* Floating CTA desk */}
       <FloatingCTA />
+
+      {/* Bespoke Quote Request Modal */}
+      <QuoteModal />
     </div>
   );
 };

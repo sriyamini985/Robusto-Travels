@@ -3,7 +3,7 @@ import { useNavigation } from '../context/NavigationContext';
 import { Menu, X, ChevronDown, Search, MapPin, Compass, ArrowRight } from 'lucide-react';
 
 export const Navigation: React.FC = () => {
-  const { navigateTo, currentPage } = useNavigation();
+  const { navigateTo, currentPage, openQuoteModal } = useNavigation();
   const [isScrolled, setIsScrolled]           = useState(false);
   const [isMobileOpen, setIsMobileOpen]       = useState(false);
   const [activeDropdown, setActiveDropdown]   = useState<string | null>(null);
@@ -134,7 +134,7 @@ export const Navigation: React.FC = () => {
                         { label: 'Rajasthan Heritage', id: 'maldives' },
                         { label: 'Kerala Backwaters', id: 'kyoto' },
                       ].map(d => (
-                        <div key={d.id} onClick={() => go('destination-details', { destinationId: d.id })}
+                        <div key={d.id} onClick={() => { openQuoteModal(d.label, d.id, false); setActiveDropdown(null); }}
                           style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '7px 0', fontSize: '0.82rem', color: '#334155', cursor: 'pointer', borderBottom: '1px solid #f1f5f9', transition: 'color 0.2s' }}
                           onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = '#1d4ed8'}
                           onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = '#334155'}>
@@ -150,7 +150,7 @@ export const Navigation: React.FC = () => {
                         { label: 'Kyoto & Tokyo Heritage', id: 'japan' },
                         { label: 'Bali Tropical Sanctuary', id: 'bali' },
                       ].map(d => (
-                        <div key={d.id} onClick={() => go('destination-details', { destinationId: d.id })}
+                        <div key={d.id} onClick={() => { openQuoteModal(d.label, d.id, false); setActiveDropdown(null); }}
                           style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '7px 0', fontSize: '0.82rem', color: '#334155', cursor: 'pointer', borderBottom: '1px solid #f1f5f9', transition: 'color 0.2s' }}
                           onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = '#1d4ed8'}
                           onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = '#334155'}>

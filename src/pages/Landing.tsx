@@ -29,13 +29,13 @@ export const Landing: React.FC = () => {
   const [zoomTrigger, setZoomTrigger] = useState<{ type: 'in' | 'out' | 'reset'; timestamp: number } | null>(null);
 
   // Selected objects - resolved for both International and India modes
-  const originLoc = (isIndiaMode 
-    ? ALL_INDIAN_STATES.find(s => s.id === originId)
-    : ALL_LOCATIONS.find(l => l.id === originId)) || null;
+  const findLocationById = (id: string | null) => {
+    if (!id) return null;
+    return ALL_LOCATIONS.find(l => l.id === id) || ALL_INDIAN_STATES.find(s => s.id === id) || null;
+  };
 
-  const destLoc   = (isIndiaMode 
-    ? ALL_INDIAN_STATES.find(s => s.id === destId)
-    : ALL_LOCATIONS.find(l => l.id === destId)) || null;
+  const originLoc = findLocationById(originId);
+  const destLoc   = findLocationById(destId);
 
   const filteredStates = React.useMemo(() => {
     return ALL_INDIAN_STATES.filter(s => 
@@ -63,8 +63,10 @@ export const Landing: React.FC = () => {
     
     // Shortcut: Clicking India on the global globe enters India Mode instantly
     if (loc.id === 'india' && !isIndiaMode) {
-      setOriginId(null);
-      setDestId(null);
+      if (!originId) {
+        setOriginId(null);
+        setDestId(null);
+      }
       setIsIndiaMode(true);
       return;
     }
@@ -311,8 +313,20 @@ export const Landing: React.FC = () => {
       {originLoc && destLoc && (() => {
         const distKm = calculateDistanceKm(originLoc.lat, originLoc.lng, destLoc.lat, destLoc.lng);
         const flightInfo = calculateFlightHours(distKm);
-        const visaStatus = isIndiaMode ? "Domestic / No Visa Required" : getVisaRequirement(originLoc.id, destLoc.id);
-        const bestSeason = isIndiaMode ? ((destLoc as any).bestTime || "October to March") : getBestTravelSeason(destLoc.id);
+        const isDestIndianState = ALL_INDIAN_STATES.some(s => s.id === destLoc.id);
+        const isDomestic = originLoc && destLoc && 
+          ALL_INDIAN_STATES.some(s => s.id === originLoc.id) && 
+          isDestIndianState;
+
+        const visaStatus = isDomestic 
+          ? "Domestic / No Visa Required" 
+          : (isDestIndianState 
+              ? "Indian Tourist e-Visa Required" 
+              : getVisaRequirement(originLoc.id, destLoc.id));
+
+        const bestSeason = isDestIndianState 
+          ? ((destLoc as any).bestTime || "October to March") 
+          : getBestTravelSeason(destLoc.id);
 
         return (
           <div style={{

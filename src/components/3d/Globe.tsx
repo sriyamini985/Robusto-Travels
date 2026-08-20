@@ -555,7 +555,28 @@ export const Globe: React.FC<GlobeProps> = ({
     }));
   }, []);
 
-  const allMarkers: MarkerInfo[] = isIndiaMode ? indianMarkers : DEST_MARKERS;
+  const allMarkers: MarkerInfo[] = useMemo(() => {
+    const base = isIndiaMode ? indianMarkers : DEST_MARKERS;
+    const finalMarkers = [...base];
+    
+    // If we have an originId that is NOT in the current mode's base markers, add it!
+    if (originId && !finalMarkers.some(m => m.id === originId)) {
+      const extra = isIndiaMode 
+        ? DEST_MARKERS.find(m => m.id === originId)
+        : indianMarkers.find(m => m.id === originId);
+      if (extra) finalMarkers.push(extra);
+    }
+    
+    // If we have a destinationId that is NOT in the current mode's base markers, add it!
+    if (destinationId && !finalMarkers.some(m => m.id === destinationId)) {
+      const extra = isIndiaMode
+        ? DEST_MARKERS.find(m => m.id === destinationId)
+        : indianMarkers.find(m => m.id === destinationId);
+      if (extra) finalMarkers.push(extra);
+    }
+    
+    return finalMarkers;
+  }, [isIndiaMode, indianMarkers, originId, destinationId]);
 
   const handleHover = useCallback((id: string | null) => {
     setHoveredId(id);

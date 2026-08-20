@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 
 export const Landing: React.FC = () => {
-  const { openQuoteModal } = useNavigation();
+  const { navigateTo } = useNavigation();
 
   // India Interactive Hub Mode
   const [isIndiaMode, setIsIndiaMode] = useState<boolean>(false);
@@ -77,9 +77,12 @@ export const Landing: React.FC = () => {
       if (loc.id !== originId) {
         setDestId(loc.id);
         const isState = ALL_INDIAN_STATES.some(s => s.id === loc.id);
-        const destName = loc.name || loc.label || loc.id;
         setTimeout(() => {
-          openQuoteModal(destName, loc.id, isState);
+          if (isState) {
+            navigateTo('state-details', { destinationId: loc.id });
+          } else {
+            navigateTo('destination-details', { destinationId: loc.id });
+          }
         }, 1600);
       }
     }

@@ -1,20 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigation } from '../context/NavigationContext';
-import { Send, Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const { navigateTo } = useNavigation();
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email) {
-      setSubscribed(true);
-      setEmail('');
-      setTimeout(() => setSubscribed(false), 5000);
-    }
-  };
 
   return (
     <footer style={{ 
@@ -118,42 +107,10 @@ export const Footer: React.FC = () => {
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
                 <MapPin size={16} className="text-gold" style={{ marginTop: '3px' }} />
                 <div>
-                  <p>Bahnhofstrasse 45, Zürich, CH</p>
-                  <p style={{ fontSize: '0.75rem', opacity: 0.6, marginTop: '2px' }}>Office Locations: Zurich • New York</p>
+                  <p>Hyderabad, Telangana, India</p>
                 </div>
               </li>
             </ul>
-          </div>
-
-          {/* Newsletter subscription */}
-          <div>
-            <h4 style={{ 
-              color: 'var(--color-gold)', 
-              textTransform: 'uppercase', 
-              fontSize: '0.8rem', 
-              letterSpacing: '0.2em', 
-              marginBottom: '24px',
-              fontFamily: 'var(--font-body)',
-              fontWeight: 600
-            }}>
-              Join The Club
-            </h4>
-            <p style={{ fontSize: '0.85rem', opacity: 0.7, marginBottom: '20px', lineHeight: 1.6 }}>
-              Receive seasonal luxury travel portfolios and exclusive invites.
-            </p>
-            <form onSubmit={handleSubscribe} className="newsletter-form">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="newsletter-input"
-              />
-              <button type="submit" className="newsletter-submit">
-                {subscribed ? 'Subscribed' : <Send size={16} />}
-              </button>
-            </form>
           </div>
 
         </div>

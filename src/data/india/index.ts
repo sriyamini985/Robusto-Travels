@@ -27,11 +27,13 @@ import { TRIPURA_DATA, type TripuraStateData } from './states/tripura';
 import { UTTAR_PRADESH_DATA, type UttarPradeshStateData } from './states/uttar-pradesh';
 import { UTTARAKHAND_DATA, type UttarakhandStateData } from './states/uttarakhand';
 import { WEST_BENGAL_DATA, type WestBengalStateData } from './states/west-bengal';
+import { DELHI_DATA, type DelhiStateData } from './states/delhi';
 
-export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData | JharkhandStateData | KarnatakaStateData | KeralaStateData | MadhyaPradeshStateData | MaharashtraStateData | ManipurStateData | MeghalayaStateData | MizoramStateData | NagalandStateData | OdishaStateData | PunjabStateData | RajasthanStateData | SikkimStateData | TamilNaduStateData | TripuraStateData | UttarPradeshStateData | UttarakhandStateData | WestBengalStateData;
+export type StateFullData = AndhraPradeshStateData | TelanganaStateData | ArunachalPradeshStateData | AssamStateData | BiharStateData | ChhattisgarhStateData | GoaStateData | GujaratStateData | HaryanaStateData | HimachalStateData | JharkhandStateData | KarnatakaStateData | KeralaStateData | MadhyaPradeshStateData | MaharashtraStateData | ManipurStateData | MeghalayaStateData | MizoramStateData | NagalandStateData | OdishaStateData | PunjabStateData | RajasthanStateData | SikkimStateData | TamilNaduStateData | TripuraStateData | UttarPradeshStateData | UttarakhandStateData | WestBengalStateData | DelhiStateData;
 
 // State Registry containing built & approved state modules
 const BUILT_STATES_REGISTRY: Record<string, StateFullData> = {
+  'delhi': DELHI_DATA,
   'andhra-pradesh': ANDHRA_PRADESH_DATA,
   'telangana': TELANGANA_DATA,
   'arunachal-pradesh': ARUNACHAL_PRADESH_DATA,

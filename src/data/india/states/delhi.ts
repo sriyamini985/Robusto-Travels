@@ -77,13 +77,13 @@ export const DELHI_DATA: DelhiStateData = {
       name: 'Red Fort',
       slug: 'red-fort',
       category: 'UNESCO World Heritage',
-      image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&q=80&w=600',
+      image: 'https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&q=80&w=600',
       overview: 'Constructed in 1639 by Mughal Emperor Shah Jahan as the palace fort of Shahjahanabad, the Red Fort features massive red sandstone walls, octagonal layout, imperial pavilions, and is the historic symbol of national independence.',
       rating: 4.91,
       bestTimeToVisit: 'October – March',
       shortDesc: 'Massive 17th-century Mughal red sandstone palace fortress.',
       gallery: [
-        'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&q=80&w=600'
+        'https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&q=80&w=600'
       ],
       nearbyAttractions: ['Jama Masjid', 'Chandni Chowk Market', 'Raj Ghat'],
       recommendedHotels: ['Welcomhotel by ITC Hotels Dwarka', 'The Oberoi New Delhi'],
@@ -93,13 +93,13 @@ export const DELHI_DATA: DelhiStateData = {
       name: 'Lotus Temple',
       slug: 'lotus-temple',
       category: 'Architectural Marvel',
-      image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=600',
+      image: 'https://images.unsplash.com/photo-1567168539593-59673ababaae?auto=format&fit=crop&q=80&w=600',
       overview: 'Completed in 1986, the Lotus Temple is a Baháʼí House of Worship famous for its flowerlike design made of 27 free-standing white marble petals. It welcomes visitors of all religions to pray and meditate in silent harmony.',
       rating: 4.89,
       bestTimeToVisit: 'October – March',
       shortDesc: 'Flowerlike Baháʼí House of Worship with 27 white marble petals.',
       gallery: [
-        'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=600'
+        'https://images.unsplash.com/photo-1567168539593-59673ababaae?auto=format&fit=crop&q=80&w=600'
       ],
       nearbyAttractions: ['Kalkaji Mandir', 'ISKCON Temple Delhi', 'Nehru Place Hub'],
       recommendedHotels: ['Crowne Plaza New Delhi Okhla', 'Eros Hotel Nehru Place'],

@@ -7,11 +7,11 @@ export const Footer: React.FC = () => {
 
   return (
     <footer style={{ 
-      backgroundColor: 'var(--color-midnight-blue)', 
-      color: 'var(--color-ivory)', 
+      backgroundColor: '#000000', 
+      color: '#ffffff', 
       paddingTop: '80px', 
       paddingBottom: '40px',
-      borderTop: '1px solid rgba(255,255,255,0.05)',
+      borderTop: '1px solid rgba(255,255,255,0.1)',
       fontFamily: 'var(--font-body)'
     }}>
       <div className="container">
@@ -31,11 +31,11 @@ export const Footer: React.FC = () => {
                 borderRadius: '8px',
                 overflow: 'hidden',
                 background: '#000000',
-                border: '1.5px solid var(--color-gold)',
+                border: '1.5px solid #ffffff',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                boxShadow: '0 2px 10px rgba(255, 193, 7, 0.25)',
+                boxShadow: '0 2px 10px rgba(255, 255, 255, 0.15)',
                 flexShrink: 0
               }}>
                 <img 
@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
                   fontFamily: 'var(--font-heading)', 
                   fontSize: '1.4rem', 
                   letterSpacing: '0.2em', 
-                  color: 'var(--color-gold)',
+                  color: '#ffffff',
                   display: 'block',
                   marginBottom: '2px',
                   fontWeight: 800
@@ -85,7 +85,7 @@ export const Footer: React.FC = () => {
           {/* Direct Navigation */}
           <div>
             <h4 style={{ 
-              color: 'var(--color-gold)', 
+              color: '#ffffff', 
               textTransform: 'uppercase', 
               fontSize: '0.8rem', 
               letterSpacing: '0.2em', 
@@ -106,7 +106,7 @@ export const Footer: React.FC = () => {
           {/* Contact Details */}
           <div>
             <h4 style={{ 
-              color: 'var(--color-gold)', 
+              color: '#ffffff', 
               textTransform: 'uppercase', 
               fontSize: '0.8rem', 
               letterSpacing: '0.2em', 
@@ -118,15 +118,15 @@ export const Footer: React.FC = () => {
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '16px', fontSize: '0.85rem', opacity: 0.8 }}>
               <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <Phone size={16} className="text-gold" />
+                <Phone size={16} style={{ color: '#ffffff' }} />
                 <span>+91 89770 22822</span>
               </li>
               <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <Mail size={16} className="text-gold" />
+                <Mail size={16} style={{ color: '#ffffff' }} />
                 <span>info.robustotravels@gmail.com</span>
               </li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                <MapPin size={16} className="text-gold" style={{ marginTop: '3px' }} />
+                <MapPin size={16} style={{ color: '#ffffff', marginTop: '3px' }} />
                 <div>
                   <p>Hyderabad, Telangana, India</p>
                 </div>
@@ -138,7 +138,7 @@ export const Footer: React.FC = () => {
 
         {/* Divider */}
         <div style={{ 
-          borderTop: '1px solid rgba(255,255,255,0.05)', 
+          borderTop: '1px solid rgba(255,255,255,0.1)', 
           paddingTop: '32px', 
           display: 'flex', 
           flexDirection: 'column', 
@@ -162,10 +162,11 @@ export const Footer: React.FC = () => {
           opacity: 0.75;
           transition: all 0.3s;
           display: inline-block;
+          color: #ffffff;
         }
         .footer-link:hover {
           opacity: 1;
-          color: var(--color-gold);
+          color: #38bdf8;
           transform: translateX(4px);
         }
         .social-icon {
@@ -176,44 +177,14 @@ export const Footer: React.FC = () => {
           height: 36px;
           border-radius: 50%;
           border: 1px solid rgba(255,255,255,0.1);
-          color: var(--color-ivory);
+          color: #ffffff;
           transition: all 0.3s;
         }
         .social-icon:hover {
-          border-color: var(--color-gold);
-          color: var(--color-gold);
+          border-color: #ffffff;
+          background: #ffffff;
+          color: #000000;
           transform: translateY(-2px);
-        }
-        .newsletter-form {
-          display: flex;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-          padding-bottom: 8px;
-          transition: border-color 0.3s;
-        }
-        .newsletter-form:focus-within {
-          border-color: var(--color-gold);
-        }
-        .newsletter-input {
-          flex: 1;
-          background: none;
-          border: none;
-          color: var(--color-ivory);
-          font-size: 0.85rem;
-          padding: 4px;
-        }
-        .newsletter-input::placeholder {
-          color: rgba(255,255,255,0.4);
-        }
-        .newsletter-submit {
-          background: none;
-          border: none;
-          color: var(--color-gold);
-          cursor: pointer;
-          padding: 4px 8px;
-          transition: transform 0.3s;
-        }
-        .newsletter-submit:hover {
-          transform: translateX(3px);
         }
         @media (min-width: 768px) {
           .footer-bottom {

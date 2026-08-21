@@ -78,10 +78,11 @@ export const Navigation: React.FC = () => {
     setActiveDropdown(null);
   };
 
-  // Text color: white on dark pages when not scrolled
+  // Black and White navigation styling variables matching the logo
   const isDarkPage  = currentPage === 'landing' || currentPage === 'destinations' || currentPage === 'destination-details' || currentPage === 'trip-details';
-  const textColor   = isScrolled ? '#0f172a' : isDarkPage ? '#fff' : '#0f172a';
-  const logoGold    = isScrolled ? '#1d4ed8' : isDarkPage ? '#FFC107' : '#1d4ed8';
+  const textColor   = isScrolled ? '#000000' : isDarkPage ? '#ffffff' : '#000000';
+  const activeColor = isScrolled ? '#000000' : isDarkPage ? '#ffffff' : '#000000';
+  const logoColor   = isScrolled ? '#000000' : isDarkPage ? '#ffffff' : '#000000';
 
   return (
     <>
@@ -89,16 +90,16 @@ export const Navigation: React.FC = () => {
         position: 'fixed', top: 0, left: 0, width: '100%', zIndex: 100,
         transition: 'all 0.4s ease',
         background: isScrolled
-          ? 'rgba(255,255,255,0.96)'
+          ? 'rgba(255,255,255,0.98)'
           : isDarkPage
-            ? 'rgba(7, 15, 36, 0.4)'
-            : 'rgba(255,255,255,0.96)',
+            ? 'rgba(0, 0, 0, 0.4)'
+            : 'rgba(255,255,255,0.98)',
         backdropFilter: 'blur(16px)',
         borderBottom: isScrolled
-          ? '1px solid rgba(0,0,0,0.08)'
+          ? '1px solid rgba(0,0,0,0.1)'
           : '1px solid rgba(255,255,255,0.15)',
         padding: isScrolled ? '10px 0' : '16px 0',
-        boxShadow: isScrolled ? '0 2px 20px rgba(0,0,0,0.08)' : 'none',
+        boxShadow: isScrolled ? '0 2px 20px rgba(0,0,0,0.06)' : 'none',
       }}>
         <div style={{
           maxWidth: '1400px', margin: '0 auto',
@@ -114,12 +115,12 @@ export const Navigation: React.FC = () => {
               borderRadius: '8px',
               overflow: 'hidden',
               background: '#000000',
-              border: `1.5px solid ${logoGold}`,
+              border: `1.5px solid ${logoColor}`,
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              boxShadow: `0 2px 10px ${logoGold}55`,
-              transition: 'background 0.4s',
+              boxShadow: isScrolled ? '0 2px 10px rgba(0,0,0,0.15)' : '0 2px 10px rgba(255,255,255,0.25)',
+              transition: 'all 0.4s',
             }}>
               <img 
                 src="/images/logo.png" 
@@ -128,7 +129,7 @@ export const Navigation: React.FC = () => {
               />
             </div>
             <div>
-              <div style={{ fontWeight: 800, fontSize: '1.05rem', letterSpacing: '0.06em', color: logoGold, lineHeight: 1, transition: 'color 0.4s' }}>
+              <div style={{ fontWeight: 800, fontSize: '1.05rem', letterSpacing: '0.06em', color: logoColor, lineHeight: 1, transition: 'color 0.4s' }}>
                 ROBUSTO
               </div>
               <div style={{ fontSize: '0.6rem', letterSpacing: '0.25em', color: textColor, opacity: 0.8, textTransform: 'uppercase', lineHeight: 1, transition: 'color 0.4s' }}>
@@ -159,14 +160,14 @@ export const Navigation: React.FC = () => {
                     padding: '8px 12px',
                     fontSize: '0.83rem',
                     fontWeight: currentPage === item.page ? 700 : 500,
-                    color: currentPage === item.page ? (isScrolled || !isDarkPage ? '#1d4ed8' : '#FFC107') : textColor,
+                    color: currentPage === item.page ? activeColor : textColor,
                     cursor: 'pointer',
                     transition: 'color 0.3s',
                     whiteSpace: 'nowrap',
-                    borderBottom: currentPage === item.page ? `2px solid ${isScrolled || !isDarkPage ? '#1d4ed8' : '#FFC107'}` : '2px solid transparent',
+                    borderBottom: currentPage === item.page ? `2px solid ${activeColor}` : '2px solid transparent',
                   }}
-                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = isScrolled || !isDarkPage ? '#1d4ed8' : '#FFC107'}
-                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = currentPage === item.page ? (isScrolled || !isDarkPage ? '#1d4ed8' : '#FFC107') : textColor}
+                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = activeColor}
+                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = currentPage === item.page ? activeColor : textColor}
                 >
                   {item.label}
                   {item.hasDropdown && <ChevronDown size={12} />}
@@ -190,7 +191,7 @@ export const Navigation: React.FC = () => {
                     animation: 'dropIn 0.22s ease',
                   }}>
                     <div>
-                      <h4 style={{ fontSize: '0.72rem', color: '#1d4ed8', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '12px' }}>Ethical Tours</h4>
+                      <h4 style={{ fontSize: '0.72rem', color: '#0f172a', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '12px' }}>Ethical Tours</h4>
                       {[
                         { label: 'Mumbai Dharavi', id: 'santorini' },
                         { label: 'Delhi Sanjay Colony', id: 'switzerland' },
@@ -198,15 +199,15 @@ export const Navigation: React.FC = () => {
                         { label: 'Kerala Backwaters', id: 'kyoto' },
                       ].map(d => (
                         <div key={d.id} onClick={() => { openQuoteModal(d.label, d.id, false); setActiveDropdown(null); }}
-                          style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '7px 0', fontSize: '0.82rem', color: '#334155', cursor: 'pointer', borderBottom: '1px solid #f1f5f9', transition: 'color 0.2s' }}
-                          onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = '#1d4ed8'}
-                          onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = '#334155'}>
-                          <MapPin size={12} color="#1d4ed8" /> {d.label}
+                          style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '7px 0', fontSize: '0.82rem', color: '#475569', cursor: 'pointer', borderBottom: '1px solid #f1f5f9', transition: 'color 0.2s' }}
+                          onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = '#000000'}
+                          onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = '#475569'}>
+                          <MapPin size={12} color="#475569" /> {d.label}
                         </div>
                       ))}
                     </div>
                     <div>
-                      <h4 style={{ fontSize: '0.72rem', color: '#1d4ed8', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '12px' }}>Luxury Escapes</h4>
+                      <h4 style={{ fontSize: '0.72rem', color: '#0f172a', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '12px' }}>Luxury Escapes</h4>
                       {[
                         { label: 'Swiss Alpine Grandeur', id: 'switzerland-luxury' },
                         { label: 'Dubai Modern Oasis', id: 'dubai' },
@@ -214,17 +215,17 @@ export const Navigation: React.FC = () => {
                         { label: 'Bali Tropical Sanctuary', id: 'bali' },
                       ].map(d => (
                         <div key={d.id} onClick={() => { openQuoteModal(d.label, d.id, false); setActiveDropdown(null); }}
-                          style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '7px 0', fontSize: '0.82rem', color: '#334155', cursor: 'pointer', borderBottom: '1px solid #f1f5f9', transition: 'color 0.2s' }}
-                          onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = '#1d4ed8'}
-                          onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = '#334155'}>
-                          <Compass size={12} color="#f59e0b" /> {d.label}
+                          style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '7px 0', fontSize: '0.82rem', color: '#475569', cursor: 'pointer', borderBottom: '1px solid #f1f5f9', transition: 'color 0.2s' }}
+                          onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = '#000000'}
+                          onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = '#475569'}>
+                          <Compass size={12} color="#475569" /> {d.label}
                         </div>
                       ))}
                     </div>
                     <div style={{ gridColumn: '1/-1', borderTop: '1px solid #e2e8f0', paddingTop: '12px' }}>
                       <button onClick={() => go('destinations')} style={{
                         display: 'flex', alignItems: 'center', gap: '6px',
-                        color: '#1d4ed8', fontSize: '0.78rem', fontWeight: 700,
+                        color: '#000000', fontSize: '0.78rem', fontWeight: 700,
                         background: 'none', border: 'none', cursor: 'pointer',
                       }}>
                         View all destinations <ArrowRight size={14} />
@@ -254,7 +255,7 @@ export const Navigation: React.FC = () => {
                       <div key={idx}>
                         <h4 style={{ 
                           fontSize: '0.75rem', 
-                          color: '#f59e0b', 
+                          color: '#0f172a', 
                           fontWeight: 800, 
                           textTransform: 'uppercase', 
                           letterSpacing: '0.12em', 
@@ -301,19 +302,25 @@ export const Navigation: React.FC = () => {
               style={{
                 display: 'flex', alignItems: 'center', gap: '8px',
                 padding: '10px 20px',
-                background: '#FFC107',
-                color: '#0f172a',
-                border: 'none',
+                background: isScrolled ? '#000000' : isDarkPage ? '#ffffff' : '#000000',
+                color: isScrolled ? '#ffffff' : isDarkPage ? '#000000' : '#ffffff',
+                border: `1.5px solid ${isScrolled ? '#000000' : isDarkPage ? '#ffffff' : '#000000'}`,
                 borderRadius: '10px',
                 fontSize: '0.8rem',
                 fontWeight: 800,
                 textTransform: 'uppercase',
                 letterSpacing: '0.08em',
                 cursor: 'pointer',
-                transition: 'transform 0.2s',
+                transition: 'all 0.3s ease',
               }}
-              onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.05)'}
-              onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
+              onMouseEnter={e => {
+                e.currentTarget.style.transform = 'scale(1.05)';
+                e.currentTarget.style.background = isScrolled ? '#334155' : isDarkPage ? '#f1f5f9' : '#334155';
+              }}
+              onMouseLeave={e => {
+                e.currentTarget.style.transform = 'scale(1)';
+                e.currentTarget.style.background = isScrolled ? '#000000' : isDarkPage ? '#ffffff' : '#000000';
+              }}
             >
               Book Journey
             </button>
@@ -337,7 +344,7 @@ export const Navigation: React.FC = () => {
       {/* ── Mobile Nav Overlay ── */}
       {isMobileOpen && (
         <div style={{
-          position: 'fixed', inset: 0, background: '#fff', zIndex: 999,
+          position: 'fixed', inset: 0, background: '#ffffff', zIndex: 999,
           padding: '40px 32px', display: 'flex', flexDirection: 'column',
           animation: 'slideDown 0.3s ease',
         }}>
@@ -357,7 +364,7 @@ export const Navigation: React.FC = () => {
             { label: 'Contact',      page: 'contact' },
           ].map(item => (
             <div key={item.label} onClick={() => go(item.page)} style={{
-              fontSize: '1.5rem', fontWeight: 700, color: '#0f172a',
+              fontSize: '1.5rem', fontWeight: 700, color: '#000000',
               padding: '14px 0', borderBottom: '1px solid #f1f5f9',
               cursor: 'pointer',
             }}>
@@ -365,7 +372,7 @@ export const Navigation: React.FC = () => {
             </div>
           ))}
           <button onClick={() => go('booking')} style={{
-            marginTop: '24px', padding: '14px', background: '#FFC107',
+            marginTop: '24px', padding: '14px', background: '#000000', color: '#ffffff',
             border: 'none', borderRadius: '12px', fontWeight: 800,
             fontSize: '1rem', cursor: 'pointer',
           }}>
@@ -384,7 +391,7 @@ export const Navigation: React.FC = () => {
           to   { transform: translateY(0); }
         }
         .india-mega-item:hover {
-          color: #1d4ed8 !important;
+          color: #000000 !important;
           transform: translateX(4px);
         }
         @media (max-width: 900px) {

@@ -124,19 +124,21 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        gap: '14px',
+        gap: '24px',
         zIndex: 2,
         animation: 'fadeInUpText 1.5s cubic-bezier(0.19, 1, 0.22, 1) 2.0s forwards',
         opacity: 0,
         transform: 'translateY(20px)',
       }}>
-        {/* Left word: Robusto */}
-        <div 
-          className="logo-word-robusto" 
+        <img 
+          src="/images/robusto-text.png" 
+          alt="Robusto" 
+          className="splash-logo-word"
         />
-        {/* Right word: Travels */}
-        <div 
-          className="logo-word-travels" 
+        <img 
+          src="/images/travels-text.png" 
+          alt="Travels" 
+          className="splash-logo-word"
         />
       </div>
 
@@ -147,7 +149,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
         color: 'rgba(255, 255, 255, 0.85)',
         fontWeight: 500,
         letterSpacing: '0.12em',
-        marginTop: '20px',
+        marginTop: '24px',
         marginBottom: 0,
         zIndex: 2,
         animation: 'fadeInUpText 1.5s cubic-bezier(0.19, 1, 0.22, 1) 2.3s forwards',
@@ -161,36 +163,15 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
 
       {/* Global CSS Styles for Keyframes & Responsive Scaling */}
       <style>{`
-        .logo-word-robusto {
-          width: 180px;
-          height: 45px;
-          background-image: url('/images/logo-transparent.png');
-          background-size: 180px 180px;
-          background-position: center -90px;
-          background-repeat: no-repeat;
-        }
-
-        .logo-word-travels {
-          width: 180px;
-          height: 45px;
-          background-image: url('/images/logo-transparent.png');
-          background-size: 180px 180px;
-          background-position: center -135px;
-          background-repeat: no-repeat;
+        .splash-logo-word {
+          height: 60px;
+          width: auto;
+          filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.15));
         }
 
         @media (max-width: 768px) {
-          .logo-word-robusto {
-            width: 120px;
-            height: 30px;
-            background-size: 120px 120px;
-            background-position: center -60px;
-          }
-          .logo-word-travels {
-            width: 120px;
-            height: 30px;
-            background-size: 120px 120px;
-            background-position: center -90px;
+          .splash-logo-word {
+            height: 42px;
           }
         }
 
@@ -207,6 +188,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
           offset-path: path('M 50,50 C 180,80 220,200 300,160 C 350,130 360,70 300,70 C 240,70 230,150 300,200 C 340,220 300,215 300,220');
           offset-rotate: auto -45deg;
           animation: followPath 2.8s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+          transform: translate(-19px, -19px); /* Centers the paper airplane directly on the SVG line trail */
         }
 
         @keyframes followPath {

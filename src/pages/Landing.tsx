@@ -12,7 +12,12 @@ import {
   Compass,
   Clock,
   ShieldCheck,
-  ArrowRight
+  ArrowRight,
+  Globe,
+  Hotel,
+  FileText,
+  Bus,
+  Umbrella
 } from 'lucide-react';
 
 export const Landing: React.FC = () => {
@@ -114,16 +119,16 @@ export const Landing: React.FC = () => {
   return (
     <div style={{ 
       position: 'relative', 
-      width: '100vw', 
-      height: '100vh', 
-      overflow: 'hidden',
+      width: '100%', 
+      minHeight: 'calc(100vh - 80px)',
       background: 'radial-gradient(ellipse 130% 110% at 50% 10%, #11234c 0%, #0a1532 35%, #050b1c 70%, #02040b 100%)',
       fontFamily: "'Plus Jakarta Sans', sans-serif",
-      color: '#fff'
+      color: '#fff',
+      overflow: 'visible'
     }}>
 
-      {/* ── REALISTIC DEEP SPACE STARS & NEBULA GLOW ── */}
-      <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none', zIndex: 1, overflow: 'hidden' }}>
+      {/* ── REALISTIC DEEP SPACE STARS & NEBULA GLOW (FIXED PARALLAX BACKGROUND) ── */}
+      <div style={{ position: 'fixed', inset: 0, pointerEvents: 'none', zIndex: 1, overflow: 'hidden' }}>
         {/* Twinkling Star Field */}
         {stars.map(s => (
           <div key={s.id} style={{
@@ -164,8 +169,10 @@ export const Landing: React.FC = () => {
         }
       `}</style>
 
-      {/* ── CENTER HERO: 100% CLEAN FULL-SCREEN 3D EARTH GLOBE (NO POPUPS) ── */}
-      <div style={{
+      {/* ── GLOBE AREA WRAPPER SECTION ── */}
+      <div style={{ position: 'relative', width: '100%', height: 'calc(100vh - 80px)', overflow: 'hidden', zIndex: 5 }}>
+        {/* ── CENTER HERO: 100% CLEAN FULL-SCREEN 3D EARTH GLOBE (NO POPUPS) ── */}
+        <div style={{
         position: 'absolute',
         inset: 0,
         zIndex: 2,
@@ -556,6 +563,175 @@ export const Landing: React.FC = () => {
           </div>
         ))}
       </div>
+      </div>
+
+      {/* ── OUR SERVICES SECTION ── */}
+      <section style={{
+        position: 'relative',
+        zIndex: 10,
+        padding: '90px 24px',
+        background: 'linear-gradient(to bottom, #050b1c 0%, #020617 100%)',
+        borderTop: '1px solid rgba(255, 255, 255, 0.08)',
+        fontFamily: "'Plus Jakarta Sans', sans-serif"
+      }}>
+        <div style={{
+          maxWidth: '1200px',
+          margin: '0 auto'
+        }}>
+          {/* Header */}
+          <div style={{
+            textAlign: 'center',
+            marginBottom: '60px'
+          }}>
+            <span style={{
+              color: '#f59e0b',
+              fontSize: '0.85rem',
+              fontWeight: 700,
+              textTransform: 'uppercase',
+              letterSpacing: '0.2em',
+              display: 'block',
+              marginBottom: '10px'
+            }}>
+              Professional Offerings
+            </span>
+            <h2 style={{
+              fontSize: 'clamp(2rem, 4vw, 2.8rem)',
+              fontWeight: 800,
+              color: '#fff',
+              margin: 0,
+              letterSpacing: '-0.02em',
+              textTransform: 'uppercase'
+            }}>
+              Our Services
+            </h2>
+            <div style={{
+              width: '60px',
+              height: '3px',
+              background: '#f59e0b',
+              margin: '20px auto 0',
+              borderRadius: '2px'
+            }} />
+          </div>
+
+          {/* Grid Layout */}
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+            gap: '24px'
+          }}>
+            {[
+              {
+                icon: Globe,
+                title: 'Tours',
+                description: 'International and Domestic tours in your budget. Experience Unique Tours.'
+              },
+              {
+                icon: Plane,
+                title: 'Airline Tickets',
+                description: 'Book your International and Domestic Airline Tickets.'
+              },
+              {
+                icon: Hotel,
+                title: 'Hotel Bookings',
+                description: 'We offer a wide selection of hotel ranging from 5-star ones to small properties located worldwide so that you could book a hotel you like.'
+              },
+              {
+                icon: FileText,
+                title: 'Visa Services',
+                description: 'Hassle free Tourist visa services all over the globe with proper documentation.'
+              },
+              {
+                icon: Bus,
+                title: 'Bus/Train/Taxi booking',
+                description: 'Scheduled transport bus tickets, train tickets, tourist bus booking and tourist taxi booking.'
+              },
+              {
+                icon: Compass,
+                title: 'Holy land & pilgrimage tour',
+                description: 'Discover the historic, cultural, religious & scenic sites of Jerusalem, Israel & Egypt. India is prestigious as a conspicuous spot of Hindu, Buddhist, Sikh, Christian and Muslim religion.'
+              },
+              {
+                icon: Sparkles,
+                title: 'Hajj/ Umrah Services',
+                description: 'Hajj and Umrah Holy tour packages for the Indian Muslim pilgrims. Book package online at best price and get premium service.'
+              },
+              {
+                icon: Umbrella,
+                title: 'Party Tours',
+                description: 'Experience the Vibe of the Place. We offer Party tours such as Boat Parties, Destination Birthday Parties, etc.'
+              }
+            ].map((srv, idx) => {
+              const IconComponent = srv.icon;
+              return (
+                <div 
+                  key={idx}
+                  className="service-card-dark"
+                  style={{
+                    background: 'rgba(255, 255, 255, 0.03)',
+                    border: '1px solid rgba(255, 255, 255, 0.08)',
+                    borderRadius: '16px',
+                    padding: '30px 24px',
+                    transition: 'all 0.3s cubic-bezier(0.25, 1, 0.5, 1)',
+                    cursor: 'default',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start'
+                  }}
+                >
+                  {/* Icon Container */}
+                  <div style={{
+                    width: '48px',
+                    height: '48px',
+                    borderRadius: '12px',
+                    background: 'rgba(245, 158, 11, 0.1)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    marginBottom: '20px',
+                    color: '#f59e0b',
+                    transition: 'transform 0.3s ease'
+                  }} className="service-icon-box">
+                    <IconComponent size={24} strokeWidth={1.8} />
+                  </div>
+
+                  {/* Title */}
+                  <h3 style={{
+                    fontSize: '1.2rem',
+                    fontWeight: 700,
+                    color: '#fff',
+                    margin: '0 0 12px 0'
+                  }}>
+                    {srv.title}
+                  </h3>
+
+                  {/* Description */}
+                  <p style={{
+                    fontSize: '0.88rem',
+                    color: 'rgba(255, 255, 255, 0.65)',
+                    lineHeight: 1.6,
+                    margin: 0
+                  }}>
+                    {srv.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* CSS for Dark Cards */}
+        <style>{`
+          .service-card-dark:hover {
+            transform: translateY(-6px);
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(245, 158, 11, 0.4);
+            box-shadow: 0 12px 30px rgba(5, 11, 28, 0.6), 0 0 15px rgba(245, 158, 11, 0.05);
+          }
+          .service-card-dark:hover .service-icon-box {
+            transform: scale(1.1);
+          }
+        `}</style>
+      </section>
 
     </div>
   );

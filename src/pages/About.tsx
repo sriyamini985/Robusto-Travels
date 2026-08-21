@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, ShieldCheck, HeartHandshake, Compass, Star } from 'lucide-react';
+import { Award, ShieldCheck, HeartHandshake, Compass, Star, Globe, Plane, Hotel, FileText, Bus, Sparkles, Umbrella } from 'lucide-react';
 
 export const About: React.FC = () => {
 
@@ -118,6 +118,142 @@ export const About: React.FC = () => {
 
           </div>
         </div>
+      </section>
+
+      {/* ── OUR SERVICES SECTION (LIGHT THEME) ── */}
+      <section style={{
+        backgroundColor: 'var(--color-ivory)',
+        paddingTop: '96px',
+        paddingBottom: '96px',
+        borderTop: '1px solid var(--color-border)',
+        borderBottom: '1px solid var(--color-border)'
+      }}>
+        <div className="container">
+          {/* Header */}
+          <div className="section-title-container" style={{ textAlign: 'center', marginBottom: '56px' }}>
+            <span className="section-subtitle">What We Offer</span>
+            <h2 className="section-title">Our Services</h2>
+          </div>
+
+          {/* Grid Layout */}
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(265px, 1fr))',
+            gap: '24px'
+          }}>
+            {[
+              {
+                icon: Globe,
+                title: 'Tours',
+                description: 'International and Domestic tours in your budget. Experience Unique Tours.'
+              },
+              {
+                icon: Plane,
+                title: 'Airline Tickets',
+                description: 'Book your International and Domestic Airline Tickets.'
+              },
+              {
+                icon: Hotel,
+                title: 'Hotel Bookings',
+                description: 'We offer a wide selection of hotel ranging from 5-star ones to small properties located worldwide so that you could book a hotel you like.'
+              },
+              {
+                icon: FileText,
+                title: 'Visa Services',
+                description: 'Hassle free Tourist visa services all over the globe with proper documentation.'
+              },
+              {
+                icon: Bus,
+                title: 'Bus/Train/Taxi booking',
+                description: 'Scheduled transport bus tickets, train tickets, tourist bus booking and tourist taxi booking.'
+              },
+              {
+                icon: Compass,
+                title: 'Holy land & pilgrimage tour',
+                description: 'Discover the historic, cultural, religious & scenic sites of Jerusalem, Israel & Egypt. India is prestigious as a conspicuous spot of Hindu, Buddhist, Sikh, Christian and Muslim religion.'
+              },
+              {
+                icon: Sparkles,
+                title: 'Hajj/ Umrah Services',
+                description: 'Hajj and Umrah Holy tour packages for the Indian Muslim pilgrims. Book package online at best price and get premium service.'
+              },
+              {
+                icon: Umbrella,
+                title: 'Party Tours',
+                description: 'Experience the Vibe of the Place. We offer Party tours such as Boat Parties, Destination Birthday Parties, etc.'
+              }
+            ].map((srv, idx) => {
+              const IconComponent = srv.icon;
+              return (
+                <div 
+                  key={idx}
+                  className="service-card-light"
+                  style={{
+                    background: '#fff',
+                    border: '1px solid var(--color-border)',
+                    borderRadius: 'var(--radius-lg)',
+                    padding: '32px 24px',
+                    transition: 'all 0.3s cubic-bezier(0.25, 1, 0.5, 1)',
+                    cursor: 'default',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.02)'
+                  }}
+                >
+                  {/* Icon Container */}
+                  <div style={{
+                    width: '48px',
+                    height: '48px',
+                    borderRadius: '12px',
+                    background: 'rgba(217, 119, 6, 0.08)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    marginBottom: '20px',
+                    color: 'var(--color-gold)',
+                    transition: 'transform 0.3s ease'
+                  }} className="service-icon-box">
+                    <IconComponent size={24} strokeWidth={1.8} />
+                  </div>
+
+                  {/* Title */}
+                  <h3 style={{
+                    fontSize: '1.2rem',
+                    fontWeight: 700,
+                    color: 'var(--color-forest-green)',
+                    margin: '0 0 12px 0',
+                    fontFamily: 'var(--font-body)'
+                  }}>
+                    {srv.title}
+                  </h3>
+
+                  {/* Description */}
+                  <p style={{
+                    fontSize: '0.88rem',
+                    color: 'var(--text-secondary)',
+                    lineHeight: 1.6,
+                    margin: 0
+                  }}>
+                    {srv.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* CSS for Light Cards */}
+        <style>{`
+          .service-card-light:hover {
+            transform: translateY(-6px);
+            border-color: var(--color-gold);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.06);
+          }
+          .service-card-light:hover .service-icon-box {
+            transform: scale(1.1);
+          }
+        `}</style>
       </section>
 
       {/* 3. Meet the Curators */}

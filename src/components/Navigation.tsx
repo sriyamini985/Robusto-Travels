@@ -2,6 +2,64 @@ import React, { useState, useEffect } from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { Menu, X, ChevronDown, Search, MapPin, Compass, ArrowRight } from 'lucide-react';
 
+const indiaMegaData = [
+  {
+    title: 'North India',
+    places: [
+      { name: 'Agra', stateId: 'uttar-pradesh' },
+      { name: 'Delhi', stateId: 'delhi' },
+      { name: 'Jaipur', stateId: 'rajasthan' },
+      { name: 'Ladakh', stateId: 'ladakh' },
+      { name: 'Varanasi', stateId: 'uttar-pradesh' },
+      { name: 'Shimla', stateId: 'himachal-pradesh' }
+    ]
+  },
+  {
+    title: 'South India',
+    places: [
+      { name: 'Hyderabad', stateId: 'telangana' },
+      { name: 'Bangalore', stateId: 'karnataka' },
+      { name: 'Munnar', stateId: 'kerala' },
+      { name: 'Ooty', stateId: 'tamil-nadu' },
+      { name: 'Coorg', stateId: 'karnataka' },
+      { name: 'Alleppey', stateId: 'kerala' }
+    ]
+  },
+  {
+    title: 'East & West',
+    places: [
+      { name: 'Mumbai', stateId: 'maharashtra' },
+      { name: 'Goa', stateId: 'goa' },
+      { name: 'Kolkata', stateId: 'west-bengal' },
+      { name: 'Odisha', stateId: 'odisha' },
+      { name: 'Bihar', stateId: 'bihar' },
+      { name: 'Udaipur', stateId: 'rajasthan' }
+    ]
+  },
+  {
+    title: 'NE & Central',
+    places: [
+      { name: 'Arunachal Pradesh', stateId: 'arunachal-pradesh' },
+      { name: 'Assam', stateId: 'assam' },
+      { name: 'Meghalaya', stateId: 'meghalaya' },
+      { name: 'Sikkim', stateId: 'sikkim' },
+      { name: 'Chhattisgarh', stateId: 'chhattisgarh' },
+      { name: 'Madhya Pradesh', stateId: 'madhya-pradesh' }
+    ]
+  },
+  {
+    title: 'Honeymoon',
+    places: [
+      { name: 'Kashmir', stateId: 'jammu-and-kashmir' },
+      { name: 'Coorg', stateId: 'karnataka' },
+      { name: 'Darjeeling', stateId: 'west-bengal' },
+      { name: 'Goa', stateId: 'goa' },
+      { name: 'Kerala', stateId: 'kerala' },
+      { name: 'Munnar', stateId: 'kerala' }
+    ]
+  }
+];
+
 export const Navigation: React.FC = () => {
   const { navigateTo, currentPage, openQuoteModal } = useNavigation();
   const [isScrolled, setIsScrolled]           = useState(false);
@@ -50,7 +108,6 @@ export const Navigation: React.FC = () => {
 
           {/* ── Logo ── */}
           <div onClick={() => go('landing')} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
-            {/* Plane icon in circle replaced with uploaded logo */}
             <div style={{
               width: 38,
               height: 38,
@@ -85,7 +142,7 @@ export const Navigation: React.FC = () => {
             {[
               { label: 'Home',         page: 'landing' },
               { label: 'Destinations', page: 'destinations', hasDropdown: true },
-              { label: 'Packages',     page: 'destinations' },
+              { label: 'India',        page: 'landing', hasDropdown: true },
               { label: 'About Us',     page: 'about' },
               { label: 'Contact',      page: 'contact' },
             ].map(item => (
@@ -116,7 +173,7 @@ export const Navigation: React.FC = () => {
                 </span>
 
                 {/* Destinations dropdown */}
-                {item.hasDropdown && activeDropdown === item.label && (
+                {item.hasDropdown && activeDropdown === item.label && item.label === 'Destinations' && (
                   <div style={{
                     position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
                     marginTop: '8px',
@@ -175,6 +232,61 @@ export const Navigation: React.FC = () => {
                     </div>
                   </div>
                 )}
+
+                {/* India Mega Dropdown */}
+                {item.hasDropdown && activeDropdown === item.label && item.label === 'India' && (
+                  <div style={{
+                    position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
+                    marginTop: '8px',
+                    background: '#fff',
+                    borderRadius: '20px',
+                    boxShadow: '0 25px 70px rgba(0,0,0,0.18)',
+                    border: '1px solid #e2e8f0',
+                    padding: '28px 24px',
+                    width: '880px',
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(5, 1fr)',
+                    gap: '24px',
+                    zIndex: 200,
+                    animation: 'dropIn 0.22s ease',
+                  }}>
+                    {indiaMegaData.map((col, idx) => (
+                      <div key={idx}>
+                        <h4 style={{ 
+                          fontSize: '0.75rem', 
+                          color: '#f59e0b', 
+                          fontWeight: 800, 
+                          textTransform: 'uppercase', 
+                          letterSpacing: '0.12em', 
+                          marginBottom: '14px',
+                          borderBottom: '1px solid #f1f5f9',
+                          paddingBottom: '6px'
+                        }}>
+                          {col.title}
+                        </h4>
+                        {col.places.map((place, pIdx) => (
+                          <div 
+                            key={pIdx} 
+                            onClick={() => go('state-details', { destinationId: place.stateId })}
+                            className="india-mega-item"
+                            style={{ 
+                              padding: '6px 0', 
+                              fontSize: '0.82rem', 
+                              color: '#475569', 
+                              cursor: 'pointer', 
+                              transition: 'all 0.2s',
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: '6px'
+                            }}
+                          >
+                            <span style={{ fontSize: '0.4rem', color: '#cbd5e1' }}>●</span> {place.name}
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </nav>
@@ -198,35 +310,35 @@ export const Navigation: React.FC = () => {
                 textTransform: 'uppercase',
                 letterSpacing: '0.08em',
                 cursor: 'pointer',
-                boxShadow: '0 4px 16px rgba(255,193,7,0.4)',
-                whiteSpace: 'nowrap',
-                transition: 'all 0.25s',
+                transition: 'transform 0.2s',
               }}
-              onMouseEnter={e => { (e.currentTarget as HTMLElement).style.transform = 'translateY(-1px)'; (e.currentTarget as HTMLElement).style.boxShadow = '0 6px 24px rgba(255,193,7,0.55)'; }}
-              onMouseLeave={e => { (e.currentTarget as HTMLElement).style.transform = ''; (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 16px rgba(255,193,7,0.4)'; }}
+              onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.05)'}
+              onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
             >
-              ✈ Book Journey
+              Book Journey
             </button>
 
-            {/* Mobile Toggle */}
+            {/* Mobile Hamburger */}
             <button
-              onClick={() => setIsMobileOpen(!isMobileOpen)}
-              style={{ background: 'none', border: 'none', cursor: 'pointer', color: textColor, display: 'none' }}
-              className="nav-mobile-toggle"
+              onClick={() => setIsMobileOpen(true)}
+              style={{
+                background: 'none', border: 'none', cursor: 'pointer', color: textColor,
+                padding: '6px', display: 'none',
+              }}
+              className="hamburger-rt"
             >
-              {isMobileOpen ? <X size={24} /> : <Menu size={24} />}
+              <Menu size={22} />
             </button>
           </div>
+
         </div>
       </header>
 
-      {/* ── Mobile Menu ── */}
+      {/* ── Mobile Nav Overlay ── */}
       {isMobileOpen && (
         <div style={{
-          position: 'fixed', inset: 0, zIndex: 200,
-          background: '#fff',
-          display: 'flex', flexDirection: 'column',
-          padding: '80px 32px 32px',
+          position: 'fixed', inset: 0, background: '#fff', zIndex: 999,
+          padding: '40px 32px', display: 'flex', flexDirection: 'column',
           animation: 'slideDown 0.3s ease',
         }}>
           <button onClick={() => setIsMobileOpen(false)} style={{
@@ -240,7 +352,7 @@ export const Navigation: React.FC = () => {
           {[
             { label: 'Home',         page: 'landing' },
             { label: 'Destinations', page: 'destinations' },
-            { label: 'Packages',     page: 'destinations' },
+            { label: 'India',        page: 'landing' },
             { label: 'About Us',     page: 'about' },
             { label: 'Contact',      page: 'contact' },
           ].map(item => (
@@ -268,12 +380,16 @@ export const Navigation: React.FC = () => {
           to   { opacity: 1; transform: translateX(-50%) translateY(0); }
         }
         @keyframes slideDown {
-          from { opacity: 0; transform: translateY(-20px); }
-          to   { opacity: 1; transform: translateY(0); }
+          from { transform: translateY(-100%); }
+          to   { transform: translateY(0); }
         }
-        @media (max-width: 1024px) {
+        .india-mega-item:hover {
+          color: #1d4ed8 !important;
+          transform: translateX(4px);
+        }
+        @media (max-width: 900px) {
           .desktop-nav-rt { display: none !important; }
-          .nav-mobile-toggle { display: flex !important; }
+          .hamburger-rt { display: block !important; }
         }
       `}</style>
     </>

@@ -92,7 +92,7 @@ export const getStateData = (stateId: string): StateFullData => {
         name: `${stateMeta.name} Destination Module Coming Soon`,
         slug: `${stateMeta.id}-coming-soon`,
         category: 'Under State Review',
-        image: '',
+        image: stateMeta.heroImage,
         overview: `${stateMeta.name} is scheduled for individual verification following approval of active state modules.`,
         rating: 5.0
       }

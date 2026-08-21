@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete }) => {
   const [isFadingOut, setIsFadingOut] = useState(false);
-  const [processedLogo, setProcessedLogo] = useState<string>('');
 
   useEffect(() => {
     // Start fade out after 4.5 seconds
@@ -21,71 +20,12 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
     };
   }, [onComplete]);
 
-  useEffect(() => {
-    // Process logo image to extract exact vector shapes transparently
-    const img = new Image();
-    img.src = '/images/logo.png';
-    img.crossOrigin = 'anonymous';
-    img.onload = () => {
-      const canvas = document.createElement('canvas');
-      canvas.width = img.width;
-      canvas.height = img.height;
-      const ctx = canvas.getContext('2d');
-      if (!ctx) return;
-      ctx.drawImage(img, 0, 0);
-
-      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-      const data = imageData.data;
-      const midY = canvas.height / 2;
-
-      for (let y = 0; y < canvas.height; y++) {
-        for (let x = 0; x < canvas.width; x++) {
-          const idx = (y * canvas.width + x) * 4;
-          const r = data[idx];
-          const g = data[idx + 1];
-          const b = data[idx + 2];
-
-          if (y < midY - 4) {
-            // Top half: Paper airplane flight path (white background, black lines)
-            // If it is near white, make it transparent
-            if (r > 200 && g > 200 && b > 200) {
-              data[idx + 3] = 0;
-            } else if (r < 120 && g < 120 && b < 120) {
-              // Convert black lines to pure white with nice crisp edges
-              data[idx] = 255;
-              data[idx + 1] = 255;
-              data[idx + 2] = 255;
-              data[idx + 3] = 255;
-            }
-          } else if (y > midY + 4) {
-            // Bottom half: Brand typography (black background, white text)
-            // If it is near black, make it transparent
-            if (r < 65 && g < 65 && b < 65) {
-              data[idx + 3] = 0;
-            } else {
-              // Make text pure white
-              data[idx] = 255;
-              data[idx + 1] = 255;
-              data[idx + 2] = 255;
-            }
-          } else {
-            // Completely delete the central horizontal dividing line
-            data[idx + 3] = 0;
-          }
-        }
-      }
-
-      ctx.putImageData(imageData, 0, 0);
-      setProcessedLogo(canvas.toDataURL());
-    };
-  }, []);
-
   return (
     <div style={{
       position: 'fixed',
       inset: 0,
       zIndex: 999999,
-      background: 'radial-gradient(circle at 50% 50%, #050b1c 0%, #020617 100%)', // Premium dark theme background matching Robusto Verse
+      background: 'radial-gradient(circle at 50% 50%, #050b1c 0%, #020617 100%)', // Premium dark theme matching website
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -115,7 +55,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
         width: '100%',
         maxWidth: '400px',
         height: '240px',
-        marginBottom: '-35px', // Pulls the logo up closer to the airplane landing spot so they belong to the same composition
+        marginBottom: '-35px',
         zIndex: 2
       }}>
         {/* Progressively drawn dashed SVG trail */}
@@ -130,7 +70,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
                 strokeDasharray="1000" 
                 strokeDashoffset="1000"
                 style={{
-                  animation: 'drawPathMask 2.5s cubic-bezier(0.25, 1, 0.5, 1) forwards'
+                  animation: 'drawPathMask 2.8s cubic-bezier(0.42, 0, 0.58, 1) forwards'
                 }}
               />
             </mask>
@@ -148,7 +88,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
           />
         </svg>
 
-        {/* Paper Airplane (Clean line-art following the path vector, scaled up 1.8x) */}
+        {/* Paper Airplane */}
         <div className="paper-airplane" style={{
           position: 'absolute',
           top: 0,
@@ -178,57 +118,79 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
         </div>
       </div>
 
-      {/* Brand Text (Bottom half of logo containing "Robusto Travels" font) & Tagline */}
+      {/* Brand Text (Single line Robusto Travels logo) */}
       <div style={{
-        textAlign: 'center',
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: '14px',
         zIndex: 2,
         animation: 'fadeInUpText 1.5s cubic-bezier(0.19, 1, 0.22, 1) 2.0s forwards',
         opacity: 0,
         transform: 'translateY(20px)',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center'
       }}>
-        {/* Bottom half of logo: the retro display font name, extracted cleanly via canvas background removal */}
+        {/* Left word: Robusto */}
         <div 
-          className="splash-logo-container" 
-          style={{
-            backgroundImage: processedLogo ? `url(${processedLogo})` : 'none',
-            display: processedLogo ? 'block' : 'none'
-          }} 
+          className="logo-word-robusto" 
         />
-
-        {/* Tagline */}
-        <p style={{
-          fontFamily: "'Plus Jakarta Sans', sans-serif",
-          fontSize: '1.05rem', // Slightly larger and highly readable
-          color: 'rgba(255, 255, 255, 0.85)', // Soft white / light gray text
-          fontWeight: 500,
-          letterSpacing: '0.12em',
-          marginTop: '16px',
-          marginBottom: 0,
-          textShadow: '0 2px 8px rgba(0,0,0,0.5)',
-          textTransform: 'lowercase' // exact tagline lowercase layout
-        }}>
-          travel around the world without hesitation.
-        </p>
+        {/* Right word: Travels */}
+        <div 
+          className="logo-word-travels" 
+        />
       </div>
+
+      {/* Tagline */}
+      <p style={{
+        fontFamily: "'Plus Jakarta Sans', sans-serif",
+        fontSize: '1.05rem',
+        color: 'rgba(255, 255, 255, 0.85)',
+        fontWeight: 500,
+        letterSpacing: '0.12em',
+        marginTop: '20px',
+        marginBottom: 0,
+        zIndex: 2,
+        animation: 'fadeInUpText 1.5s cubic-bezier(0.19, 1, 0.22, 1) 2.3s forwards',
+        opacity: 0,
+        transform: 'translateY(15px)',
+        textShadow: '0 2px 8px rgba(0,0,0,0.5)',
+        textTransform: 'lowercase'
+      }}>
+        travel around the world without hesitation.
+      </p>
 
       {/* Global CSS Styles for Keyframes & Responsive Scaling */}
       <style>{`
-        .splash-logo-container {
-          width: 360px;
-          height: 180px;
-          background-size: 360px 360px;
-          background-position: bottom center;
+        .logo-word-robusto {
+          width: 180px;
+          height: 45px;
+          background-image: url('/images/logo-transparent.png');
+          background-size: 180px 180px;
+          background-position: center -90px;
+          background-repeat: no-repeat;
+        }
+
+        .logo-word-travels {
+          width: 180px;
+          height: 45px;
+          background-image: url('/images/logo-transparent.png');
+          background-size: 180px 180px;
+          background-position: center -135px;
           background-repeat: no-repeat;
         }
 
         @media (max-width: 768px) {
-          .splash-logo-container {
-            width: 260px;
-            height: 130px;
-            background-size: 260px 260px;
+          .logo-word-robusto {
+            width: 120px;
+            height: 30px;
+            background-size: 120px 120px;
+            background-position: center -60px;
+          }
+          .logo-word-travels {
+            width: 120px;
+            height: 30px;
+            background-size: 120px 120px;
+            background-position: center -90px;
           }
         }
 
@@ -243,8 +205,8 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
 
         .paper-airplane {
           offset-path: path('M 50,50 C 180,80 220,200 300,160 C 350,130 360,70 300,70 C 240,70 230,150 300,200 C 340,220 300,215 300,220');
-          offset-rotate: auto 0deg;
-          animation: followPath 2.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+          offset-rotate: auto -45deg;
+          animation: followPath 2.8s cubic-bezier(0.42, 0, 0.58, 1) forwards;
         }
 
         @keyframes followPath {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, MessageCircle, ShieldCheck } from 'lucide-react';
+import { Mail, Phone, Send, MessageCircle, ShieldCheck } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -25,7 +25,7 @@ export const Contact: React.FC = () => {
       <section className="contact-hero" style={{
         paddingTop: '180px',
         paddingBottom: '80px',
-        background: 'linear-gradient(to bottom, var(--color-midnight-blue), #142a20)',
+        background: 'linear-gradient(to bottom, var(--color-midnight-blue), #0b1532)',
         color: 'var(--color-ivory)',
         textAlign: 'center'
       }}>
@@ -42,7 +42,7 @@ export const Contact: React.FC = () => {
             Initiate Conversation
           </h1>
           <p style={{ maxWidth: '600px', margin: '0 auto', fontSize: '0.95rem', opacity: 0.8, lineHeight: 1.6 }}>
-            Connect with our Mumbai and Delhi office teams to schedule an educational tour or coordinate custom itineraries.
+            Connect with our travel curation team to coordinate your custom itineraries, bookings, and dream getaways.
           </p>
         </div>
       </section>
@@ -62,15 +62,15 @@ export const Contact: React.FC = () => {
               <Mail className="text-gold" size={18} />
               <div>
                 <h5>General Inquiries</h5>
-                <p>info@realitytoursandtravel.com</p>
+                <p>info.robustotravels@gmail.com</p>
               </div>
             </div>
 
             <div className="contact-info-item">
               <Phone className="text-gold" size={18} />
               <div>
-                <h5>Mumbai Office Desk</h5>
-                <p>+91 98208 22253</p>
+                <h5>Robusto Travels Desk</h5>
+                <p>+91 89770 22822</p>
                 <p style={{ fontSize: '0.7rem', opacity: 0.6 }}>Monday - Sunday (9:00 AM - 6:00 PM IST)</p>
               </div>
             </div>
@@ -79,31 +79,10 @@ export const Contact: React.FC = () => {
               <MessageCircle className="text-gold" size={18} />
               <div>
                 <h5>WhatsApp Coordinator</h5>
-                <a href="https://wa.me/919820822253" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.85rem', color: 'var(--color-gold)', fontWeight: 600 }}>
+                <a href="https://wa.me/918977022822" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.85rem', color: 'var(--color-gold)', fontWeight: 600 }}>
                   Click to chat direct
                 </a>
               </div>
-            </div>
-          </div>
-
-          {/* Office locations */}
-          <div className="glass-panel" style={{ padding: '36px', borderRadius: 'var(--radius-lg)', border: '1px solid var(--color-border)', backgroundColor: '#fff' }}>
-            <h3 style={{ fontFamily: 'var(--font-body)', fontWeight: 600, fontSize: '1.1rem', color: 'var(--color-forest-green)', marginBottom: '24px', borderBottom: '1px solid var(--color-border)', paddingBottom: '12px' }}>
-              Our Offices
-            </h3>
-
-            <div className="office-block" style={{ marginBottom: '24px' }}>
-              <h5 style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-forest-green)', marginBottom: '6px' }}>
-                <MapPin size={14} className="text-gold" /> Mumbai Head Office
-              </h5>
-              <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', lineHeight: 1.4 }}>Reality Tours & Travel, Dharavi Road, Kumbharwada, Mumbai, Maharashtra 400017, India</p>
-            </div>
-
-            <div className="office-block">
-              <h5 style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-forest-green)', marginBottom: '6px' }}>
-                <MapPin size={14} className="text-gold" /> Delhi Branch Office
-              </h5>
-              <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', lineHeight: 1.4 }}>Reality Tours & Travel, Sanjay Colony, Okhla Phase II, New Delhi, 110020, India</p>
             </div>
           </div>
 
@@ -118,10 +97,10 @@ export const Contact: React.FC = () => {
           boxShadow: 'var(--shadow-md)'
         }}>
           <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.8rem', marginBottom: '16px', color: 'var(--color-forest-green)' }}>
-            Tell Us About Your Visit
+            Tell Us About Your Journey
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '32px', lineHeight: 1.6 }}>
-            Our community coordination team responds within two hours to assist with scheduling, custom school visits, and private group details.
+            Our travel curation team responds within two hours to assist with flight and hotel bookings, custom packages, and private group tours.
           </p>
 
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
@@ -160,12 +139,12 @@ export const Contact: React.FC = () => {
                 />
               </div>
               <div className="form-group">
-                <label>Preferred Walk / Tour</label>
+                <label>Preferred Destination</label>
                 <input 
                   type="text" 
                   value={formData.destination}
                   onChange={(e) => setFormData(prev => ({ ...prev, destination: e.target.value }))}
-                  placeholder="e.g. Dharavi Slum Walk" 
+                  placeholder="e.g. Kyoto, Japan or Bali, Indonesia" 
                 />
               </div>
             </div>
@@ -176,7 +155,7 @@ export const Contact: React.FC = () => {
                 rows={5} 
                 value={formData.message}
                 onChange={(e) => setFormData(prev => ({ ...prev, message: e.target.value }))}
-                placeholder="Let us know your travel dates, group size, or if you would like to arrange a visit to the Reality Gives classrooms..."
+                placeholder="Let us know your travel dates, group size, preferred activities, or special assistance requests..."
               />
             </div>
 
@@ -200,7 +179,7 @@ export const Contact: React.FC = () => {
               <ShieldCheck size={20} className="text-gold" />
               <div>
                 <h5 style={{ fontWeight: 600, fontSize: '0.85rem' }}>Inquiry Received Successfully</h5>
-                <p style={{ fontSize: '0.75rem', opacity: 0.8 }}>A community tour coordinator will contact you shortly to confirm your booking and guidelines.</p>
+                <p style={{ fontSize: '0.75rem', opacity: 0.8 }}>A travel curator will contact you shortly to finalize your booking details and customize your journey.</p>
               </div>
             </div>
           )}

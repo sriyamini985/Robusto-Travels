@@ -3,26 +3,7 @@ import { Award, ShieldCheck, HeartHandshake, Compass, Star, Globe, Plane, Hotel,
 
 export const About: React.FC = () => {
 
-  const team = [
-    {
-      name: 'Aditya Vardhan',
-      role: 'Co-Founder & Travel Curator',
-      bio: 'Co-founded Robusto Travels with a passion for designing the perfect blend of adventure and relaxation for global travelers.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150'
-    },
-    {
-      name: 'Sarah Lin',
-      role: 'Destination Specialist',
-      bio: 'Personally visits each destination, from the beaches of Bali to the peaks of the Swiss Alps, to verify local activities.',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=150'
-    },
-    {
-      name: 'Nikhil Kumar',
-      role: 'Guest Experience Coordinator',
-      bio: 'Manages flights, hotel bookings, transfers, and wellness bookings to ensure your journey is smooth and stress-free.',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150'
-    }
-  ];
+
 
   return (
     <div style={{ animation: 'fadeIn 1s ease-out', backgroundColor: 'var(--color-ivory)', minHeight: '100vh' }}>
@@ -256,26 +237,7 @@ export const About: React.FC = () => {
         `}</style>
       </section>
 
-      {/* 3. Meet the Curators */}
-      <section className="section-padding container">
-        <div className="section-title-container" style={{ textAlign: 'center' }}>
-          <span className="section-subtitle">Our Team</span>
-          <h2 className="section-title">The Founders & Partners</h2>
-        </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '40px', marginTop: '48px' }}>
-          {team.map((t, idx) => (
-            <div key={idx} style={{ textAlign: 'center' }} className="team-member-card">
-              <div style={{ width: '120px', height: '120px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 24px', border: '2px solid var(--color-gold)', padding: '4px' }}>
-                <img src={t.image} alt={t.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
-              </div>
-              <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.3rem', color: 'var(--color-forest-green)', marginBottom: '6px' }}>{t.name}</h4>
-              <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--color-gold)', fontWeight: 600, display: 'block', marginBottom: '12px' }}>{t.role}</span>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.5, maxWidth: '280px', margin: '0 auto' }}>{t.bio}</p>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* 4. Credentials & Awards */}
       <section style={{ backgroundColor: 'var(--color-forest-green)', color: 'var(--color-ivory)', paddingTop: '80px', paddingBottom: '80px' }}>

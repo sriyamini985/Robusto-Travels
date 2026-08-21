@@ -261,7 +261,7 @@ export const destinations: Destination[] = [
     price: 1250,
     rating: 4.9,
     description: "Bangkok golden temples, Phi Phi limestone karsts, and northern elephant sanctuaries.",
-    heroImage: "https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=1200",
+    heroImage: "https://images.unsplash.com/photo-1528181304800-2f170b89896f?auto=format&fit=crop&q=80&w=1200",
     category: "Beach" as any,
     about: "Bangkok golden temples, Phi Phi limestone karsts, and northern elephant sanctuaries.",
     weather: "Temperate and pleasant during peak travel season.",
@@ -270,7 +270,7 @@ export const destinations: Destination[] = [
     currency: "Local Currency",
     languages: ["English", "Local"],
     culture: "Vibrant local traditions, cuisine, and heritage.",
-    gallery: ["https://images.unsplash.com/photo-1506665531195-3566fe294710?auto=format&fit=crop&q=80&w=1200"],
+    gallery: ["https://images.unsplash.com/photo-1528181304800-2f170b89896f?auto=format&fit=crop&q=80&w=1200"],
     faq: [{ question: "What is the best season to visit Thailand?", answer: "Nov to Apr" }],
     coordinates: { lat: 0, lng: 0 }
   },

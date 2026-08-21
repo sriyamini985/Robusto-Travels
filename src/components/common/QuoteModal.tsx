@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigation } from '../../context/NavigationContext';
 import { X, Send, CheckCircle, MapPin, User, Phone, Mail, Sparkles } from 'lucide-react';
+import { WEB3FORMS_CONFIG } from '../../config/web3forms';
 
 export const QuoteModal: React.FC = () => {
   const { quoteModal, closeQuoteModal, navigateTo } = useNavigation();
@@ -40,9 +41,36 @@ export const QuoteModal: React.FC = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
+
+    // Web3Forms Integration
+    if (WEB3FORMS_CONFIG.accessKey && WEB3FORMS_CONFIG.accessKey !== 'YOUR_ACCESS_KEY_HERE') {
+      try {
+        await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json'
+          },
+          body: JSON.stringify({
+            access_key: WEB3FORMS_CONFIG.accessKey,
+            subject: `New Quote Request for ${quoteModal.destinationName}`,
+            from_name: "Robusto Travels Portal",
+            name: name,
+            email: email,
+            phone: phone,
+            departure_city: departure,
+            requested_destination: quoteModal.destinationName
+          })
+        });
+      } catch (err) {
+        console.error('Failed to submit quote to Web3Forms:', err);
+      }
+    } else {
+      console.log('Web3Forms accessKey not configured. Simulating quote submission.');
+    }
 
     // Trigger submission success state
     setIsSubmitted(true);

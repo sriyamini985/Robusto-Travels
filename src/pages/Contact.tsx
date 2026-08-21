@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, Send, MessageCircle, ShieldCheck } from 'lucide-react';
+import { WEB3FORMS_CONFIG } from '../config/web3forms';
 
 export const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -11,8 +12,36 @@ export const Contact: React.FC = () => {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Web3Forms Integration
+    if (WEB3FORMS_CONFIG.accessKey && WEB3FORMS_CONFIG.accessKey !== 'YOUR_ACCESS_KEY_HERE') {
+      try {
+        await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json'
+          },
+          body: JSON.stringify({
+            access_key: WEB3FORMS_CONFIG.accessKey,
+            subject: `New Contact Inquiry from ${formData.name}`,
+            from_name: "Robusto Travels Portal",
+            name: formData.name,
+            email: formData.email,
+            phone: formData.phone,
+            destination: formData.destination,
+            message: formData.message
+          })
+        });
+      } catch (err) {
+        console.error('Failed to submit form to Web3Forms:', err);
+      }
+    } else {
+      console.log('Web3Forms accessKey not configured. Simulating submission.');
+    }
+
     setSubmitted(true);
     setFormData({ name: '', email: '', phone: '', destination: '', message: '' });
     setTimeout(() => setSubmitted(false), 5000);

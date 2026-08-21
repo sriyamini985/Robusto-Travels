@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { packages } from '../data/mockData';
 import { Calendar, CreditCard, User, CheckCircle2, AlertCircle } from 'lucide-react';
+import { WEB3FORMS_CONFIG } from '../config/web3forms';
 
 export const Booking: React.FC = () => {
   const { booking, updateBooking, resetBooking, navigateTo } = useNavigation();
@@ -9,6 +10,7 @@ export const Booking: React.FC = () => {
   // Step state: 1: Traveler, 2: Customs, 3: Payment, 4: Confirmation
   const [step, setStep] = useState<number>(1);
   const [errors, setErrors] = useState<string>('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Local form captures
   const [name, setName] = useState(booking.name || '');
@@ -29,7 +31,7 @@ export const Booking: React.FC = () => {
   const activePkg = packages.find(p => p.id === selectedPkgId) || packages[0];
   const totalPrice = activePkg.price * guestsCount;
 
-  const handleNextStep = () => {
+  const handleNextStep = async () => {
     if (step === 1) {
       if (!name || !email) {
         setErrors('Name and Email are required.');
@@ -63,6 +65,40 @@ export const Booking: React.FC = () => {
         return;
       }
       setErrors('');
+      setIsSubmitting(true);
+
+      // Web3Forms Booking Dispatch
+      if (WEB3FORMS_CONFIG.accessKey && WEB3FORMS_CONFIG.accessKey !== 'YOUR_ACCESS_KEY_HERE') {
+        try {
+          await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              Accept: 'application/json'
+            },
+            body: JSON.stringify({
+              access_key: WEB3FORMS_CONFIG.accessKey,
+              subject: `🎟️ New Booking Confirmed: ${activePkg.name} by ${name}`,
+              from_name: "Robusto Travels Booking Desk",
+              traveler_name: name,
+              email: email,
+              phone: phone,
+              selected_package: activePkg.name,
+              number_of_guests: guestsCount,
+              total_amount: `$${totalPrice.toLocaleString()}`,
+              departure_date: startDate,
+              special_requests: specialReq,
+              no_photo_policy_agreed: agreedToPolicies ? 'Yes' : 'No'
+            })
+          });
+        } catch (err) {
+          console.error('Failed to submit booking inquiry to Web3Forms:', err);
+        }
+      } else {
+        console.log('Web3Forms accessKey not configured. Simulating booking dispatch.');
+      }
+
+      setIsSubmitting(false);
       setStep(4);
     }
   };
@@ -78,7 +114,7 @@ export const Booking: React.FC = () => {
   };
 
   return (
-    <div style={{ animation: 'fadeIn 1s ease-out', backgroundColor: 'var(--color-ivory)', minHeight: '100vh', paddingTop: '160px', paddingBottom: '96px' }}>
+    <div style={{ animation: 'fadeIn 1s ease-out', backgroundColor: '#fafafa', minHeight: '100vh', paddingTop: '160px', paddingBottom: '96px' }}>
       <div className="container" style={{ maxWidth: '800px' }}>
         
         {/* Step Indicator */}
@@ -99,7 +135,7 @@ export const Booking: React.FC = () => {
 
         {/* Error notification banner */}
         {errors && (
-          <div className="booking-error-banner animate-fade-in" style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '12px 16px', backgroundColor: '#fff5f5', border: '1px solid #feb2b2', borderRadius: 'var(--radius-sm)', color: '#c53030', marginBottom: '24px', fontSize: '0.8rem' }}>
+          <div className="booking-error-banner animate-fade-in" style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '12px 16px', backgroundColor: '#fff5f5', border: '1px solid #feb2b2', borderRadius: '4px', color: '#c53030', marginBottom: '24px', fontSize: '0.8rem' }}>
             <AlertCircle size={16} /> <span>{errors}</span>
           </div>
         )}
@@ -107,8 +143,10 @@ export const Booking: React.FC = () => {
         {/* Step 1: Traveler Details */}
         {step === 1 && (
           <div className="glass-panel booking-wizard-card animate-fade-up">
-            <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.6rem', marginBottom: '12px' }}><User size={20} className="text-gold" style={{ verticalAlign: 'middle', marginRight: '8px' }} /> Traveler Information</h2>
-            <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginBottom: '28px' }}>Please complete your primary contact profile. Initial confirmations will register under this name.</p>
+            <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.6rem', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <User size={20} style={{ color: '#000' }} /> Traveler Information
+            </h2>
+            <p style={{ fontSize: '0.8rem', color: '#64748b', marginBottom: '28px' }}>Please complete your primary contact profile. Initial confirmations will register under this name.</p>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
               <div className="form-group">
@@ -121,12 +159,12 @@ export const Booking: React.FC = () => {
               </div>
               <div className="form-group">
                 <label>Phone support</label>
-                <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="e.g. +91 98208 22253" />
+                <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="e.g. +91 89770 22822" />
               </div>
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '36px' }}>
-              <button onClick={handleNextStep} className="btn-primary">Next: Customize Journey</button>
+              <button onClick={handleNextStep} className="btn-primary-bw">Next: Customize Journey</button>
             </div>
           </div>
         )}
@@ -134,13 +172,15 @@ export const Booking: React.FC = () => {
         {/* Step 2: Trip Customization */}
         {step === 2 && (
           <div className="glass-panel booking-wizard-card animate-fade-up">
-            <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.6rem', marginBottom: '12px' }}><Calendar size={20} className="text-gold" style={{ verticalAlign: 'middle', marginRight: '8px' }} /> Journey Customizations</h2>
-            <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginBottom: '28px' }}>Select package, verify departure date, and share guest details.</p>
+            <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.6rem', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Calendar size={20} style={{ color: '#000' }} /> Journey Customizations
+            </h2>
+            <p style={{ fontSize: '0.8rem', color: '#64748b', marginBottom: '28px' }}>Select package, verify departure date, and share guest details.</p>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
               <div className="form-group">
                 <label>Selected Portfolio Package</label>
-                <select value={selectedPkgId} onChange={(e) => setSelectedPkgId(e.target.value)} style={{ border: '1px solid var(--color-border)', padding: '10px', borderRadius: 'var(--radius-sm)', fontSize: '0.85rem' }}>
+                <select value={selectedPkgId} onChange={(e) => setSelectedPkgId(e.target.value)} style={{ border: '1px solid #cbd5e1', padding: '10px', borderRadius: '4px', fontSize: '0.85rem' }}>
                   {packages.map(p => (
                     <option key={p.id} value={p.id}>{p.name} (${p.price.toLocaleString()} / guest)</option>
                   ))}
@@ -164,7 +204,7 @@ export const Booking: React.FC = () => {
               </div>
 
               {/* No Photography Slum Walk Agreement Checkbox */}
-              <div style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', marginTop: '10px', padding: '12px', backgroundColor: 'var(--color-beige)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--color-border)' }}>
+              <div style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', marginTop: '10px', padding: '12px', backgroundColor: '#f8fafc', borderRadius: '4px', border: '1px solid #e2e8f0' }}>
                 <input 
                   type="checkbox" 
                   id="noPhotoAgreement" 
@@ -173,15 +213,15 @@ export const Booking: React.FC = () => {
                   onChange={(e) => setAgreedToPolicies(e.target.checked)}
                   style={{ width: 'auto', marginTop: '3px' }} 
                 />
-                <label htmlFor="noPhotoAgreement" style={{ fontSize: '0.75rem', textTransform: 'none', letterSpacing: 'normal', color: 'var(--text-secondary)', cursor: 'pointer', lineHeight: 1.4 }}>
+                <label htmlFor="noPhotoAgreement" style={{ fontSize: '0.75rem', textTransform: 'none', letterSpacing: 'normal', color: '#64748b', cursor: 'pointer', lineHeight: 1.4 }}>
                   <strong>Strict No Photography Policy:</strong> I agree that photography is strictly prohibited inside the community slum segments to respect the privacy, dignity, and safety of local residents.
                 </label>
               </div>
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '36px' }}>
-              <button onClick={handlePrevStep} className="btn-secondary">Back</button>
-              <button onClick={handleNextStep} className="btn-primary">Next: Secure Payment</button>
+              <button onClick={handlePrevStep} className="btn-secondary-bw">Back</button>
+              <button onClick={handleNextStep} className="btn-primary-bw">Next: Secure Payment</button>
             </div>
           </div>
         )}
@@ -189,21 +229,23 @@ export const Booking: React.FC = () => {
         {/* Step 3: Secured Payment */}
         {step === 3 && (
           <div className="glass-panel booking-wizard-card animate-fade-up">
-            <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.6rem', marginBottom: '12px' }}><CreditCard size={20} className="text-gold" style={{ verticalAlign: 'middle', marginRight: '8px' }} /> Secured Payment</h2>
-            <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginBottom: '28px' }}>Your connection is encrypted. Standard cancellation rates apply.</p>
+            <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.6rem', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <CreditCard size={20} style={{ color: '#000' }} /> Secured Payment
+            </h2>
+            <p style={{ fontSize: '0.8rem', color: '#64748b', marginBottom: '28px' }}>Your connection is encrypted. Standard cancellation rates apply.</p>
             
             {/* Price invoice summary */}
-            <div style={{ padding: '20px', backgroundColor: 'var(--color-beige)', borderRadius: 'var(--radius-md)', marginBottom: '28px', border: '1px solid var(--color-border)' }}>
-              <h4 style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-forest-green)', marginBottom: '12px' }}>Trip Contribution Summary</h4>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '8px' }}>
+            <div style={{ padding: '20px', backgroundColor: '#f8fafc', borderRadius: '8px', marginBottom: '28px', border: '1px solid #e2e8f0' }}>
+              <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: '#000000', marginBottom: '12px' }}>Trip Contribution Summary</h4>
+              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '8px', color: '#475569' }}>
                 <span>{activePkg.name} ({guestsCount} Guests)</span>
                 <span>${activePkg.price.toLocaleString()} × {guestsCount}</span>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', color: 'var(--color-forest-green)', fontStyle: 'italic', marginBottom: '12px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', color: '#64748b', fontStyle: 'italic', marginBottom: '12px' }}>
                 <span>Social enterprise impact allocation (80% of net profits)</span>
-                <span>Direct to Reality Gives</span>
+                <span>Direct to Local Development initiatives</span>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '1.05rem', fontWeight: 700, borderTop: '1px solid var(--color-border)', paddingTop: '12px', marginTop: '8px', color: 'var(--color-forest-green)' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '1.05rem', fontWeight: 800, borderTop: '1px solid #e2e8f0', paddingTop: '12px', marginTop: '8px', color: '#000000' }}>
                 <span>Total Contribution</span>
                 <span>${totalPrice.toLocaleString()}</span>
               </div>
@@ -232,8 +274,14 @@ export const Booking: React.FC = () => {
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '36px' }}>
-              <button onClick={handlePrevStep} className="btn-secondary">Back</button>
-              <button onClick={handleNextStep} className="btn-primary" style={{ backgroundColor: 'var(--color-forest-green)', color: '#fff' }}>Secure Transaction</button>
+              <button onClick={handlePrevStep} className="btn-secondary-bw" disabled={isSubmitting}>Back</button>
+              <button 
+                onClick={handleNextStep} 
+                className="btn-primary-bw"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? 'Processing Transaction...' : 'Secure Transaction'}
+              </button>
             </div>
           </div>
         )}
@@ -241,20 +289,20 @@ export const Booking: React.FC = () => {
         {/* Step 4: Confirmation screen */}
         {step === 4 && (
           <div className="glass-panel booking-wizard-card animate-fade-up" style={{ textAlign: 'center', padding: '64px 48px' }}>
-            <CheckCircle2 size={56} style={{ color: '#2f855a', margin: '0 auto 24px', strokeWidth: 1.5 }} />
-            <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', color: 'var(--color-forest-green)', marginBottom: '16px' }}>
+            <CheckCircle2 size={56} style={{ color: '#000000', margin: '0 auto 24px', strokeWidth: 1.5 }} />
+            <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', color: '#000000', marginBottom: '16px' }}>
               Booking Confirmed
             </h1>
-            <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--color-gold)', display: 'block', marginBottom: '24px', fontWeight: 600 }}>
+            <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: '#64748b', display: 'block', marginBottom: '24px', fontWeight: 700 }}>
               Booking Reference: #RT-2026-9874
             </span>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: 1.7, maxWidth: '580px', margin: '0 auto 36px' }}>
-              Thank you for choosing **Reality Tours & Travel**. A local coordinator from our office has been assigned to your booking. Your receipt, code of conduct guidelines, and information on how your booking funds classrooms have been sent to your email.
+            <p style={{ color: '#475569', fontSize: '0.95rem', lineHeight: 1.7, maxWidth: '580px', margin: '0 auto 36px' }}>
+              Thank you for choosing **Robusto Travels**. A local coordinator from our office has been assigned to your booking. Your receipt, itinerary highlights, and local coordinators contact details have been sent to your email.
             </p>
 
             <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
-              <button onClick={handleComplete} className="btn-primary">Return Home</button>
-              <button onClick={() => navigateTo('contact')} className="btn-secondary">Contact Coordination Desk</button>
+              <button onClick={handleComplete} className="btn-primary-bw">Return Home</button>
+              <button onClick={() => navigateTo('contact')} className="btn-secondary-bw">Contact Coordination Desk</button>
             </div>
           </div>
         )}
@@ -271,7 +319,7 @@ export const Booking: React.FC = () => {
           top: 18px;
           left: 10%;
           height: 2px;
-          background-color: var(--color-gold);
+          background-color: #000000;
           z-index: -1;
           transition: width 0.4s ease;
         }
@@ -282,7 +330,7 @@ export const Booking: React.FC = () => {
           left: 10%;
           right: 10%;
           height: 2px;
-          background-color: var(--color-border);
+          background-color: #e2e8f0;
           z-index: -2;
         }
         
@@ -298,9 +346,9 @@ export const Booking: React.FC = () => {
           width: 36px;
           height: 36px;
           border-radius: 50%;
-          background-color: #fff;
-          color: var(--text-secondary);
-          border: 2px solid var(--color-border);
+          background-color: #ffffff;
+          color: #64748b;
+          border: 2px solid #e2e8f0;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -310,27 +358,27 @@ export const Booking: React.FC = () => {
         }
         .progress-step-item p {
           font-size: 0.75rem;
-          color: var(--text-muted);
+          color: #94a3b8;
           text-transform: uppercase;
           letter-spacing: 0.05em;
           font-weight: 600;
         }
         .progress-step-item.active span {
-          background-color: var(--color-gold);
-          border-color: var(--color-gold);
-          color: var(--color-midnight-blue);
-          box-shadow: 0 0 10px rgba(197, 168, 128, 0.4);
+          background-color: #000000;
+          border-color: #000000;
+          color: #ffffff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
         }
         .progress-step-item.active p {
-          color: var(--color-forest-green);
+          color: #000000;
         }
 
         .booking-wizard-card {
-          background-color: #fff;
-          border: 1px solid var(--color-border);
-          border-radius: var(--radius-lg);
+          background-color: #ffffff;
+          border: 1px solid #e2e8f0;
+          border-radius: 12px;
           padding: 40px;
-          box-shadow: var(--shadow-lg);
+          box-shadow: 0 10px 30px rgba(0,0,0,0.04);
         }
 
         .form-group {
@@ -342,22 +390,62 @@ export const Booking: React.FC = () => {
           font-size: 0.65rem;
           text-transform: uppercase;
           letter-spacing: 0.1em;
-          font-weight: 600;
-          opacity: 0.85;
-          color: var(--color-forest-green);
+          font-weight: 700;
+          color: #000000;
         }
         .form-group input, .form-group textarea, .form-group select {
           width: 100%;
-          border: 1px solid var(--color-border);
-          border-radius: var(--radius-sm);
+          border: 1px solid #cbd5e1;
+          border-radius: 6px;
           padding: 10px 14px;
           font-size: 0.85rem;
           font-family: var(--font-body);
-          background-color: var(--color-ivory);
+          background-color: #ffffff;
           transition: border-color 0.2s;
         }
         .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
-          border-color: var(--color-gold);
+          border-color: #000000;
+          outline: none;
+        }
+
+        .btn-primary-bw {
+          background-color: #000000;
+          color: #ffffff;
+          border: 1.5px solid #000000;
+          border-radius: 8px;
+          padding: 10px 24px;
+          font-size: 0.85rem;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+        .btn-primary-bw:hover {
+          background-color: #334155;
+          border-color: #334155;
+        }
+        .btn-primary-bw:disabled {
+          background-color: #64748b;
+          border-color: #64748b;
+          cursor: not-allowed;
+        }
+
+        .btn-secondary-bw {
+          background-color: #ffffff;
+          color: #000000;
+          border: 1.5px solid #cbd5e1;
+          border-radius: 8px;
+          padding: 10px 24px;
+          font-size: 0.85rem;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+        .btn-secondary-bw:hover {
+          border-color: #000000;
+        }
+        .btn-secondary-bw:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
         }
       `}</style>
     </div>

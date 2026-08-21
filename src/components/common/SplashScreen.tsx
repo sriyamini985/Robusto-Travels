@@ -75,16 +75,22 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
               />
             </mask>
           </defs>
+          {/* Glow path (wider stroke, semi-transparent blue, acts as a zero-lag glow) */}
           <path 
             d="M 50,50 C 180,80 220,200 300,160 C 350,130 360,70 300,70 C 240,70 230,150 300,200 C 340,220 300,215 300,220" 
             fill="none" 
-            stroke="rgba(255, 255, 255, 0.45)" 
+            stroke="rgba(56, 189, 248, 0.3)" 
+            strokeWidth="5" 
+            mask="url(#draw-mask)"
+          />
+          {/* Main path (sharp dashed white trail) */}
+          <path 
+            d="M 50,50 C 180,80 220,200 300,160 C 350,130 360,70 300,70 C 240,70 230,150 300,200 C 340,220 300,215 300,220" 
+            fill="none" 
+            stroke="rgba(255, 255, 255, 0.6)" 
             strokeWidth="1.6" 
             strokeDasharray="6,5" 
             mask="url(#draw-mask)"
-            style={{
-              filter: 'drop-shadow(0 0 4px rgba(56, 189, 248, 0.5))'
-            }}
           />
         </svg>
 
@@ -109,9 +115,6 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
             strokeWidth="1.8" 
             strokeLinecap="round" 
             strokeLinejoin="round"
-            style={{
-              filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.9))'
-            }}
           >
             <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
           </svg>
@@ -188,7 +191,8 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
           offset-path: path('M 50,50 C 180,80 220,200 300,160 C 350,130 360,70 300,70 C 240,70 230,150 300,200 C 340,220 300,215 300,220');
           offset-rotate: auto -45deg;
           animation: followPath 2.8s cubic-bezier(0.42, 0, 0.58, 1) forwards;
-          transform: translate(-19px, -19px); /* Centers the paper airplane directly on the SVG line trail */
+          transform: translate3d(-19px, -19px, 0); /* Forces GPU hardware acceleration */
+          will-change: offset-distance, transform; /* Promotes element to dedicated compositor layer for buttery smooth fps */
         }
 
         @keyframes followPath {

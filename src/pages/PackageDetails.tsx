@@ -61,7 +61,7 @@ export const PackageDetails: React.FC = () => {
       </section>
 
       {/* 2. Package Overview & Booking CTA Widget */}
-      <section className="section-padding container" style={{ display: 'grid', gridTemplateColumns: '1.8fr 1fr', gap: '64px', alignItems: 'flex-start' }}>
+      <section className="section-padding container package-grid-layout">
         
         {/* Left main content column */}
         <div>
@@ -135,7 +135,7 @@ export const PackageDetails: React.FC = () => {
           </div>
 
           {/* Exclusions & Inclusions */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '32px', marginBottom: '56px' }}>
+          <div className="package-costs-grid">
             <div className="glass-panel" style={{ padding: '32px', borderRadius: 'var(--radius-lg)', border: '1px solid var(--color-border)', backgroundColor: '#fff' }}>
               <h3 style={{ fontFamily: 'var(--font-body)', fontWeight: 600, fontSize: '1.05rem', color: 'var(--color-forest-green)', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <CheckCircle size={18} className="text-gold" /> Costs Included
@@ -307,6 +307,29 @@ export const PackageDetails: React.FC = () => {
           background-color: var(--color-beige);
           border-radius: var(--radius-md);
           color: var(--color-forest-green);
+        }
+
+        .package-grid-layout {
+          display: grid;
+          grid-template-columns: 1.8fr 1fr;
+          gap: 64px;
+          align-items: flex-start;
+        }
+        .package-costs-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 32px;
+          margin-bottom: 56px;
+        }
+        @media (max-width: 900px) {
+          .package-grid-layout {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+          }
+          .package-costs-grid {
+            grid-template-columns: 1fr !important;
+            gap: 20px !important;
+          }
         }
       `}</style>
     </div>

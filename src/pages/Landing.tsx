@@ -534,6 +534,81 @@ export const Landing: React.FC = () => {
         </div>
       )}
 
+      {/* ── SELECTED SINGLE LOCATION CARD (Bottom Sheet on Mobile) ── */}
+      {originLoc && !destLoc && (
+        <div 
+          className="selected-destination-sheet"
+          style={{
+            position: 'absolute',
+            bottom: '36px',
+            right: '32px',
+            zIndex: 30,
+            width: '320px',
+            background: 'rgba(7, 15, 36, 0.94)',
+            backdropFilter: 'blur(20px)',
+            border: '1.5px solid rgba(56, 189, 248, 0.4)',
+            borderRadius: '24px',
+            overflow: 'hidden',
+            boxShadow: '0 20px 50px rgba(0,0,0,0.6)',
+          }}
+        >
+          <div style={{ height: '140px', overflow: 'hidden', position: 'relative' }}>
+            <img 
+              src={(originLoc as any).image || '/images/placeholder.jpg'} 
+              alt={originLoc.name} 
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+            />
+            <div style={{ position: 'absolute', top: '12px', left: '12px', background: 'rgba(7,15,36,0.8)', border: '1px solid rgba(56,189,248,0.4)', padding: '4px 10px', borderRadius: '12px', fontSize: '0.75rem', fontWeight: 700, color: '#fff' }}>
+              {(originLoc as any).flag || '📍'} SELECTED LOCATION
+            </div>
+            <button 
+              onClick={handleResetSelection}
+              style={{
+                position: 'absolute', top: '12px', right: '12px',
+                background: 'rgba(7,15,36,0.8)', border: 'none', color: '#fff',
+                borderRadius: '50%', width: '24px', height: '24px', cursor: 'pointer',
+                display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.8rem'
+              }}
+            >
+              ✕
+            </button>
+          </div>
+          <div style={{ padding: '16px' }}>
+            <h4 style={{ margin: '0 0 6px 0', fontSize: '1.1rem', fontWeight: 800, color: '#fff' }}>
+              {originLoc.name}
+            </h4>
+            <p style={{ margin: '0 0 16px 0', fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.5 }}>
+              {(originLoc as any).description || `${originLoc.name} is selected. Choose a second location on the globe to calculate distance and map a flight route, or click below to explore its local tour packages.`}
+            </p>
+            <button
+              onClick={() => {
+                const isState = ALL_INDIAN_STATES.some(s => s.id === originLoc.id);
+                if (isState) {
+                  navigateTo('state-details', { destinationId: originLoc.id });
+                } else {
+                  navigateTo('destination-details', { destinationId: originLoc.id });
+                }
+              }}
+              style={{
+                width: '100%',
+                padding: '10px 14px',
+                background: '#ffffff',
+                color: '#000000',
+                border: 'none',
+                borderRadius: '12px',
+                fontWeight: 700,
+                fontSize: '0.8rem',
+                cursor: 'pointer',
+                textAlign: 'center',
+                display: 'block'
+              }}
+            >
+              Explore {originLoc.name}
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* ── FLOATING ZOOM CONTROLS ── */}
       <div style={{
         position: 'absolute', bottom: '36px', right: '32px',
@@ -721,6 +796,22 @@ export const Landing: React.FC = () => {
 
         {/* CSS for Dark Cards */}
         <style>{`
+        @keyframes slideUpShort {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .selected-destination-sheet {
+          animation: slideUpShort 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @media (max-width: 768px) {
+          .selected-destination-sheet {
+            right: 50% !important;
+            bottom: 24px !important;
+            transform: translateX(50%) !important;
+            width: 90vw !important;
+          }
+        }
+
           .service-card-dark:hover {
             transform: translateY(-6px);
             background: rgba(255, 255, 255, 0.05);

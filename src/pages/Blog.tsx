@@ -172,7 +172,7 @@ export const Blog: React.FC = () => {
           Latest Stories
         </h3>
         
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))', gap: '40px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '40px' }}>
           {blogPosts.slice(1).map(post => (
             <div 
               key={post.id} 
@@ -207,6 +207,16 @@ export const Blog: React.FC = () => {
           transform: translateY(-4px);
           box-shadow: var(--shadow-lg);
           border-color: rgba(20, 42, 32, 0.15) !important;
+        }
+
+        @media (max-width: 768px) {
+          .featured-article-banner {
+            grid-template-columns: 1fr !important;
+            gap: 20px !important;
+          }
+          .featured-article-banner > div:first-child {
+            height: 240px !important;
+          }
         }
 
         .blog-grid-card:hover .blog-img {

@@ -185,7 +185,7 @@ export const DestinationDetails: React.FC = () => {
           {/* Grid of Famous Places Cards */}
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', 
             gap: '32px' 
           }}>
             {filteredPlaces.map((place: any) => (

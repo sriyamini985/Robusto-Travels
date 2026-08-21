@@ -45,7 +45,7 @@ export const LocationDetails: React.FC = () => {
       </section>
 
       {/* 2. Main Content Grid */}
-      <section className="section-padding container" style={{ display: 'grid', gridTemplateColumns: '1.8fr 1fr', gap: '64px', alignItems: 'flex-start' }}>
+      <section className="section-padding container location-grid-layout">
         
         {/* Main Details column */}
         <div>
@@ -335,6 +335,19 @@ export const LocationDetails: React.FC = () => {
         .visitor-stat-item p {
           font-size: 0.8rem;
           color: var(--text-secondary);
+        }
+
+        .location-grid-layout {
+          display: grid;
+          grid-template-columns: 1.8fr 1fr;
+          gap: 64px;
+          align-items: flex-start;
+        }
+        @media (max-width: 900px) {
+          .location-grid-layout {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+          }
         }
 
         .bullet-num {

@@ -35,7 +35,7 @@ export const About: React.FC = () => {
       </section>
 
       {/* 1. Brand Story & Mission */}
-      <section className="section-padding container" style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '64px', alignItems: 'center' }}>
+      <section className="section-padding container about-story-grid">
         <div>
           <span className="section-subtitle">Our Passion</span>
           <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', marginBottom: '24px', color: 'var(--color-forest-green)' }}>
@@ -48,7 +48,7 @@ export const About: React.FC = () => {
             From the sunny beaches of Bali to the snowy peaks of the Swiss Alps, from the bustling streets of Tokyo to the historic landmarks of Rome, we've got you covered. We've personally visited each destination to ensure that we can provide you with the most accurate and up-to-date information. And who knows? Maybe one day we'll even offer moon tours!
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+          <div className="about-mission-grid">
             <div>
               <h4 style={{ fontFamily: 'var(--font-body)', fontWeight: 600, fontSize: '0.95rem', color: 'var(--color-forest-green)', marginBottom: '8px' }}>Our Mission</h4>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>To connect you with Earth's most breathtaking places, handling all details so you can focus purely on the joy of discovery.</p>
@@ -275,6 +275,31 @@ export const About: React.FC = () => {
           align-items: center;
           justify-content: center;
           margin-bottom: 20px;
+        }
+
+        .about-story-grid {
+          display: grid;
+          grid-template-columns: 1.2fr 1fr;
+          gap: 64px;
+          align-items: center;
+        }
+        .about-mission-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 24px;
+        }
+        @media (max-width: 900px) {
+          .about-story-grid {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+          }
+          .about-story-grid img {
+            height: 320px !important;
+          }
+          .about-mission-grid {
+            grid-template-columns: 1fr !important;
+            gap: 16px !important;
+          }
         }
 
         .pillar-card {

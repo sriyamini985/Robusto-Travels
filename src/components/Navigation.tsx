@@ -72,6 +72,17 @@ export const Navigation: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (isMobileOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMobileOpen]);
+
   const go = (page: any, params?: any) => {
     navigateTo(page, params);
     setIsMobileOpen(false);
@@ -344,15 +355,15 @@ export const Navigation: React.FC = () => {
       {/* ── Mobile Nav Overlay ── */}
       {isMobileOpen && (
         <div style={{
-          position: 'fixed', inset: 0, background: '#ffffff', zIndex: 999,
+          position: 'fixed', inset: 0, background: '#070f24', zIndex: 999,
           padding: '40px 32px', display: 'flex', flexDirection: 'column',
           animation: 'slideDown 0.3s ease',
         }}>
           <button onClick={() => setIsMobileOpen(false)} style={{
             position: 'absolute', top: '20px', right: '24px',
-            background: '#f1f5f9', border: 'none', borderRadius: '10px',
+            background: 'rgba(255, 255, 255, 0.1)', border: 'none', borderRadius: '10px',
             width: 40, height: 40, cursor: 'pointer',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ffffff'
           }}>
             <X size={20} />
           </button>
@@ -364,15 +375,15 @@ export const Navigation: React.FC = () => {
             { label: 'Contact',      page: 'contact' },
           ].map(item => (
             <div key={item.label} onClick={() => go(item.page)} style={{
-              fontSize: '1.5rem', fontWeight: 700, color: '#000000',
-              padding: '14px 0', borderBottom: '1px solid #f1f5f9',
+              fontSize: '1.5rem', fontWeight: 700, color: '#ffffff',
+              padding: '14px 0', borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
               cursor: 'pointer',
             }}>
               {item.label}
             </div>
           ))}
           <button onClick={() => go('booking')} style={{
-            marginTop: '24px', padding: '14px', background: '#000000', color: '#ffffff',
+            marginTop: '24px', padding: '14px', background: '#ffffff', color: '#000000',
             border: 'none', borderRadius: '12px', fontWeight: 800,
             fontSize: '1rem', cursor: 'pointer',
           }}>

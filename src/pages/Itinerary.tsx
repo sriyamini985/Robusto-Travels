@@ -48,14 +48,7 @@ export const Itinerary: React.FC = () => {
       <section className="container" style={{ paddingTop: '48px', paddingBottom: '96px' }}>
         
         {/* Day selection tabs */}
-        <div style={{ 
-          display: 'flex', 
-          justifyContent: 'center', 
-          gap: '12px', 
-          marginBottom: '48px',
-          borderBottom: '1px solid var(--color-border)',
-          paddingBottom: '16px'
-        }}>
+        <div className="day-tabs-container">
           {pkg.itinerary.map(item => (
             <button 
               key={item.day}
@@ -201,6 +194,26 @@ export const Itinerary: React.FC = () => {
       </section>
 
       <style>{`
+        .day-tabs-container {
+          display: flex;
+          justify-content: center;
+          gap: 12px;
+          margin-bottom: 48px;
+          border-bottom: 1px solid var(--color-border);
+          padding-bottom: 16px;
+        }
+        @media (max-width: 768px) {
+          .day-tabs-container {
+            justify-content: flex-start;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 12px;
+          }
+          .day-tab-btn {
+            flex-shrink: 0;
+          }
+        }
+
         .day-tab-btn {
           padding: 10px 24px;
           border-radius: var(--radius-full);

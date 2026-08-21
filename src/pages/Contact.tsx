@@ -77,7 +77,7 @@ export const Contact: React.FC = () => {
       </section>
 
       {/* Contact Grid layout */}
-      <section className="container section-padding" style={{ display: 'grid', gridTemplateColumns: '1.2fr 1.8fr', gap: '64px', alignItems: 'flex-start' }}>
+      <section className="container section-padding contact-grid-layout">
         
         {/* Office Details Column */}
         <aside style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
@@ -235,6 +235,19 @@ export const Contact: React.FC = () => {
         .contact-info-item p {
           font-size: 0.8rem;
           color: var(--text-secondary);
+        }
+
+        .contact-grid-layout {
+          display: grid;
+          grid-template-columns: 1.2fr 1.8fr;
+          gap: 64px;
+          align-items: flex-start;
+        }
+        @media (max-width: 900px) {
+          .contact-grid-layout {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+          }
         }
 
         .form-group {

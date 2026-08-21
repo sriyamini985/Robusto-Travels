@@ -25,7 +25,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
       position: 'fixed',
       inset: 0,
       zIndex: 999999,
-      background: '#070f24',
+      background: '#000000', // Solid black background to blend perfectly with the logo's black sections
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -40,7 +40,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
         position: 'absolute',
         width: '600px',
         height: '600px',
-        background: 'radial-gradient(circle, rgba(29, 78, 216, 0.12) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(29, 78, 216, 0.15) 0%, transparent 70%)',
         borderRadius: '50%',
         top: '50%',
         left: '50%',
@@ -48,57 +48,53 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
         pointerEvents: 'none'
       }} />
 
-      {/* Animating Flight Element */}
+      {/* Animating Flight Element (Top half of logo containing the paper airplane arrow) */}
       <div style={{
         animation: 'flyInCenter 2.2s cubic-bezier(0.19, 1, 0.22, 1) forwards',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        marginBottom: '32px',
+        marginBottom: '20px',
         zIndex: 2
       }}>
-        <svg 
-          viewBox="0 0 24 24" 
-          width="90" 
-          height="90" 
-          fill="none" 
-          stroke="#FFC107" 
-          strokeWidth="1.5" 
-          strokeLinecap="round" 
-          strokeLinejoin="round"
-          style={{
-            filter: 'drop-shadow(0 0 16px rgba(255, 193, 7, 0.45))'
-          }}
-        >
-          <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
-        </svg>
+        <div style={{
+          width: '280px',
+          height: '140px',
+          backgroundImage: "url('/images/logo.png')",
+          backgroundSize: '280px 280px',
+          backgroundPosition: 'top center',
+          backgroundRepeat: 'no-repeat',
+          filter: 'invert(1) brightness(1.25)', // Inverts the white background of the image to black, and the black drawing to white
+          boxShadow: '0 0 30px rgba(255, 255, 255, 0.03)'
+        }} />
       </div>
 
-      {/* Brand Text & Tagline */}
+      {/* Brand Text (Bottom half of logo containing "Robusto Travels" font) & Tagline */}
       <div style={{
         textAlign: 'center',
         zIndex: 2,
         animation: 'fadeInUpText 1.5s cubic-bezier(0.19, 1, 0.22, 1) 1.2s forwards',
         opacity: 0,
-        transform: 'translateY(20px)'
+        transform: 'translateY(20px)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
       }}>
-        <h1 style={{
-          fontFamily: "'Plus Jakarta Sans', sans-serif",
-          fontSize: '2.5rem',
-          fontWeight: 900,
-          color: '#ffffff',
-          letterSpacing: '0.22em',
-          margin: '0 0 12px 0',
-          textTransform: 'uppercase',
-          background: 'linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent'
-        }}>
-          ROBUSTO TRAVELS
-        </h1>
+        {/* Bottom half of logo: the retro display font name */}
+        <div style={{
+          width: '280px',
+          height: '140px',
+          backgroundImage: "url('/images/logo.png')",
+          backgroundSize: '280px 280px',
+          backgroundPosition: 'bottom center',
+          backgroundRepeat: 'no-repeat',
+          marginBottom: '16px'
+        }} />
+
+        {/* Tagline */}
         <p style={{
           fontFamily: "'Plus Jakarta Sans', sans-serif",
-          fontSize: '0.95rem',
+          fontSize: '0.9rem',
           color: '#ffc107',
           fontWeight: 600,
           letterSpacing: '0.08em',
@@ -106,7 +102,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
           opacity: 0.9,
           textShadow: '0 2px 10px rgba(0,0,0,0.5)'
         }}>
-          Travel around the world without hesitation
+          travel around the world without hesitation.
         </p>
       </div>
 
@@ -121,7 +117,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
             opacity: 1;
           }
           80% {
-            transform: translate(20px, 20px) scale(1.05) rotate(5deg);
+            transform: translate(20px, 20px) scale(1.03) rotate(5deg);
           }
           100% {
             transform: translate(0, 0) scale(1) rotate(0deg);

@@ -86,7 +86,6 @@ export const Navigation: React.FC = () => {
               { label: 'Home',         page: 'landing' },
               { label: 'Destinations', page: 'destinations', hasDropdown: true },
               { label: 'Packages',     page: 'destinations' },
-              { label: 'Experiences',  page: 'experiences' },
               { label: 'About Us',     page: 'about' },
               { label: 'Contact',      page: 'contact' },
             ].map(item => (
@@ -242,7 +241,6 @@ export const Navigation: React.FC = () => {
             { label: 'Home',         page: 'landing' },
             { label: 'Destinations', page: 'destinations' },
             { label: 'Packages',     page: 'destinations' },
-            { label: 'Experiences',  page: 'experiences' },
             { label: 'About Us',     page: 'about' },
             { label: 'Contact',      page: 'contact' },
           ].map(item => (

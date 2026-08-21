@@ -98,7 +98,6 @@ export const Footer: React.FC = () => {
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '0.85rem' }}>
               <li><span onClick={() => navigateTo('landing')} className="footer-link">Home Portal</span></li>
               <li><span onClick={() => navigateTo('destinations')} className="footer-link">Featured Destinations</span></li>
-              <li><span onClick={() => navigateTo('experiences')} className="footer-link">Private Experiences</span></li>
               <li><span onClick={() => navigateTo('blog')} className="footer-link">Travel Magazine</span></li>
               <li><span onClick={() => navigateTo('about')} className="footer-link">About Our Brand</span></li>
             </ul>

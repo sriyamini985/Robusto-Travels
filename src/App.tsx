@@ -4,6 +4,7 @@ import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
 import { FloatingCTA } from './components/FloatingCTA';
 import { QuoteModal } from './components/common/QuoteModal';
+import { SplashScreen } from './components/common/SplashScreen';
 
 // Import all 12 Pages
 import { Landing } from './pages/Landing';
@@ -25,6 +26,7 @@ import { AdminImageManager } from './pages/AdminImageManager';
 
 const AppContent: React.FC = () => {
   const { currentPage, isTransitioning } = useNavigation();
+  const [showSplash, setShowSplash] = React.useState(true);
 
   // Helper to render the active page
   const renderPage = () => {
@@ -87,6 +89,9 @@ const AppContent: React.FC = () => {
 
       {/* Bespoke Quote Request Modal */}
       <QuoteModal />
+
+      {/* Splash Screen */}
+      {showSplash && <SplashScreen onComplete={() => setShowSplash(false)} />}
     </div>
   );
 };

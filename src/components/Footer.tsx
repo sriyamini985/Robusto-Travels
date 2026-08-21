@@ -24,25 +24,47 @@ export const Footer: React.FC = () => {
           
           {/* Brand Info */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-            <div>
-              <span style={{ 
-                fontFamily: 'var(--font-heading)', 
-                fontSize: '1.5rem', 
-                letterSpacing: '0.25em', 
-                color: 'var(--color-gold)',
-                display: 'block',
-                marginBottom: '4px'
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <div style={{
+                width: 44,
+                height: 44,
+                borderRadius: '8px',
+                overflow: 'hidden',
+                background: '#000000',
+                border: '1.5px solid var(--color-gold)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 2px 10px rgba(255, 193, 7, 0.25)',
+                flexShrink: 0
               }}>
-                ROBUSTO VERSE
-              </span>
-              <span style={{ 
-                fontSize: '0.65rem', 
-                letterSpacing: '0.3em', 
-                textTransform: 'uppercase', 
-                opacity: 0.6 
-              }}>
-                Discover Beyond Expectations
-              </span>
+                <img 
+                  src="/images/logo.png" 
+                  style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+                  alt="Robusto Travels" 
+                />
+              </div>
+              <div>
+                <span style={{ 
+                  fontFamily: 'var(--font-heading)', 
+                  fontSize: '1.4rem', 
+                  letterSpacing: '0.2em', 
+                  color: 'var(--color-gold)',
+                  display: 'block',
+                  marginBottom: '2px',
+                  fontWeight: 800
+                }}>
+                  ROBUSTO VERSE
+                </span>
+                <span style={{ 
+                  fontSize: '0.62rem', 
+                  letterSpacing: '0.22em', 
+                  textTransform: 'uppercase', 
+                  opacity: 0.6 
+                }}>
+                  Discover Beyond Expectations
+                </span>
+              </div>
             </div>
             <p style={{ fontSize: '0.85rem', opacity: 0.7, lineHeight: 1.6, maxWidth: '280px' }}>
               Crafting highly bespoke, ultra-luxury travel experiences for travelers seeking raw natural beauty, absolute comfort, and rich storytelling.

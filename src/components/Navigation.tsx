@@ -50,18 +50,25 @@ export const Navigation: React.FC = () => {
 
           {/* ── Logo ── */}
           <div onClick={() => go('landing')} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
-            {/* Plane icon in circle */}
+            {/* Plane icon in circle replaced with uploaded logo */}
             <div style={{
-              width: 38, height: 38,
-              borderRadius: '50%',
-              background: logoGold,
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              width: 38,
+              height: 38,
+              borderRadius: '8px',
+              overflow: 'hidden',
+              background: '#000000',
+              border: `1.5px solid ${logoGold}`,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
               boxShadow: `0 2px 10px ${logoGold}55`,
               transition: 'background 0.4s',
             }}>
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/>
-              </svg>
+              <img 
+                src="/images/logo.png" 
+                style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+                alt="Robusto Travels" 
+              />
             </div>
             <div>
               <div style={{ fontWeight: 800, fontSize: '1.05rem', letterSpacing: '0.06em', color: logoGold, lineHeight: 1, transition: 'color 0.4s' }}>

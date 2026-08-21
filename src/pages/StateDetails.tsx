@@ -29,8 +29,8 @@ export const StateDetails: React.FC = () => {
   // Filter famous places
   const filteredPlaces = useMemo(() => {
     return stateData.famousPlaces.filter(p => {
-      const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                            p.overview.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesSearch = (p.name || '').toLowerCase().includes(searchQuery.toLowerCase()) || 
+                            (p.overview || '').toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCategory = selectedCategory === 'All' || p.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });

@@ -27,8 +27,8 @@ export const DestinationDetails: React.FC = () => {
   // Filter famous places
   const filteredPlaces = data.famousPlaces.filter((p: any) => {
     const matchesCategory = selectedCategory === 'All' || p.category === selectedCategory;
-    const matchesSearch   = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                            p.shortDesc.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch   = (p.name || '').toLowerCase().includes(searchQuery.toLowerCase()) || 
+                            (p.shortDesc || '').toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 

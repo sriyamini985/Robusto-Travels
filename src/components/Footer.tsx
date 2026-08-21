@@ -47,22 +47,22 @@ export const Footer: React.FC = () => {
               <div>
                 <span style={{ 
                   fontFamily: 'var(--font-heading)', 
-                  fontSize: '1.4rem', 
-                  letterSpacing: '0.2em', 
+                  fontSize: '1.3rem', 
+                  letterSpacing: '0.15em', 
                   color: '#ffffff',
                   display: 'block',
                   marginBottom: '2px',
                   fontWeight: 800
                 }}>
-                  ROBUSTO VERSE
+                  ROBUSTO TRAVELS
                 </span>
                 <span style={{ 
                   fontSize: '0.62rem', 
-                  letterSpacing: '0.22em', 
-                  textTransform: 'uppercase', 
-                  opacity: 0.6 
+                  letterSpacing: '0.05em', 
+                  opacity: 0.7,
+                  display: 'block'
                 }}>
-                  Discover Beyond Expectations
+                  travel around the world without hesitation.
                 </span>
               </div>
             </div>
@@ -96,10 +96,11 @@ export const Footer: React.FC = () => {
               Direct Links
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '0.85rem' }}>
-              <li><span onClick={() => navigateTo('landing')} className="footer-link">Home Portal</span></li>
+              <li><span onClick={() => navigateTo('landing')} className="footer-link">Home</span></li>
               <li><span onClick={() => navigateTo('destinations')} className="footer-link">Featured Destinations</span></li>
-              <li><span onClick={() => navigateTo('blog')} className="footer-link">Travel Magazine</span></li>
-              <li><span onClick={() => navigateTo('about')} className="footer-link">About Our Brand</span></li>
+              <li><span onClick={() => navigateTo('landing')} className="footer-link">Explore India Map</span></li>
+              <li><span onClick={() => navigateTo('about')} className="footer-link">About Us</span></li>
+              <li><span onClick={() => navigateTo('contact')} className="footer-link">Contact Us</span></li>
             </ul>
           </div>
 
@@ -148,7 +149,7 @@ export const Footer: React.FC = () => {
           fontSize: '0.75rem',
           opacity: 0.5
         }} className="footer-bottom">
-          <p>© 2026 Robusto Verse. Crafted for Elite Nomads. All Rights Reserved.</p>
+          <p>© 2026 Robusto Travels. travel around the world without hesitation. All Rights Reserved.</p>
           <div style={{ display: 'flex', gap: '24px' }}>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms & Conditions</a>
@@ -166,7 +167,8 @@ export const Footer: React.FC = () => {
         }
         .footer-link:hover {
           opacity: 1;
-          color: #38bdf8;
+          color: #ffffff;
+          text-decoration: underline;
           transform: translateX(4px);
         }
         .social-icon {

@@ -8,7 +8,7 @@ export const FloatingCTA: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [chatInput, setChatInput] = useState('');
   const [messages, setMessages] = useState<{ sender: 'user' | 'agent'; text: string }[]>([
-    { sender: 'agent', text: 'Welcome to Robusto Verse. I am Elena, your dedicated Travel Concierge. How may I curate your journey today?' }
+    { sender: 'agent', text: 'Welcome to Robusto Travels. I am Elena, your dedicated Travel Concierge. How may I curate your journey today?' }
   ]);
 
   useEffect(() => {

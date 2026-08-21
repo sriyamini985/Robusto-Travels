@@ -135,15 +135,15 @@ export const UTTAR_PRADESH_DATA: UttarPradeshStateData = {
       name: 'Lucknow — Bara Imambara & City of Nawabs',
       slug: 'lucknow-bara-imambara',
       category: 'Nawabi Heritage & Cuisine',
-      image: '/images/uttar-pradesh/lucknow-bara-imambara/hero-v3.jpg',
+      image: 'https://images.unsplash.com/photo-1601999109332-542b18dbec57?auto=format&fit=crop&q=80&w=800',
       overview: 'The capital of UP and historic realm of the Nawabs of Awadh, Lucknow is world-renowned for the 1784 Bara Imambara featuring the gravity-defying unsupported arched hall & labyrinth (Bhool Bhulaiya), Rumi Darwaza gateway, Chikankari embroidery, and Tunday Kababs.',
       rating: 4.94,
       bestTimeToVisit: 'October – March (Lucknow Mahotsav in Nov/Dec)',
       shortDesc: 'City of Nawabs featuring the 1784 Bara Imambara labyrinth, Rumi Darwaza & Tunday Kababs.',
       gallery: [
-        '/images/uttar-pradesh/lucknow-bara-imambara/gallery-1-v3.jpg',
-        '/images/uttar-pradesh/lucknow-bara-imambara/gallery-2-v3.jpg',
-        '/images/uttar-pradesh/lucknow-bara-imambara/gallery-3-v3.jpg'
+        'https://images.unsplash.com/photo-1601999109332-542b18dbec57?auto=format&fit=crop&q=80&w=800',
+        'https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&q=80&w=800',
+        'https://images.unsplash.com/photo-1601999109332-542b18dbec57?auto=format&fit=crop&q=80&w=600'
       ],
       nearbyAttractions: ['Bara Imambara & Bhool Bhulaiya', 'Chota Imambara', 'Rumi Darwaza', 'Hazratganj Shopping District'],
       recommendedHotels: ['Taj Mahal Lucknow', 'The Hyatt Regency Lucknow', 'Renaissance Lucknow Hotel'],
